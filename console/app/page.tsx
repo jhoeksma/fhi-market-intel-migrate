@@ -114,7 +114,7 @@ export default async function CoveragePage() {
                       dateStyle: "medium",
                       timeStyle: "short",
                     })
-                  : "&mdash;"}
+                  : "—"}
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default async function CoveragePage() {
           <StatCard
             label="System categories"
             value={fmt(countMap.system_category ?? 0)}
-            sublabel={`${fmt(coreCount)} core &middot; ${fmt(extendedCount)} extended`}
+            sublabel={`${fmt(coreCount)} core · ${fmt(extendedCount)} extended`}
           />
           <StatCard label="Market categories" value={fmt(countMap.market_category ?? 0)} />
           <StatCard label="Hospital sites" value={fmt(totalSites)} sublabel="research phase" />
