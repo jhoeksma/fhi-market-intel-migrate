@@ -1,0 +1,46 @@
+supplier_name,fiscal_year,geography,segment,revenue,currency,source_tier,source_publisher,notes
+Epic,2024,UK,UK Health,138.3,GBP,1,Companies House filing (via FHI Market Model),Revenue effected by timing of go-lives
+Epic,2024,UK,UK EPR,138.3,GBP,1,Companies House filing (via FHI Market Model),Revenue effected by timing of go-lives
+Epic,2025,UK,UK EPR (2025 estimate),140,GBP,1,Companies House filing (via FHI Market Model),Revenue effected by timing of go-lives
+Cerner,2023,UK,UK Health,105.9,GBP,1,Companies House filing (via FHI Market Model),Estimate based on contract values £108m
+Cerner,2023,UK,UK EPR,105.9,GBP,1,Companies House filing (via FHI Market Model),Estimate based on contract values £108m
+Cerner,2025,UK,UK EPR (2025 estimate),108,GBP,1,Companies House filing (via FHI Market Model),Estimate based on contract values £108m
+InterSystems,LFY,UK,UK Health,46,GBP,6,Bottom-up estimate (FHI Market Model),Bottom up estimate. 95% (£25m) from Scotland
+InterSystems,LFY,UK,UK EPR,27,GBP,6,Bottom-up estimate (FHI Market Model),Bottom up estimate. 95% (£25m) from Scotland
+InterSystems,2025,UK,UK EPR (2025 estimate),27,GBP,6,Bottom-up estimate (FHI Market Model),Bottom up estimate. 95% (£25m) from Scotland
+TPP,2025,UK,UK Health,96.35,GBP,1,Companies House filing (via FHI Market Model),Community/MH EPR revenue only (would be 100% of revenue if included GP)
+TPP,2025,UK,UK EPR,22,GBP,1,Companies House filing (via FHI Market Model),Community/MH EPR revenue only (would be 100% of revenue if included GP)
+TPP,2025,UK,UK EPR (2025 estimate),22,GBP,1,Companies House filing (via FHI Market Model),Community/MH EPR revenue only (would be 100% of revenue if included GP)
+Nervecentre Software,2024,UK,UK Health,15.06,GBP,1,Companies House filing (via FHI Market Model),CEO quoted revenue at £20m 2025
+Nervecentre Software,2024,UK,UK EPR,15.06,GBP,1,Companies House filing (via FHI Market Model),CEO quoted revenue at £20m 2025
+Nervecentre Software,2025,UK,UK EPR (2025 estimate),20,GBP,1,Companies House filing (via FHI Market Model),CEO quoted revenue at £20m 2025
+The Access Group,2025,UK,UK Health,60,GBP,1,Companies House filing (via FHI Market Model),Mental health and community trusts EPR (not acute)
+The Access Group,2025,UK,UK EPR,19,GBP,1,Companies House filing (via FHI Market Model),Mental health and community trusts EPR (not acute)
+The Access Group,2025,UK,UK EPR (2025 estimate),19,GBP,1,Companies House filing (via FHI Market Model),Mental health and community trusts EPR (not acute)
+System C,2025,UK,UK Health,80.1,GBP,1,Companies House filing (via FHI Market Model),"CH: ""30 NHS Trusts use EPR/PAS solution 2025 and 2024"""
+System C,2025,UK,UK EPR,18,GBP,1,Companies House filing (via FHI Market Model),"CH: ""30 NHS Trusts use EPR/PAS solution 2025 and 2024"""
+System C,2025,UK,UK EPR (2025 estimate),18,GBP,1,Companies House filing (via FHI Market Model),"CH: ""30 NHS Trusts use EPR/PAS solution 2025 and 2024"""
+Altera Digital Health,2024,UK,UK Health,16.7,GBP,1,Companies House filing (via FHI Market Model),Allscripts acquisition - Sunrise EPR
+Altera Digital Health,2024,UK,UK EPR,15.03,GBP,1,Companies House filing (via FHI Market Model),Allscripts acquisition - Sunrise EPR
+Altera Digital Health,2025,UK,UK EPR (2025 estimate),17,GBP,1,Companies House filing (via FHI Market Model),Allscripts acquisition - Sunrise EPR
+MEDITECH,2024,UK,UK Health,14.96,GBP,1,Companies House filing (via FHI Market Model),Rising to £25–30m when Norfolk/Waveney implementation fees are included during 2025–2026
+MEDITECH,2024,UK,UK EPR,14.96,GBP,1,Companies House filing (via FHI Market Model),Rising to £25–30m when Norfolk/Waveney implementation fees are included during 2025–2026
+MEDITECH,2025,UK,UK EPR (2025 estimate),17,GBP,1,Companies House filing (via FHI Market Model),Rising to £25–30m when Norfolk/Waveney implementation fees are included during 2025–2026
+Dedalus,2024,UK,UK Health,35,GBP,1,Companies House filing (via FHI Market Model),Bottom up estimate. Filed accounts unrepresentative *although show 6% decline YOY. 
+Dedalus,2024,UK,UK EPR,11,GBP,1,Companies House filing (via FHI Market Model),Bottom up estimate. Filed accounts unrepresentative *although show 6% decline YOY. 
+Dedalus,2025,UK,UK EPR (2025 estimate),11,GBP,1,Companies House filing (via FHI Market Model),Bottom up estimate. Filed accounts unrepresentative *although show 6% decline YOY. 
+Civica,2024,UK,UK Health,21,GBP,1,Companies House filing (via FHI Market Model),Mental health and community trusts EPR (not acute)
+Civica,2024,UK,UK EPR,8,GBP,1,Companies House filing (via FHI Market Model),Mental health and community trusts EPR (not acute)
+Civica,2025,UK,UK EPR (2025 estimate),8,GBP,1,Companies House filing (via FHI Market Model),Mental health and community trusts EPR (not acute)
+Alcidion,2025,UK,UK Health,8,GBP,1,Companies House filing (via FHI Market Model),"Australian HQ, UK revenue growing rapdily"
+Alcidion,2025,UK,UK EPR,2.46,GBP,1,Companies House filing (via FHI Market Model),"Australian HQ, UK revenue growing rapdily"
+Alcidion,2025,UK,UK EPR (2025 estimate),2.46,GBP,1,Companies House filing (via FHI Market Model),"Australian HQ, UK revenue growing rapdily"
+IMS Maxims,LFY,UK,UK Health,6,GBP,6,Bottom-up estimate (FHI Market Model),Acquired by TTS 2023. Open source model. Estimates - largest contracts Ramsay and Jersey  (Private sector/non-UK) & est 40% revenue from Ireland
+IMS Maxims,LFY,UK,UK EPR,1,GBP,6,Bottom-up estimate (FHI Market Model),Acquired by TTS 2023. Open source model. Estimates - largest contracts Ramsay and Jersey  (Private sector/non-UK) & est 40% revenue from Ireland
+IMS Maxims,2025,UK,UK EPR (2025 estimate),1,GBP,6,Bottom-up estimate (FHI Market Model),Acquired by TTS 2023. Open source model. Estimates - largest contracts Ramsay and Jersey  (Private sector/non-UK) & est 40% revenue from Ireland
+Orion Health,2025,UK,UK Health,11.76,GBP,1,Companies House filing (via FHI Market Model),"NZ HQ. Integration engine/shared care record, not EPR per se"
+Orion Health,2025,UK,UK EPR,0,GBP,1,Companies House filing (via FHI Market Model),"NZ HQ. Integration engine/shared care record, not EPR per se"
+Orion Health,2025,UK,UK EPR (2025 estimate),0,GBP,1,Companies House filing (via FHI Market Model),"NZ HQ. Integration engine/shared care record, not EPR per se"
+Optum,2024,UK,UK Health,240,GBP,1,Companies House filing (via FHI Market Model),"Primary care (EMIS GP IT Systems -c£110m pa), Ascribe is acute but departmental system (est £25m p.a), plus Optum Health products, "
+Optum,2024,UK,UK EPR,0,GBP,1,Companies House filing (via FHI Market Model),"Primary care (EMIS GP IT Systems -c£110m pa), Ascribe is acute but departmental system (est £25m p.a), plus Optum Health products, "
+Optum,2025,UK,UK EPR (2025 estimate),0,GBP,1,Companies House filing (via FHI Market Model),"Primary care (EMIS GP IT Systems -c£110m pa), Ascribe is acute but departmental system (est £25m p.a), plus Optum Health products, "
