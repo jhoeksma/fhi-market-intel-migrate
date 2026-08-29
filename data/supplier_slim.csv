@@ -411,3 +411,415 @@ id,supplier_ext_id,name,logo_url,url,load_id,source_created
 410,2220,Getinge,,https://www.getinge.com/uk/,99,2021-07-02
 411,2223,CareFlow Medicines Management,,www.CareFlowmm.com,681,2021-11-04
 412,2224,Alcidion,,https://www.alcidion.com/about/,1292,2022-01-24
+413,2226,Q-nomy,,https://www.qnomy.com/,99,2021-07-02
+414,2227,HealthNet Connections,,https://hnc.net/,99,2021-07-02
+415,2228,Better,,https://www.better.care/,99,2021-07-02
+416,2229,Quantros,,https://www.quantros.com/,99,2021-07-02
+417,2231,Resource,,,99,2021-07-02
+418,2232,Alfresco Software,,https://www.alfresco.com/,99,2021-07-02
+419,2235,Lyniate,,https://www.lyniate.com/,6054,2023-09-14
+420,2237,ADI,,https://www.adiglobal.com/,99,2021-07-02
+421,2238,IT Health,,https://www.ithealth.co.uk/,99,2021-07-02
+422,2240,NCS,,http://www.bedrockdw.co.uk/,99,2021-07-02
+423,2844,AdEPT,,https://www.adept.co.uk/,99,2021-07-02
+424,2845,Zoom,,https://zoom.us/,99,2021-07-02
+425,2846,AIMES,,https://aimes.uk/,99,2021-07-02
+426,2847,Khipu,,https://www.khipu-networks.com/,99,2021-07-02
+427,2848,Alto Digital,,https://www.altodigital.com/,99,2021-07-02
+428,2849,Konica Minolta,,https://www.konicaminolta.co.uk/en-gb,99,2021-07-02
+429,2850,Amicus ITS,,https://www.amicusits.co.uk/,99,2021-07-02
+430,2851,Kingsfield,,https://www.kingsfieldcomputers.co.uk/,99,2021-07-02
+431,2852,ANS,,https://www.ans.co.uk/,99,2021-07-02
+432,2853,Apogee,,https://www.apogeecorp.com/,999,2021-12-15
+433,2854,Apple,,https://www.apple.com/uk/,99,2021-07-02
+434,2855,LAN3,,https://www.lan3.co.uk/,99,2021-07-02
+435,2856,Lifesize,,https://www.lifesize.com/en/,99,2021-07-02
+436,2857,ASK 4,,https://www.ask4.com/,99,2021-07-02
+437,2858,Assured Digital Technologies,,https://mdstechnologies.co.uk/about/the-merger/,99,2021-07-02
+438,2859,ASUS,,https://www.asus.com/uk/,99,2021-07-02
+439,2860,Avaya,,https://www.avaya.com/en/?utm_source=linkedin&utm_medium=social&utm_campaign=linkedIn_page,99,2021-07-02
+440,2861,AWS,,https://aws.amazon.com/products/storage/,99,2021-07-02
+441,2862,Baramundi,,https://www.baramundi.com/en-gb/,99,2021-07-02
+442,2863,Beckett,,https://beckett-tele.com/,99,2021-07-02
+443,2864,Blackberry,,https://www.blackberry.com/us/en/campaigns/blackberry?utm_source=google&utm_medium=cpc&_bt=510963204654&_bk=blackberry&_bm=e&_bn=g&_bg=58142009664&utm_content=gs-{1045418857}-{58142009664}-{510963204654}&gclid=EAIaIQobChMIrarBxej97wIVFeDtCh2uXwB7EAAYASAAE,99,2021-07-02
+444,2865,Block,,https://www.block.co.uk/,99,2021-07-02
+445,2866,Brightstar,,https://www.brightstar.com/about/,99,2021-07-02
+446,2867,Linchpin,,http://lptpl.com/,99,2021-07-02
+447,2868,Bytes,,https://www.bytes.co.uk/,99,2021-07-02
+448,2869,Cambium Networks,,https://www.cambiumnetworks.com/xirrus/,99,2021-07-02
+449,2870,Camtech Systems,,http://camtechsystems.co.uk,99,2021-07-02
+450,2871,Logicalis,,https://www.logicalis.com/,99,2021-07-02
+451,2872,CDW,,https://www.cdw.com/content/cdw/en/about/overview.html,99,2021-07-02
+452,2873,Century Link,,https://www.lumen.com/en-us/home.html?utm_source=social&utm_medium=LinkedInRedirect&utm_campaign=CTLCompanyLI&utm_content=brand,99,2021-07-02
+453,2874,Certero,,https://www.certero.com/,99,2021-07-02
+454,2875,Charterhouse,,https://cvdgroup.com/,99,2021-07-02
+455,2876,Check Point Software Technologies,,https://www.checkpoint.com/products/mobile-security/,99,2021-07-02
+456,2877,Chess ICT,,https://chessict.co.uk/,99,2021-07-02
+457,2878,Cinos,,https://www.cinos.net/,99,2021-07-02
+458,2879,Cisco,,https://www.cisco.com/,99,2021-07-02
+459,2880,Cisillion,,https://www.cisilion.com/,99,2021-07-02
+460,2881,Citrix,,https://www.citrix.com/en-gb/,99,2021-07-02
+461,2882,Colt,,https://www.colt.net/,99,2021-07-02
+462,2883,Commvault,,https://www.commvault.com/,99,2021-07-02
+463,2884,Concorde,,https://www.concorde.co.uk/,99,2021-07-02
+464,2885,Convergence Networks,,https://convergencenetworks.com/,99,2021-07-02
+465,2886,Cornwall IT services,,http://cits.cornwall.nhs.uk/,99,2021-07-02
+466,2887,Daisy Group,,https://daisygroup.com/,99,2021-07-02
+467,2888,DataPath,,https://www.mydatapath.com/,99,2021-07-02
+468,2889,Datrix,,https://www.datrix.co.uk/,99,2021-07-02
+469,2890,Datto,,https://www.datto.com/products/rmm/,999,2021-12-15
+470,2891,DCC,,https://www.smartdcc.co.uk/,99,2021-07-02
+471,2892,Dell Technologies,,https://www.delltechnologies.com/en-gb/index.htm,99,2021-07-02
+472,2893,Dimension Data,,https://www.dimensiondata.com/,99,2021-07-02
+473,2894,DV & D Group,,https://www.dvd-group.com/about-us,99,2021-07-02
+474,2895,EE,,https://ee.co.uk/,99,2021-07-02
+475,2896,Elite Group,,https://www.elitegroup.com/cloud-services/datacentre/dedicated-servers/,99,2021-07-02
+476,2897,Mitel,,https://www.mitel.com/en-gb/,99,2021-07-02
+477,2898,Enta,,https://wholesale.cityfibre.com/,99,2021-07-02
+478,2899,Esteem Technologies,,https://www.esteemtechnologies.net/storage-solutions/,99,2021-07-02
+479,2900,Exponential-E,,https://www.exponential-e.com/,99,2021-07-02
+480,2901,Extreme Networks,,https://www.extremenetworks.com/company/,99,2021-07-02
+481,2902,Fortinet,,https://www.fortinet.com/,99,2021-07-02
+482,2903,Freedom Communications,,http://www.freedomcomms.com/,99,2021-07-02
+483,2904,Fujitsu,,https://www.fujitsu.com/global/,99,2021-07-02
+484,2905,Gamma,,https://www.gamma.co.uk/products/horizon-collaborate-unified-communications/,99,2021-07-02
+485,2906,GoToMeeting,,https://www.gotomeeting.com/en-gb,99,2021-07-02
+486,2907,Greater Manchester Shared Services (GMSS),,https://www.gmsharedservices.nhs.uk/,99,2021-07-02
+487,2908,GS1 UK,,https://www.gs1uk.org/our-industries/healthcare,99,2021-07-02
+488,2909,GTT (Interoute),,www.interoute.com,99,2021-07-02
+489,2910,HBL ICT,,https://www.hblict.nhs.uk/,99,2021-07-02
+490,2911,Healthcare Computing,,https://www.healthcarecomputing.co.uk/,99,2021-07-02
+491,2912,Hitachi Medical Systems,,https://www.hitachi-medical-systems.eu/,99,2021-07-02
+492,2913,Hoople,,https://www.hoopleltd.co.uk/,99,2021-07-02
+493,2914,HP,,http://www.hp.com/,99,2021-07-02
+494,2915,HPE,,,99,2021-07-02
+495,2916,HTC,,https://www.htc.com/uk/,99,2021-07-02
+496,2917,Millgate,,https://millgate.co.uk/,99,2021-07-02
+497,2918,HubStor,,https://www.hubstor.net/,99,2021-07-02
+498,2919,ICP Networks,,http://www.icpnetworks.co.uk/,99,2021-07-02
+499,2920,Insight,,https://www.insight.com/en_US/home.html,99,2021-07-02
+500,2921,ZENworks,,https://www.microfocus.com/en-us/products/zenworks-suite/overview,99,2021-07-02
+501,2922,Internet Central Ltd,,https://ic.uk/enterprise-public-sector/sector-solutions/medical-care-providers/,99,2021-07-02
+502,2923,Internet Video,,http://www.internet-video.co.uk/,99,2021-07-02
+503,2924,Involve,,https://involve.vc/healthcare/medio-nhs-video-conferencing/,99,2021-07-02
+504,2925,Ivanti,,https://www.ivanti.co.uk/,99,2021-07-02
+505,2926,Jamf,,https://www.jamf.com/,99,2021-07-02
+506,2927,Kaseya,,https://www.kaseya.com/,99,2021-07-02
+507,2928,Misco,,https://www.misco.co.uk/,99,2021-07-02
+508,2929,KCOM,,https://www.kcom.com/about-us/,99,2021-07-02
+509,2930,ADP,,https://uk.adp.com/,99,2021-07-02
+510,2931,Broadcom,,https://www.broadcom.com/,99,2021-07-02
+511,2932,Capita,,https://www.capita.com/,99,2021-07-02
+512,2933,Kaspersky,,https://www.kaspersky.co.uk/,99,2021-07-02
+513,2934,Lenovo,,https://www.lenovo.com/gb/en/,99,2021-07-02
+514,2935,LG,,https://www.lg.com/global,99,2021-07-02
+515,2938,Arden & GEM CSU,,https://www.ardengemcsu.nhs.uk/,99,2021-07-02
+516,2939,ManageEngine,,https://www.manageengine.com/products/desktop-central/,99,2021-07-02
+517,2940,McAfee,,https://www.mcafee.com/en-us/index.html,99,2021-07-02
+518,2941,Midland Telecom,,https://www.midlandtelecom.co.uk/,99,2021-07-02
+519,2942,Arcserve,,https://www.arcserve.com/uk/,99,2021-07-02
+520,2943,Annodata,,https://www.annodata.co.uk/,99,2021-07-02
+521,2944,Vodafone,,https://www.vodafone.com/,99,2021-07-02
+522,2945,MLL Telecom,,https://www.mlltelecom.com/,99,2021-07-02
+523,2946,MobileIron,,https://www.ivanti.com/?miredirect,99,2021-07-02
+524,2947,Motorola,,https://www.motorola.com/us/,99,2021-07-02
+525,2948,NCC Group,,https://www.nccgroupplc.com/,99,2021-07-02
+526,2949,NEL CSU,,https://nelcsu.nhs.uk/,99,2021-07-02
+527,2950,Netapp,,https://www.netapp.com/,99,2021-07-02
+528,2951,NHS Informatics Merseyside,,https://www.imerseyside.nhs.uk/,99,2021-07-02
+529,2952,NHS Midlands and Lancashire Commissioning Support Unit (MLCSU),,https://www.midlandsandlancashirecsu.nhs.uk/,99,2021-07-02
+530,2953,NHSmail,,https://digital.nhs.uk/services/nhsmail,99,2021-07-02
+531,2954,Nokia,,https://www.nokia.com/,99,2021-07-02
+532,2955,North of England Commissioning Support Unit (NECS),,https://www.necsu.nhs.uk/,99,2021-07-02
+533,2956,Nottinghamshire Health Informatics Service (NHIS),,https://www.notts-his.nhs.uk/,99,2021-07-02
+534,2957,Nutanix,,https://www.nutanix.com/solutions/healthcare,99,2021-07-02
+535,2958,NuVideo,,https://www.nuvideo.net/,99,2021-07-02
+536,2959,NYnet,,https://www.nynet.co.uk/,99,2021-07-02
+537,2960,O2,,https://www.o2.co.uk/,99,2021-07-02
+538,2961,Ocean Telecom,,https://www.oceantelecom.com/about-us/,99,2021-07-02
+539,2962,Opus Technology,,https://www.opustech.co.uk/about-opus/,99,2021-07-02
+540,2963,Orange,,https://www.orange.com/en,99,2021-07-02
+541,2964,Origin Broadband,,https://www.originbroadband.com/,99,2021-07-02
+542,2965,Panasonic,,https://www.panasonic.com/uk/,99,2021-07-02
+543,2966,Park Place Technologies,,https://www.parkplacetechnologies.com/,99,2021-07-02
+544,2967,Poly,,https://www.poly.com/gb/en/products/video-conferencing,99,2021-07-02
+545,2968,Proact,,proact.co.uk,99,2021-07-02
+546,2969,Proband,,https://www.probrand.co.uk/,99,2021-07-02
+547,2970,Prodec,,https://www.prodec.co.uk/,99,2021-07-02
+548,2971,Pulsant,,https://www.pulsant.com/,99,2021-07-02
+549,2972,Pure AV,,https://www.pureav.co.uk/,99,2021-07-02
+550,2973,Qualcomm,,https://www.qualcomm.com/company/about,99,2021-07-02
+551,2974,Quest,,https://www.quest.com/kace/?gclid=EAIaIQobChMIgZXiquT97wIVDrbtCh0sEgkoEAAYASAAEgLrY_D_BwE&gclsrc=aw.ds,99,2021-07-02
+552,2975,Redcentric,,www.redcentricplc.com/,99,2021-07-02
+553,2976,Ricoh,,https://www.ricoh-usa.com/en,99,2021-07-02
+554,2977,Ruckus Network,,https://www.commscope.com/ruckus/,99,2021-07-02
+555,2978,Safend,,https://www.safend.com/vertical/healthcare/,99,2021-07-02
+556,2979,Samsung,,https://www.samsung.com/uk/,99,2021-07-02
+557,2980,Alcatel-Lucent Enterprise,,https://www.al-enterprise.com/en,99,2021-07-02
+558,2981,Skanska,,https://www.skanska.com/,99,2021-07-02
+559,2982,Skype,,https://www.skype.com/en/,99,2021-07-02
+560,2983,SoftwareONE,,https://www.softwareone.com/en-gb/,99,2021-07-02
+561,2984,Sony,,https://www.sony.co.uk/,99,2021-07-02
+562,2985,Sophos,,https://www.sophos.com/en-us.aspx?&cmp=77247&utm_campaign=GPD-2020-UKI-PaidSearch-Google-EN-SCH-B-Pure-Sophos-Exact-DG-77247&utm_medium=cpc&utm_content=B_Pure_Sophos_Exact&utm_term=Sophos&utm_source=google-search&gclid=EAIaIQobChMImYeBn-P97wIVA-_tCh05Vwlv,99,2021-07-02
+563,2986,SOTI,,https://www.soti.net/solutions/mobile-device-management/,99,2021-07-02
+564,2987,Amicus,,https://www.amicusglobal.com/,99,2021-07-02
+565,2988,StarLeaf,,https://starleaf.com/,99,2021-07-02
+566,2989,Stone Group,,https://www.stonegroup.co.uk/sectors/public-sector/nhs/,99,2021-07-02
+567,2990,Stoneleigh,,https://stoneleigh.co.uk/,99,2021-07-02
+568,2991,Stream Networks,,https://www.streamnetworks.co.uk/2020/04/06/free-cloud-resources-for-nhs-medical-manufacturers-and-other-front-line-industry/nhs-2/,99,2021-07-02
+569,2992,Subsidium,,https://www.subsidium-ms.com/about/,99,2021-07-02
+570,2993,Sudlows,,https://www.sudlows.com/,99,2021-07-02
+571,2994,Switchshop Limited,,https://www.switchshop.co.uk/,99,2021-07-02
+572,2995,Systems Powering Healthcare Ltd (SPHERE),,,99,2021-07-02
+573,2996,TalkTalk,,https://new.talktalk.co.uk/broadband/compare-deals?portalid=ppc-brand_generic&utm_medium=ppc&utm_campaign=broadbandna&utm_source=google&ds_kids=43700041341745536&ds_rl=1268942&infinity=ict2~net~gaw~ar~512875946362~kw~%2Btalktalk~mt~b~cmp~PPC_Broadband_BG_,99,2021-07-02
+574,2997,Tandberg Data,,https://www.tandbergdata.com/emea/,99,2021-07-02
+575,2998,Technology @Work,,https://www.technology.work/,99,2021-07-02
+576,2999,Telephone Technology,,http://www.telephonetechnology.co.uk/,99,2021-07-02
+577,3000,Tele-response,,https://www.tele-response.com/about-us,99,2021-07-02
+578,3001,TeraFirma IT,,http://www.terafirmait.co.uk/,99,2021-07-02
+579,3002,The Networking People (TNP),,https://www.tnp.net.uk/,99,2021-07-02
+580,3003,TML,,https://www.tmleurope.com/,99,2021-07-02
+581,3004,Total Computers,,https://www.totalcomputers.co.uk/,99,2021-07-02
+582,3005,Trend Micro,,https://www.trendmicro.com/en_gb/business.html,99,2021-07-02
+583,3006,UKFast,,https://www.ukfast.co.uk/,99,2021-07-02
+584,3007,Ultima,,https://www.ultima.com/,99,2021-07-02
+585,3008,Scalefusion,,https://scalefusion.com/,99,2021-07-02
+586,3009,Veritas,,https://www.veritas.com/en/uk,99,2021-07-02
+587,3010,XMA,,https://www.xma.co.uk/,99,2021-07-02
+588,3011,Video South,,https://www.videosouth.co.uk/,99,2021-07-02
+589,3012,Vidyo,,https://www.vidyo.com/,99,2021-07-02
+590,3013,Viglen,,,99,2021-07-02
+591,3014,Virgin Media,,https://www.virginmedia.com/shop/bundles?buspart=uk_ps_acq_cable_GOOGLE_Cable_Acq_Brand_Core_Pure_Exact+(Prospects)_Brand_Core_Pure_Exact+(Prospects)_virgin+media&CMP=DFA&medium=PPC&gclid=EAIaIQobChMIxMftlMz97wIViAUGAB3y-AwnEAAYASAAEgKoB_D_BwE&gclsrc=aw.d,99,2021-07-02
+592,3015,Visionable,,https://visionable.com/,99,2021-07-02
+593,3016,Vispa,,https://vispaflow.com/,99,2021-07-02
+594,3017,VMware,,https://www.vmware.com/uk.html,99,2021-07-02
+595,3018,Zerowait,,https://www.zerowait.com/,99,2021-07-02
+596,3019,Voiceflex,,https://www.voiceflex.com/About,99,2021-07-02
+597,3020,Voyager Networks,,https://www.voyager.net.uk/,99,2021-07-02
+598,3021,Webex,,https://www.webex.com/,99,2021-07-02
+599,3022,WiFi SPARK,,https://www.wifispark.com/healthcare,99,2021-07-02
+600,3023,Workspace Technology,,https://www.workspace-technology.com/,99,2021-07-02
+601,3024,Intercity Technology,,https://www.intercity.technology/,99,2021-07-02
+602,3025,Xuper,,https://xuper.com/merger/,99,2021-07-02
+603,3026,Huawei,,https://www.huawei.com/uk/,99,2021-07-02
+604,3027,Updata plc,,https://www.updata.co.uk/,99,2021-07-02
+605,3028,Verizon,,https://www.verizon.com/,5944,2023-09-01
+606,3029,Amplitude,,https://amplitude.com/,99,2021-07-02
+607,3030,Sensyne Health,,https://www.sensynehealth.com/,99,2021-07-02
+608,3031,Induction Healthcare,,https://inductionhealthcare.com/,99,2021-07-02
+609,3032,Global Healthcare Exchange (GHX),,https://www.ghx.com/,99,2021-07-02
+610,3034,Brother UK Ltd,,,99,2021-07-02
+611,3035,European Electronique,,,99,2021-07-02
+612,3036,Facebook,,https://about.facebook.com/,99,2021-07-02
+613,3037,Royal Devon and Exeter NHS Foundation Trust,,https://www.rdehospital.nhs.uk/,99,2021-07-02
+614,3038,Bates IT,,https://batesit.co.uk/,99,2021-07-02
+615,3039,Telefonica,,https://www.telefonica.com/en/,99,2021-07-02
+616,3040,Staffordshire and Shropshire Health Informatics Service (SSHIS),,https://www.mpft.nhs.uk/about-us/digital/meet-team,99,2021-07-02
+617,3041,Veeam,,https://www.veeam.com/,99,2021-07-02
+618,3042,Servers Plus,,https://www.serversplus.com/,99,2021-07-02
+619,3043,Snapcomms,,https://www.snapcomms.com/,99,2021-07-02
+620,3044,Rubrik,,https://www.rubrik.com/,99,2021-07-02
+621,3045,Sharp,,https://www.sharp.co.uk/gb,99,2021-07-02
+622,3046,Lexmark,,https://www.lexmark.com/en_us.html,99,2021-07-02
+623,3047,Clares,,https://www.clares.co.uk/healthcare-services/nhs-customers,99,2021-07-02
+624,3048,MDS Technologies,,https://mdstechnologies.co.uk/,99,2021-07-02
+625,3050,Epson,,https://www.epson.co.uk/,99,2021-07-02
+626,3051,Visvo,,,99,2021-07-02
+627,3052,Bitronic,,,99,2021-07-02
+628,3053,Glooko,,https://www.glooko.com/,99,2021-07-02
+629,3054,TeleHealth Solutions,,https://www.telehealthsolutions.us/,99,2021-07-02
+630,3055,Docobo,,https://www.docobo.co.uk/,99,2021-07-02
+631,3056,Oxehealth,,https://www.oxehealth.com/,99,2021-07-02
+632,3057,Health Call,,https://www.nhshealthcall.co.uk/,99,2021-07-02
+633,3058,Healthcare Communications,,https://healthcare-communications.com/,99,2021-07-02
+634,3059,CareTower,,https://www.caretower.com/,99,2021-07-02
+635,3060,TextLocal,,https://www.textlocal.com/,99,2021-07-02
+636,3061,Servio,,,99,2021-07-02
+637,3062,Dynabook,,https://emea.dynabook.com/,99,2021-07-02
+638,3063,IDNS,,http://www.idnsolution.com/,99,2021-07-02
+639,3065,Matsui,,,99,2021-07-02
+640,3066,CareWorks,,https://www.careworks.co.uk/,99,2021-07-02
+641,3067,Accenture,,https://www.accenture.com/gb-en,99,2021-07-02
+642,3068,Peasoup,,https://peasoup.cloud/,99,2021-07-02
+643,3069,AT&T,,https://www.att.com/,99,2021-07-02
+644,3070,Engie,,https://www.engie.com/en,99,2021-07-02
+645,3071,ARK,,https://arkdatacentres.co.uk/,99,2021-07-02
+646,3072,Cloud 21,,https://www.cloud21.net/,99,2021-07-02
+647,3073,Solarwinds,,https://www.solarwinds.com/,99,2021-07-02
+648,3074,Tenable,,https://www.tenable.com/,99,2021-07-02
+649,3075,Novus Health,,https://www.novushealth.co.uk/,99,2021-07-02
+650,3076,Datacentre Solutions,,https://datacentre.solutions/,99,2021-07-02
+651,3077,Atlas Communication,,https://www.atlas-comms.com/,99,2021-07-02
+652,3078,Getronics,,https://www.getronics.com/,99,2021-07-02
+653,3079,North,,https://north.tech/,99,2021-07-02
+654,3080,Barracuda,,https://www.barracuda.com/,99,2021-07-02
+655,3081,Aurora Telecom,,https://www.auroratelecom.co.uk/,99,2021-07-02
+656,3082,Herbert In-Building Wireless,,https://in-building-wireless.solutions/,99,2021-07-02
+657,3083,Yorkshire and Humber Public Services Network (YHPSN),,https://www.yhphnetwork.co.uk/,99,2021-07-02
+658,3084,Bisnet,,,99,2021-07-02
+659,3085,IGEL Technology,,https://www.igel.com/,99,2021-07-02
+660,3086,PlanNet21,,https://www.plannet21.com/,99,2021-07-02
+661,3087,CAE Technology Services,,https://www.thisiscae.com/,99,2021-07-02
+662,3088,Centiq,,https://www.centiq.co.uk/,99,2021-07-02
+663,3089,Palo Alto Networks,,https://www.paloaltonetworks.com/,99,2021-07-02
+664,3090,HiveIO,,https://www.hiveio.com/,99,2021-07-02
+665,3091,Micro Focus,,https://www.microfocus.com/en-us/home,99,2021-07-02
+666,3093,Promatica Digital Solutions,,https://www.promaticadigital.co.uk/,99,2021-07-02
+667,3094,Medspeech,,https://www.dictatingsolutions.co.uk/product-category/digital-dictation/medspeech-dictation/,99,2021-07-02
+668,3095,DataWell,,https://www.connectedhealthcities.org/2016/09/what-is-the-datawell/,99,2021-07-02
+669,3096,Fraxinus,,https://www.fraxinusit.co.uk/about-us,12152,2025-09-18
+670,3097,Elsevier,,https://www.elsevier.com/en-gb,1292,2022-01-24
+671,3098,University Hospital Southampton NHS Foundation Trust,,https://www.uhs.nhs.uk/home.aspx,99,2021-07-02
+672,3099,CareCube,,https://www.carecube.co.uk/,99,2021-07-02
+673,3100,Share2Care,,https://help.share2care.nhs.uk/home/,99,2021-07-02
+674,3101,NHS CHC,,https://www.england.nhs.uk/healthcare/,99,2021-07-02
+675,3102,Nautilus Consulting,,https://www.nautilus-consulting.co.uk/about/,99,2021-07-02
+676,3103,Restore,,https://www.restore.co.uk/,99,2021-07-02
+677,3104,Malinko,,https://www.malinkoapp.com/,99,2021-07-02
+678,3105,Roche,,https://www.roche.com/,99,2021-07-02
+679,3106,Google,,https://about.google/,99,2021-07-02
+680,3107,Concorde Technology Group,,https://www.tctg.co.uk/,99,2021-07-02
+681,3108,Attend Anywhere,,https://www.attendanywhere.com/,99,2021-07-02
+682,3109,Kyocera,,https://uk.kyocera.com/,99,2021-07-02
+683,3110,Betasoft,,https://www.betasoft.co.uk/,99,2021-07-02
+684,3111,Synanetics,,https://synanetics.com/,99,2021-07-02
+685,3112,Banner,,https://www.banneruk.com/,99,2021-07-28
+686,3113,ORDR,,https://ordr.net/solutions/healthcare/,99,2021-07-28
+687,3114,Celestix Networks,,https://celestix.com/,99,2021-07-28
+688,3115,Signal,,https://signal.org/en/,99,2021-07-28
+689,3116,Telegram,,https://telegram.org/,99,2021-07-28
+690,3117,Envoy,,https://envoy.com/,99,2021-07-28
+691,3118,Reach Interactive,,https://www.reach-interactive.com/,999,2021-12-15
+692,3119,Pando,,https://hellopando.com/,99,2021-07-28
+693,3120,Mjog,,https://www.mjog.com/,99,2021-07-28
+694,3121,TNP,,https://www.tnp.net.uk/,99,2021-07-28
+695,3122,SWComms,,https://www.swcomms.co.uk//about-us/company-history/,99,2021-07-28
+696,3123,Scottish Wide Area Network (SWAN),,https://www.scottishwan.com/about/,99,2021-07-28
+697,3124,Public Sector Broadband Aggregation (PSBA),,https://www.psba.gov.wales/about/,99,2021-07-28
+698,3125,rapidsms,,https://www.rapidsms.net/,99,2021-07-28
+699,3126,secureit,,https://secure-it.co.uk/,99,2021-07-28
+700,3127,3D Systems,,https://www.3dsystems.com/,99,2021-07-28
+701,3128,Cleardata,,https://www.cleardatagroup.co.uk/about/,99,2021-07-28
+702,3129,8x8,,https://www.8x8.com/,99,2021-07-28
+703,3130,MMG,,https://www.mmg.co.uk/,99,2021-07-28
+704,3131,East Sussex Healthcare NHS Trust,,www.esht.nhs.uk,99,2021-07-28
+705,3132,DTP,,https://dtpgroup.co.uk/,99,2021-07-28
+706,3133,ESET,,https://www.eset.com/uk/home/internet-security/?gclid=EAIaIQobChMIlP_b6-3B8QIVCb_tCh21AgRsEAAYASAAEgKXEPD_BwE&gclsrc=aw.ds,99,2021-07-28
+707,3134,MMS Group,,https://www.mmsgroup.tech/,99,2021-07-28
+708,3135,MIAA,,https://www.miaa.nhs.uk/about-us/,99,2021-07-28
+709,3136,NTE,,https://nte.works/,99,2021-07-28
+710,3137,Healthcare Support and Infrastructure Services (HSIS),,https://www.hsis.org.uk/about-us,99,2021-07-28
+711,3138,Pulse Secure,,https://www.pulsesecure.net/,99,2021-07-28
+712,3139,LIMA,,https://www.lima.co.uk/,99,2021-07-28
+713,3140,Supermicro,,https://www.supermicro.com/en/?utm_term=&utm_campaign=5G+Infrastructure-US&utm_source=adwords&utm_medium=ppc&hsa_acc=2470092333&hsa_cam=13067963161&hsa_grp=121009483806&hsa_ad=520965726408&hsa_src=g&hsa_tgt=dsa-1259812539510&hsa_kw=&hsa_mt=b&hsa_net=adwor,99,2021-07-28
+714,3141,SafeComm,,https://safecommapp.com/,99,2021-07-28
+715,3142,AccuRx,,https://www.accurx.com/,9246,2024-10-10
+716,3143,Modality Systems,,https://www.modalitysystems.com/,99,2021-07-28
+717,3144,Tintri,,https://tintri.com/,99,2021-07-28
+718,3145,Nimble,,https://www.nimble.com/,99,2021-07-28
+719,3146,Bridgeway Security Solutions,,https://www.bridgeway.co.uk/,99,2021-07-28
+720,3147,Bittium,,https://www.bittium.com/,99,2021-07-28
+721,3148,HSL,,,99,2021-07-28
+722,3149,NHS Scotland,,https://www.scot.nhs.uk/,99,2021-07-28
+723,3150,Epaton,,https://epaton.co.uk/,99,2021-07-28
+724,3151,NHS Wales Shared Services Partnership (NWSSP),,https://nwssp.nhs.wales/,99,2021-07-28
+725,3152,NetMotion Software,,https://www.netmotionsoftware.com/,99,2021-07-28
+726,3153,Kofax,,https://www.kofax.com/,99,2021-07-28
+727,3154,Y Soft,,https://www.ysoft.com/en,99,2021-07-28
+728,3155,Synertec,,https://www.synertec.co.uk/sector-expertise/healthcare,99,2021-07-28
+729,3156,Papercut,,https://www.papercut.com/,99,2021-07-28
+730,3157,UniPrint,,https://www.uniprint.net/en/,99,2021-07-28
+731,3158,Mirada Medical,,https://mirada-medical.com/,99,2021-07-28
+732,3159,Vision,,https://www.visionplc.co.uk/,99,2021-07-28
+733,3195,Redpalm,,https://redpalm.co.uk/,353,2021-08-23
+734,3196,Wandera,,https://www.wandera.com/,353,2021-08-23
+735,3197,Biosense Webster,,https://www.jnjmedicaldevices.com/en-US/companies/biosensewebster,353,2021-08-23
+736,3198,Pie Medical Imaging,,https://www.piemedicalimaging.com/,1873,2022-04-08
+737,3199,Formlabs,,https://formlabs.com/uk/,353,2021-08-23
+738,3200,Swivel Secure,,https://swivelsecure.com/,353,2021-08-23
+739,3201,Future-tech,,https://www.future-tech.co.uk/,353,2021-08-23
+740,3202,Business Management Services (UK),,https://find-and-update.company-information.service.gov.uk/company/05717310,353,2021-08-23
+741,3203,Xstek,,https://xstek.net/,353,2021-08-23
+742,3204,Conceptunet,,https://www.conceptunet.com/,353,2021-08-23
+743,3205,CJC Pedigree Software,,http://clinicalpedigree.com/cgi-sys/suspendedpage.cgi,353,2021-08-23
+744,3206,MySense,,https://www.mysense.ai/,389,2021-09-29
+745,3207,PSTG,,https://www.pstg.co.uk/,389,2021-09-29
+746,3208,M2,,https://www.m2.ie/,389,2021-09-29
+747,3209,Microport,,https://microport.com/,389,2021-09-29
+748,3210,Enovacom,,https://www.enovacom.com/,389,2021-09-29
+749,3218,Operose Health,,https://www.operosehealth.co.uk/,452,2021-10-06
+750,3219,Mitratech,,https://mitratech.com/,452,2021-10-06
+751,3220,Ephesoft,,https://ephesoft.com/,522,2021-10-15
+752,3221,Automated Intelligence System,,https://www.automated-intelligence.com/,522,2021-10-15
+753,3222,SpeechWrite,,https://www.speechwrite.com/,522,2021-10-15
+754,3223,T-Pro,,https://info.tpro.io/,522,2021-10-15
+755,3224,CustodianDC,,https://www.custodiandc.com/connectivity/business,522,2021-10-15
+756,3226,Inform Health,,https://www.informhealth.co.uk/,522,2021-10-15
+757,3227,ONI,,https://www.oni.co.uk/,681,2021-11-04
+758,3228,Interneuron CIC,,https://interneuron.org/,681,2021-11-04
+759,3229,Elemental,,https://elementalsoftware.co/,681,2021-11-04
+760,3230,Ascom,,https://www.ascom.com/uk/,681,2021-11-04
+761,3231,Optum,,https://www.optum.com/,681,2021-11-04
+762,3300,Bitdedefender,,https://www.bitdefender.co.uk/solutions/total-security.html,999,2021-12-15
+763,3301,iBabs,,https://www.ibabs.com/en/,999,2021-12-15
+764,3302,Mainstream Digital,,https://www.msdigital.com/,1292,2022-01-24
+765,3303,Sector IT,,https://www.sector-it.co.uk/,1292,2022-01-24
+766,3304,Solcom,,https://www.solcom.com/,1292,2022-01-24
+767,3305,BCN Group,,https://bcn.co.uk/,1292,2022-01-24
+768,3306,Automated Messaging Systems,,https://www.ams-ltd.com/Products/SMS,1292,2022-01-24
+769,3307,Substrakt Health,,https://substrakthealth.com/,1292,2022-01-24
+770,3308,Cegedim,,https://www.cegedim-healthcare.co.uk/,1292,2022-01-24
+771,3309,Enigma Interactive,,https://www.enigma-interactive.co.uk/intro,1292,2022-01-24
+772,3310,Upstream Health,,https://www.upstream.health/,1379,2022-02-03
+773,3311,NEC Software Solutions,,https://www.necsws.com/,1379,2022-02-03
+774,3316,astraia,,https://www.astraia.com/en/,1739,2022-03-21
+775,3317,4ways Healthcare,,https://4waysdiagnostics.co.uk,1739,2022-03-21
+776,3318,Altera Digital Health,Allscripts.jpg,https://www.alterahealth.com/,7857,2024-04-18
+777,3321,Palantir,,https://www.palantir.com/,2147,2022-05-24
+778,3322,Medis Medical Imaging,,https://medisimaging.com/,2147,2022-05-24
+779,3323,Encodian,,https://www.encodian.com,2147,2022-05-24
+780,3324,VitalHub,,http://www.vitalhub.com,2147,2022-05-24
+781,3325,TrustNet,,https://www.trustnet.com,2147,2022-05-24
+782,3326,Aptvision,,http://www.aptvision.com,2147,2022-05-24
+783,3327,Yorkshire and Humber Care Record,,http://www.yhcr.org,2147,2022-05-24
+784,3328,McKesson,,http://www.mckesson.eu,2147,2022-05-24
+785,3329,Enovation,,https://www.enovationgroup.com/,2147,2022-05-24
+786,3330,Electronic Point of Care,,http://electronicpointofcare.co.uk/Epoc/,2147,2022-05-24
+787,3331,Carestream Dental,,https://www.carestreamdental.com/en-us,2147,2022-05-24
+788,3332,Equiniti ICS,,https://equiniti-technology.com/,2326,2022-06-16
+789,3333,IBOX Healthcare,,https://www.iboxhealthcare.co.uk/,2326,2022-06-16
+790,3334,Rotamap,,https://rotamap.net/,2326,2022-06-16
+791,3335,OpenEyes,,https://openeyes.apperta.org/,2326,2022-06-16
+792,3336,Medisoft,,https://www.medisoft.co.uk/,2326,2022-06-16
+793,3337,Omnicell,,https://www.omnicell.com/,2326,2022-06-16
+794,3338,Vyaire Medical,,https://intl.vyaire.com/,2326,2022-06-16
+795,3340,Softworks,,https://www.softworks.com/erostering-labour-scheduling/,2374,2022-06-22
+796,3341,Mastek,,https://www.mastek.com/industries/healthcare-life-sciences/,2374,2022-06-22
+797,3345,DH Opco,,,2515,2022-07-01
+798,3346,Viapath,,www.viapath.co.uk,2515,2022-07-01
+799,3347,Zebra,,https://www.zebra.com/gb/en/solutions/industry/healthcare.html,2515,2022-07-01
+800,3348,East Lancashire Financial Services,,https://www.elfsnhs.co.uk/,2515,2022-07-01
+801,3349,Fleischhacker GmbH & Co,,https://www.fleischhacker.biz/en/,2515,2022-07-01
+802,3350,Medilogik,,https://medilogik.co.uk,2515,2022-07-01
+803,3351,Inditech Middle East,,https://www.inditechme.com/rotageek,2661,2022-07-21
+804,3352,Hillrom,,https://www.hillrom.com,2661,2022-07-21
+805,3353,Cardiobase,,https://cardiobase.com,2661,2022-07-21
+806,3354,Citadel Health,,https://citadelhealth.com.au/,2661,2022-07-21
+807,3355,Unit4,,https://www.unit4.com,2661,2022-07-21
+808,3356,Imagex Medical,,https://www.imagexmedical.com,2661,2022-07-21
+809,3357,HealthRota,,https://healthrota.co.uk,2661,2022-07-21
+810,3358,Clanwilliam Health,,https://clanwilliamhealth.com,2661,2022-07-21
+811,3359,Circle Cardiovascular Imaging,,https://www.circlecvi.com/cvi42/cardiac-mri/,2661,2022-07-21
+812,3396,CompuGroup Medical,,https://www.cgm.com/,2835,2022-08-08
+813,3397,Harris Healthcare,,https://www.harrishealthcare.com/,2835,2022-08-08
+814,3398,Cievert,,https://cievert.co.uk/,3116,2022-09-15
+815,3399,Intelerad,,https://www.intelerad.com/en/press-releases/insignia/,3116,2022-09-15
+816,3400,Clinical IT,,https://www.clinicalit.co.uk/,3116,2022-09-15
+817,3401,Wombex,,https://wombex.com/,3116,2022-09-15
+818,3402,Vitalograph,,https://vitalograph.com/uk/,3456,2022-10-31
+819,3403,Swisslab,,https://www.limswiki.org/index.php/Swisslab_GmbH,3722,2022-12-07
+820,3404,The Access Group,,https://www.theaccessgroup.com/en-au/about/,3722,2022-12-07
+821,3405,MDI Solutions,,https://www.mdisolutions.com/,3722,2022-12-07
+822,3406,Business Dictation,,https://businessdictation.co.uk,3722,2022-12-07
+823,3407,Locum's Nest,,https://locumsnest.co.uk,3722,2022-12-07
+824,3408,Arcturis Data,,https://www.arcturisdata.com/,4305,2023-02-13
