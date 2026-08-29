@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fhi-blue: #3572ef;
+  --ink: #111827;
+  --paper: #f7f8fa;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
