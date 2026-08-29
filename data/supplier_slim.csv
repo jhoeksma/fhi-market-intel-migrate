@@ -1,0 +1,413 @@
+id,supplier_ext_id,name,logo_url,url,load_id,source_created
+1,38,Apira,,https://apira.co.uk/home/about-us/,99,2021-09-16
+2,62,Bain & Co,,https://www.bain.com/,99,2021-09-16
+3,134,Channel 3 Consulting,,https://channel3consulting.co.uk/,99,2021-09-16
+4,180,Dakota,,https://dakotais.co.uk/,99,2021-09-16
+5,200,Digital Health and Care Wales,,https://dhcw.nhs.wales/,99,2021-09-16
+6,218,Eido,,https://www.eidohealthcare.com/,99,2021-09-16
+7,234,Ernst & Young,,https://www.ey.com/en_uk,99,2021-09-16
+8,286,Hands Free Computing,,https://www.hands-free.co.uk/,99,2021-09-16
+9,287,Harris Computer,,https://www.harriscomputer.com/,99,2021-09-16
+10,293,Healthcare Clinical Informatics,,https://www.thehcigroup.com/,99,2021-09-16
+11,336,Imprivata,,https://www.imprivata.co.uk/,99,2021-09-16
+12,385,LEK,,https://www.lek.com/,99,2021-09-16
+13,409,McKinsey,,https://www.mckinsey.com/,99,2021-09-16
+14,507,OKS Group,,https://www.oksgroup.com/oks-solutions/healthcare-solutions/medical-transcription,99,2021-09-16
+15,520,PA Consulting,,https://www.paconsulting.com/,99,2021-09-16
+16,551,PWC,,https://www.pwc.co.uk/,99,2021-09-16
+17,590,Scandit,,https://www.scandit.com/,99,2021-09-16
+18,626,Speak IT,,speakit.co.uk,99,2021-09-16
+19,713,Visiba Care,,https://www.visibacare.com/en-gb/,2515,2022-07-01
+20,720,Vocera,,https://www.vocera.com/,99,2021-09-16
+21,1793,Servelec,,https://www.servelec.co.uk/,99,2021-07-02
+22,1794,Mayden,,https://mayden.co.uk/,99,2021-07-02
+23,1797,BigHand,BigHand.jpg,https://www.bighand.com/en-gb/,99,2021-07-02
+24,1798,Allocate Software,allocate-crop.jpg,https://www.allocatesoftware.com/,99,2021-07-02
+25,1799,Civica,Civica.jpg,https://www.civica.com/en-gb/,3360,2022-10-19
+26,1800,NHS Shared Business Services (NHSSBS),,https://www.sbs.nhs.uk/,99,2021-07-02
+27,1801,Microsoft,microsoft-crop.jpg,www.microsoft.co.uk/health,99,2021-07-02
+28,1802,NDL,NDL-logo-crop.jpg,www.ndl.co.uk,99,2021-07-02
+29,1804,NHS Wales Informatics Service,NHS Wales Information Service.jpg,www.wales.nhs.uk/nwis,99,2021-07-02
+30,1805,Diagonal,,,99,2021-07-02
+31,1806,In-house,,,332,2021-08-19
+32,1807,Fujifilm,fuji_crop.jpg,https://www.fujifilm.eu/uk/products/medical-systems/,99,2021-07-02
+33,1808,InterSystems,Intersystems.jpg,www.intersystems.com,1292,2022-01-24
+34,1809,Dedalus,,https://www.dedalus.eu/en/,452,2021-10-06
+35,1810,Qlik,,https://www.qlik.com/us/solutions/industries/healthcare-analytics,99,2021-07-02
+36,1811,Capita IB Solutions,,https://www.capita-ibs.co.uk/,99,2021-07-02
+37,1812,Patients Know Best,,https://patientsknowbest.com/,99,2021-07-02
+38,1813,Orion Health,orion-logo_2016.png,www.orionhealth.com,1739,2022-03-21
+39,1814,Philips,Philips-crop.jpg,www.philips.co.uk,99,2021-07-02
+40,1815,First Databank,fdb.jpg,https://www.fdbhealth.co.uk/,99,2021-07-02
+41,1816,System C,,https://www.systemc.com/,99,2021-07-02
+42,1817,Carestream Health,Carestream.JPG,https://www.carestream.com/en/gb/medical,99,2021-07-02
+43,1818,Clinisys,Clinisys logo.jpg,www.Clinisys.com,3456,2022-10-31
+44,1819,DICT8,Dict8.jpg,https://www.dict8.com/,99,2021-07-02
+45,1820,CCube Solutions,ccube solutions.jpg,https://www.ccubesolutions.com/,99,2021-07-02
+46,1821,Telstra Health,,https://telstrahealth.co.uk/,999,2021-12-15
+47,1822,Wellbeing Software,,https://www.wellbeingsoftware.com/,99,2021-07-02
+48,1823,Oracle,Oracle.jpg,www.oracle.com,99,2021-07-02
+49,1824,Sunquest,Sunquest.jpg,www.sunquestinfo.com,99,2021-07-02
+50,1825,ArjoHuntleigh,Arjo Huntleigh.jpg,https://www.arjo.com/int/,99,2021-07-02
+51,1826,Chameleon Information Management Services,,,99,2021-07-02
+52,1827,Trisoft,logo_trisoft_crop.jpg,www.trisofthealth.co.uk,681,2021-11-04
+53,1828,TPP,TPP.jpg,www.tpp-uk.com,99,2021-07-02
+54,1829,Spacelabs Healthcare,Spacelabs Healthcare.jpg,www.spacelabshealthcare.com,99,2021-07-02
+55,1830,Agfa,,https://www.agfa.com/corporate/,999,2021-12-15
+56,1831,EMIS Health,,https://www.emishealth.com/,99,2021-07-02
+57,1832,Leeds Teaching Hospitals NHS Trust,Leeds Teaching Hospital NHS Foundation Trust.jpg,https://www.leedsth.nhs.uk/,99,2021-07-02
+58,1833,HD Clinical,HD-Clinical-LOGO.jpg,https://www.hd-clinical.com/,99,2021-07-02
+59,1834,IQVIA,,https://www.iqvia.com/,99,2021-07-02
+60,1835,MEDITECH,Meditech.jpg,www.meditech.com,99,2021-07-02
+61,1836,IBM,,www.ibm.com,99,2021-07-02
+62,1837,Haemonetics,haemonetics-co-logo.jpg,http://www.haemonetics.com/en,99,2021-07-02
+63,1838,CoAcS,CoAcS.jpg,http://www.coacs.com/,99,2021-07-02
+64,1839,Medisec Software,,https://www.medisecsoftware.co.uk/,1739,2022-03-21
+65,1841,Summit Healthcare,,https://www.summit-healthcare.com/,99,2021-07-02
+66,1842,Somerset HIS,Sommerset-HIS---erpho.jpg,https://www.somersetscr.nhs.uk/,99,2021-07-02
+67,1843,CIS Oncology,,https://www.cis-healthcare.com/,99,2021-07-02
+68,1846,G2 Speech UK,image043.gif,https://www.g2speech.com/,99,2021-07-02
+69,1847,Kainos,Kainos.jpg,www.kainos.com,99,2021-07-02
+70,1848,Clevermed,Clevermed.jpg,https://www.clevermed.com/,452,2021-10-06
+71,1849,Bluespier,,https://www.bluespier.com/,99,2021-07-02
+72,1850,Dictate IT,Dictate IT.jpg,https://www.dictate.it/frontend/,99,2021-07-02
+73,1851,PCTI Solutions,,https://www.oneadvanced.com/solutions/document-management/docman/,99,2021-07-02
+74,1852,Varian Medical Systems,,www.varian.com,99,2021-07-02
+75,1853,Ulysses,Ulysses.jpg,www.ulysses.co.uk,99,2021-07-02
+76,1854,University of York,,https://www.york.ac.uk/,99,2021-07-02
+77,1855,NDEC,,https://www.ndec.org.uk/,99,2021-07-02
+78,1856,Cyber Media Solutions,,https://www.cyber-media.co.uk/,99,2021-07-02
+79,1857,Halo,footwork.jpg,https://www.halosystem.co.uk/,99,2021-07-02
+80,1858,ILLY Systems,Illy Systems.jpg,www.illycorp.com,99,2021-07-02
+81,1859,Neoteric UK,,,99,2021-07-02
+82,1860,GE Healthcare,GE Healthcare.jpg,https://www.gehealthcare.com/,99,2021-07-02
+83,1861,Sectra,sectra.jpg,http://www.sectra.com/medical/,99,2021-07-02
+84,1862,Soliton IT,soliton-crop.jpg,www.solitonit.com,99,2021-07-02
+85,1864,Fordman Systems,,https://www.fordman.co.uk/contact.htm,99,2021-07-02
+86,1865,CACI,CACI.jpg,https://www.caci.co.uk/,99,2021-07-02
+87,1866,Voice Technologies,voicetech_crop.jpg,www.voicetechnologies.co.uk,99,2021-07-02
+88,1867,Cerner,Cerner.jpg,https://www.cerner.com/,99,2021-07-02
+89,1868,Olympus,Olympus.jpg,www.olympus.co.uk/voice,99,2021-07-02
+90,1869,Dendrite Clinical Systems,Dendrite.jpg,http://www.e-dendrite.com/,99,2021-07-02
+91,1870,Mela Solutions,Mela-Solutions.jpg,www.mela.co.uk,99,2021-07-02
+92,1871,Great Ormond Street Foundation Trust (GOSH),,https://www.gosh.nhs.uk/,99,2021-07-02
+93,1872,Change Healthcare,,https://www.changehealthcare.com/,99,2021-07-02
+94,1873,Adobe,Adobe.jpg,https://www.adobe.com/,99,2021-07-02
+95,1874,Insignia Medical Systems,Insignia Medical Systems.jpg,www.insigniamedical.co.uk,99,2021-07-02
+96,1875,Technidata,Technidata.jpg,www.technidata-web.com,99,2021-07-02
+97,1876,Fortrus,Fortrus-crop.jpg,https://www.fortrus.com/,99,2021-07-02
+98,1877,Kronos,,https://www.kronos.co.uk/,99,2021-07-02
+99,1878,Visbion,Visbion.jpg,www.visbion.com,99,2021-07-02
+100,1879,Hospedia,,https://www.hospedia.com/,99,2021-07-02
+101,1880,iMDSoft,iMDsoft.jpg,https://www.imd-soft.com/,99,2021-07-02
+102,1881,Netcall,netcall-crop.jpg,www.netcall.com,999,2021-12-15
+103,1882,SAP,SAP.jpg,www.sap.com,999,2021-12-15
+104,1883,BSO,HSC-Business-Services-Organ.jpg,http://www.hscbusiness.hscni.net/,99,2021-07-02
+105,1884,Northern Ireland Electronic Care Record (NIECR),,http://www.ehealthandcare.hscni.net/niecr/niecr.aspx,99,2021-07-02
+106,1885,HSCNI,,https://jobs.hscni.net/,99,2021-07-02
+107,1886,Newgate Technology,Newgate Technology.jpg,www.newgatetechnology.co.uk,999,2021-12-15
+108,1887,Infor,Infor.jpg,www.infor.co.uk,99,2021-07-02
+109,1888,CANCOM,,https://cancom.co.uk/,99,2021-07-02
+110,1889,Salesforce,,https://www.salesforce.com/uk/,99,2021-07-02
+111,1890,Datix,datix-crop.jpg,https://rldatix.com/en-nam,99,2021-07-02
+112,1891,Graphnet Health,Graphnet.jpg,https://www.graphnethealth.com/,99,2021-07-02
+113,1892,Nuance Communications UK,,https://www.nuance.com/en-gb/index.html,99,2021-07-02
+114,1893,EPRO,,https://www.epro.com/,99,2021-07-02
+115,1894,ZyLAB,Zylab.jpg,www.zylab.com,99,2021-07-02
+116,1896,West Clinical Portal,,,99,2021-07-02
+117,1898,QFI Consulting,,http://www.qficonsulting.com,99,2021-07-02
+118,1899,Scribetech,,https://www.scribetech.co.uk/,99,2021-07-02
+119,1900,Iron Mountain,,https://www.ironmountain.co.uk/,99,2021-07-02
+120,1901,Insource,insource-crop.jpg,www.insource.co.uk,99,2021-07-02
+121,1902,Mirth,Mirth.jpg,www.mirthcorp.com,99,2021-07-02
+122,1903,CostFlex Systems,,https://www.costflex.com/,99,2021-07-02
+123,1904,Msoft,msoft.jpg,www.msoft.co.uk,999,2021-12-15
+124,1905,Heartsuite,Heartsuite.jpg,http://www.heartsuite.com/,99,2021-07-02
+125,1906,Ideagen,,https://www.ideagen.com/,99,2021-07-02
+126,1907,OpenText,,https://www.opentext.com/products-and-solutions/industries/healthcare,99,2021-07-02
+127,1908,K2 Medical Systems,K2_crop.jpg,www.k2ms.com,99,2021-07-02
+128,1910,OneAdvanced,,https://www.oneadvanced.com/,12222,2025-09-25
+129,1911,CORE IMS,,https://www.coreims.co.uk/,99,2021-07-02
+130,1912,Nextgen Healthcare,,https://www.nextgen.com/,99,2021-07-02
+131,1913,IMS Maxims,imsMaximsLogo.jpg,www.imsmaxims.com,99,2021-07-02
+132,1914,Critical Care Audit,,,99,2021-07-02
+133,1915,Lancashire and South Cumbria STP,,https://www.healthierlsc.co.uk/,99,2021-07-02
+134,1916,Drager,,https://www.draeger.com/en_uk/Home,681,2021-11-04
+135,1917,Trustmarque,TrustMarque Solutions.jpg,www.trustmarque.com,99,2021-07-02
+136,1918,NHS Connecting for Health,,,99,2021-07-02
+137,1919,CHIS,,,99,2021-07-02
+138,1920,Canon UK,Canon.jpg,https://www.canon-europe.com/,99,2021-07-02
+139,1921,ePEX,,,99,2021-07-02
+140,1922,Autofate,,,99,2021-07-02
+141,1923,BridgeHead Software,BridgeHead-Logo.jpg,https://www.bridgeheadsoftware.com/,99,2021-07-02
+142,1924,VoicePower,,https://voicepower.co.uk/about/,99,2021-07-02
+143,1925,Greater Manchester and Cheshire &amp; Merseyside,,,99,2021-07-02
+144,1926,Idox Health,,https://www.idoxgroup.com/,99,2021-07-02
+145,1927,Elekta,Elekta.jpg,https://www.elekta.com/,99,2021-07-02
+146,1928,Oncology Systems Limited,,https://osl.uk.com/,99,2021-07-02
+147,1929,Alert Life Sciences Computing,,https://www.alert-online.com/,522,2021-10-15
+148,1930,Belvan Business Intelligence Solutions,,,99,2021-07-02
+149,1931,3M,3m.jpg,https://www.3m.co.uk/3M/en_GB/company-uk/,99,2021-07-02
+150,1932,DScribe,DScribe.jpg,https://www.dscribe.co.uk/,99,2021-07-02
+151,1933,Bellis-Jones Hill,,https://logex.com/uk/,99,2021-07-02
+152,1934,North East Patches,,http://www.nepssg.nhs.uk/,99,2021-07-02
+153,1935,Nervecentre Software,nervecentre-crop.jpg,www.nervecentresoftware.com,99,2021-07-02
+154,1936,Epic,epic.jpg,https://www.epic.com/,99,2021-07-02
+155,1938,Peterborough and Stamford Hospitals NHS Foundation Trust,,https://www.nwangliaft.nhs.uk/,99,2021-07-02
+156,1939,GHG Software Developments,GHG-Software-Developments.jpg,http://www.talkingpoint.uk.com/,99,2021-07-02
+157,1940,University College Hospital,,https://www.uclh.nhs.uk/,99,2021-07-02
+158,1941,North Bristol NHS Trust,,https://www.nbt.nhs.uk/,99,2021-07-02
+159,1942,RioMed,,http://www.riomed.com,99,2021-07-02
+160,1943,Concentra,,https://www.concentra.co.uk/,99,2021-07-02
+161,1944,Acubase,,http://www.acubase.co.uk/,99,2021-07-02
+162,1945,Picis,picis2.gif,www.picis.com,99,2021-07-02
+163,1946,ThinkVitals,,http://www.thinkvitals.com/,99,2021-07-02
+164,1947,Medgate,,https://www.medgate.ch/de-ch/Default.aspx,99,2021-07-02
+165,1948,Computacenter,Computacenter_logo.jpg,https://www.computacenter.com/uk,99,2021-07-02
+166,1950,Method Analytics,,https://www.methodsanalytics.co.uk/,99,2021-07-02
+167,1951,iNTERFACEWARE,Interfaceware.jpg,www.interfaceware.com,99,2021-07-02
+168,1952,NHS Digital,,https://digital.nhs.uk/,99,2021-07-02
+169,1953,LOGEX Healthcare Analytics,ProDacapo.jpg,https://logex.com/uk/,99,2021-07-02
+170,1954,Hearst,,https://www.hearst.co.uk/,99,2021-07-02
+171,1955,Healthcare Gateway,,https://healthcaregateway.co.uk/,99,2021-07-02
+172,1956,Blue Prism,blueprism.jpg,https://www.blueprism.com/,999,2021-12-15
+173,1957,C2-Ai,,https://c2-ai.net/,99,2021-07-02
+174,1958,Connexica,Connexica.jpg,https://www.connexica.com/,99,2021-07-02
+175,1959,Crescendo Systems,Crescendo-Systems-logo_crop.jpg,https://www.crescendosystems.co.uk/,99,2021-07-02
+176,1960,Cloverleaf,,,99,2021-07-02
+177,1961,Aston University,,https://www.aston.ac.uk/,99,2021-07-02
+178,1962,Strata Health,strata-health-crop.jpg,www.stratahealth.co.uk,99,2021-07-02
+179,1964,Zimmoly Informatics Services,,,99,2021-07-02
+180,1965,Maidstone and Tunbridge Wells NHS Trust,,https://www.mtw.nhs.uk/,99,2021-07-02
+181,1966,Vanad Group,,https://www.vanadgroup.com/#our-companies,99,2021-07-02
+182,1967,Lexacom,lexacom.jpg,www.lexacom.co.uk,99,2021-07-02
+183,1968,Intouch with Health,intouchwithhealth.jpg,www.intouchwithhealth.co.uk,99,2021-07-02
+184,1969,MicroStrategy,MicroStrategy_crop.jpg,www.microstrategy.co.uk,99,2021-07-02
+185,1970,Cora Systems,cora-systems.jpg,https://corasystems.com/,99,2021-07-02
+186,1972,Integrated software solutions,Integrated Software Solutions.jpg,www.intsoftsol.com,99,2021-07-02
+187,1973,Delft DI,,https://www.delftdi.com/,99,2021-07-02
+188,1974,Silverlink Software,,https://silverlinksoftware.com/,1292,2022-01-24
+189,1975,ICNARC,,https://www.icnarc.org/,99,2021-07-02
+190,1976,Hugh Symons Information Management,,https://www.scanning-document.co.uk/,99,2021-07-02
+191,1977,Independent Systems Integrators,,https://www.independentsi.co.uk/,99,2021-07-02
+192,1978,Phoenix,,https://www.phoenixs.co.uk/,99,2021-07-02
+193,1980,Stalis,stalis.jpg,www.stalis.com,99,2021-07-02
+194,1981,Healthcost,HealthCost.jpg,https://www.iqvia.com/locations/united-kingdom/solutions/nhs-solutions,99,2021-07-02
+195,1982,Bedford Computers,,,99,2021-07-02
+196,1983,SORCE,Sorce.jpg,www.sorce.co.uk,99,2021-07-02
+197,1984,Delian Systems,Delian.jpg,http://www.deliansystems.co.uk/index.aspx,99,2021-07-02
+198,1985,Best Served Cold,,https://bestservedcold.com/,99,2021-07-02
+199,1986,The Renal Association,,https://www.linkedin.com/company/therenal-association/,99,2021-07-02
+200,1987,Kent and Medway Health Informatics Service,KMHIS.jpg,www.kmhis.nhs.uk,99,2021-07-02
+201,1989,Abbott,,https://www.abbott.com/,522,2021-10-15
+202,1990,Teleologic,Teleologic.jpg,www.teleologic.co.uk,99,2021-07-02
+203,1991,Siemens,,http://siemens-healthineers.com,99,2021-07-02
+204,1992,Caradigm,Caradigm_crop.jpg,,99,2021-07-02
+205,1993,EDM,edm.jpg,https://www.edmgroup.com/,99,2021-07-02
+206,1994,Orion Practice Management Systems,,https://orionpms.org.uk/,99,2021-07-02
+207,1995,Cambio Healthcare Systems,,https://www.cambiogroup.com/,99,2021-07-02
+208,1996,MedeAnalytics,MedeAnalytics.jpg,www.medeanalytics.co.uk,99,2021-07-02
+209,1997,InPhase,InPhase.jpg,www.inphase.com,99,2021-07-02
+210,1998,Sollis,,https://www.sollis.co.uk/,99,2021-07-02
+211,1999,Beautiful Information,,http://beautifulinformation.org/,99,2021-07-02
+212,2000,CCS Media,,https://www.ccsmedia.com/,99,2021-07-02
+213,2001,Tiani,,https://www.tiani-spirit.com/,99,2021-07-02
+214,2002,IPC Group,,https://www.ipc.com/,99,2021-07-02
+215,2003,Storm ID,,https://www.linkedin.com/company/storm-id/,99,2021-07-02
+216,2005,DrDoctor,,https://www.drdoctor.co.uk/,99,2021-07-02
+217,2006,Boston Scientific,,https://www.bostonscientific.com/en-EU/home.html,99,2021-07-02
+218,2007,Medtronic,,https://www.medtronic.com/uk-en/index.html,99,2021-07-02
+219,2008,Integris,,http://www.integris.co.uk/splashpage.aspx,99,2021-07-02
+220,2009,Cirdan,,https://www.cirdan.com/,99,2021-07-02
+221,2014,Reality Consulting,Reality Consulting.jpg,www.reality-consulting.co.uk,99,2021-07-02
+222,2015,Magic Software Enterprises,,https://www.magicsoftware.com/,99,2021-07-02
+223,2017,Aspyra,Aspyra.jpg,https://aspyra.com/,99,2021-07-02
+224,2019,Usable Systems,Uusable Systems.jpg,www.usablesystems.co.uk,99,2021-07-02
+225,2020,Albatross Financial Solutions,,,99,2021-07-02
+226,2021,Genisys Consulting,,https://genisys-group.com/,99,2021-07-02
+227,2023,Qmatic,qmatic-crop.jpg,www.qmatic.com/uk,99,2021-07-02
+228,2024,BD,,https://www.bd.com/en-uk,99,2021-07-02
+229,2025,SMART,Smart_crop.jpg,www.smart-rostering.co.uk,99,2021-07-02
+230,2026,Hitec Laboratories,Hitec_logo.jpg,https://mitratech.com/,99,2021-07-02
+231,2027,ReStart Consulting,restart-consulting.jpg,www.restartconsulting.com,5931,2023-08-31
+232,2028,Strategy Companion,Strategy-Companion.jpg,www.strategycompanion.com,99,2021-07-02
+233,2029,Maldaba,,https://maximaconsulting.com/industries/healthcare,99,2021-07-02
+234,2030,Clinical Network Systems,,https://www.clinicalnetworksystems.com/,99,2021-07-02
+235,2031,ProSolv,,https://www.jrspharma.com/pharma_en/products-services/excipients/hfe/prosolv-smcc.php,99,2021-07-02
+236,2032,AxSys Technology,AxSys.jpg,http://www.axsys.co.uk/,99,2021-07-02
+237,2033,Chimera,,,99,2021-07-02
+238,2034,CGI,CGI-crop.jpg,https://www.cgi.com/en/healthcare,99,2021-07-02
+239,2035,Medica Group,medica-group.jpg,www.medicagroup.co.uk,99,2021-07-02
+240,2036,IMMJ Systems,,https://www.immjsystems.com/,99,2021-07-02
+241,2037,Health and Social Care Information Centre,,https://digital.nhs.uk/,99,2021-07-02
+242,2038,PatientSource,,https://patientsource.co.uk/,99,2021-07-02
+243,2040,Cloud2,,https://cloud2.co.uk/,99,2021-07-02
+244,2041,Qualisys,,www.qualisys.com,99,2021-07-02
+245,2042,Digital.ai,Version One.jpg,https://digital.ai/,99,2021-07-02
+246,2043,Bottomline Technologies,Bottomline Technologies.jpg,https://www.bottomline.com/uk,99,2021-07-02
+247,2044,Apache ServiceMix,,https://servicemix.apache.org/,99,2021-07-02
+248,2045,Neova Health,,https://neovahealth.co.uk/,99,2021-07-02
+249,2046,PowerHealth Solutions,,https://www.powerhealthsolutions.com/,99,2021-07-02
+250,2047,MDI Cloud,,,99,2021-07-02
+251,2048,Novacor UK,Novacor.jpg,www.novacor.co.uk,99,2021-07-02
+252,2049,Else Software Services,,,99,2021-07-02
+253,2050,SynApps,,https://www.synapps-solutions.com/about-us,99,2021-07-02
+254,2051,Software of Excellence,Software of Excellence.jpg,www.soeidental.com,99,2021-07-02
+255,2052,Quadramed,Quadramed.jpg,www.quadramed.com,99,2021-07-02
+256,2053,SCC,,https://www.scc.com/healthcare/,99,2021-07-02
+257,2054,RIXG,,https://www.patientview.org/#/,999,2021-12-15
+258,2057,North 51,,https://www.bionical.com/home,99,2021-07-02
+259,2058,Magnus Medical Software,Magnus Medical Software.jpg,https://magnushealth.com/,99,2021-07-02
+260,2059,Symbiosis,,https://www.symbiosis.co.uk/,99,2021-07-02
+261,2060,Leicestershire Health Informatics Service,,https://www.leics-his.nhs.uk/,99,2021-07-02
+262,2061,University of Wales,,https://www.wales.ac.uk/en/Home.aspx,99,2021-07-02
+263,2062,Unify,,https://unify.com/en/,99,2021-07-02
+264,2063,Integra,Integra.jpg,www.integralife.com,99,2021-07-02
+265,2064,Northern Lincolnshire and Goole NHS Foundation Trust,,https://www.nlg.nhs.uk/,99,2021-07-02
+266,2065,East Midlands radiology service,,https://www.emrad.nhs.uk/,99,2021-07-02
+267,2066,NHS England,,https://www.england.nhs.uk/,99,2021-07-02
+268,2067,Royal Liverpool and Broadgreen University Hospitals NHS Trust,,https://www.rlbuht.nhs.uk/,99,2021-07-02
+269,2068,Hyland,,https://www.hyland.com/en-GB,99,2021-07-02
+270,2069,Clikhealth,,http://clikhealthsolutions.co.uk/,99,2021-07-02
+271,2070,Eurofree,,,99,2021-07-02
+272,2071,ehealth innovations,,https://ehealthinnovation.org/,99,2021-07-02
+273,2072,Hicom,,https://www.hicom.co.uk/,99,2021-07-02
+274,2073,Greater Manchester CSU,,https://www.gmsharedservices.nhs.uk/,99,2021-07-02
+275,2074,3E Europe Ltd,3 E Europe.jpg,https://3e.co.uk/pub/,99,2021-07-02
+276,2075,HISBI Data Warehousing,,,99,2021-07-02
+277,2076,Bankside,,,99,2021-07-02
+278,2077,Ssentif,,,99,2021-07-02
+279,2078,Sopra Steria,,http://www.soprasteria.com,99,2021-07-02
+280,2079,Chemocare,,http://chemocare.com/,99,2021-07-02
+281,2080,Blithe,,,99,2021-07-02
+282,2083,QES,,https://www.qes-online.co.uk/,99,2021-07-02
+283,2084,Finapres Medical Systems,Finapres Medical Systems.jpg,https://www.finapres.com/,99,2021-07-02
+284,2085,Toshiba,Toshiba.jpg,www.toshiba.co.uk,99,2021-07-02
+285,2086,Cedar,,,99,2021-07-02
+286,2087,Atos,Atos.jpg,https://atos.net/en-gb/united-kingdom,999,2021-12-15
+287,2088,Microtech,microtech.jpg,www.microtech.com,99,2021-07-02
+288,2089,RotaMaster,,https://www.rotamaster.co.uk/,99,2021-07-02
+289,2090,Nugensis,,https://www.nugensis.co.uk/,99,2021-07-02
+290,2091,Cambric Systems,Cambric-crop.jpg,https://www.cambric.co.uk/,99,2021-07-02
+291,2092,Auditdata,,https://www.auditdata.com/,99,2021-07-02
+292,2093,NSS,NSS (National Services Scotland).jpg,www.nhsnss.org,99,2021-07-02
+293,2094,Optima Medical,Optima Medical.jpg,www.neurophys.co.uk,99,2021-07-02
+294,2095,Unisoft Medical Systems,Unisoft Medical Systems.jpg,https://www.unisoftmedical.com/,99,2021-07-02
+295,2096,Abertay University,,https://www.abertay.ac.uk/,999,2021-12-15
+296,2097,NHS Tayside,NHS Tayside.jpg,www.nhstayside.scot.nhs.uk,99,2021-07-02
+297,2098,Ethitec,Ethitec.jpg,https://www.ethitec.com/,99,2021-07-02
+298,2099,The Solution Works,The Solution Works.jpg,www.solutionworks.co.uk,99,2021-07-02
+299,2100,National Health Services Scotland (NHSS),,https://nhsnss.org/,99,2021-07-02
+300,2101,Agilent,,https://www.agilent.com/,99,2021-07-02
+301,2102,NHS National Service Scotland,,https://nhsnss.org/,99,2021-07-02
+302,2103,Genisys Technology,Genisys Technology.jpg,http://www.genisystechnology.co.uk/,99,2021-07-02
+303,2104,INPS,INPS.jpg,www.inps4.co.uk,99,2021-07-02
+304,2105,Renal Information Exchange Group,,https://www.thinkkidneys.nhs.uk/ckd/useful-links/renal-information-exchange-group/,99,2021-07-02
+305,2106,Biogene,,https://www.biogene.com/,99,2021-07-02
+306,2107,X-Lab,,https://www.x-labsystems.co.uk/,99,2021-07-02
+307,2108,LRS Health,LRS Health.jpg,www.lrshealth.com.au,99,2021-07-02
+308,2109,Dacoll,Dacoll.jpg,https://dacollgroup.co.uk/,99,2021-07-02
+309,2110,e-docs UK,,https://www.edocuments.co.uk/,99,2021-07-02
+310,2111,NorthgateArinso,,https://www.ngahr.com/our-story,99,2021-07-02
+311,2112,NHS Grampian,NHS Grampian.jpg,www.nhsgrampian.org,99,2021-07-02
+312,2113,SCI,,,99,2021-07-02
+313,2114,Scottish Government,Scottish Government.jpg,home.scotland.gov.uk,99,2021-07-02
+314,2115,Maxima Solutions,,https://maximasolutions.co.in/,99,2021-07-02
+315,2116,inFlow,InFlow.jpg,www.inflowinventory.com,99,2021-07-02
+316,2117,Tribal Group,,https://www.tribalgroup.com/,99,2021-07-02
+317,2118,Sword Group,,https://www.sword-group.com/,99,2021-07-02
+318,2119,Specialist Computer Services,,,99,2021-07-02
+319,2122,Excalibur Systems,,http://www.excalibursystems.com/,99,2021-07-02
+320,2123,Various,,,99,2021-07-02
+321,2124,WASP,,http://www.waspsoftware.co.uk/,99,2021-07-02
+322,2125,Timeware Software,,https://www.timeware.co.uk/,99,2021-07-02
+323,2126,LloydsPharmacy,,https://lloydspharmacy.com/,99,2021-07-02
+324,2127,Rx-info,RX Info.jpg,www.rx-info.co.uk,99,2021-07-02
+325,2128,PPIB,,https://nhsprocurement.org.uk/abhi-position-on-the-ppib-tool/,99,2021-07-02
+326,2129,The NJR Centre,The NJR Centre.jpg,www.njrcentre.org.uk,99,2021-07-02
+327,2130,Nucletron,Nucletron.jpg,www.nucletron.com,99,2021-07-02
+328,2131,HT Projects,,https://www.htprojects.co.uk/,99,2021-07-02
+329,2132,PCMIS,,https://www.york.ac.uk/healthsciences/pc-mis/,99,2021-07-02
+330,2134,TMS Insight,TMS Insight.jpg,www.tmsinsight.com,99,2021-07-02
+331,2137,Kodak,Kodak.jpg,www.kodak.com,999,2021-12-15
+332,2138,East Kent Business Intelligence (EKBI),,,99,2021-07-02
+333,2139,Evolution Healthcare Systems,,https://www.evolutionhealthcaresystems.co.uk/,99,2021-07-02
+334,2140,Newmans,,https://www.newmanbs.co.uk/services,99,2021-07-02
+335,2141,4S Information Systems,4s.gif,http://www.4s-dawn.com/,99,2021-07-02
+336,2142,POWERtec Systems and Consultancy,,,99,2021-07-02
+337,2143,SAS,,http://www.sas.com,99,2021-07-02
+338,2144,Cymbio,cymbio.jpg,https://capitahealthcaredecisions.com/,99,2021-07-02
+339,2146,VitalPulse,Vitalpulse.jpg,www.vitalpulse.com,99,2021-07-02
+340,2147,AES Medical,AES Group.jpg,https://www.aesgrp.com/healthcare/,99,2021-07-02
+341,2148,NantHealth,,https://nanthealth.com/,99,2021-07-02
+342,2149,Xanadutec,,https://xanadutec.com/,99,2021-07-02
+343,2150,Genomics England,,https://www.genomicsengland.co.uk/,99,2021-07-02
+344,2151,Feedback Medical,Cambridge Computed Imaging.jpg,https://fbkmed.com/,3116,2022-09-15
+345,2152,Merge Healthcare,merge_healthcare.jpg,www.merge.com,99,2021-07-02
+346,2153,The Gallery Partnership,image131.gif,www.gallerypartnership.co.uk,99,2021-07-02
+347,2154,B-Plan Information Systems,,https://www.b-plan.com/,99,2021-07-02
+348,2155,Xerox,Xerox.jpg,www.xerox.co.uk,99,2021-07-02
+349,2156,BookWise Solutions,BookWise Solutions.jpg,https://www.bookwisesolutions.com/,99,2021-07-02
+350,2157,NHS SBS,,https://www.sbs.nhs.uk/,99,2021-07-02
+351,2158,Indigo Mountain,,https://indigomountain.co.uk/,99,2021-07-02
+352,2159,NHS South West Commissioning Support Unit,,https://www.scwcsu.nhs.uk/,99,2021-07-02
+353,2160,BT,,https://www.bt.com/,99,2021-07-02
+354,2161,Mindwave Ventures,,https://www.mindwaveventures.com/,99,2021-07-02
+355,2162,InventAsia,inventAsia.jpg,https://www.invent-asia.com/,99,2021-07-02
+356,2163,Maintel / Azzurri,,https://www.maintel.co.uk/industries/public-sector/,99,2021-07-02
+357,2164,Voice Point,,,99,2021-07-02
+358,2165,Qvera,,https://www.qvera.com,99,2021-07-02
+359,2166,Huntleigh,Huntleigh.gif,http://www.huntleigh-diagnostics.com/,99,2021-07-02
+360,2167,Filemaker,Filemaker.jpg,https://www.claris.com/,99,2021-07-02
+361,2169,Southern HSC Trust,,https://southerntrust.hscni.net/,99,2021-07-02
+362,2170,Welch Allyn,,www.welchallyn.com,99,2021-07-02
+363,2171,Finexe Systems,Finexe Systems.jpg,http://www.finexe.co.uk/,99,2021-07-02
+364,2172,Mill Systems,,https://www.millsystems.com/,99,2021-07-02
+365,2173,Baxter,,https://www.baxter.com/,99,2021-07-02
+366,2174,Northumbria Healthcare NHS Foundation Trust,,https://www.northumbria.nhs.uk/,99,2021-07-02
+367,2175,Capita Healthcare Decisions,,https://capitahealthcaredecisions.com/,99,2021-07-02
+368,2176,iQ HealthTech,,https://www.iqhealth.tech/,999,2021-12-15
+369,2177,NCS Technologies,NCS-Technologies.jpg,www.ncstech.com,99,2021-07-02
+370,2178,Askey,,https://www.askey.com.tw/,99,2021-07-02
+371,2179,Health Fabric,,https://www.healthfabric.co.uk/,99,2021-07-02
+372,2180,Renaissance Computer Services,Renaissance Computer Services.jpg,www.renaissance.co.uk,99,2021-07-02
+373,2181,Datatron,,http://www.datatron.co.uk/,99,2021-07-02
+374,2182,Dictaphone,,,99,2021-07-02
+375,2183,GSA,,https://www.gsaltd.com/,99,2021-07-02
+376,2184,MediCUS,,https://mela.co.uk/medicus-critical-care/,99,2021-07-02
+377,2185,3rd part SLA,,,99,2021-07-02
+378,2186,ImageNow,,http://imagenow.ie/,99,2021-07-02
+379,2187,Genial Genetics,,http://www.genialgenetics.com/,99,2021-07-02
+380,2188,Cscribe,,,99,2021-07-02
+381,2189,Nisis,,,99,2021-07-02
+382,2190,Teletracking,,https://www.teletracking.com/,99,2021-07-02
+383,2191,Destiny,,https://www.destiny.be/en,99,2021-07-02
+384,2192,Data Innovations,Data Innovations.jpg,https://www.datainnovations.com/,99,2021-07-02
+385,2193,Gael,Gael.jpg,https://www.ideagen.com/,99,2021-07-02
+386,2194,Skills for Health,,https://skillsforhealth.org.uk/,2515,2022-07-01
+387,2195,Softcat,Softcat.jpg,www.softcat.com,99,2021-07-02
+388,2196,Noemalife,noemalife.jpg,www.noemalife.com,99,2021-07-02
+389,2197,EndoSoft,EndoSoft.jpg,https://www.endosoft.com/,99,2021-07-02
+390,2198,Path Links,,https://www.nlg.nhs.uk/services/pathology/,99,2021-07-02
+391,2199,IBG Immucor,IBG.jpg,www.immucor.com,99,2021-07-02
+392,2200,Get Real Health,,https://getrealhealth.com/,99,2021-07-02
+393,2201,TIBCO,Tibco.jpg,www.tibco.com,99,2021-07-02
+394,2202,MD Medicus,,https://www.md-medicus.net/en/home,99,2021-07-02
+395,2203,N3,,https://n3results.com/,99,2021-07-02
+396,2204,OceanoPAS,,https://www.servelec.co.uk/product-range/oceano/,99,2021-07-02
+397,2205,Boxxe,,https://www.boxxe.com/,99,2021-07-02
+398,2206,Clinical Computing,,https://www.constellationkidney.com/clinicalcomputing/?utm_source=ccl.com&utm_medium=web,99,2021-07-02
+399,2207,Arrendale Associates,,https://aaita.com/,99,2021-07-02
+400,2208,API Healthcare,,https://apihealthcare.com/client-support,99,2021-07-02
+401,2210,Sysmex,,https://www.sysmex.co.uk/n/,99,2021-07-02
+402,2211,Healthcare Software Solutions,,https://www.wellbeingsoftware.com/,99,2021-07-02
+403,2213,ICIP,,,99,2021-07-02
+404,2214,Wirral University Teaching Hospitals,,https://www.wuth.nhs.uk/,99,2021-07-02
+405,2215,Yellowfin,,https://www.yellowfinbi.com/,99,2021-07-02
+406,2216,V7 Technology,V7.jpg,www2.v7technology.com,99,2021-07-02
+407,2217,Worcestershire Acute Hospitals NHS Trust,,https://www.worcsacute.nhs.uk/our-trust,99,2021-07-02
+408,2218,Folding Space,Folding Space.jpg,https://www.foldingspace.co.uk/,99,2021-07-02
+409,2219,Frimley Health NHS Foundation Trust,,https://www.fhft.nhs.uk/,99,2021-07-02
+410,2220,Getinge,,https://www.getinge.com/uk/,99,2021-07-02
+411,2223,CareFlow Medicines Management,,www.CareFlowmm.com,681,2021-11-04
+412,2224,Alcidion,,https://www.alcidion.com/about/,1292,2022-01-24
