@@ -132,14 +132,16 @@ export async function createHospitalSite(formData: FormData) {
   if (country_id === null || !name) throw new Error("Country and name are required");
   await query(
     `INSERT INTO hospital_site
-       (country_id, hospital_group_id, health_authority_id, name, city, beds, site_type, ownership_type, notes)
-     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9)`,
+       (country_id, hospital_group_id, health_authority_id, name, address, city, postcode, beds, site_type, ownership_type, notes)
+     VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)`,
     [
       country_id,
       int(formData, "hospital_group_id"),
       int(formData, "health_authority_id"),
       name,
+      str(formData, "address"),
       str(formData, "city"),
+      str(formData, "postcode"),
       int(formData, "beds"),
       str(formData, "site_type"),
       str(formData, "ownership_type"),
@@ -157,14 +159,16 @@ export async function updateHospitalSite(id: number, formData: FormData) {
   await query(
     `UPDATE hospital_site SET
        country_id=$1, hospital_group_id=$2, health_authority_id=$3, name=$4,
-       city=$5, beds=$6, site_type=$7, ownership_type=$8, notes=$9
-     WHERE id=$10`,
+       address=$5, city=$6, postcode=$7, beds=$8, site_type=$9, ownership_type=$10, notes=$11
+     WHERE id=$12`,
     [
       country_id,
       int(formData, "hospital_group_id"),
       int(formData, "health_authority_id"),
       name,
+      str(formData, "address"),
       str(formData, "city"),
+      str(formData, "postcode"),
       int(formData, "beds"),
       str(formData, "site_type"),
       str(formData, "ownership_type"),

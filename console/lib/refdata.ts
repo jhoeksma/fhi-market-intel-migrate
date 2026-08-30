@@ -60,13 +60,15 @@ export async function getHospitalGroups(): Promise<
 
 export interface HospitalSiteOption extends NamedOption {
   hospital_group_id: number | null;
+  address: string | null;
   city: string | null;
+  postcode: string | null;
   beds: number | null;
 }
 
 export async function getHospitalSites(): Promise<HospitalSiteOption[]> {
   return query<HospitalSiteOption>(
-    "SELECT id, name, country_id, hospital_group_id, city, beds FROM hospital_site ORDER BY name"
+    "SELECT id, name, country_id, hospital_group_id, address, city, postcode, beds FROM hospital_site ORDER BY name"
   );
 }
 
