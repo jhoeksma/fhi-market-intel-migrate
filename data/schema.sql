@@ -62,13 +62,19 @@ CREATE TABLE IF NOT EXISTS hospital_site (
     hospital_group_id   INTEGER REFERENCES hospital_group(id),
     health_authority_id INTEGER REFERENCES health_authority(id),
     name                TEXT NOT NULL,
+    address             TEXT,
     city                TEXT,
+    postcode            TEXT,
     beds                INTEGER,
     site_type           TEXT,
     ownership_type      TEXT CHECK (ownership_type IN ('public','private','mixed')),
     notes               TEXT,
     created_at          TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+-- Backfill columns for tables that pre-date this addition (idempotent — safe
+-- to re-run schema.sql against an already-migrated database).
+ALTER TABLE hospital_site ADD COLUMN IF NOT EXISTS address TEXT;
+ALTER TABLE hospital_site ADD COLUMN IF NOT EXISTS postcode TEXT;
 CREATE INDEX IF NOT EXISTS idx_hospital_site_country ON hospital_site(country_id);
 CREATE INDEX IF NOT EXISTS idx_hospital_site_group ON hospital_site(hospital_group_id);
 
