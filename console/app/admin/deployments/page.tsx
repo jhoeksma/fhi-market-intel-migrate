@@ -18,6 +18,11 @@ import {
 
 export const dynamic = "force-dynamic";
 
+interface DeploymentCategory {
+  name: string;
+  status: "confirmed" | "assumed" | "carve_out" | "unconfirmed";
+}
+
 interface DeploymentRow {
   id: number;
   hospital_site_id: number | null;
@@ -25,18 +30,58 @@ interface DeploymentRow {
   supplier_name: string | null;
   product_name: string | null;
   status: string;
-  category_count: string;
+  categories: DeploymentCategory[];
+}
+
+// System-category badge colour by coverage status — mirrors the coverage
+// view's confirmed/assumed/carve_out/unconfirmed palette so a deployment's
+// category mix (what suppliers actually care about — EPR vs PACS vs
+// maternity, etc.) reads at a glance instead of hiding behind a bare count.
+const CATEGORY_BADGE_CLASS: Record<string, string> = {
+  confirmed: "text-status-confirmed border-status-confirmed/30 bg-status-confirmed/10",
+  assumed: "text-status-assumed border-status-assumed/30 bg-status-assumed/10",
+  carve_out: "text-status-carveout border-status-carveout/30 bg-status-carveout/10",
+  unconfirmed: "text-status-unconfirmed border-status-unconfirmed/30 bg-status-unconfirmed/10",
+};
+
+function CategoryBadges({ categories }: { categories: DeploymentCategory[] }) {
+  if (categories.length === 0) {
+    return <span className="text-slate-300">—</span>;
+  }
+  return (
+    <div className="flex flex-wrap gap-1">
+      {categories.map((c) => (
+        <span
+          key={c.name}
+          title={`${c.name} — ${c.status.replace("_", " ")}`}
+          className={`whitespace-nowrap rounded-full border px-2 py-0.5 text-[11px] font-medium ${
+            CATEGORY_BADGE_CLASS[c.status] ?? "text-fhi-slate border-slate-200 bg-slate-50"
+          }`}
+        >
+          {c.name}
+        </span>
+      ))}
+    </div>
+  );
 }
 
 export default async function DeploymentsPage() {
   const [deployments, sites, groups, suppliers] = await Promise.all([
     query<DeploymentRow>(`
       SELECT d.id, d.hospital_site_id, d.hospital_group_id, s.name AS supplier_name, p.name AS product_name,
-             d.status, COUNT(dc.id) AS category_count
+             d.status,
+             COALESCE(
+               json_agg(
+                 json_build_object('name', sc.name, 'status', dc.coverage_status)
+                 ORDER BY sc.name
+               ) FILTER (WHERE sc.name IS NOT NULL),
+               '[]'
+             ) AS categories
       FROM deployment d
       LEFT JOIN supplier s ON s.id = d.supplier_id
       LEFT JOIN product p ON p.id = d.product_id
       LEFT JOIN deployment_category dc ON dc.deployment_id = d.id
+      LEFT JOIN system_category sc ON sc.id = dc.system_category_id
       GROUP BY d.id, s.name, p.name
       ORDER BY d.created_at DESC
     `),
@@ -137,7 +182,7 @@ export default async function DeploymentsPage() {
               <th className={th}>Supplier</th>
               <th className={th}>Product</th>
               <th className={th}>Status</th>
-              <th className={th}>Categories covered</th>
+              <th className={th}>System category</th>
               <th className={th}></th>
             </tr>
           </thead>
@@ -154,7 +199,9 @@ export default async function DeploymentsPage() {
                 <td className={td}>{d.supplier_name ?? <span className="text-slate-300">—</span>}</td>
                 <td className={td}>{d.product_name ?? <span className="text-slate-300">—</span>}</td>
                 <td className={td}>{d.status}</td>
-                <td className={td}>{d.category_count}</td>
+                <td className={td}>
+                  <CategoryBadges categories={d.categories} />
+                </td>
                 <td className={`${td} text-right`}>
                   <Link href={`/admin/deployments/${d.id}`} className="text-xs font-medium text-fhi-blue hover:underline">
                     Open
