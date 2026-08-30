@@ -73,8 +73,14 @@ export default async function HospitalSitesPage() {
                 ))}
               </Select>
             </Field>
+            <Field label="Address" hint="Street address">
+              <TextInput name="address" />
+            </Field>
             <Field label="City">
               <TextInput name="city" />
+            </Field>
+            <Field label="Postcode / ZIP">
+              <TextInput name="postcode" />
             </Field>
             <Field label="Beds">
               <TextInput type="number" name="beds" min={0} />
@@ -106,6 +112,7 @@ export default async function HospitalSitesPage() {
               <th className={th}>Country</th>
               <th className={th}>Group</th>
               <th className={th}>City</th>
+              <th className={th}>Postcode</th>
               <th className={th}>Beds</th>
               <th className={th}></th>
             </tr>
@@ -121,6 +128,7 @@ export default async function HospitalSitesPage() {
                   )}
                 </td>
                 <td className={td}>{s.city ?? <span className="text-slate-300">—</span>}</td>
+                <td className={td}>{s.postcode ?? <span className="text-slate-300">—</span>}</td>
                 <td className={td}>{s.beds ?? <span className="text-slate-300">—</span>}</td>
                 <td className={`${td} text-right`}>
                   <div className="flex justify-end gap-3">
@@ -137,7 +145,7 @@ export default async function HospitalSitesPage() {
             ))}
             {sites.length === 0 && (
               <tr>
-                <td className={td} colSpan={6}>
+                <td className={td} colSpan={7}>
                   No hospital sites yet.
                 </td>
               </tr>
