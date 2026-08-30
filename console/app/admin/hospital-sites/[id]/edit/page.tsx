@@ -23,7 +23,9 @@ interface Row {
   hospital_group_id: number | null;
   health_authority_id: number | null;
   name: string;
+  address: string | null;
   city: string | null;
+  postcode: string | null;
   beds: number | null;
   site_type: string | null;
   ownership_type: string | null;
@@ -86,8 +88,14 @@ export default async function EditHospitalSitePage({ params }: { params: { id: s
                 ))}
               </Select>
             </Field>
+            <Field label="Address">
+              <TextInput name="address" defaultValue={site.address ?? ""} />
+            </Field>
             <Field label="City">
               <TextInput name="city" defaultValue={site.city ?? ""} />
+            </Field>
+            <Field label="Postcode / ZIP">
+              <TextInput name="postcode" defaultValue={site.postcode ?? ""} />
             </Field>
             <Field label="Beds">
               <TextInput type="number" name="beds" min={0} defaultValue={site.beds ?? ""} />
