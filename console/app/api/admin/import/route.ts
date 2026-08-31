@@ -81,6 +81,7 @@ export async function POST(req: NextRequest) {
   const client = await pool.connect();
   const counts: Record<string, number> = {
     sources: 0,
+    suppliers: 0,
     healthAuthorities: 0,
     hospitalGroups: 0,
     hospitalSites: 0,
@@ -124,11 +125,20 @@ export async function POST(req: NextRequest) {
       name: string;
     }[];
     const supplierByName = new Map(supplierRows.map((s) => [s.name.toLowerCase(), s.id]));
-    function supplierId(name: string | null | undefined): number | null {
+    // Auto-create suppliers referenced by name that don't exist yet (findOrCreate,
+    // case-insensitive match) — this lets a country payload introduce new local
+    // vendors (e.g. ChipSoft, NEXUS in the Netherlands) without a separate manual
+    // step, while still reusing an existing row rather than duplicating it.
+    async function supplierId(name: string | null | undefined): Promise<number | null> {
       if (!name) return null;
-      const id = supplierByName.get(String(name).toLowerCase());
-      if (!id) throw new Error(`Unknown supplier "${name}" — check GET /api/admin/import for exact names`);
-      return id;
+      const key = String(name).toLowerCase();
+      const cached = supplierByName.get(key);
+      if (cached) return cached;
+      const created = await client.query("INSERT INTO supplier (name) VALUES ($1) RETURNING id", [name]);
+      const newId = created.rows[0].id;
+      supplierByName.set(key, newId);
+      counts.suppliers++;
+      return newId;
     }
 
     const catRows = (await client.query("SELECT id, name FROM system_category")).rows as {
@@ -237,7 +247,7 @@ export async function POST(req: NextRequest) {
       if (!hospital_site_id && !hospital_group_id) {
         throw new Error(`deployment ${rec.key ?? "?"}: needs hospitalSiteKey or hospitalGroupKey`);
       }
-      const supplier_id = supplierId(rec.supplier);
+      const supplier_id = await supplierId(rec.supplier);
       let product_id: number | null = null;
       if (supplier_id && rec.product) {
         const existingProd = await client.query(
@@ -325,7 +335,7 @@ export async function POST(req: NextRequest) {
       const health_authority_id = rec.healthAuthorityKey
         ? resolveKey(rec.healthAuthorityKey, "procurementNotice.healthAuthorityKey")
         : null;
-      const awarded_supplier_id = supplierId(rec.awarded_supplier);
+      const awarded_supplier_id = await supplierId(rec.awarded_supplier);
       const source_id = rec.sourceKey ? resolveKey(rec.sourceKey, "procurementNotice.sourceKey") : null;
       const { created } = await findOrCreate(
         client,
