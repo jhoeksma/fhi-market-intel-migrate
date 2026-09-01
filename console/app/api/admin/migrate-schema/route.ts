@@ -21,6 +21,8 @@ const STATEMENTS: string[] = [
   // Netherlands backfill (supplier value requires precise site location).
   `ALTER TABLE hospital_site ADD COLUMN IF NOT EXISTS address TEXT`,
   `ALTER TABLE hospital_site ADD COLUMN IF NOT EXISTS postcode TEXT`,
+  `ALTER TABLE hospital_site ADD COLUMN IF NOT EXISTS beds INTEGER`,
+  `ALTER TABLE hospital_site ADD COLUMN IF NOT EXISTS beds_notes TEXT`,
 ];
 
 export async function GET(req: NextRequest) {
