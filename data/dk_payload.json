@@ -1,0 +1,2982 @@
+{
+  "sources": [
+    {
+      "key": "regionerepj",
+      "title": "Brief - Elektronisk patientjournal (EPJ fact sheet, 2022)",
+      "publisher": "Danske Regioner",
+      "tier": 1,
+      "url": "https://www.regioner.dk/media/22725/faktaark-epj_jsa.pdf",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "wikihealthdk",
+      "title": "Healthcare in Denmark",
+      "publisher": "Wikipedia",
+      "tier": 3,
+      "url": "https://en.wikipedia.org/wiki/Healthcare_in_Denmark",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "hpbechepic",
+      "title": "Epic – softwaren bag sundhedsplatformen",
+      "publisher": "Hans Peter Bech",
+      "tier": 3,
+      "url": "https://hpbech.com/da/epic-softwaren-bag-sundhedsplatformen/",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "sydudbud2018",
+      "title": "Systematic vinder udbud om syddansk patientjournal",
+      "publisher": "Region Syddanmark",
+      "tier": 1,
+      "url": "https://regionsyddanmark.dk/om-region-syddanmark/presse-og-nyheder/nyhedsarkiv/2018/april-2018/systematic-vinder-udbud-om-syddansk-patientjournal",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "sydgolive1",
+      "title": "Nyt patientjournalsystem tages i brug 3. oktober (Aabenraa go-live)",
+      "publisher": "Region Syddanmark",
+      "tier": 1,
+      "url": "https://regionsyddanmark.dk/om-region-syddanmark/presse-og-nyheder/nyhedsarkiv/2021/september-2021/nyt-patientjournalsystem-tages-i-brug-3-oktober-1",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "sydgolive2",
+      "title": "Nyt patientjournalsystem tages i brug på Fyn 20. februar (OUH go-live)",
+      "publisher": "Region Syddanmark",
+      "tier": 1,
+      "url": "https://regionsyddanmark.dk/om-region-syddanmark/presse-og-nyheder/nyhedsarkiv/2022/februar-2022/nyt-patientjournalsystem-tages-i-brug-pa-fyn-20-februar",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "sydgolive3",
+      "title": "Nyt patientjournalsystem tages i brug i Sydvestjylland og Lillebælt 29. maj",
+      "publisher": "Region Syddanmark",
+      "tier": 1,
+      "url": "https://regionsyddanmark.dk/om-region-syddanmark/presse-og-nyheder/nyhedsarkiv/2022/maj-2022/nyt-patientjournalsystem-tages-i-brug-i-sydvestjylland-og-lillebaelt-29-maj",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "sydfravalg",
+      "title": "Sundhedsplatformen dumpet som EPJ-løsning i milliardstort udbud fra Region Syd",
+      "publisher": "Version2",
+      "tier": 2,
+      "url": "https://www.version2.dk/artikel/sundhedsplatformen-dumpet-leverandoer-milliardstort-epj-udbud-region-syddanmark-1079122",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "midt2013",
+      "title": "Systematics epj dækker nu hele Region Midtjylland",
+      "publisher": "Systematic",
+      "tier": 2,
+      "url": "https://da.systematic.com/healthcare/news/2013/columna-whole-central-denmark-region/",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "goedstrupnavn",
+      "title": "I dag skifter Hospitalsenheden Vest navn til Regionshospitalet Gødstrup",
+      "publisher": "Region Midtjylland",
+      "tier": 1,
+      "url": "https://www.rm.dk/om-os/aktuelt/nyheder/nyheder-2022/februar-2022/i-dag-skifter-hospitalsenheden-vest-navn-til-regionshospitalet-godstrup/",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "horsensadresse",
+      "title": "Hospitalet får ny adresse (Regionshospitalet Horsens, June 2025)",
+      "publisher": "Regionshospitalet Horsens",
+      "tier": 1,
+      "url": "https://www.fagperson.regionshospitalet-horsens.dk/presse/nyheder/nyhedsarkiv-2025/hospitalet-far-ny-adresse/",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "nordepjgolive",
+      "title": "Region Nordjylland har skiftet til ny patientjournal",
+      "publisher": "Region Nordjylland",
+      "tier": 1,
+      "url": "https://rn.dk/service/nyhedsbase-rn/2022/03/region-nordjylland-har-skiftet-til-ny-patientjournal",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "aalborgflytteplan",
+      "title": "Flytning til Hospitalsbyen (Aalborg UH move plan)",
+      "publisher": "Aalborg Universitetshospital",
+      "tier": 1,
+      "url": "https://aalborguh.rn.dk/Service/Om-Aalborg-Universitetshospital/Flytning-til-Hospitalsbyen/Flytteplan",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "aalborghistorik",
+      "title": "Historisk overblik",
+      "publisher": "Aalborg Universitetshospital",
+      "tier": 1,
+      "url": "https://aalborguh.rn.dk/Service/Om-Aalborg-Universitetshospital/Historisk-overblik",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "mvhfusion",
+      "title": "Nyt fusioneret sygehus får navnet Midt- og Vestsjællands Hospital",
+      "publisher": "Region Sjælland",
+      "tier": 1,
+      "url": "https://www.regionsjaelland.dk/nyheder/2025/nyt-fusioneret-sygehus-faar-navnet-midt-og-vestsjaellands-hospital",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "suhrename",
+      "title": "Nykøbing F. Sygehus skifter navn til Sjællands Universitetshospital, Nykøbing F.",
+      "publisher": "Sjællands Universitetshospital",
+      "tier": 1,
+      "url": "https://www.sjaellandsuniversitetshospital.dk/nyheder/2024/januar-marts/nykoebing-f-sygehus-skifter-navn-til-sjaellands-universitetshospital-nykoebing-f",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "koegedelay",
+      "title": "Tidsplan for Sjællands nye supersygehus skrider (Køge delayed to 2028)",
+      "publisher": "sn.dk",
+      "tier": 2,
+      "url": "https://www.sn.dk/art6560311/sjaelland/nyhed/tidsplan-for-sjaellands-nye-supersygehus-skrider/",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "nordsjhospdelay",
+      "title": "Voldsom stigning: Nu bliver supersygehus i Nordsjælland dobbelt så dyrt",
+      "publisher": "sn.dk",
+      "tier": 2,
+      "url": "https://www.sn.dk/art6554222/hilleroed-kommune/nyhed/voldsom-stigning-nu-bliver-supersygehus-i-nordsjaelland-dobbelt-saa-dyrt/",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "newouhdelay",
+      "title": "Nyt OUH bliver væsentligt forsinket",
+      "publisher": "TV2 Fyn",
+      "tier": 2,
+      "url": "https://www.tv2fyn.dk/fyn/nyt-ouh-bliver-vaesentligt-forsinket-jeg-er-skuffet-07feb",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "borgerforslag",
+      "title": "Borgerforslag vil afskaffe Sundhedsplatformen",
+      "publisher": "HK",
+      "tier": 2,
+      "url": "https://www.hk.dk/aktuelt/nyheder/2026/04/07/borgerforslag-vil-afskaffe-sundhedsplatformen",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "altingetkandidater",
+      "title": "Halvdelen af kandidaterne i Region Sjælland og Hovedstaden vil erstatte Sundhedsplatformen",
+      "publisher": "Altinget",
+      "tier": 2,
+      "url": "https://www.altinget.dk/artikel/halvdelen-af-kandidater-i-region-sjaelland-og-hovedstaden-vil-erstatte-sundhedsplatformen",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "sundhedsreform2024",
+      "title": "Ny organisering af sundhedsvæsenet (sundhedsreform 2024)",
+      "publisher": "Danske Regioner",
+      "tier": 1,
+      "url": "https://www.regioner.dk/sundhedsreform/viden-om-sundhedsreformen/ny-organisering-af-sundhedsvaesenet/",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "loekkeepj",
+      "title": "Løkke fastslår igen: Danmark skal have ét EPJ-system",
+      "publisher": "Version2",
+      "tier": 2,
+      "url": "https://www.version2.dk/artikel/loekke-fastslaar-igen-danmark-skal-have-et-epj-system",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "regionoest",
+      "title": "Region Østdanmark",
+      "publisher": "Region Sjælland",
+      "tier": 1,
+      "url": "https://www.regionsjaelland.dk/servicemenu/om-os/om-region-sjaelland/region-oestdanmark",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "psykreorg2026",
+      "title": "Psykiatriske centre (Region Hovedstaden psychiatry reorganisation, 1 Jan 2026)",
+      "publisher": "Region Hovedstadens Psykiatri",
+      "tier": 1,
+      "url": "https://www.psykiatri-regionh.dk/centre-og-social-tilbud/Psykiatriske-centre/Sider/default.aspx",
+      "date_accessed": "2026-08-31"
+    },
+    {
+      "key": "sundhedsdatastyrelsen",
+      "title": "About the Danish Health Data Authority",
+      "publisher": "Sundhedsdatastyrelsen",
+      "tier": 1,
+      "url": "https://english.sundhedsdatastyrelsen.dk/about-us",
+      "date_accessed": "2026-08-31"
+    }
+  ],
+  "healthAuthorities": [
+    {
+      "key": "ha_sds",
+      "country_iso2": "DK",
+      "name": "Sundhedsdatastyrelsen (Danish Health Data Authority)",
+      "level": "national",
+      "description": "National agency for health data, digital health infrastructure and health registers; oversees national health-IT coordination (Medcom operates the national health data network separately).",
+      "sourceKey": "sundhedsdatastyrelsen"
+    },
+    {
+      "key": "ha_hovedstaden",
+      "country_iso2": "DK",
+      "name": "Region Hovedstaden",
+      "level": "regional",
+      "description": "Capital Region of Denmark; owns and operates public hospitals in the Copenhagen area and Bornholm. Runs Sundhedsplatformen (Epic-based EPR). Due to merge with Region Sjælland into 'Region Østdanmark' from 1 Jan 2027 under the 2024 national health reform.",
+      "sourceKey": "regionerepj"
+    },
+    {
+      "key": "ha_sjaelland",
+      "country_iso2": "DK",
+      "name": "Region Sjælland",
+      "level": "regional",
+      "description": "Region Zealand; owns and operates public hospitals across Zealand and Lolland-Falster. Runs Sundhedsplatformen (Epic-based EPR), currently subject to political controversy including an active 2026 citizen proposal (borgerforslag) to abolish it. Due to merge with Region Hovedstaden into 'Region Østdanmark' from 1 Jan 2027.",
+      "sourceKey": "regionerepj"
+    },
+    {
+      "key": "ha_syddanmark",
+      "country_iso2": "DK",
+      "name": "Region Syddanmark",
+      "level": "regional",
+      "description": "Region of Southern Denmark; owns and operates public hospitals across Funen and South/Southwest Jutland. Runs 'EPJ SYD', a Systematic Columna CIS-based EPR, awarded 2018 and rolled out 2021-2022 after rejecting Sundhedsplatformen/Epic in the tender.",
+      "sourceKey": "sydudbud2018"
+    },
+    {
+      "key": "ha_midtjylland",
+      "country_iso2": "DK",
+      "name": "Region Midtjylland",
+      "level": "regional",
+      "description": "Central Denmark Region; owns and operates public hospitals across central Jutland. Runs 'MidtEPJ', a Systematic Columna CIS-based EPR covering the whole region since 2013 — one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "sourceKey": "midt2013"
+    },
+    {
+      "key": "ha_nordjylland",
+      "country_iso2": "DK",
+      "name": "Region Nordjylland",
+      "level": "regional",
+      "description": "North Denmark Region; owns and operates public hospitals across North Jutland. Runs 'NordEPJ', a Systematic Columna CIS-based EPR live since March 2022. Recently consolidated most Aalborg hospital functions into the new Aalborg Universitetshospital 'Hospitalsbyen' campus (opened in phases Jan-May 2026).",
+      "sourceKey": "nordepjgolive"
+    }
+  ],
+  "hospitalGroups": [
+    {
+      "key": "g_rigshospitalet",
+      "country_iso2": "DK",
+      "name": "Rigshospitalet",
+      "ownership_type": "public",
+      "notes": "National tertiary/university hospital with two campuses (Blegdamsvej and Glostrup)."
+    },
+    {
+      "key": "g_herlevgentofte",
+      "country_iso2": "DK",
+      "name": "Herlev og Gentofte Hospital",
+      "ownership_type": "public",
+      "notes": "Two-site acute/university hospital; absorbed Psykiatrisk Center Ballerup under the 1 Jan 2026 psychiatry reorganisation."
+    },
+    {
+      "key": "g_bispebjergfrederiksberg",
+      "country_iso2": "DK",
+      "name": "Bispebjerg og Frederiksberg Hospital",
+      "ownership_type": "public",
+      "notes": "Two-site acute hospital; absorbed Psykiatrisk Center København and Psykiatrisk Center Bornholm under the 1 Jan 2026 psychiatry reorganisation."
+    },
+    {
+      "key": "g_amagerhvidovre",
+      "country_iso2": "DK",
+      "name": "Amager og Hvidovre Hospital",
+      "ownership_type": "public",
+      "notes": "Two-site acute/university hospital; absorbed Psykiatrisk Center Amager, Psykiatrisk Center Glostrup and Psykiatrisk Center Sct. Hans (forensic) under the 1 Jan 2026 psychiatry reorganisation."
+    },
+    {
+      "key": "g_nordsjaellandshospital",
+      "country_iso2": "DK",
+      "name": "Nordsjællands Hospital",
+      "ownership_type": "public",
+      "notes": "Multi-site acute hospital (Hillerød main site, Frederikssund, Helsingør outpatient); absorbed Psykiatrisk Center Nordsjælland under the 1 Jan 2026 psychiatry reorganisation. New 'Nyt Hospital Nordsjælland' supersygehus under construction in Hillerød, delayed and over budget, phased opening from late 2026."
+    },
+    {
+      "key": "g_bornholmshospital",
+      "country_iso2": "DK",
+      "name": "Bornholms Hospital",
+      "ownership_type": "public",
+      "notes": "Island hospital, own administrative unit reporting to Region Hovedstaden."
+    },
+    {
+      "key": "g_suh",
+      "country_iso2": "DK",
+      "name": "Sjællands Universitetshospital (SUH)",
+      "ownership_type": "public",
+      "notes": "Zealand's university hospital group, spanning Køge, Roskilde and Nykøbing F. (renamed from Nykøbing F. Sygehus, Jan-Mar 2024). New 'supersygehus' consolidation build in Køge delayed to 2028."
+    },
+    {
+      "key": "g_mvh",
+      "country_iso2": "DK",
+      "name": "Midt- og Vestsjællands Hospital (MVH)",
+      "ownership_type": "public",
+      "notes": "Formed 1 January 2026 by merging Næstved, Slagelse og Ringsted Sygehuse (NSR) with Psykiatrien Region Sjælland into one combined somatic+psychiatric entity."
+    },
+    {
+      "key": "g_holbaeksygehus",
+      "country_iso2": "DK",
+      "name": "Holbæk Sygehus",
+      "ownership_type": "public",
+      "notes": "Remains administratively independent of SUH and MVH; covers Holbæk plus Nykøbing Sj. and Kalundborg satellite sites."
+    },
+    {
+      "key": "g_filadelfia",
+      "country_iso2": "DK",
+      "name": "Epilepsihospitalet Filadelfia",
+      "ownership_type": "public",
+      "notes": "Self-governing (selvejende) specialist epilepsy hospital operating under a driftsoverenskomst (service contract) with Region Sjælland rather than as a directly-run regional hospital."
+    },
+    {
+      "key": "g_ouh",
+      "country_iso2": "DK",
+      "name": "Odense Universitetshospital (OUH)",
+      "ownership_type": "public",
+      "notes": "Region Syddanmark's university hospital group: Odense main campus plus Svendborg, Nyborg and Ærø satellites. 'Nyt OUH' new-build supersygehus under construction adjacent to the SDU campus, repeatedly delayed (not ready for 2027 patient move-in as previously planned)."
+    },
+    {
+      "key": "g_sygehussonderjylland",
+      "country_iso2": "DK",
+      "name": "Sygehus Sønderjylland",
+      "ownership_type": "public",
+      "notes": "Covers Aabenraa, Sønderborg and Tønder; first EPJ SYD go-live site (3 Oct 2021)."
+    },
+    {
+      "key": "g_sygehuslillebaelt",
+      "country_iso2": "DK",
+      "name": "Sygehus Lillebælt",
+      "ownership_type": "public",
+      "notes": "Officially a three-site entity today: Kolding, Vejle and Middelfart ('nærhospital'). Former Fredericia and Give sites have been downgraded to a sundhedshus/day clinic respectively."
+    },
+    {
+      "key": "g_sydvestjysksygehus",
+      "country_iso2": "DK",
+      "name": "Sydvestjysk Sygehus (SVS)",
+      "ownership_type": "public",
+      "notes": "Covers Esbjerg (main site) and Grindsted (day hospital); Brørup site downgraded to a hearing/radiology clinic."
+    },
+    {
+      "key": "g_psykiatrisyddanmark",
+      "country_iso2": "DK",
+      "name": "Psykiatrien i Region Syddanmark",
+      "ownership_type": "public",
+      "notes": "Region-wide psychiatric hospital service, separate administrative entity from the four somatic hospital groups."
+    },
+    {
+      "key": "g_auh",
+      "country_iso2": "DK",
+      "name": "Aarhus Universitetshospital (AUH)",
+      "ownership_type": "public",
+      "notes": "Region Midtjylland's university hospital; single somatic campus at Skejby since the former Tage-Hansens Gade/Kommunehospital site closed. Psychiatry relocated to the same Skejby campus (~2019); a forensic-psychiatry inpatient expansion is under OPP construction there."
+    },
+    {
+      "key": "g_randers",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Randers",
+      "ownership_type": "public",
+      "notes": "Standalone acute/general hospital, includes co-located Regionspsykiatrien Randers."
+    },
+    {
+      "key": "g_horsens",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Horsens",
+      "ownership_type": "public",
+      "notes": "Standalone acute/general hospital; official address changed from Sundvej 30 to Strandpromenaden 35 in June 2025 (same site, new Sterilcentral build). Includes co-located Regionspsykiatrien Horsens."
+    },
+    {
+      "key": "g_hospitalsenhedmidt",
+      "country_iso2": "DK",
+      "name": "Hospitalsenhed Midt",
+      "ownership_type": "public",
+      "notes": "Groups Regionshospitalet Viborg, Silkeborg, Skive and Hammel Neurocenter, plus co-located psychiatry."
+    },
+    {
+      "key": "g_goedstrup",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Gødstrup",
+      "ownership_type": "public",
+      "notes": "Renamed from Hospitalsenheden Vest in February 2022. New-build 'supersygehus' near Herning that fully absorbed the former Herning and Holstebro hospitals' inpatient/acute functions by 2021-2022; those sites are now outpatient sundhedshuse only."
+    },
+    {
+      "key": "g_aalborguh",
+      "country_iso2": "DK",
+      "name": "Aalborg Universitetshospital",
+      "ownership_type": "public",
+      "notes": "Region Nordjylland's university hospital. New main campus 'Hospitalsbyen' (Gistrup) opened in three phases Jan-May 2026, officially inaugurated 12 May 2026; the old Aalborg Nord site (Reberbansgade) has been fully vacated and Aalborg Syd (Hobrovej) partially vacated. Psykiatrien (regional psychiatry) was merged into/equalised with AUH from 1 Jan 2026. Also administratively includes former Sygehus Thy-Mors sites (Thisted, from 1 May 2018) and former Hobro/Farsø sites (from 2014)."
+    },
+    {
+      "key": "g_rhnordjylland",
+      "country_iso2": "DK",
+      "name": "Regionshospital Nordjylland",
+      "ownership_type": "public",
+      "notes": "Formed 2016 from merger of Sygehus Vendsyssel and Sygehus Thy-Mors; after the Thisted/Nykøbing site moved under Aalborg UH (2018), today effectively covers the former Sygehus Vendsyssel footprint: Hjørring, Frederikshavn, Skagen and Neuroenhed Nord (Brønderslev)."
+    },
+    {
+      "key": "g_aleris_dk",
+      "country_iso2": "DK",
+      "name": "Aleris (Aleris-Hamlet) Danmark",
+      "ownership_type": "private",
+      "notes": "National private hospital/clinic chain with sites across multiple regions; clinical/EPR system not publicly documented at any Danish site."
+    },
+    {
+      "key": "g_capio_dk",
+      "country_iso2": "DK",
+      "name": "Capio Danmark",
+      "ownership_type": "private",
+      "notes": "National private hospital chain (part of Ramsay Santé group) with sites across multiple regions; clinical/EPR system not publicly documented at any Danish site."
+    }
+  ],
+  "hospitalSites": [
+    {
+      "key": "s_dk_rigshospitalet_blegdamsvej",
+      "country_iso2": "DK",
+      "name": "Rigshospitalet (Blegdamsvej)",
+      "city": "København Ø",
+      "address": "Blegdamsvej 9",
+      "postcode": "2100",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Main national tertiary/university campus.",
+      "hospitalGroupKey": "g_rigshospitalet"
+    },
+    {
+      "key": "s_dk_rigshospitalet_glostrup",
+      "country_iso2": "DK",
+      "name": "Rigshospitalet Glostrup",
+      "city": "Glostrup",
+      "address": "Valdemar Hansens Vej 1-23",
+      "postcode": "2600",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Second Rigshospitalet campus (former Glostrup Hospital); neuro and other specialties.",
+      "hospitalGroupKey": "g_rigshospitalet"
+    },
+    {
+      "key": "s_dk_herlev",
+      "country_iso2": "DK",
+      "name": "Herlev Hospital",
+      "city": "Herlev",
+      "address": "Herlev Ringvej 75",
+      "postcode": "2730",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_herlevgentofte"
+    },
+    {
+      "key": "s_dk_gentofte",
+      "country_iso2": "DK",
+      "name": "Gentofte Hospital",
+      "city": "Hellerup",
+      "address": "Kildegårdsvej 28",
+      "postcode": "2900",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Medical/geriatric acute site.",
+      "hospitalGroupKey": "g_herlevgentofte"
+    },
+    {
+      "key": "s_dk_bispebjerg",
+      "country_iso2": "DK",
+      "name": "Bispebjerg Hospital",
+      "city": "København NV",
+      "address": "Bispebjerg Bakke 23",
+      "postcode": "2400",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_bispebjergfrederiksberg"
+    },
+    {
+      "key": "s_dk_frederiksberg",
+      "country_iso2": "DK",
+      "name": "Frederiksberg Hospital",
+      "city": "Frederiksberg",
+      "address": "Nordre Fasanvej 57",
+      "postcode": "2000",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Elective/planned care site.",
+      "hospitalGroupKey": "g_bispebjergfrederiksberg"
+    },
+    {
+      "key": "s_dk_amager",
+      "country_iso2": "DK",
+      "name": "Amager Hospital",
+      "city": "København S",
+      "address": "Italiensvej 1",
+      "postcode": "2300",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_amagerhvidovre"
+    },
+    {
+      "key": "s_dk_hvidovre",
+      "country_iso2": "DK",
+      "name": "Hvidovre Hospital",
+      "city": "Hvidovre",
+      "address": "Kettegård Allé 30",
+      "postcode": "2650",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_amagerhvidovre"
+    },
+    {
+      "key": "s_dk_nsh_hillerod",
+      "country_iso2": "DK",
+      "name": "Nordsjællands Hospital - Hillerød",
+      "city": "Hillerød",
+      "address": "Dyrehavevej 29",
+      "postcode": "3400",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Main site; new 'Nyt Hospital Nordsjælland' supersygehus under construction here, delayed to phased opening from late 2026.",
+      "hospitalGroupKey": "g_nordsjaellandshospital"
+    },
+    {
+      "key": "s_dk_nsh_frederikssund",
+      "country_iso2": "DK",
+      "name": "Nordsjællands Hospital - Frederikssund",
+      "city": "Frederikssund",
+      "address": "Frederikssundsvej 30",
+      "postcode": "3600",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Secondary acute site.",
+      "hospitalGroupKey": "g_nordsjaellandshospital"
+    },
+    {
+      "key": "s_dk_nsh_helsingoer",
+      "country_iso2": "DK",
+      "name": "Nordsjællands Hospital - Sundhedshuset Helsingør",
+      "city": "Helsingør",
+      "address": "Birkedalsvej 35V, st.",
+      "postcode": "3000",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Outpatient health-house, not a full inpatient hospital.",
+      "hospitalGroupKey": "g_nordsjaellandshospital"
+    },
+    {
+      "key": "s_dk_bornholm",
+      "country_iso2": "DK",
+      "name": "Bornholms Hospital",
+      "city": "Rønne",
+      "address": "Ullasvej 8",
+      "postcode": "3700",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Island hospital.",
+      "hospitalGroupKey": "g_bornholmshospital"
+    },
+    {
+      "key": "s_dk_pc_kobenhavn",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Center København",
+      "city": "København Ø",
+      "address": "Edel Sauntes Allé 10",
+      "postcode": "2100",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_bispebjergfrederiksberg"
+    },
+    {
+      "key": "s_dk_pc_bornholm",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Center Bornholm",
+      "city": "Rønne",
+      "address": "Helsevej 3-5",
+      "postcode": "3700",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_bispebjergfrederiksberg"
+    },
+    {
+      "key": "s_dk_pc_ballerup",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Center Ballerup",
+      "city": "Ballerup",
+      "address": "Maglevænget 2",
+      "postcode": "2750",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_herlevgentofte"
+    },
+    {
+      "key": "s_dk_pc_nordsjaelland",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Center Nordsjælland",
+      "city": "Hillerød",
+      "address": "Dyrehavevej 48",
+      "postcode": "3400",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_nordsjaellandshospital"
+    },
+    {
+      "key": "s_dk_pc_amager",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Center Amager",
+      "city": "København S",
+      "address": "Digevej 110",
+      "postcode": "2300",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_amagerhvidovre"
+    },
+    {
+      "key": "s_dk_pc_glostrup",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Center Glostrup",
+      "city": "Glostrup",
+      "address": "Nordstjernevej 41",
+      "postcode": "2600",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_amagerhvidovre"
+    },
+    {
+      "key": "s_dk_pc_scthans",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Center Sct. Hans",
+      "city": "Roskilde",
+      "address": "Boserupvej 2",
+      "postcode": "4000",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "Forensic psychiatry; physically located in Roskilde Municipality (Region Sjælland geography) but administratively part of Region Hovedstaden.",
+      "hospitalGroupKey": "g_amagerhvidovre"
+    },
+    {
+      "key": "s_dk_aleris_kobenhavn",
+      "country_iso2": "DK",
+      "name": "Aleris Hospital København",
+      "city": "Søborg",
+      "address": "Gyngemose Parkvej 66",
+      "postcode": "2860",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Orthopaedic/surgical day hospital.",
+      "hospitalGroupKey": "g_aleris_dk"
+    },
+    {
+      "key": "s_dk_capio_hellerup",
+      "country_iso2": "DK",
+      "name": "Capio Privathospital Hellerup",
+      "city": "Hellerup",
+      "address": "Tuborg Boulevard 1",
+      "postcode": "2900",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Incorporates the former Capio CFR Hellerup (ex-CFR Hospitaler, acquired by Capio); orthopaedic, plastic, GI and urology.",
+      "hospitalGroupKey": "g_capio_dk"
+    },
+    {
+      "key": "s_dk_suh_koege",
+      "country_iso2": "DK",
+      "name": "Sjællands Universitetshospital, Køge",
+      "city": "Køge",
+      "address": "Lykkebækvej 1",
+      "postcode": "4600",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Main SUH site; new consolidation-build supersygehus in progress, delayed to 2028.",
+      "hospitalGroupKey": "g_suh"
+    },
+    {
+      "key": "s_dk_suh_roskilde",
+      "country_iso2": "DK",
+      "name": "Sjællands Universitetshospital, Roskilde",
+      "city": "Roskilde",
+      "address": "Sygehusvej 10",
+      "postcode": "4000",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Planned/elective care plus minor emergency.",
+      "hospitalGroupKey": "g_suh"
+    },
+    {
+      "key": "s_dk_suh_nykobingf",
+      "country_iso2": "DK",
+      "name": "Sjællands Universitetshospital, Nykøbing F.",
+      "city": "Nykøbing Falster",
+      "address": "Fjordvej 15",
+      "postcode": "4800",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Renamed from Nykøbing F. Sygehus, Jan-Mar 2024.",
+      "hospitalGroupKey": "g_suh"
+    },
+    {
+      "key": "s_dk_nakskov",
+      "country_iso2": "DK",
+      "name": "Nakskov Sundheds- og Akuthus",
+      "city": "Nakskov",
+      "address": "Hoskiærsvej 17",
+      "postcode": "4900",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Emergency/injury clinic satellite; original full hospital closed.",
+      "hospitalGroupKey": "g_suh"
+    },
+    {
+      "key": "s_dk_mvh_slagelse",
+      "country_iso2": "DK",
+      "name": "Midt- og Vestsjællands Hospital, Slagelse",
+      "city": "Slagelse",
+      "address": "Ingemannsvej 30",
+      "postcode": "4200",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_mvh"
+    },
+    {
+      "key": "s_dk_mvh_naestved",
+      "country_iso2": "DK",
+      "name": "Midt- og Vestsjællands Hospital, Næstved",
+      "city": "Næstved",
+      "address": "Ringstedgade 61",
+      "postcode": "4700",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Planned/elective care plus minor emergency.",
+      "hospitalGroupKey": "g_mvh"
+    },
+    {
+      "key": "s_dk_mvh_ringsted",
+      "country_iso2": "DK",
+      "name": "Midt- og Vestsjællands Hospital, Ringsted",
+      "city": "Ringsted",
+      "address": "Nørregade 50A",
+      "postcode": "4100",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Diagnostic/outpatient clinic only (blood tests, EKG); original hospital building closed.",
+      "hospitalGroupKey": "g_mvh"
+    },
+    {
+      "key": "s_dk_psyk_slagelse",
+      "country_iso2": "DK",
+      "name": "Psykiatrien Vest, Slagelse",
+      "city": "Slagelse",
+      "address": "Fælledvej 6",
+      "postcode": "4200",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "Includes forensic psychiatry and a national secure unit (Sikringsafdelingen), opened 2015.",
+      "hospitalGroupKey": "g_mvh"
+    },
+    {
+      "key": "s_dk_psyk_vordingborg",
+      "country_iso2": "DK",
+      "name": "Psykiatrien Syd, Vordingborg (Oringe)",
+      "city": "Vordingborg",
+      "address": "Færgegaardsvej 15",
+      "postcode": "4760",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_mvh"
+    },
+    {
+      "key": "s_dk_psyk_roskilde",
+      "country_iso2": "DK",
+      "name": "Psykiatrien Øst, Roskilde",
+      "city": "Roskilde",
+      "address": "Smedegade 16",
+      "postcode": "4000",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "Includes child/adolescent psychiatry.",
+      "hospitalGroupKey": "g_mvh"
+    },
+    {
+      "key": "s_dk_holbaek",
+      "country_iso2": "DK",
+      "name": "Holbæk Sygehus",
+      "city": "Holbæk",
+      "address": "Smedelundsgade 60",
+      "postcode": "4300",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_holbaeksygehus"
+    },
+    {
+      "key": "s_dk_nykobingsj",
+      "country_iso2": "DK",
+      "name": "Nykøbing Sjælland Skadeklinik",
+      "city": "Nykøbing Sj",
+      "address": "Sygehusvej 5",
+      "postcode": "4500",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Emergency/injury clinic satellite; original full hospital closed.",
+      "hospitalGroupKey": "g_holbaeksygehus"
+    },
+    {
+      "key": "s_dk_kalundborg",
+      "country_iso2": "DK",
+      "name": "Kalundborg Sundheds- og Akuthus",
+      "city": "Kalundborg",
+      "address": "Nørre Allé 31",
+      "postcode": "4400",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Emergency clinic plus outpatient clinics; original full hospital closed.",
+      "hospitalGroupKey": "g_holbaeksygehus"
+    },
+    {
+      "key": "s_dk_filadelfia",
+      "country_iso2": "DK",
+      "name": "Epilepsihospitalet Filadelfia",
+      "city": "Dianalund",
+      "address": "Kolonivej 1",
+      "postcode": "4293",
+      "site_type": "private_specialist",
+      "ownership_type": "public",
+      "notes": "Self-governing specialist epilepsy/neurorehabilitation hospital under a driftsoverenskomst with Region Sjælland; EPR system not publicly confirmed (possible exception to Sundhedsplatformen default).",
+      "hospitalGroupKey": "g_filadelfia"
+    },
+    {
+      "key": "s_dk_aleris_ringsted",
+      "country_iso2": "DK",
+      "name": "Aleris Ringsted",
+      "city": "Ringsted",
+      "address": "Haslevvej 13",
+      "postcode": "4100",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Formerly Privathospitalet Valdemar.",
+      "hospitalGroupKey": "g_aleris_dk"
+    },
+    {
+      "key": "s_dk_roskildeprivat",
+      "country_iso2": "DK",
+      "name": "Roskilde Privathospital",
+      "city": "Roskilde",
+      "address": "Ringstedgade 19",
+      "postcode": "4000",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Independent private hospital; plastic surgery, gynaecology, GI/urological surgery."
+    },
+    {
+      "key": "s_dk_skovhus",
+      "country_iso2": "DK",
+      "name": "Skovhus Privathospital",
+      "city": "Nykøbing Sj",
+      "address": "Annebergparken 14",
+      "postcode": "4500",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Independent private psychiatric hospital (child/adolescent/adult)."
+    },
+    {
+      "key": "s_dk_ouh_odense",
+      "country_iso2": "DK",
+      "name": "Odense Universitetshospital (OUH)",
+      "city": "Odense C",
+      "address": "J.B. Winsløws Vej 4",
+      "postcode": "5000",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Main campus; 'Nyt OUH' new-build adjacent, repeatedly delayed.",
+      "hospitalGroupKey": "g_ouh"
+    },
+    {
+      "key": "s_dk_ouh_svendborg",
+      "country_iso2": "DK",
+      "name": "OUH Svendborg Sygehus",
+      "city": "Svendborg",
+      "address": "Baagøes Allé 15",
+      "postcode": "5700",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_ouh"
+    },
+    {
+      "key": "s_dk_ouh_nyborg",
+      "country_iso2": "DK",
+      "name": "OUH Nyborg Sygehus",
+      "city": "Nyborg",
+      "address": "Vestergade 17",
+      "postcode": "5800",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Specialist/elective site.",
+      "hospitalGroupKey": "g_ouh"
+    },
+    {
+      "key": "s_dk_ouh_aeroe",
+      "country_iso2": "DK",
+      "name": "OUH Ærø Sygehus",
+      "city": "Ærøskøbing",
+      "address": "Sygehusvej 18",
+      "postcode": "5970",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Small island/local hospital.",
+      "hospitalGroupKey": "g_ouh"
+    },
+    {
+      "key": "s_dk_syd_aabenraa",
+      "country_iso2": "DK",
+      "name": "Sygehus Sønderjylland, Aabenraa",
+      "city": "Aabenraa",
+      "address": "Kresten Philipsens Vej 15",
+      "postcode": "6200",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "First EPJ SYD go-live site, 3 Oct 2021; includes co-located psychiatric department.",
+      "hospitalGroupKey": "g_sygehussonderjylland"
+    },
+    {
+      "key": "s_dk_syd_sonderborg",
+      "country_iso2": "DK",
+      "name": "Sygehus Sønderjylland, Sønderborg",
+      "city": "Sønderborg",
+      "address": "Sydvang 1",
+      "postcode": "6400",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_sygehussonderjylland"
+    },
+    {
+      "key": "s_dk_syd_tonder",
+      "country_iso2": "DK",
+      "name": "Sygehus Sønderjylland, Tønder",
+      "city": "Tønder",
+      "address": "Carstensgade 6-10",
+      "postcode": "6270",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Local/acute satellite.",
+      "hospitalGroupKey": "g_sygehussonderjylland"
+    },
+    {
+      "key": "s_dk_lb_kolding",
+      "country_iso2": "DK",
+      "name": "Sygehus Lillebælt, Kolding",
+      "city": "Kolding",
+      "address": "Sygehusvej 24",
+      "postcode": "6000",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_sygehuslillebaelt"
+    },
+    {
+      "key": "s_dk_lb_vejle",
+      "country_iso2": "DK",
+      "name": "Sygehus Lillebælt, Vejle",
+      "city": "Vejle",
+      "address": "Beriderbakken 4",
+      "postcode": "7100",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_sygehuslillebaelt"
+    },
+    {
+      "key": "s_dk_lb_middelfart",
+      "country_iso2": "DK",
+      "name": "Sygehus Lillebælt, Middelfart (nærhospital)",
+      "city": "Middelfart",
+      "address": "Østre Hougvej 55",
+      "postcode": "5500",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Denmark's first 'nærhospital' (reduced-acuity local hospital).",
+      "hospitalGroupKey": "g_sygehuslillebaelt"
+    },
+    {
+      "key": "s_dk_svs_esbjerg",
+      "country_iso2": "DK",
+      "name": "Sydvestjysk Sygehus, Esbjerg",
+      "city": "Esbjerg",
+      "address": "Finsensgade 35",
+      "postcode": "6700",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Main SVS site.",
+      "hospitalGroupKey": "g_sydvestjysksygehus"
+    },
+    {
+      "key": "s_dk_svs_grindsted",
+      "country_iso2": "DK",
+      "name": "Sydvestjysk Sygehus, Grindsted",
+      "city": "Grindsted",
+      "address": "Engparken 1",
+      "postcode": "7200",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Day-hospital satellite.",
+      "hospitalGroupKey": "g_sydvestjysksygehus"
+    },
+    {
+      "key": "s_dk_psyk_odense",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Afdeling Odense",
+      "city": "Odense C",
+      "address": "J.B. Winsløws Vej 18",
+      "postcode": "5000",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_psykiatrisyddanmark"
+    },
+    {
+      "key": "s_dk_psyk_middelfart",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Afdeling Middelfart",
+      "city": "Middelfart",
+      "address": "Østre Hougvej 70",
+      "postcode": "5500",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_psykiatrisyddanmark"
+    },
+    {
+      "key": "s_dk_psyk_vejle",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Afdeling Vejle",
+      "city": "Vejle",
+      "address": "Nordbanen 5",
+      "postcode": "7100",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_psykiatrisyddanmark"
+    },
+    {
+      "key": "s_dk_psyk_esbjerg",
+      "country_iso2": "DK",
+      "name": "Psykiatrisk Afdeling Esbjerg",
+      "city": "Esbjerg N",
+      "address": "Gl. Vardevej 101",
+      "postcode": "6715",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_psykiatrisyddanmark"
+    },
+    {
+      "key": "s_dk_aleris_odense",
+      "country_iso2": "DK",
+      "name": "Aleris Odense",
+      "city": "Odense C",
+      "address": "J.B. Winsløws Vej 17B",
+      "postcode": "5000",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "",
+      "hospitalGroupKey": "g_aleris_dk"
+    },
+    {
+      "key": "s_dk_capio_odense",
+      "country_iso2": "DK",
+      "name": "Capio Privathospital Odense",
+      "city": "Odense C",
+      "address": "Pantheonsgade 25",
+      "postcode": "5000",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "",
+      "hospitalGroupKey": "g_capio_dk"
+    },
+    {
+      "key": "s_dk_gigthospital",
+      "country_iso2": "DK",
+      "name": "Dansk Gigthospital",
+      "city": "Sønderborg",
+      "address": "Engelshøjgade 9A",
+      "postcode": "6400",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Independent self-owned rheumatology specialist hospital."
+    },
+    {
+      "key": "s_dk_molholm",
+      "country_iso2": "DK",
+      "name": "Privathospitalet Mølholm",
+      "city": "Vejle Øst",
+      "address": "Sysselvej 8",
+      "postcode": "7120",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Part of the Privathospitalet Danmark group; general/elective surgical hospital."
+    },
+    {
+      "key": "s_dk_auh_skejby",
+      "country_iso2": "DK",
+      "name": "Aarhus Universitetshospital (AUH), Skejby",
+      "city": "Aarhus N",
+      "address": "Palle Juul-Jensens Boulevard 99",
+      "postcode": "8200",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "AUH's only current somatic campus, incl. co-located psychiatry (Psykiatrien AUH).",
+      "hospitalGroupKey": "g_auh"
+    },
+    {
+      "key": "s_dk_randers",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Randers",
+      "city": "Randers NØ",
+      "address": "Skovlyvej 15",
+      "postcode": "8930",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Includes co-located Regionspsykiatrien Randers.",
+      "hospitalGroupKey": "g_randers"
+    },
+    {
+      "key": "s_dk_horsens",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Horsens",
+      "city": "Horsens",
+      "address": "Strandpromenaden 35",
+      "postcode": "8700",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Address changed from Sundvej 30, June 2025 (same site, new Sterilcentral build). Includes co-located Regionspsykiatrien Horsens.",
+      "hospitalGroupKey": "g_horsens"
+    },
+    {
+      "key": "s_dk_viborg",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Viborg",
+      "city": "Viborg",
+      "address": "Heibergs Allé 5A",
+      "postcode": "8800",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Includes co-located psychiatry.",
+      "hospitalGroupKey": "g_hospitalsenhedmidt"
+    },
+    {
+      "key": "s_dk_silkeborg",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Silkeborg",
+      "city": "Silkeborg",
+      "address": "Falkevej 1A",
+      "postcode": "8600",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Acute/elective (day surgery, rheumatology); includes co-located psychiatry.",
+      "hospitalGroupKey": "g_hospitalsenhedmidt"
+    },
+    {
+      "key": "s_dk_skive",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Skive",
+      "city": "Skive",
+      "address": "Resenvej 25",
+      "postcode": "7800",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Includes co-located psychiatry.",
+      "hospitalGroupKey": "g_hospitalsenhedmidt"
+    },
+    {
+      "key": "s_dk_hammel",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Hammel Neurocenter",
+      "city": "Hammel",
+      "address": "Voldbyvej 15A",
+      "postcode": "8450",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Highly specialised neurorehabilitation.",
+      "hospitalGroupKey": "g_hospitalsenhedmidt"
+    },
+    {
+      "key": "s_dk_goedstrup",
+      "country_iso2": "DK",
+      "name": "Regionshospitalet Gødstrup",
+      "city": "Herning",
+      "address": "Hospitalsparken 15",
+      "postcode": "7400",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "New-build 'supersygehus', phased opening 2021-2023, renamed from Hospitalsenheden Vest Feb 2022; absorbed former Herning and Holstebro inpatient functions. Includes co-located Regionspsykiatrien Gødstrup.",
+      "hospitalGroupKey": "g_goedstrup"
+    },
+    {
+      "key": "s_dk_aleris_aarhus",
+      "country_iso2": "DK",
+      "name": "Aleris (Aleris-Hamlet) Aarhus",
+      "city": "Aarhus N",
+      "address": "Brendstrupgårdsvej 21A",
+      "postcode": "8200",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "",
+      "hospitalGroupKey": "g_aleris_dk"
+    },
+    {
+      "key": "s_dk_aros",
+      "country_iso2": "DK",
+      "name": "AROS Privathospital",
+      "city": "Aarhus N",
+      "address": "Skejbyparken 154",
+      "postcode": "8200",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": ""
+    },
+    {
+      "key": "s_dk_capio_aarhus",
+      "country_iso2": "DK",
+      "name": "Capio Aarhus",
+      "city": "Aarhus C",
+      "address": "Margrethepladsen 3",
+      "postcode": "8000",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "",
+      "hospitalGroupKey": "g_capio_dk"
+    },
+    {
+      "key": "s_dk_capio_viborg",
+      "country_iso2": "DK",
+      "name": "Capio Viborg",
+      "city": "Viborg",
+      "address": "Stadion Allé 7, 1.",
+      "postcode": "8800",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Imaging/MR-focused.",
+      "hospitalGroupKey": "g_capio_dk"
+    },
+    {
+      "key": "s_dk_aalborg_hospitalsbyen",
+      "country_iso2": "DK",
+      "name": "Aalborg Universitetshospital, Hospitalsbyen",
+      "city": "Gistrup",
+      "address": "Hospitalsbyen 1",
+      "postcode": "9260",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "New main campus; phased patient move-in Jan-May 2026, officially inaugurated 12 May 2026.",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_aalborg_syd",
+      "country_iso2": "DK",
+      "name": "Aalborg Universitetshospital, Syd",
+      "city": "Aalborg",
+      "address": "Hobrovej 18-22",
+      "postcode": "9000",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Partially vacated 2026; retains outpatient clinics, day surgery and admin functions.",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_aalborg_thisted",
+      "country_iso2": "DK",
+      "name": "Aalborg Universitetshospital, Thisted",
+      "city": "Thisted",
+      "address": "Højtoftevej 2",
+      "postcode": "7700",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Has its own emergency reception (Akutmodtagelse); former Sygehus Thy-Mors site, under Aalborg UH since 1 May 2018.",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_aalborg_farso",
+      "country_iso2": "DK",
+      "name": "Aalborg Universitetshospital, Farsø",
+      "city": "Farsø",
+      "address": "Højgårdsvej 11",
+      "postcode": "9640",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Elective orthopaedic surgery centre; under Aalborg UH since 2014.",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_aalborg_hobro",
+      "country_iso2": "DK",
+      "name": "Aalborg Universitetshospital, Hobro",
+      "city": "Hobro",
+      "address": "Stolbjergvej 8",
+      "postcode": "9500",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Medical department; under Aalborg UH since 2014.",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_aalborg_havrevangen",
+      "country_iso2": "DK",
+      "name": "Aalborg, Havrevangen (Vejgaard)",
+      "city": "Aalborg",
+      "address": "Havrevangen 1",
+      "postcode": "9000",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Specialist outpatient: occupational/environmental medicine, functional disorders, hearing clinic.",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_pc_moelleparkvej",
+      "country_iso2": "DK",
+      "name": "Aalborg Psykiatriske Sygehus (Mølleparkvej)",
+      "city": "Aalborg",
+      "address": "Mølleparkvej 10",
+      "postcode": "9000",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "Merged into Aalborg UH from 1 Jan 2026 (formerly Psykiatrien Region Nordjylland).",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_pc_brandevej",
+      "country_iso2": "DK",
+      "name": "Psykiatrien, Brandevej",
+      "city": "Aalborg Ø",
+      "address": "Brandevej 5",
+      "postcode": "9220",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "Adult inpatient psychiatry; merged into Aalborg UH from 1 Jan 2026.",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_pc_bronderslev",
+      "country_iso2": "DK",
+      "name": "Brønderslev Psykiatriske Sygehus",
+      "city": "Brønderslev",
+      "address": "Hjørringvej 180",
+      "postcode": "9700",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "notes": "Merged into Aalborg UH from 1 Jan 2026.",
+      "hospitalGroupKey": "g_aalborguh"
+    },
+    {
+      "key": "s_dk_rhn_hjorring",
+      "country_iso2": "DK",
+      "name": "Regionshospital Nordjylland, Hjørring",
+      "city": "Hjørring",
+      "address": "Bispensgade 37",
+      "postcode": "9800",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "",
+      "hospitalGroupKey": "g_rhnordjylland"
+    },
+    {
+      "key": "s_dk_rhn_frederikshavn",
+      "country_iso2": "DK",
+      "name": "Regionshospital Nordjylland, Frederikshavn",
+      "city": "Frederikshavn",
+      "address": "Barfredsvej 83",
+      "postcode": "9900",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "notes": "Includes co-located Neuroenhed Nord Frederikshavn.",
+      "hospitalGroupKey": "g_rhnordjylland"
+    },
+    {
+      "key": "s_dk_skagen_gigt",
+      "country_iso2": "DK",
+      "name": "Skagen Gigt- og Rygcenter",
+      "city": "Skagen",
+      "address": "Hans Baghs Vej 25",
+      "postcode": "9990",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Rheumatology/spine outpatient centre.",
+      "hospitalGroupKey": "g_rhnordjylland"
+    },
+    {
+      "key": "s_dk_neuroenhed_bronderslev",
+      "country_iso2": "DK",
+      "name": "Neuroenhed Nord, Brønderslev",
+      "city": "Brønderslev",
+      "address": "Nørregade 77",
+      "postcode": "9700",
+      "site_type": "other",
+      "ownership_type": "public",
+      "notes": "Neurorehabilitation.",
+      "hospitalGroupKey": "g_rhnordjylland"
+    },
+    {
+      "key": "s_dk_aleris_aalborg",
+      "country_iso2": "DK",
+      "name": "Aleris Aalborg",
+      "city": "Aalborg SV",
+      "address": "Sofiendalsvej 97",
+      "postcode": "9200",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "",
+      "hospitalGroupKey": "g_aleris_dk"
+    },
+    {
+      "key": "s_dk_capio_aalborg",
+      "country_iso2": "DK",
+      "name": "Capio Privathospital Aalborg (Kennedy Arkaden)",
+      "city": "Aalborg",
+      "address": "John F. Kennedys Plads 1",
+      "postcode": "9000",
+      "site_type": "private_specialist",
+      "ownership_type": "private",
+      "notes": "Relocated from Skørping, Oct 2021.",
+      "hospitalGroupKey": "g_capio_dk"
+    }
+  ],
+  "deployments": [
+    {
+      "key": "d_s_dk_rigshospitalet_blegdamsvej_epr",
+      "hospitalSiteKey": "s_dk_rigshospitalet_blegdamsvej",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_rigshospitalet_glostrup_epr",
+      "hospitalSiteKey": "s_dk_rigshospitalet_glostrup",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_herlev_epr",
+      "hospitalSiteKey": "s_dk_herlev",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_gentofte_epr",
+      "hospitalSiteKey": "s_dk_gentofte",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_bispebjerg_epr",
+      "hospitalSiteKey": "s_dk_bispebjerg",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_frederiksberg_epr",
+      "hospitalSiteKey": "s_dk_frederiksberg",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_amager_epr",
+      "hospitalSiteKey": "s_dk_amager",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_hvidovre_epr",
+      "hospitalSiteKey": "s_dk_hvidovre",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_nsh_hillerod_epr",
+      "hospitalSiteKey": "s_dk_nsh_hillerod",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_nsh_frederikssund_epr",
+      "hospitalSiteKey": "s_dk_nsh_frederikssund",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_nsh_helsingoer_epr",
+      "hospitalSiteKey": "s_dk_nsh_helsingoer",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_bornholm_epr",
+      "hospitalSiteKey": "s_dk_bornholm",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_kobenhavn_epr",
+      "hospitalSiteKey": "s_dk_pc_kobenhavn",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_bornholm_epr",
+      "hospitalSiteKey": "s_dk_pc_bornholm",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_ballerup_epr",
+      "hospitalSiteKey": "s_dk_pc_ballerup",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_nordsjaelland_epr",
+      "hospitalSiteKey": "s_dk_pc_nordsjaelland",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_amager_epr",
+      "hospitalSiteKey": "s_dk_pc_amager",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_glostrup_epr",
+      "hospitalSiteKey": "s_dk_pc_glostrup",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_scthans_epr",
+      "hospitalSiteKey": "s_dk_pc_scthans",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_suh_koege_epr",
+      "hospitalSiteKey": "s_dk_suh_koege",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_suh_roskilde_epr",
+      "hospitalSiteKey": "s_dk_suh_roskilde",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_suh_nykobingf_epr",
+      "hospitalSiteKey": "s_dk_suh_nykobingf",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_nakskov_epr",
+      "hospitalSiteKey": "s_dk_nakskov",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_mvh_slagelse_epr",
+      "hospitalSiteKey": "s_dk_mvh_slagelse",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_mvh_naestved_epr",
+      "hospitalSiteKey": "s_dk_mvh_naestved",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_mvh_ringsted_epr",
+      "hospitalSiteKey": "s_dk_mvh_ringsted",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_psyk_slagelse_epr",
+      "hospitalSiteKey": "s_dk_psyk_slagelse",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_psyk_vordingborg_epr",
+      "hospitalSiteKey": "s_dk_psyk_vordingborg",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_psyk_roskilde_epr",
+      "hospitalSiteKey": "s_dk_psyk_roskilde",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_holbaek_epr",
+      "hospitalSiteKey": "s_dk_holbaek",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_nykobingsj_epr",
+      "hospitalSiteKey": "s_dk_nykobingsj",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_kalundborg_epr",
+      "hospitalSiteKey": "s_dk_kalundborg",
+      "supplier": "Epic Systems",
+      "product": "Sundhedsplatformen",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Hovedstaden and Region Sjælland jointly run Sundhedsplatformen, an Epic-based EPR live since 2016 (Hovedstaden) / 2017 (Sjælland). Subject to a live 2026 political controversy including a citizen proposal (borgerforslag) to abolish it."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_ouh_odense_epr",
+      "hospitalSiteKey": "s_dk_ouh_odense",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_ouh_svendborg_epr",
+      "hospitalSiteKey": "s_dk_ouh_svendborg",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_ouh_nyborg_epr",
+      "hospitalSiteKey": "s_dk_ouh_nyborg",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_ouh_aeroe_epr",
+      "hospitalSiteKey": "s_dk_ouh_aeroe",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_syd_aabenraa_epr",
+      "hospitalSiteKey": "s_dk_syd_aabenraa",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_syd_sonderborg_epr",
+      "hospitalSiteKey": "s_dk_syd_sonderborg",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_syd_tonder_epr",
+      "hospitalSiteKey": "s_dk_syd_tonder",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_lb_kolding_epr",
+      "hospitalSiteKey": "s_dk_lb_kolding",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_lb_vejle_epr",
+      "hospitalSiteKey": "s_dk_lb_vejle",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_lb_middelfart_epr",
+      "hospitalSiteKey": "s_dk_lb_middelfart",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_svs_esbjerg_epr",
+      "hospitalSiteKey": "s_dk_svs_esbjerg",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_svs_grindsted_epr",
+      "hospitalSiteKey": "s_dk_svs_grindsted",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_psyk_odense_epr",
+      "hospitalSiteKey": "s_dk_psyk_odense",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_psyk_middelfart_epr",
+      "hospitalSiteKey": "s_dk_psyk_middelfart",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_psyk_vejle_epr",
+      "hospitalSiteKey": "s_dk_psyk_vejle",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_psyk_esbjerg_epr",
+      "hospitalSiteKey": "s_dk_psyk_esbjerg",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded EPJ SYD)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022).",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Syddanmark's Systematic Columna CIS deployment, branded EPJ SYD. Awarded April 2018 after Sundhedsplatformen/Epic was rejected in the tender; rolled out in phases: Sønderjylland (3 Oct 2021), Fyn/OUH (20 Feb 2022), Sydvestjylland/Lillebælt (29 May 2022)."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_auh_skejby_epr",
+      "hospitalSiteKey": "s_dk_auh_skejby",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded MidtEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_randers_epr",
+      "hospitalSiteKey": "s_dk_randers",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded MidtEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_horsens_epr",
+      "hospitalSiteKey": "s_dk_horsens",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded MidtEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_viborg_epr",
+      "hospitalSiteKey": "s_dk_viborg",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded MidtEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_silkeborg_epr",
+      "hospitalSiteKey": "s_dk_silkeborg",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded MidtEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_skive_epr",
+      "hospitalSiteKey": "s_dk_skive",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded MidtEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_hammel_epr",
+      "hospitalSiteKey": "s_dk_hammel",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded MidtEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_goedstrup_epr",
+      "hospitalSiteKey": "s_dk_goedstrup",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded MidtEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Midtjylland's Systematic Columna CIS deployment, branded MidtEPJ, covering the whole region since 2013 -- one of Denmark's earliest and most complete single-system EPR rollouts."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aalborg_hospitalsbyen_epr",
+      "hospitalSiteKey": "s_dk_aalborg_hospitalsbyen",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aalborg_syd_epr",
+      "hospitalSiteKey": "s_dk_aalborg_syd",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aalborg_thisted_epr",
+      "hospitalSiteKey": "s_dk_aalborg_thisted",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aalborg_farso_epr",
+      "hospitalSiteKey": "s_dk_aalborg_farso",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aalborg_hobro_epr",
+      "hospitalSiteKey": "s_dk_aalborg_hobro",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aalborg_havrevangen_epr",
+      "hospitalSiteKey": "s_dk_aalborg_havrevangen",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_moelleparkvej_epr",
+      "hospitalSiteKey": "s_dk_pc_moelleparkvej",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_brandevej_epr",
+      "hospitalSiteKey": "s_dk_pc_brandevej",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_pc_bronderslev_epr",
+      "hospitalSiteKey": "s_dk_pc_bronderslev",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_rhn_hjorring_epr",
+      "hospitalSiteKey": "s_dk_rhn_hjorring",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_rhn_frederikshavn_epr",
+      "hospitalSiteKey": "s_dk_rhn_frederikshavn",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_skagen_gigt_epr",
+      "hospitalSiteKey": "s_dk_skagen_gigt",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_neuroenhed_bronderslev_epr",
+      "hospitalSiteKey": "s_dk_neuroenhed_bronderslev",
+      "supplier": "Systematic",
+      "product": "Columna CIS (branded NordEPJ)",
+      "status": "confirmed",
+      "evidence_tier": 5,
+      "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed",
+          "evidence_tier": 5,
+          "notes": "Region Nordjylland's Systematic Columna CIS deployment, branded NordEPJ, live since March 2022 -- described as the region's largest-ever IT project."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_filadelfia_epr",
+      "hospitalSiteKey": "s_dk_filadelfia",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Self-governing hospital under a driftsoverenskomst with Region Sjælland. No public source confirms whether it runs Sundhedsplatformen or an independent system -- flagged as a genuine open research item rather than assumed.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Self-governing hospital under a driftsoverenskomst with Region Sjælland. No public source confirms whether it runs Sundhedsplatformen or an independent system -- flagged as a genuine open research item rather than assumed."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aleris_kobenhavn_epr",
+      "hospitalSiteKey": "s_dk_aleris_kobenhavn",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_capio_hellerup_epr",
+      "hospitalSiteKey": "s_dk_capio_hellerup",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aleris_ringsted_epr",
+      "hospitalSiteKey": "s_dk_aleris_ringsted",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_roskildeprivat_epr",
+      "hospitalSiteKey": "s_dk_roskildeprivat",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_skovhus_epr",
+      "hospitalSiteKey": "s_dk_skovhus",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aleris_odense_epr",
+      "hospitalSiteKey": "s_dk_aleris_odense",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_capio_odense_epr",
+      "hospitalSiteKey": "s_dk_capio_odense",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_gigthospital_epr",
+      "hospitalSiteKey": "s_dk_gigthospital",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_molholm_epr",
+      "hospitalSiteKey": "s_dk_molholm",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aleris_aarhus_epr",
+      "hospitalSiteKey": "s_dk_aleris_aarhus",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aros_epr",
+      "hospitalSiteKey": "s_dk_aros",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_capio_aarhus_epr",
+      "hospitalSiteKey": "s_dk_capio_aarhus",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_capio_viborg_epr",
+      "hospitalSiteKey": "s_dk_capio_viborg",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_aleris_aalborg_epr",
+      "hospitalSiteKey": "s_dk_aleris_aalborg",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    },
+    {
+      "key": "d_s_dk_capio_aalborg_epr",
+      "hospitalSiteKey": "s_dk_capio_aalborg",
+      "supplier": null,
+      "product": null,
+      "status": "unknown",
+      "evidence_tier": 1,
+      "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unknown",
+          "evidence_tier": 1,
+          "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
+        }
+      ]
+    }
+  ],
+  "procurementNotices": [
+    {
+      "country_iso2": "DK",
+      "title": "Syddansk patientjournal (EPJ SYD) -- EU-udbud",
+      "publication_date": "2017-06-01",
+      "award_date": "2018-04-01",
+      "contract_start_date": "2021-10-03",
+      "estimated_value": 1000000000,
+      "currency": "DKK",
+      "awarded_supplier": "Systematic",
+      "is_framework": false,
+      "lot_description": "Region Syddanmark's region-wide EPJ replacement tender; Sundhedsplatformen/Epic was among the bidders evaluated and rejected in favour of Systematic's Columna CIS. Estimated contract value widely reported in Danish press in the DKK 1bn+ range over the contract term. Phased go-live 2021-2022.",
+      "status": "awarded",
+      "sourceKey": "sydudbud2018"
+    },
+    {
+      "country_iso2": "DK",
+      "title": "Ny patientjournal til de nordjyske hospitaler (NordEPJ)",
+      "publication_date": "2019-01-01",
+      "award_date": "2020-03-01",
+      "contract_start_date": "2022-03-01",
+      "estimated_value": null,
+      "currency": "DKK",
+      "awarded_supplier": "Systematic",
+      "is_framework": false,
+      "lot_description": "Region Nordjylland's replacement EPJ project (NordEPJ), built on Systematic Columna CIS, described as the region's largest-ever IT project. Exact contract value and the specific predecessor system were not confirmed in public sources.",
+      "status": "awarded",
+      "sourceKey": "nordepjgolive"
+    },
+    {
+      "country_iso2": "DK",
+      "title": "Nyt Hospital Nordsjælland -- nybyggeri (supersygehus)",
+      "publication_date": "2018-01-01",
+      "award_date": null,
+      "contract_start_date": null,
+      "estimated_value": 10000000000,
+      "currency": "DKK",
+      "awarded_supplier": null,
+      "is_framework": false,
+      "lot_description": "New-build 'supersygehus' replacing/consolidating Nordsjællands Hospital's Hillerød site. Budget has risen sharply (reported approaching/exceeding DKK 10bn) with repeated delays; latest timeline points to a phased opening from late 2026. Likely future IT/medical-equipment integration tenders as construction completes.",
+      "status": "in_progress",
+      "sourceKey": "nordsjhospdelay"
+    },
+    {
+      "country_iso2": "DK",
+      "title": "Nyt OUH -- nybyggeri (supersygehus, Odense)",
+      "publication_date": "2015-01-01",
+      "award_date": null,
+      "contract_start_date": null,
+      "estimated_value": null,
+      "currency": "DKK",
+      "awarded_supplier": null,
+      "is_framework": false,
+      "lot_description": "New-build university hospital campus adjacent to OUH/SDU in Odense. Repeatedly delayed due to contractor bankruptcies and workforce shortfalls; not ready for the previously planned 2027 patient move-in. Main contractor OHPT in renegotiation with the region over schedule and cost.",
+      "status": "in_progress",
+      "sourceKey": "newouhdelay"
+    },
+    {
+      "country_iso2": "DK",
+      "title": "DNV Gødstrup -- nybyggeri (supersygehus, Herning)",
+      "publication_date": "2009-01-01",
+      "award_date": null,
+      "contract_start_date": null,
+      "estimated_value": null,
+      "currency": "DKK",
+      "awarded_supplier": null,
+      "is_framework": false,
+      "lot_description": "New-build ~127,000 sqm supersygehus near Herning (state/region quality-fund financed) that fully absorbed former Herning and Holstebro hospitals' inpatient/acute functions by 2021-2022. MidtEPJ carried over without a system change.",
+      "status": "completed",
+      "sourceKey": "goedstrupnavn"
+    },
+    {
+      "country_iso2": "DK",
+      "title": "Borgerforslag: afskaffelse af Sundhedsplatformen",
+      "publication_date": "2026-01-01",
+      "award_date": null,
+      "contract_start_date": null,
+      "estimated_value": null,
+      "currency": "DKK",
+      "awarded_supplier": null,
+      "is_framework": false,
+      "lot_description": "Active citizen proposal (borgerforslag) calling for Sundhedsplatformen to be phased out across Region Hovedstaden and Region Sjælland in favour of a unified national EPJ, citing cost, inefficiency and data-sovereignty concerns (Epic being a US company). Had 4,097 signatures as of 7 April 2026; proposal window runs to 1 September 2026. Roughly half of candidates in the Nov 2025 Region Østdanmark council election favoured replacing Sundhedsplatformen. Not a formal procurement action, but a significant market-disruption signal for the Epic/Sundhedsplatformen incumbency in eastern Denmark.",
+      "status": "watch",
+      "sourceKey": "borgerforslag"
+    }
+  ]
+}
