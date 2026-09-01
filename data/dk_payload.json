@@ -2625,13 +2625,13 @@
       "hospitalSiteKey": "s_dk_filadelfia",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Self-governing hospital under a driftsoverenskomst with Region Sjælland. No public source confirms whether it runs Sundhedsplatformen or an independent system -- flagged as a genuine open research item rather than assumed.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Self-governing hospital under a driftsoverenskomst with Region Sjælland. No public source confirms whether it runs Sundhedsplatformen or an independent system -- flagged as a genuine open research item rather than assumed."
         }
@@ -2642,13 +2642,13 @@
       "hospitalSiteKey": "s_dk_aleris_kobenhavn",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2659,13 +2659,13 @@
       "hospitalSiteKey": "s_dk_capio_hellerup",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2676,13 +2676,13 @@
       "hospitalSiteKey": "s_dk_aleris_ringsted",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2693,13 +2693,13 @@
       "hospitalSiteKey": "s_dk_roskildeprivat",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2710,13 +2710,13 @@
       "hospitalSiteKey": "s_dk_skovhus",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2727,13 +2727,13 @@
       "hospitalSiteKey": "s_dk_aleris_odense",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2744,13 +2744,13 @@
       "hospitalSiteKey": "s_dk_capio_odense",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2761,13 +2761,13 @@
       "hospitalSiteKey": "s_dk_gigthospital",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2778,13 +2778,13 @@
       "hospitalSiteKey": "s_dk_molholm",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2795,13 +2795,13 @@
       "hospitalSiteKey": "s_dk_aleris_aarhus",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2812,13 +2812,13 @@
       "hospitalSiteKey": "s_dk_aros",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2829,13 +2829,13 @@
       "hospitalSiteKey": "s_dk_capio_aarhus",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2846,13 +2846,13 @@
       "hospitalSiteKey": "s_dk_capio_viborg",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2863,13 +2863,13 @@
       "hospitalSiteKey": "s_dk_aleris_aalborg",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2880,13 +2880,13 @@
       "hospitalSiteKey": "s_dk_capio_aalborg",
       "supplier": null,
       "product": null,
-      "status": "unknown",
+      "status": "unconfirmed",
       "evidence_tier": 1,
       "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments.",
       "categories": [
         {
           "name": "EPR",
-          "coverage_status": "unknown",
+          "coverage_status": "unconfirmed",
           "evidence_tier": 1,
           "notes": "Private Danish hospital operator; clinical/EPR system not publicly documented in this research pass. Private hospitals in Denmark generally run separate commercial systems from the regional Sundhedsplatformen/Columna deployments."
         }
@@ -2933,7 +2933,7 @@
       "awarded_supplier": null,
       "is_framework": false,
       "lot_description": "New-build 'supersygehus' replacing/consolidating Nordsjællands Hospital's Hillerød site. Budget has risen sharply (reported approaching/exceeding DKK 10bn) with repeated delays; latest timeline points to a phased opening from late 2026. Likely future IT/medical-equipment integration tenders as construction completes.",
-      "status": "in_progress",
+      "status": "published",
       "sourceKey": "nordsjhospdelay"
     },
     {
@@ -2947,7 +2947,7 @@
       "awarded_supplier": null,
       "is_framework": false,
       "lot_description": "New-build university hospital campus adjacent to OUH/SDU in Odense. Repeatedly delayed due to contractor bankruptcies and workforce shortfalls; not ready for the previously planned 2027 patient move-in. Main contractor OHPT in renegotiation with the region over schedule and cost.",
-      "status": "in_progress",
+      "status": "published",
       "sourceKey": "newouhdelay"
     },
     {
@@ -2961,7 +2961,7 @@
       "awarded_supplier": null,
       "is_framework": false,
       "lot_description": "New-build ~127,000 sqm supersygehus near Herning (state/region quality-fund financed) that fully absorbed former Herning and Holstebro hospitals' inpatient/acute functions by 2021-2022. MidtEPJ carried over without a system change.",
-      "status": "completed",
+      "status": "expired",
       "sourceKey": "goedstrupnavn"
     },
     {
@@ -2975,7 +2975,7 @@
       "awarded_supplier": null,
       "is_framework": false,
       "lot_description": "Active citizen proposal (borgerforslag) calling for Sundhedsplatformen to be phased out across Region Hovedstaden and Region Sjælland in favour of a unified national EPJ, citing cost, inefficiency and data-sovereignty concerns (Epic being a US company). Had 4,097 signatures as of 7 April 2026; proposal window runs to 1 September 2026. Roughly half of candidates in the Nov 2025 Region Østdanmark council election favoured replacing Sundhedsplatformen. Not a formal procurement action, but a significant market-disruption signal for the Epic/Sundhedsplatformen incumbency in eastern Denmark.",
-      "status": "watch",
+      "status": "published",
       "sourceKey": "borgerforslag"
     }
   ]
