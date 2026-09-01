@@ -3,20 +3,27 @@
 // submissions. Protected by a shared-secret header so it can't be hit by
 // randoms even though this console has no other auth layer.
 //
-// GET  /api/admin/import  -> reference data (countries, system categories,
-//                             suppliers) so a payload can be built with the
-//                             exact names/codes the DB already has.
-// POST /api/admin/import  -> { sources, healthAuthorities, hospitalGroups,
+// GET  /api/admin/import -> reference data (countries, system categories,
+//                            suppliers) so a payload can be built with the
+//                            exact names/codes the DB already has.
+// POST /api/admin/import -> { sources, healthAuthorities, hospitalGroups,
 //                              hospitalSites, deployments, procurementNotices }
-//                             All records within one request are inserted in
-//                             a single transaction. Records may reference
-//                             each other via an arbitrary string "key" set on
-//                             the record and referenced by "<field>Key"
-//                             (e.g. hospitalGroupKey) elsewhere in the same
-//                             payload. Existing rows are matched by natural
-//                             key (country + lower(name), etc.) and reused
-//                             rather than duplicated, so a payload can be
-//                             safely re-posted.
+//                            All records within one request are inserted in
+//                            a single transaction. Records may reference
+//                            each other via an arbitrary string "key" set on
+//                            the record and referenced by "<field>Key"
+//                            (e.g. hospitalGroupKey) elsewhere in the same
+//                            payload. Existing rows are matched by natural
+//                            key (country + lower(name), etc.) and reused
+//                            rather than duplicated, so a payload can be
+//                            safely re-posted.
+//
+// 1 Sep 2026 — hospitalSites: when a payload record matches an EXISTING row
+// (findOrCreate does not overwrite on match), any of beds/beds_notes present
+// on the record are now also applied to that existing row via a plain
+// parameterised UPDATE. This lets a later, smaller payload backfill just the
+// bed counts for sites already imported by an earlier country payload,
+// without duplicating rows or touching any other column.
 import { NextRequest, NextResponse } from "next/server";
 import { pool } from "@/lib/db";
 import type { PoolClient } from "pg";
@@ -85,6 +92,7 @@ export async function POST(req: NextRequest) {
     healthAuthorities: 0,
     hospitalGroups: 0,
     hospitalSites: 0,
+    hospitalSitesUpdated: 0,
     deployments: 0,
     deploymentCategories: 0,
     procurementNotices: 0,
@@ -218,6 +226,7 @@ export async function POST(req: NextRequest) {
           "city",
           "postcode",
           "beds",
+          "beds_notes",
           "site_type",
           "ownership_type",
           "notes",
@@ -231,11 +240,26 @@ export async function POST(req: NextRequest) {
           rec.city ?? null,
           rec.postcode ?? null,
           rec.beds ?? null,
+          rec.beds_notes ?? null,
           rec.site_type ?? null,
           rec.ownership_type ?? null,
           rec.notes ?? null,
         ]
       );
+      if (!created && (rec.beds !== undefined || rec.beds_notes !== undefined)) {
+        // Existing row matched by name — findOrCreate does not overwrite,
+        // so apply a beds/beds_notes-only backfill here when the payload
+        // supplies them. Every other column on an existing row is left
+        // untouched.
+        await client.query(
+          `UPDATE hospital_site SET
+             beds = COALESCE($2, beds),
+             beds_notes = COALESCE($3, beds_notes)
+           WHERE id = $1`,
+          [id, rec.beds ?? null, rec.beds_notes ?? null]
+        );
+        counts.hospitalSitesUpdated++;
+      }
       if (rec.key) keyMap.set(rec.key, id);
       if (created) counts.hospitalSites++;
     }
