@@ -1,0 +1,3920 @@
+{
+  "sources": [
+    {
+      "key": "se_regeringen_forssmed",
+      "title": "Forssmed: nationellt journalsystem en otymplig koloss",
+      "publisher": "Läkartidningen",
+      "url": "https://lakartidningen.se/nyheter/notiser/forssmed-nationellt-journalsystem-en-otymplig-koloss/",
+      "tier": 4,
+      "date_accessed": "2026-02-27"
+    },
+    {
+      "key": "se_socialstyrelsen_dg",
+      "title": "Regeringen utser Björn Eriksson till ny generaldirektör för Socialstyrelsen",
+      "publisher": "Regeringen.se",
+      "url": "https://www.regeringen.se/pressmeddelanden/2024/08/regeringen-utser-bjorn-eriksson-till-ny-generaldirektor-for-socialstyrelsen/",
+      "tier": 1,
+      "date_accessed": "2024-08-15"
+    },
+    {
+      "key": "se_ehalsomyndigheten_dg",
+      "title": "Regeringen utser ny generaldirektör för E-hälsomyndigheten",
+      "publisher": "Regeringen.se",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/06/regeringen-utser-ny-generaldirektor-for-e-halsomyndigheten/",
+      "tier": 1,
+      "date_accessed": "2026-06-18"
+    },
+    {
+      "key": "se_inera_vd",
+      "title": "Ineras styrelse utser Patrik Sundström till permanent VD",
+      "publisher": "Inera.se",
+      "url": "https://www.inera.se/aktuellt/nyheter/ineras-styrelse-utser-patrik-sundstrom-till-permanent-vd/",
+      "tier": 3,
+      "date_accessed": "2023-12-20"
+    },
+    {
+      "key": "se_scb_population",
+      "title": "Befolkningsstatistik",
+      "publisher": "Statistiska centralbyrån (SCB)",
+      "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population-and-living-conditions/population-composition-and-development/population-statistics/",
+      "tier": 1,
+      "date_accessed": "2026-06-01"
+    },
+    {
+      "key": "se_scb_halsorakenskaper",
+      "title": "Hälsoräkenskaper 2024",
+      "publisher": "SCB",
+      "url": "https://www.scb.se/hitta-statistik/statistik-efter-amne/nationalrakenskaper/nationalrakenskaper/halsorakenskaper/pong/statistiknyhet/halsorakenskaper-2024/",
+      "tier": 1,
+      "date_accessed": "2026-03-31"
+    },
+    {
+      "key": "se_vgr_termination",
+      "title": "VGR säger upp Millennium för 657 miljoner kronor",
+      "publisher": "SVT Nyheter",
+      "url": "https://www.svt.se/nyheter/lokalt/vast/klart-vgr-sager-upp-millenium-for-657-miljoner-kronor",
+      "tier": 4,
+      "date_accessed": "2026-08-27"
+    },
+    {
+      "key": "se_skane_millennium_scrap",
+      "title": "Beslut i regionstyrelsen: Införandet av Millennium avbryts",
+      "publisher": "Region Skåne",
+      "url": "https://www.skane.se/om-region-skane/nyheter/2026/beslut-i-regionstyrelsen-inforandet-av-millennium-avbryts/",
+      "tier": 1,
+      "date_accessed": "2026-04-29"
+    },
+    {
+      "key": "se_boras_millennium",
+      "title": "Detta har hänt – så gick Millennium från driftstart till fiasko på tre dagar",
+      "publisher": "Borås Tidning",
+      "url": "https://www.bt.se/boras/detta-har-hant-sa-gick-millennium-fran-driftstart-till-fiasko-pa-tre-dagar/",
+      "tier": 4,
+      "date_accessed": "2024-11-20"
+    },
+    {
+      "key": "se_kgc_renewal",
+      "title": "Regionerna i KGC förlänger avtal avseende vårdinformationssystemet Cambio Cosmic",
+      "publisher": "Cambio",
+      "url": "https://www.cambio.se/regionerna-i-kgc-forlanger-avtal-avseende-vardinformationssystemet-cambio-cosmic/",
+      "tier": 6,
+      "date_accessed": "2023-11-30"
+    },
+    {
+      "key": "se_sussa_cambio",
+      "title": "Sussa Samverkan – Införandet av Cambio Cosmic",
+      "publisher": "Cambio",
+      "url": "https://www.cambio.se/sussa/",
+      "tier": 6,
+      "date_accessed": "2025-11-01"
+    },
+    {
+      "key": "se_stockholm_contract",
+      "title": "Region Stockholm har tecknat avtal om huvudjournalsystem",
+      "publisher": "Region Stockholm",
+      "url": "https://www.regionstockholm.se/nyheter/2025/11/region-stockholm-har-tecknat-avtal-om-huvudjournalsystem/",
+      "tier": 1,
+      "date_accessed": "2025-11-01"
+    },
+    {
+      "key": "se_ug_granskning",
+      "title": "Spelet bakom miljardaffären – poäng höjdes till Cosmics fördel",
+      "publisher": "SVT Uppdrag Granskning",
+      "url": "https://www.svt.se/nyheter/granskning/ug/spelet-bakom-miljardaffaren-poang-hojdes-till-cosmics-fordel",
+      "tier": 4,
+      "date_accessed": "2026-04-30"
+    },
+    {
+      "key": "se_orebro_golive",
+      "title": "Cosmic på plats – första regionen i Sussa-samverkan",
+      "publisher": "Cambio",
+      "url": "https://www.cambio.se/nytt-journalsystem-i-nio-regioner-rami-avidan-om-det-viktiga-arbetet-som-gors/",
+      "tier": 6,
+      "date_accessed": "2024-09-19"
+    },
+    {
+      "key": "se_norrbotten_golive",
+      "title": "Journalsystemet Cosmic infört i Norrbotten",
+      "publisher": "Läkartidningen",
+      "url": "https://lakartidningen.se/aktuellt/nyheter/2024/11/journalsystemet-cosmic-infort-i-norrbotten-det-har-gatt-helt-okej/",
+      "tier": 4,
+      "date_accessed": "2024-11-23"
+    },
+    {
+      "key": "se_dalarna_golive",
+      "title": "Produktionsstart av Cosmic är nu fastställd till vecka 42",
+      "publisher": "Region Dalarna",
+      "url": "https://www.regiondalarna.se/press/nyheter-och-pressmeddelanden/produktionsstart-av-cosmic-ar-nu-faststalld-till-vecka-42/",
+      "tier": 1,
+      "date_accessed": "2025-02-01"
+    },
+    {
+      "key": "se_blekinge_golive",
+      "title": "Cosmic på rull i Blekinge",
+      "publisher": "Läkartidningen",
+      "url": "https://lakartidningen.se/nyheter/cosmic-pa-rull-i-blekinge-har-gatt-utan-storre-problem/",
+      "tier": 4,
+      "date_accessed": "2025-11-18"
+    },
+    {
+      "key": "se_gavleborg_golive",
+      "title": "Nya journalsystemet på plats i Region Gävleborg",
+      "publisher": "Sjukhusläkaren",
+      "url": "https://www.sjukhuslakaren.se/nya-journalsystemet-pa-plats-i-region-gavleborg/",
+      "tier": 4,
+      "date_accessed": "2025-01-15"
+    },
+    {
+      "key": "se_vasterbotten_golive",
+      "title": "Positiv start på Cosmic i Västerbotten",
+      "publisher": "Läkartidningen",
+      "url": "https://lakartidningen.se/aktuellt/nyheter/2025/04/positiv-start-pa-cosmic-i-vasterbotten/",
+      "tier": 4,
+      "date_accessed": "2025-04-01"
+    },
+    {
+      "key": "se_sormland_golive",
+      "title": "Cosmic-införande i Region Sörmland",
+      "publisher": "Region Sörmland",
+      "url": "https://regionsormland.se/",
+      "tier": 5,
+      "date_accessed": "2025-09-01"
+    },
+    {
+      "key": "se_halland_golive",
+      "title": "Planenlig start för Cosmic i Halland",
+      "publisher": "Läkartidningen",
+      "url": "https://lakartidningen.se/aktuellt/nyheter/2025/03/planenlig-start-for-cosmic-i-halland-blandade-omdomen-fran-lakarhall/",
+      "tier": 4,
+      "date_accessed": "2025-03-01"
+    },
+    {
+      "key": "se_vasternorrland_golive",
+      "title": "Cosmic infört i Västernorrland",
+      "publisher": "vgrfokus/regional press",
+      "url": "https://www.rvn.se/",
+      "tier": 5,
+      "date_accessed": "2025-02-01"
+    },
+    {
+      "key": "se_azets_review",
+      "title": "Tre regioner granskar hur Cosmic påverkat patienternas säkerhet",
+      "publisher": "Svensk Farmaci",
+      "url": "https://www.svenskfarmaci.se/2026/08/20/tre-regioner-granskar-hur-cosmic-paverkat-patienternas-sakerhet/",
+      "tier": 4,
+      "date_accessed": "2026-08-20"
+    },
+    {
+      "key": "se_skane_melior_pmo",
+      "title": "IT-stöd och tjänster – Melior",
+      "publisher": "Vårdgivare Skåne",
+      "url": "https://vardgivare.skane.se/it/it-stod-och-tjanster-a-o/melior/",
+      "tier": 5,
+      "date_accessed": "2026-03-23"
+    },
+    {
+      "key": "se_ystad_pilot_plan",
+      "title": "Efter Millennium-haveriet i VGR – Skåne ändrar plan för införande",
+      "publisher": "Läkartidningen",
+      "url": "https://lakartidningen.se/aktuellt/nyheter/2024/12/efter-millennium-haveriet-i-vgr-skane-andrar-plan-for-inforande/",
+      "tier": 4,
+      "date_accessed": "2024-12-01"
+    },
+    {
+      "key": "se_capio_stgoran_bolag",
+      "title": "Bolagsinformation",
+      "publisher": "Capio S:t Görans Sjukhus",
+      "url": "https://www.capiostgoran.se/om-oss/bolagsinformation/",
+      "tier": 6,
+      "date_accessed": "2026-01-01"
+    },
+    {
+      "key": "se_capio_simrishamn",
+      "title": "Capio Äldre och Mobil Vård tar över driften av Simrishamns sjukhus",
+      "publisher": "Capio",
+      "url": "https://www.capio.se/nyheter-pressrum/nyhetsarkiv/capio-aldre-och-mobil-vard-tar-over-driften-av-simrishamns-sjukhus/",
+      "tier": 6,
+      "date_accessed": "2021-05-01"
+    },
+    {
+      "key": "se_motala_capio",
+      "title": "Lasarettet i Motala",
+      "publisher": "Region Östergötland",
+      "url": "https://www.regionostergotland.se/ro/det-har-gor-vi/halsa-och-vard/vara-sjukhus/lasarettet-i-motala",
+      "tier": 5,
+      "date_accessed": "2026-09-01"
+    },
+    {
+      "key": "se_angelholm_aleris",
+      "title": "Aleris öppnar toppmodern specialistvård i Ängelholm",
+      "publisher": "Aleris",
+      "url": "https://www.mynewsdesk.com/se/aleris/pressreleases/aleris-oeppnar-toppmodern-specialistvaard-i-aengelholm-2496288",
+      "tier": 6,
+      "date_accessed": "2020-01-01"
+    }
+  ],
+  "healthAuthorities": [
+    {
+      "key": "se_socialstyrelsen",
+      "country_iso2": "SE",
+      "name": "Socialstyrelsen (National Board of Health and Welfare)",
+      "level": "national",
+      "description": "Sweden's national health authority; DG Bjorn Eriksson since Aug 2024. National digital-health infrastructure jointly operated by Inera AB (state/region-owned) and E-halsomyndigheten.",
+      "sourceKey": "se_socialstyrelsen_dg"
+    },
+    {
+      "key": "se_region_stockholm",
+      "country_iso2": "SE",
+      "name": "Region Stockholm",
+      "level": "regional",
+      "description": "Population 2,486,253 (2025). Region on legacy TakeCare; contracted Cambio COSMIC Nov 2025 (target ~2029). Capio S:t Goran (private, KGC member) already on COSMIC.",
+      "sourceKey": "se_stockholm_contract"
+    },
+    {
+      "key": "se_region_vg",
+      "country_iso2": "SE",
+      "name": "Vastra Gotalandsregionen (VGR)",
+      "level": "regional",
+      "description": "Population 1,777,794 (2025). Abandoned Cerner/Oracle Health Millennium after 3-day 2024 live rollout; runs legacy Melior/Asynja Visph/Obstetrix; new modular EPR strategy from 2 Dec 2025.",
+      "sourceKey": "se_vgr_termination"
+    },
+    {
+      "key": "se_region_skane",
+      "country_iso2": "SE",
+      "name": "Region Skane",
+      "level": "regional",
+      "description": "Population 1,433,082 (2025). Abandoned Cerner/Oracle Health Millennium 29 Apr 2026 without any production go-live; runs legacy Melior (hospitals) + PMO (primary care).",
+      "sourceKey": "se_skane_millennium_scrap"
+    },
+    {
+      "key": "se_region_ostergotland",
+      "country_iso2": "SE",
+      "name": "Region Ostergotland",
+      "level": "regional",
+      "description": "Population 472,530 (2025). KGC consortium - Cambio COSMIC.",
+      "sourceKey": "se_kgc_renewal"
+    },
+    {
+      "key": "se_region_uppsala",
+      "country_iso2": "SE",
+      "name": "Region Uppsala",
+      "level": "regional",
+      "description": "Population 410,572 (2025). KGC consortium - Cambio COSMIC.",
+      "sourceKey": "se_kgc_renewal"
+    },
+    {
+      "key": "se_region_jonkoping",
+      "country_iso2": "SE",
+      "name": "Region Jonkopings lan",
+      "level": "regional",
+      "description": "Population 369,721 (2025). KGC consortium - Cambio COSMIC.",
+      "sourceKey": "se_kgc_renewal"
+    },
+    {
+      "key": "se_region_halland",
+      "country_iso2": "SE",
+      "name": "Region Halland",
+      "level": "regional",
+      "description": "Population 346,087 (2025). Sussa Samverkan - Cambio COSMIC, go-live ~Mar 2025.",
+      "sourceKey": "se_halland_golive"
+    },
+    {
+      "key": "se_region_orebro",
+      "country_iso2": "SE",
+      "name": "Region Orebro lan",
+      "level": "regional",
+      "description": "Population 308,362 (2025). Sussa Samverkan first-mover - Cambio COSMIC go-live 19 Sept 2024.",
+      "sourceKey": "se_orebro_golive"
+    },
+    {
+      "key": "se_region_sormland",
+      "country_iso2": "SE",
+      "name": "Region Sormland",
+      "level": "regional",
+      "description": "Population 300,436 (2025). Sussa Samverkan - Cambio COSMIC go-live Sept 2025.",
+      "sourceKey": "se_sormland_golive"
+    },
+    {
+      "key": "se_region_dalarna",
+      "country_iso2": "SE",
+      "name": "Region Dalarna",
+      "level": "regional",
+      "description": "Population 286,048 (2025). Sussa Samverkan - Cambio COSMIC go-live Oct 2025 (delayed from Feb 2025).",
+      "sourceKey": "se_dalarna_golive"
+    },
+    {
+      "key": "se_region_gavleborg",
+      "country_iso2": "SE",
+      "name": "Region Gavleborg",
+      "level": "regional",
+      "description": "Population 283,449 (2025). Sussa Samverkan - Cambio COSMIC go-live ~Jan 2025.",
+      "sourceKey": "se_gavleborg_golive"
+    },
+    {
+      "key": "se_region_varmland",
+      "country_iso2": "SE",
+      "name": "Region Varmland",
+      "level": "regional",
+      "description": "Population 283,028 (2025). KGC consortium - Cambio COSMIC.",
+      "sourceKey": "se_kgc_renewal"
+    },
+    {
+      "key": "se_region_vastmanland",
+      "country_iso2": "SE",
+      "name": "Region Vastmanland",
+      "level": "regional",
+      "description": "Population 280,762 (2025). KGC consortium - Cambio COSMIC.",
+      "sourceKey": "se_kgc_renewal"
+    },
+    {
+      "key": "se_region_vasterbotten",
+      "country_iso2": "SE",
+      "name": "Region Vasterbotten",
+      "level": "regional",
+      "description": "Population 279,024 (2025). Sussa Samverkan - Cambio COSMIC go-live ~Apr 2025.",
+      "sourceKey": "se_vasterbotten_golive"
+    },
+    {
+      "key": "se_region_norrbotten",
+      "country_iso2": "SE",
+      "name": "Region Norrbotten",
+      "level": "regional",
+      "description": "Population 248,918 (2025). Sussa Samverkan - Cambio COSMIC go-live 23 Nov 2024, replaced VAS after 30 years.",
+      "sourceKey": "se_norrbotten_golive"
+    },
+    {
+      "key": "se_region_kalmar",
+      "country_iso2": "SE",
+      "name": "Region Kalmar lan",
+      "level": "regional",
+      "description": "Population 245,483 (2025). KGC consortium - Cambio COSMIC.",
+      "sourceKey": "se_kgc_renewal"
+    },
+    {
+      "key": "se_region_vasternorrland",
+      "country_iso2": "SE",
+      "name": "Region Vasternorrland",
+      "level": "regional",
+      "description": "Population 240,641 (2025). Sussa Samverkan - Cambio COSMIC go-live ~Feb 2025.",
+      "sourceKey": "se_vasternorrland_golive"
+    },
+    {
+      "key": "se_region_kronoberg",
+      "country_iso2": "SE",
+      "name": "Region Kronoberg",
+      "level": "regional",
+      "description": "Population 203,122 (2025). KGC consortium - Cambio COSMIC.",
+      "sourceKey": "se_kgc_renewal"
+    },
+    {
+      "key": "se_region_blekinge",
+      "country_iso2": "SE",
+      "name": "Region Blekinge",
+      "level": "regional",
+      "description": "Population 156,620 (2025). Sussa Samverkan - Cambio COSMIC go-live 18 Nov 2025.",
+      "sourceKey": "se_blekinge_golive"
+    },
+    {
+      "key": "se_region_jamtland",
+      "country_iso2": "SE",
+      "name": "Region Jamtland Harjedalen",
+      "level": "regional",
+      "description": "Population 132,736 (2025). KGC consortium - Cambio COSMIC.",
+      "sourceKey": "se_kgc_renewal"
+    },
+    {
+      "key": "se_region_gotland",
+      "country_iso2": "SE",
+      "name": "Region Gotland",
+      "level": "regional",
+      "description": "Population 60,852 (2025). Bundled into Stockholm's Nov 2025 Cambio COSMIC contract; legacy TakeCare, target ~2029.",
+      "sourceKey": "se_stockholm_contract"
+    }
+  ],
+  "hospitalGroups": [
+    {
+      "key": "hg_karolinska",
+      "country_iso2": "SE",
+      "name": "Karolinska Universitetssjukhuset",
+      "ownership_type": "public",
+      "notes": "Single legal entity, Solna + Huddinge campuses (2004 merger). Includes Astrid Lindgrens Barnsjukhus at Solna.",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_danderyd",
+      "country_iso2": "SE",
+      "name": "Danderyds Sjukhus",
+      "ownership_type": "public",
+      "notes": "Division within Akutsjukhusnamnden. ~4,500 staff.",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_sodersjukhuset",
+      "country_iso2": "SE",
+      "name": "Sodersjukhuset (SoS)",
+      "ownership_type": "public",
+      "notes": "Under Akutsjukhusnamnden. Opened 1944.",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_sodertalje",
+      "country_iso2": "SE",
+      "name": "Sodertalje Sjukhus AB",
+      "ownership_type": "public",
+      "notes": "Separate limited company, wholly owned by Region Stockholm. Teaching ties to Karolinska Institutet.",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_capio_stgoran",
+      "country_iso2": "SE",
+      "name": "Capio S:t Gorans Sjukhus AB",
+      "ownership_type": "private",
+      "notes": "Org.nr 556479-1456. Owned by Capio AB, part of Ramsay Sante since Nov 2018. Sweden's first acute hospital as a limited company (1994) and first privately-owned acute hospital (1999).",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_tiohundra",
+      "country_iso2": "SE",
+      "name": "Vardbolaget TioHundra AB",
+      "ownership_type": "public",
+      "notes": "Joint venture, Region Stockholm + Norrtalje kommun.",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_st_eriks",
+      "country_iso2": "SE",
+      "name": "S:t Eriks Ogonsjukhus",
+      "ownership_type": "public",
+      "notes": "Ownership form disputed across sources (public unit within Akutsjukhusnamnden vs. separate 'S:t Eriks Ogonsjukhus AB') — needs re-verification.",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_norra_stockholm_psyk",
+      "country_iso2": "SE",
+      "name": "SLSO Norra Stockholms Psykiatri",
+      "ownership_type": "public",
+      "notes": "Stockholms lans sjukvardsomrade (SLSO), Region Stockholm. Distinct entity from Capio S:t Goran despite co-location.",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_lowenstromska_rattspsyk",
+      "country_iso2": "SE",
+      "name": "Rattspsykiatri Vard Stockholm",
+      "ownership_type": "public",
+      "notes": "Public forensic psychiatric service, one of several tenants in the Lowenstromska sjukhuset multi-tenant clinical building (Locum-owned; original hospital closed 1993).",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_lowenstromska_capio",
+      "country_iso2": "SE",
+      "name": "Capio (Lowenstromska tenants)",
+      "ownership_type": "private",
+      "notes": "Capio-operated clinics within the Lowenstromska sjukhuset multi-tenant building, contracted by Region Stockholm.",
+      "healthAuthorityKey": "se_region_stockholm"
+    },
+    {
+      "key": "hg_sahlgrenska",
+      "country_iso2": "SE",
+      "name": "Sahlgrenska Universitetssjukhuset",
+      "ownership_type": "public",
+      "notes": "Group total ~1,600 beds, 17,000+ employees. Never went live on Millennium — ran Melior throughout.",
+      "healthAuthorityKey": "se_region_vg"
+    },
+    {
+      "key": "hg_nu_sjukvarden",
+      "country_iso2": "SE",
+      "name": "NU-sjukvarden",
+      "ownership_type": "public",
+      "notes": "Group total 535 inpatient beds (somatic+psychiatric), ~4,900 employees, serves ~270,000 (Fyrbodal + Lilla Edet).",
+      "healthAuthorityKey": "se_region_vg"
+    },
+    {
+      "key": "hg_sas",
+      "country_iso2": "SE",
+      "name": "Sodra Alvsborgs Sjukhus (SAS)",
+      "ownership_type": "public",
+      "notes": "Serves ~300,000 (Sjuharad). Group bed count not confirmed.",
+      "healthAuthorityKey": "se_region_vg"
+    },
+    {
+      "key": "hg_skas",
+      "country_iso2": "SE",
+      "name": "Skaraborgs Sjukhus (SkaS)",
+      "ownership_type": "public",
+      "notes": "Covers Skovde/Lidkoping/Falkoping/Mariestad, ~30 specialties. Bed/employee totals not confirmed (only dated 2018 reporting found).",
+      "healthAuthorityKey": "se_region_vg"
+    },
+    {
+      "key": "hg_siv",
+      "country_iso2": "SE",
+      "name": "Sjukhusen i vaster (SiV)",
+      "ownership_type": "public",
+      "notes": "~3,000 employees group-wide, own board.",
+      "healthAuthorityKey": "se_region_vg"
+    },
+    {
+      "key": "hg_sus",
+      "country_iso2": "SE",
+      "name": "Skanes universitetssjukhus (SUS)",
+      "ownership_type": "public",
+      "notes": "Merged 2010 from former Lund + Malmo/UMAS hospitals. Own Sjukhusstyrelse Sus.",
+      "healthAuthorityKey": "se_region_skane"
+    },
+    {
+      "key": "hg_skane_nordvast",
+      "country_iso2": "SE",
+      "name": "Skanes sjukhus nordvast",
+      "ownership_type": "public",
+      "notes": "Groups Helsingborg + Angelholm; exact board structure (unified forvaltning vs per-site) needs double-checking.",
+      "healthAuthorityKey": "se_region_skane"
+    },
+    {
+      "key": "hg_skane_nordost",
+      "country_iso2": "SE",
+      "name": "Skanes sjukhus nordost",
+      "ownership_type": "public",
+      "notes": "Groups Kristianstad + Hassleholm.",
+      "healthAuthorityKey": "se_region_skane"
+    },
+    {
+      "key": "hg_ystad",
+      "country_iso2": "SE",
+      "name": "Lasarettet i Ystad",
+      "ownership_type": "public",
+      "notes": "~1,000 staff. Governance grouping unconfirmed.",
+      "healthAuthorityKey": "se_region_skane"
+    },
+    {
+      "key": "hg_trelleborg",
+      "country_iso2": "SE",
+      "name": "Lasarettet Trelleborg",
+      "ownership_type": "public",
+      "notes": "~600 staff.",
+      "healthAuthorityKey": "se_region_skane"
+    },
+    {
+      "key": "hg_landskrona",
+      "country_iso2": "SE",
+      "name": "Lasarettet i Landskrona",
+      "ownership_type": "public",
+      "notes": "~390 staff. Administrative placement (nordvast ties vs own Sjukhusstyrelse Landskrona) unconfirmed.",
+      "healthAuthorityKey": "se_region_skane"
+    },
+    {
+      "key": "hg_capio_simrishamn",
+      "country_iso2": "SE",
+      "name": "Capio Narsjukhus Simrishamn",
+      "ownership_type": "private",
+      "notes": "Praktikertjanst originally held the contract; Capio (Capio Aldre och Mobil Vard) took over 1 May 2021, initial 6-year contract + option to extend 4 more (potentially through 2031). Direct service contract with Region Skane (Halso- och sjukvardsnamnden), not part of the region's 'eight hospitals' structure.",
+      "healthAuthorityKey": "se_region_skane"
+    },
+    {
+      "key": "hg_akademiska",
+      "country_iso2": "SE",
+      "name": "Akademiska sjukhuset",
+      "ownership_type": "public",
+      "notes": "Region Uppsala + Uppsala University.",
+      "healthAuthorityKey": "se_region_uppsala"
+    },
+    {
+      "key": "hg_enkoping",
+      "country_iso2": "SE",
+      "name": "Lasarettet i Enkoping",
+      "ownership_type": "public",
+      "notes": "Works closely with Akademiska.",
+      "healthAuthorityKey": "se_region_uppsala"
+    },
+    {
+      "key": "hg_us_linkoping",
+      "country_iso2": "SE",
+      "name": "Universitetssjukhuset i Linkoping (US)",
+      "ownership_type": "public",
+      "notes": "Academically integrated with Linkoping University (Halsouniversitetet). Founded 1782, current site since 1895, current name since 1992.",
+      "healthAuthorityKey": "se_region_ostergotland"
+    },
+    {
+      "key": "hg_vrinnevi",
+      "country_iso2": "SE",
+      "name": "Vrinnevisjukhuset",
+      "ownership_type": "public",
+      "notes": "County hospital for eastern Ostergotland.",
+      "healthAuthorityKey": "se_region_ostergotland"
+    },
+    {
+      "key": "hg_motala",
+      "country_iso2": "SE",
+      "name": "Lasarettet i Motala",
+      "ownership_type": "public",
+      "notes": "~1,100 staff.",
+      "healthAuthorityKey": "se_region_ostergotland"
+    },
+    {
+      "key": "hg_ryhov",
+      "country_iso2": "SE",
+      "name": "Lanssjukhuset Ryhov",
+      "ownership_type": "public",
+      "notes": "Tertiary/central site for the county's ~356,000 residents.",
+      "healthAuthorityKey": "se_region_jonkoping"
+    },
+    {
+      "key": "hg_hoglandssjukhuset",
+      "country_iso2": "SE",
+      "name": "Hoglandssjukhuset",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_jonkoping"
+    },
+    {
+      "key": "hg_varnamo",
+      "country_iso2": "SE",
+      "name": "Varnamo sjukhus",
+      "ownership_type": "public",
+      "notes": "Opened 1976, serves ~96,000, ~1,300 staff (~125 doctors).",
+      "healthAuthorityKey": "se_region_jonkoping"
+    },
+    {
+      "key": "hg_vaxjo",
+      "country_iso2": "SE",
+      "name": "Centrallasarettet Vaxjo",
+      "ownership_type": "public",
+      "notes": "Large campus, multiple entrances — address disambiguation needed (Sodra Jarnvagsgatan 1 vs Strandvagen 8).",
+      "healthAuthorityKey": "se_region_kronoberg"
+    },
+    {
+      "key": "hg_ljungby",
+      "country_iso2": "SE",
+      "name": "Lasarettet Ljungby",
+      "ownership_type": "public",
+      "notes": "Feb 2025 investigation report notes Ljungby's wards are organisationally somewhat dependent on Vaxjo capacity.",
+      "healthAuthorityKey": "se_region_kronoberg"
+    },
+    {
+      "key": "hg_kalmar_lasarett",
+      "country_iso2": "SE",
+      "name": "Lanssjukhuset i Kalmar",
+      "ownership_type": "public",
+      "notes": "A 'Lasarettsvagen 1' address variant also seen, likely a different campus wing.",
+      "healthAuthorityKey": "se_region_kalmar"
+    },
+    {
+      "key": "hg_vastervik",
+      "country_iso2": "SE",
+      "name": "Vastervik sjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_kalmar"
+    },
+    {
+      "key": "hg_oskarshamn",
+      "country_iso2": "SE",
+      "name": "Oskarshamns sjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_kalmar"
+    },
+    {
+      "key": "hg_uso",
+      "country_iso2": "SE",
+      "name": "Universitetssjukhuset Orebro (USO)",
+      "ownership_type": "public",
+      "notes": "One of three hospitals in Region Orebro lan's hospital system (with Lindesberg, Karlskoga).",
+      "healthAuthorityKey": "se_region_orebro"
+    },
+    {
+      "key": "hg_lindesberg",
+      "country_iso2": "SE",
+      "name": "Lindesbergs lasarett",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_orebro"
+    },
+    {
+      "key": "hg_karlskoga",
+      "country_iso2": "SE",
+      "name": "Karlskoga lasarett",
+      "ownership_type": "public",
+      "notes": "Opened 1942, catchment ~70,000 (Orebro + Varmland counties).",
+      "healthAuthorityKey": "se_region_orebro"
+    },
+    {
+      "key": "hg_visby",
+      "country_iso2": "SE",
+      "name": "Visby lasarett",
+      "ownership_type": "public",
+      "notes": "Region Gotland. Sole hospital on the island, serves ~61,000.",
+      "healthAuthorityKey": "se_region_gotland"
+    },
+    {
+      "key": "hg_blekingesjukhuset",
+      "country_iso2": "SE",
+      "name": "Blekingesjukhuset",
+      "ownership_type": "public",
+      "notes": "Two campuses under one organisational name; precise clinical division of labour between sites not confirmed.",
+      "healthAuthorityKey": "se_region_blekinge"
+    },
+    {
+      "key": "hg_hallands_sjukhus",
+      "country_iso2": "SE",
+      "name": "Hallands sjukhus",
+      "ownership_type": "public",
+      "notes": "Three sites under one organisational name; only Halmstad + Varberg have a full ED.",
+      "healthAuthorityKey": "se_region_halland"
+    },
+    {
+      "key": "hg_vastmanlands_sjukhus",
+      "country_iso2": "SE",
+      "name": "Vastmanlands sjukhus",
+      "ownership_type": "public",
+      "notes": "Two sites under one organisational name.",
+      "healthAuthorityKey": "se_region_vastmanland"
+    },
+    {
+      "key": "hg_falun",
+      "country_iso2": "SE",
+      "name": "Falu lasarett",
+      "ownership_type": "public",
+      "notes": "Region's specialist-care hub.",
+      "healthAuthorityKey": "se_region_dalarna"
+    },
+    {
+      "key": "hg_mora",
+      "country_iso2": "SE",
+      "name": "Mora lasarett",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_dalarna"
+    },
+    {
+      "key": "hg_avesta",
+      "country_iso2": "SE",
+      "name": "Avesta lasarett",
+      "ownership_type": "public",
+      "notes": "Founded 1922.",
+      "healthAuthorityKey": "se_region_dalarna"
+    },
+    {
+      "key": "hg_ludvika",
+      "country_iso2": "SE",
+      "name": "Ludvika lasarett",
+      "ownership_type": "public",
+      "notes": "Founded 1924.",
+      "healthAuthorityKey": "se_region_dalarna"
+    },
+    {
+      "key": "hg_sater",
+      "country_iso2": "SE",
+      "name": "Saters sjukhus (Skonvik)",
+      "ownership_type": "public",
+      "notes": "Regional psychiatric hospital.",
+      "healthAuthorityKey": "se_region_dalarna"
+    },
+    {
+      "key": "hg_borlange",
+      "country_iso2": "SE",
+      "name": "Borlange sjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_dalarna"
+    },
+    {
+      "key": "hg_gavle",
+      "country_iso2": "SE",
+      "name": "Gavle sjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_gavleborg"
+    },
+    {
+      "key": "hg_hudiksvall",
+      "country_iso2": "SE",
+      "name": "Hudiksvalls sjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_gavleborg"
+    },
+    {
+      "key": "hg_bollnas",
+      "country_iso2": "SE",
+      "name": "Bollnas sjukhus",
+      "ownership_type": "public",
+      "notes": "Acute-care status not explicitly confirmed.",
+      "healthAuthorityKey": "se_region_gavleborg"
+    },
+    {
+      "key": "hg_ljusdal",
+      "country_iso2": "SE",
+      "name": "Ljusdals narsjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_gavleborg"
+    },
+    {
+      "key": "hg_sandviken",
+      "country_iso2": "SE",
+      "name": "Sandvikens narsjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_gavleborg"
+    },
+    {
+      "key": "hg_soderhamn",
+      "country_iso2": "SE",
+      "name": "Soderhamns narsjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_gavleborg"
+    },
+    {
+      "key": "hg_sundsvall",
+      "country_iso2": "SE",
+      "name": "Sundsvalls sjukhus",
+      "ownership_type": "public",
+      "notes": "Also known as Lanssjukhuset Sundsvall-Harnosand.",
+      "healthAuthorityKey": "se_region_vasternorrland"
+    },
+    {
+      "key": "hg_solleftea",
+      "country_iso2": "SE",
+      "name": "Sollefteå sjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_vasternorrland"
+    },
+    {
+      "key": "hg_ornskoldsvik",
+      "country_iso2": "SE",
+      "name": "Ornskoldsviks sjukhus",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_vasternorrland"
+    },
+    {
+      "key": "hg_ostersund",
+      "country_iso2": "SE",
+      "name": "Ostersunds sjukhus",
+      "ownership_type": "public",
+      "notes": "Region's only acute hospital.",
+      "healthAuthorityKey": "se_region_jamtland"
+    },
+    {
+      "key": "hg_nus",
+      "country_iso2": "SE",
+      "name": "Norrlands universitetssjukhus (NUS)",
+      "ownership_type": "public",
+      "notes": "Tertiary referral centre for Ovre Norrland, ~5,000 employees. One of Vasterbotten's two 'regional division' hospitals with Skelleftea.",
+      "healthAuthorityKey": "se_region_vasterbotten"
+    },
+    {
+      "key": "hg_skelleftea",
+      "country_iso2": "SE",
+      "name": "Skelleftea lasarett",
+      "ownership_type": "public",
+      "notes": "Specialisms knee replacement, gallbladder/colon surgery.",
+      "healthAuthorityKey": "se_region_vasterbotten"
+    },
+    {
+      "key": "hg_lycksele",
+      "country_iso2": "SE",
+      "name": "Lycksele sjukhus",
+      "ownership_type": "public",
+      "notes": "Catchment ~40,000, ~600 staff. Specialisms hip replacement, bariatric surgery, hernia, prolapse.",
+      "healthAuthorityKey": "se_region_vasterbotten"
+    },
+    {
+      "key": "hg_sunderby",
+      "country_iso2": "SE",
+      "name": "Sunderby sjukhus",
+      "ownership_type": "public",
+      "notes": "Competency centre for all Norrbotten healthcare, borders Boden.",
+      "healthAuthorityKey": "se_region_norrbotten"
+    },
+    {
+      "key": "hg_gallivare",
+      "country_iso2": "SE",
+      "name": "Gallivare sjukhus",
+      "ownership_type": "public",
+      "notes": "Serves Gallivare/Kiruna/Jokkmokk/Pajala.",
+      "healthAuthorityKey": "se_region_norrbotten"
+    },
+    {
+      "key": "hg_kalix",
+      "country_iso2": "SE",
+      "name": "Kalix sjukhus",
+      "ownership_type": "public",
+      "notes": "Serves Kalix/Haparanda/Overtornea/Overkalix.",
+      "healthAuthorityKey": "se_region_norrbotten"
+    },
+    {
+      "key": "hg_kiruna",
+      "country_iso2": "SE",
+      "name": "Kiruna sjukhus",
+      "ownership_type": "public",
+      "notes": "Sweden's northernmost hospital. A new Kiruna hospital is in development (LKAB city-relocation driven); construction-partner contract signed Apr 2026, completion ~2030.",
+      "healthAuthorityKey": "se_region_norrbotten"
+    },
+    {
+      "key": "hg_pitea",
+      "country_iso2": "SE",
+      "name": "Pitea sjukhus",
+      "ownership_type": "public",
+      "notes": "County hospital, planned-orthopaedics centre.",
+      "healthAuthorityKey": "se_region_norrbotten"
+    },
+    {
+      "key": "hg_malarsjukhuset",
+      "country_iso2": "SE",
+      "name": "Malarsjukhuset",
+      "ownership_type": "public",
+      "notes": "Sormlands storsta sjukhus. New care building (14 theatres incl. 1 hybrid, 14-bed neonatal ward) completing with move-in expected 2026.",
+      "healthAuthorityKey": "se_region_sormland"
+    },
+    {
+      "key": "hg_nykoping",
+      "country_iso2": "SE",
+      "name": "Nykopings lasarett",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_sormland"
+    },
+    {
+      "key": "hg_kullbergska",
+      "country_iso2": "SE",
+      "name": "Kullbergska sjukhuset",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_sormland"
+    },
+    {
+      "key": "hg_karsudden",
+      "country_iso2": "SE",
+      "name": "Regionsjukhuset Karsudden",
+      "ownership_type": "public",
+      "notes": "Transferred from state to county ownership 1 Jul 1967. Serves Sormland + referrals from Stockholm/Gotland.",
+      "healthAuthorityKey": "se_region_sormland"
+    },
+    {
+      "key": "hg_csk_karlstad",
+      "country_iso2": "SE",
+      "name": "Centralsjukhuset i Karlstad (CSK)",
+      "ownership_type": "public",
+      "notes": "'Nya CSK' new-build programme underway.",
+      "healthAuthorityKey": "se_region_varmland"
+    },
+    {
+      "key": "hg_arvika",
+      "country_iso2": "SE",
+      "name": "Sjukhuset Arvika",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_varmland"
+    },
+    {
+      "key": "hg_torsby",
+      "country_iso2": "SE",
+      "name": "Sjukhuset Torsby",
+      "ownership_type": "public",
+      "notes": null,
+      "healthAuthorityKey": "se_region_varmland"
+    }
+  ],
+  "hospitalSites": [
+    {
+      "key": "kar_solna",
+      "country_iso2": "SE",
+      "name": "Karolinska Universitetssjukhuset Solna",
+      "city": "Solna",
+      "address": "Eugeniavagen 3",
+      "postcode": "171 86",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Combined Solna+Huddinge beds: 1,340 (2024); per-campus split unconfirmed. Includes Astrid Lindgrens Barnsjukhus.",
+      "hospitalGroupKey": "hg_karolinska"
+    },
+    {
+      "key": "kar_huddinge",
+      "country_iso2": "SE",
+      "name": "Karolinska Universitetssjukhuset Huddinge",
+      "city": "Huddinge",
+      "address": "Halsovagen 13",
+      "postcode": "141 57",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Adult ED relocated to Blickagangen 9c, plan 5, 17 Sept 2024. Beds included in 1,340 combined total.",
+      "hospitalGroupKey": "hg_karolinska"
+    },
+    {
+      "key": "danderyd",
+      "country_iso2": "SE",
+      "name": "Danderyds Sjukhus",
+      "city": "Danderyd",
+      "address": "Entrevagen 2",
+      "postcode": "182 88",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 530,
+      "beds_notes": "~530 vardplatser (source dated 2016/2020, needs re-verification).",
+      "notes": "",
+      "hospitalGroupKey": "hg_danderyd"
+    },
+    {
+      "key": "sodersjukhuset",
+      "country_iso2": "SE",
+      "name": "Sodersjukhuset",
+      "city": "Stockholm",
+      "address": "Sjukhusbacken 10",
+      "postcode": "118 83",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 520,
+      "beds_notes": "~520 disponibla vardplatser; 4,699 employees; ~131,000 ED visits 2024 (sodersjukhuset.se, updated 22 Jul 2026).",
+      "notes": "",
+      "hospitalGroupKey": "hg_sodersjukhuset"
+    },
+    {
+      "key": "sodertalje",
+      "country_iso2": "SE",
+      "name": "Sodertalje Sjukhus",
+      "city": "Sodertalje",
+      "address": "Rosenborgsgatan 6-10",
+      "postcode": "152 86",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Acute + basic specialist care; runs specialised care jointly with Sodersjukhuset/Karolinska.",
+      "hospitalGroupKey": "hg_sodertalje"
+    },
+    {
+      "key": "capio_stgoran",
+      "country_iso2": "SE",
+      "name": "Capio S:t Gorans Sjukhus",
+      "city": "Stockholm",
+      "address": "Sankt Goransplan 1",
+      "postcode": "112 81",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Catchment ~420,000 (13 Stockholm districts); >100,000 ED visits (2019); ~1,500 staff. Beds unconfirmed.",
+      "hospitalGroupKey": "hg_capio_stgoran"
+    },
+    {
+      "key": "norrtalje",
+      "country_iso2": "SE",
+      "name": "Norrtalje Sjukhus",
+      "city": "Norrtalje",
+      "address": null,
+      "postcode": "761 29",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 96,
+      "beds_notes": "96 vardplatser across 4 wards.",
+      "notes": "Small acute hospital: 24/7 basic acute, ICU, radiology, surgery, ED; no obstetrics. Street address unconfirmed.",
+      "hospitalGroupKey": "hg_tiohundra"
+    },
+    {
+      "key": "st_eriks",
+      "country_iso2": "SE",
+      "name": "S:t Eriks Ogonsjukhus",
+      "city": "Solna",
+      "address": "Eugeniavagen 12",
+      "postcode": "171 64",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Eye hospital. ~485 staff; ~189,000 visits/yr, ~31,000 ED visits, ~1,400 inpatient stays, ~10,000 ops/yr. Beds unconfirmed.",
+      "hospitalGroupKey": "hg_st_eriks"
+    },
+    {
+      "key": "norra_stockholm_psyk",
+      "country_iso2": "SE",
+      "name": "Norra Stockholms Psykiatri - S:t Goran",
+      "city": "Stockholm",
+      "address": "Vardvagen 3, plan -1",
+      "postcode": "112 81",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "beds": 139,
+      "beds_notes": "139 ward beds across 9 departments + 14-bed observation unit at psychiatric ED.",
+      "notes": "Catchment ~500,000 (Bromma, Hasselby-Vallingby, Kungsholmen, Norrmalm, Ostermalm, Ekero kommun).",
+      "hospitalGroupKey": "hg_norra_stockholm_psyk"
+    },
+    {
+      "key": "lowen_rattspsyk",
+      "country_iso2": "SE",
+      "name": "Lowenstromska sjukhuset - Rattspsykiatri Sektion Nord",
+      "city": "Upplands Vasby",
+      "address": null,
+      "postcode": "194 89",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "5 wards, forensic psychiatric inpatient. Building shared with private Capio tenants (see separate group).",
+      "hospitalGroupKey": "hg_lowenstromska_rattspsyk"
+    },
+    {
+      "key": "lowen_capio_geriatrik",
+      "country_iso2": "SE",
+      "name": "Capio Geriatrik Lowet",
+      "city": "Upplands Vasby",
+      "address": null,
+      "postcode": "194 89",
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Acute geriatric inpatient, 2 wards + memory clinic.",
+      "hospitalGroupKey": "hg_lowenstromska_capio"
+    },
+    {
+      "key": "lowen_capio_ortho",
+      "country_iso2": "SE",
+      "name": "Capio Ortho Center Stockholm",
+      "city": "Upplands Vasby",
+      "address": null,
+      "postcode": "194 89",
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Hip/knee orthopaedic surgery, inpatient ward floor 7.",
+      "hospitalGroupKey": "hg_lowenstromska_capio"
+    },
+    {
+      "key": "lowen_capio_spine",
+      "country_iso2": "SE",
+      "name": "Capio Stockholm Spine Center",
+      "city": "Upplands Vasby",
+      "address": null,
+      "postcode": "194 89",
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Sweden's largest spine clinic; inpatient + outpatient.",
+      "hospitalGroupKey": "hg_lowenstromska_capio"
+    },
+    {
+      "key": "sahlgrenska_sjukhuset",
+      "country_iso2": "SE",
+      "name": "Sahlgrenska sjukhuset",
+      "city": "Goteborg",
+      "address": "Per Dubbsgatan 15",
+      "postcode": "413 46",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Melior confirmed for psychiatry/clinical genetics/paediatrics/forensic psychiatry. Per-campus bed split not found (group total ~1,600).",
+      "hospitalGroupKey": "hg_sahlgrenska"
+    },
+    {
+      "key": "ostra_sjukhuset",
+      "country_iso2": "SE",
+      "name": "Ostra sjukhuset",
+      "city": "Goteborg",
+      "address": "Diagnosvagen 11",
+      "postcode": "416 50",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Includes Drottning Silvias barnsjukhus (children's hospital).",
+      "hospitalGroupKey": "hg_sahlgrenska"
+    },
+    {
+      "key": "molndal",
+      "country_iso2": "SE",
+      "name": "Molndals sjukhus",
+      "city": "Molndal",
+      "address": "Goteborgsvagen 31",
+      "postcode": "431 30",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_sahlgrenska"
+    },
+    {
+      "key": "sahlgrenska_hogsbo",
+      "country_iso2": "SE",
+      "name": "Hogsbo sjukhus (Sahlgrenska)",
+      "city": "Vastra Frolunda",
+      "address": "Lilla Kapplandsgatan 30A",
+      "postcode": "421 37",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Sahlgrenska outpatient site, distinct from nearby Hogsbo narsjukhus (SiV).",
+      "hospitalGroupKey": "hg_sahlgrenska"
+    },
+    {
+      "key": "ragarden",
+      "country_iso2": "SE",
+      "name": "Ragarden",
+      "city": "Goteborg",
+      "address": null,
+      "postcode": null,
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Psychiatric facility under Sahlgrenska; address unconfirmed.",
+      "hospitalGroupKey": "hg_sahlgrenska"
+    },
+    {
+      "key": "nal",
+      "country_iso2": "SE",
+      "name": "Norra Alvsborgs Lanssjukhus (NAL)",
+      "city": "Trollhattan",
+      "address": "Larketorpsvagen 20",
+      "postcode": "461 73",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Primary acute site of NU-sjukvarden.",
+      "hospitalGroupKey": "hg_nu_sjukvarden"
+    },
+    {
+      "key": "uddevalla",
+      "country_iso2": "SE",
+      "name": "Uddevalla sjukhus",
+      "city": "Uddevalla",
+      "address": "Fjallvagen 9",
+      "postcode": "451 53",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Planned/elective focus.",
+      "hospitalGroupKey": "hg_nu_sjukvarden"
+    },
+    {
+      "key": "brinkasen",
+      "country_iso2": "SE",
+      "name": "Brinkasen",
+      "city": "Vanersborg",
+      "address": "Fyrspannsvagen 2",
+      "postcode": "462 54",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Forensic/adult psychiatric hospital.",
+      "hospitalGroupKey": "hg_nu_sjukvarden"
+    },
+    {
+      "key": "sas_boras",
+      "country_iso2": "SE",
+      "name": "SAS Boras",
+      "city": "Boras",
+      "address": "Bramhultsvagen 53",
+      "postcode": "501 82",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "MILLENNIUM SITE: went live 12 Nov 2024 05:30, halted 15 Nov 2024 after chaotic first days (radiology reverted to paper, acute intake restricted, patients diverted to Sahlgrenska, 10 Lex Maria reports). Reverted to Melior by 20 Nov 2024.",
+      "hospitalGroupKey": "hg_sas"
+    },
+    {
+      "key": "sas_skene",
+      "country_iso2": "SE",
+      "name": "SAS Skene",
+      "city": "Skene",
+      "address": "Varbergsvagen 50",
+      "postcode": "511 61",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Millennium status at hospital-site level uncertain — Narhalsan Skene primary care requested a delayed start (denied), implying Skene-area services were in scope, but site-level go-live not confirmed. Current EPR: Melior (part of SAS regionwide reversion).",
+      "hospitalGroupKey": "hg_sas"
+    },
+    {
+      "key": "skas_skovde",
+      "country_iso2": "SE",
+      "name": "SkaS Skovde",
+      "city": "Skovde",
+      "address": "Lovangsvagen 1",
+      "postcode": "549 49",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Main acute site.",
+      "hospitalGroupKey": "hg_skas"
+    },
+    {
+      "key": "skas_lidkoping",
+      "country_iso2": "SE",
+      "name": "SkaS Lidkoping",
+      "city": "Lidkoping",
+      "address": "Mellbygatan 11",
+      "postcode": "531 51",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_skas"
+    },
+    {
+      "key": "skas_falkoping",
+      "country_iso2": "SE",
+      "name": "SkaS Falkoping",
+      "city": "Falkoping",
+      "address": "Jattenegatan 15",
+      "postcode": "521 37",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_skas"
+    },
+    {
+      "key": "skas_mariestad",
+      "country_iso2": "SE",
+      "name": "SkaS Mariestad",
+      "city": "Mariestad",
+      "address": "Lockerudsvagen 12A",
+      "postcode": "542 45",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_skas"
+    },
+    {
+      "key": "alingsas",
+      "country_iso2": "SE",
+      "name": "Alingsas lasarett",
+      "city": "Alingsas",
+      "address": "Sodra Ringgatan 30",
+      "postcode": "441 33",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_siv"
+    },
+    {
+      "key": "kungalv",
+      "country_iso2": "SE",
+      "name": "Kungalvs sjukhus",
+      "city": "Kungalv",
+      "address": "Lasarettsgatan 1",
+      "postcode": "442 41",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_siv"
+    },
+    {
+      "key": "angered_narsjukhus",
+      "country_iso2": "SE",
+      "name": "Angereds Narsjukhus",
+      "city": "Angered",
+      "address": "Halmtorget 1",
+      "postcode": null,
+      "site_type": "other",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Mixed acute+primary scope.",
+      "hospitalGroupKey": "hg_siv"
+    },
+    {
+      "key": "hogsbo_narsjukhus",
+      "country_iso2": "SE",
+      "name": "Hogsbo narsjukhus",
+      "city": "Vastra Frolunda",
+      "address": "Lilla Kapplandsgatan 10",
+      "postcode": "421 37",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": "No inpatient beds — day-surgery/outpatient specialist only.",
+      "notes": "Successor to the closed Frolunda Specialistsjukhus (relocated here mid-Dec 2023). ~60 consultation rooms: cardiovascular, diabetes, orthopaedic, ophthalmology, ENT, dermatology, plastic surgery.",
+      "hospitalGroupKey": "hg_siv"
+    },
+    {
+      "key": "sus_lund",
+      "country_iso2": "SE",
+      "name": "SUS Lund",
+      "city": "Lund",
+      "address": "Entregatan 7",
+      "postcode": "221 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": "SUS combined ~13,000 staff group-wide (indicative Wikipedia figure); per-campus beds not confirmed.",
+      "notes": "Millennium: none — was scheduled last in original rollout plan, cancelled before reaching it.",
+      "hospitalGroupKey": "hg_sus"
+    },
+    {
+      "key": "sus_malmo",
+      "country_iso2": "SE",
+      "name": "SUS Malmo",
+      "city": "Malmo",
+      "address": "Inga Marie Nilssons gata 47",
+      "postcode": "205 02",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Millennium: none.",
+      "hospitalGroupKey": "hg_sus"
+    },
+    {
+      "key": "helsingborg",
+      "country_iso2": "SE",
+      "name": "Helsingborgs lasarett",
+      "city": "Helsingborg",
+      "address": "Charlotte Yhlens gata 10",
+      "postcode": "251 87",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "~3,000 staff. Millennium: none found.",
+      "hospitalGroupKey": "hg_skane_nordvast"
+    },
+    {
+      "key": "angelholm",
+      "country_iso2": "SE",
+      "name": "Angelholms sjukhus",
+      "city": "Angelholm",
+      "address": "Landshovdingevagen 7 E",
+      "postcode": "262 81",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Aleris Specialistvard operates an ortho/eye clinic on-site under contract (\"Angelholmsandan\" model). Millennium: none found.",
+      "hospitalGroupKey": "hg_skane_nordvast"
+    },
+    {
+      "key": "kristianstad",
+      "country_iso2": "SE",
+      "name": "Centralsjukhuset Kristianstad (CSK)",
+      "city": "Kristianstad",
+      "address": "J A Hedlunds vag 5",
+      "postcode": "291 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "~2,000 staff. Millennium: none found.",
+      "hospitalGroupKey": "hg_skane_nordost"
+    },
+    {
+      "key": "hassleholm",
+      "country_iso2": "SE",
+      "name": "Hassleholms sjukhus",
+      "city": "Hassleholm",
+      "address": "Esplanadgatan 19",
+      "postcode": "281 25",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "~500 staff. One of Sweden's largest hip/knee orthopaedic prosthesis centres. Millennium: none found.",
+      "hospitalGroupKey": "hg_skane_nordost"
+    },
+    {
+      "key": "ystad",
+      "country_iso2": "SE",
+      "name": "Lasarettet i Ystad",
+      "city": "Ystad",
+      "address": "Kristianstadsvagen 3A",
+      "postcode": "271 33",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Designated Millennium pilot site (originally the wider planned southeast-Skane rollout, scaled back to Ystad alone after the VGR/Boras failure); go-live repeatedly postponed with no date set as of 21 Jan 2026; programme cancelled entirely 29 Apr 2026 — never launched.",
+      "hospitalGroupKey": "hg_ystad"
+    },
+    {
+      "key": "trelleborg",
+      "country_iso2": "SE",
+      "name": "Lasarettet Trelleborg",
+      "city": "Trelleborg",
+      "address": "Frans Malmrosgatan 10",
+      "postcode": "231 55",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Ortho (hip/knee), day surgery, psychiatric, palliative services. Millennium: none found.",
+      "hospitalGroupKey": "hg_trelleborg"
+    },
+    {
+      "key": "landskrona",
+      "country_iso2": "SE",
+      "name": "Lasarettet i Landskrona",
+      "city": "Landskrona",
+      "address": "Vattenverksallen 15",
+      "postcode": "261 24",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Smaller elective-surgery hospital (gallstones, hernias, some cancer surgery); 24/7 inpatient wards; weekday-daytime-only adult ED. Shares diagnostics/imaging with Helsingborg + Angelholm. Millennium: none found.",
+      "hospitalGroupKey": "hg_landskrona"
+    },
+    {
+      "key": "capio_simrishamn",
+      "country_iso2": "SE",
+      "name": "Capio Narsjukhus Simrishamn",
+      "city": "Simrishamn",
+      "address": null,
+      "postcode": null,
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Frail elderly specialist outpatient/inpatient care; also youth health (Simrishamn/Tomelilla) + co-located Capio Vardcentral Simrishamn primary care. Street address unconfirmed.",
+      "hospitalGroupKey": "hg_capio_simrishamn"
+    },
+    {
+      "key": "akademiska",
+      "country_iso2": "SE",
+      "name": "Akademiska sjukhuset",
+      "city": "Uppsala",
+      "address": null,
+      "postcode": "751 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 940,
+      "beds_notes": "940 beds — stale figure, dated 2017; active 2025 debate about capacity cuts, do not treat as current.",
+      "notes": "No street-level address surfaced.",
+      "hospitalGroupKey": "hg_akademiska"
+    },
+    {
+      "key": "enkoping",
+      "country_iso2": "SE",
+      "name": "Lasarettet i Enkoping",
+      "city": "Enkoping",
+      "address": "Kungsgatan 69-71",
+      "postcode": "751 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Lansdels- och akutsjukhus for the southern part of the county.",
+      "hospitalGroupKey": "hg_enkoping"
+    },
+    {
+      "key": "us_linkoping",
+      "country_iso2": "SE",
+      "name": "Universitetssjukhuset i Linkoping",
+      "city": "Linkoping",
+      "address": null,
+      "postcode": "581 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 600,
+      "beds_notes": "~600 'care places' (undated).",
+      "notes": null,
+      "hospitalGroupKey": "hg_us_linkoping"
+    },
+    {
+      "key": "vrinnevi",
+      "country_iso2": "SE",
+      "name": "Vrinnevisjukhuset",
+      "city": "Norrkoping",
+      "address": "Gamla Ovagen 25",
+      "postcode": "601 82",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "~2,500 employees.",
+      "hospitalGroupKey": "hg_vrinnevi"
+    },
+    {
+      "key": "motala",
+      "country_iso2": "SE",
+      "name": "Lasarettet i Motala",
+      "city": "Motala",
+      "address": "Lasarettsgatan 37",
+      "postcode": "591 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Capio specialistvard operates orthopaedics, surgery, dermatology and anaesthesia departments here under contract — private-operator-within-public-site.",
+      "hospitalGroupKey": "hg_motala"
+    },
+    {
+      "key": "ryhov",
+      "country_iso2": "SE",
+      "name": "Lanssjukhuset Ryhov",
+      "city": "Jonkoping",
+      "address": "Sjukhusgatan (huvudbyggnaden)",
+      "postcode": "551 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_ryhov"
+    },
+    {
+      "key": "hoglandssjukhuset",
+      "country_iso2": "SE",
+      "name": "Hoglandssjukhuset",
+      "city": "Eksjo",
+      "address": "Vastanagatan 9",
+      "postcode": "575 81",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_hoglandssjukhuset"
+    },
+    {
+      "key": "varnamo",
+      "country_iso2": "SE",
+      "name": "Varnamo sjukhus",
+      "city": "Varnamo",
+      "address": "Doktorsgatan 5",
+      "postcode": "331 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_varnamo"
+    },
+    {
+      "key": "vaxjo",
+      "country_iso2": "SE",
+      "name": "Centrallasarettet Vaxjo",
+      "city": "Vaxjo",
+      "address": "Sodra Jarnvagsgatan 1 / Strandvagen 8",
+      "postcode": "352 34",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Address needs disambiguation between two campus entrances.",
+      "hospitalGroupKey": "hg_vaxjo"
+    },
+    {
+      "key": "ljungby",
+      "country_iso2": "SE",
+      "name": "Lasarettet Ljungby",
+      "city": "Ljungby",
+      "address": "Kyrkogatan 2",
+      "postcode": "341 35",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_ljungby"
+    },
+    {
+      "key": "kalmar_lasarett",
+      "country_iso2": "SE",
+      "name": "Lanssjukhuset i Kalmar",
+      "city": "Kalmar",
+      "address": "Lasarettsvagen 8",
+      "postcode": "391 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_kalmar_lasarett"
+    },
+    {
+      "key": "vastervik",
+      "country_iso2": "SE",
+      "name": "Vastervik sjukhus",
+      "city": "Vastervik",
+      "address": "Ostra Kyrkogatan 48",
+      "postcode": "593 81",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_vastervik"
+    },
+    {
+      "key": "oskarshamn",
+      "country_iso2": "SE",
+      "name": "Oskarshamns sjukhus",
+      "city": "Oskarshamn",
+      "address": "Rosvagen 1",
+      "postcode": "572 28",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_oskarshamn"
+    },
+    {
+      "key": "uso",
+      "country_iso2": "SE",
+      "name": "Universitetssjukhuset Orebro",
+      "city": "Orebro",
+      "address": "Sodra Grev Rosengatan 22 C",
+      "postcode": "701 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_uso"
+    },
+    {
+      "key": "lindesberg",
+      "country_iso2": "SE",
+      "name": "Lindesbergs lasarett",
+      "city": "Lindesberg",
+      "address": null,
+      "postcode": "711 82",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_lindesberg"
+    },
+    {
+      "key": "karlskoga",
+      "country_iso2": "SE",
+      "name": "Karlskoga lasarett",
+      "city": "Karlskoga",
+      "address": "Lasarettsvagen 1",
+      "postcode": "691 81",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 130,
+      "beds_notes": "130 beds (undated, treat as approximate).",
+      "notes": null,
+      "hospitalGroupKey": "hg_karlskoga"
+    },
+    {
+      "key": "visby",
+      "country_iso2": "SE",
+      "name": "Visby lasarett",
+      "city": "Visby",
+      "address": "S:t Goransgatan 5",
+      "postcode": "621 84",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "No clean current bed total found; Wikipedia (2024) notes highest beds-per-inhabitant in the country; 5 ICU beds as of Nov 2020.",
+      "hospitalGroupKey": "hg_visby"
+    },
+    {
+      "key": "blekinge_karlskrona",
+      "country_iso2": "SE",
+      "name": "Blekingesjukhuset Karlskrona",
+      "city": "Karlskrona",
+      "address": "Lasarettsvagen 4",
+      "postcode": "371 81",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Main/larger campus per shared-services page.",
+      "hospitalGroupKey": "hg_blekingesjukhuset"
+    },
+    {
+      "key": "blekinge_karlshamn",
+      "country_iso2": "SE",
+      "name": "Blekingesjukhuset Karlshamn",
+      "city": "Karlshamn",
+      "address": "Lansmansvagen 1",
+      "postcode": "374 80",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_blekingesjukhuset"
+    },
+    {
+      "key": "halland_halmstad",
+      "country_iso2": "SE",
+      "name": "Hallands sjukhus Halmstad",
+      "city": "Halmstad",
+      "address": null,
+      "postcode": "301 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": "Only seasonal-closure figures found (e.g. '150 vardplatser closed for summer') — not a reliable baseline.",
+      "notes": null,
+      "hospitalGroupKey": "hg_hallands_sjukhus"
+    },
+    {
+      "key": "halland_varberg",
+      "country_iso2": "SE",
+      "name": "Hallands sjukhus Varberg",
+      "city": "Varberg",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": "Wikipedia states '450 somatic + 50 psychiatric' but undated/possibly stale — re-verify before use.",
+      "notes": "Building opened 1 June 1972.",
+      "hospitalGroupKey": "hg_hallands_sjukhus"
+    },
+    {
+      "key": "halland_kungsbacka",
+      "country_iso2": "SE",
+      "name": "Hallands sjukhus Kungsbacka",
+      "city": "Kungsbacka",
+      "address": null,
+      "postcode": "434 80",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Planned/elective specialist only (medicine, surgery, urology, ortho, gynae, ENT, eye, paediatrics, palliative, geriatric rehab, post-op) — NO emergency department.",
+      "hospitalGroupKey": "hg_hallands_sjukhus"
+    },
+    {
+      "key": "vastmanland_vasteras",
+      "country_iso2": "SE",
+      "name": "Vastmanlands sjukhus Vasteras",
+      "city": "Vasteras",
+      "address": "Utmarksgatan 10, ingang 1",
+      "postcode": "721 89",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Largest hospital in the county — full range incl. surgery, oncology, psychiatry, paediatrics.",
+      "hospitalGroupKey": "hg_vastmanlands_sjukhus"
+    },
+    {
+      "key": "vastmanland_koping",
+      "country_iso2": "SE",
+      "name": "Vastmanlands sjukhus Koping",
+      "city": "Koping",
+      "address": "Glasgatan 27",
+      "postcode": "731 81",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "~400 staff, 4 wards; primary focus acute internal medicine; serves Koping-Arboga-Kungsor + Hallstahammar + northern county.",
+      "hospitalGroupKey": "hg_vastmanlands_sjukhus"
+    },
+    {
+      "key": "falun",
+      "country_iso2": "SE",
+      "name": "Falu lasarett",
+      "city": "Falun",
+      "address": "Lasarettsvagen 10",
+      "postcode": "791 82",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 450,
+      "beds_notes": "~450 (undated website figure).",
+      "notes": null,
+      "hospitalGroupKey": "hg_falun"
+    },
+    {
+      "key": "mora",
+      "country_iso2": "SE",
+      "name": "Mora lasarett",
+      "city": "Mora",
+      "address": "Lasarettsvagen 35",
+      "postcode": "792 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 110,
+      "beds_notes": "~110, ~1,000 staff.",
+      "notes": null,
+      "hospitalGroupKey": "hg_mora"
+    },
+    {
+      "key": "avesta",
+      "country_iso2": "SE",
+      "name": "Avesta lasarett",
+      "city": "Avesta",
+      "address": "Lindsnasvagen 2",
+      "postcode": "774 41",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 45,
+      "beds_notes": "~45, ~450 staff.",
+      "notes": "Postcode discrepancy across sources (774 41 vs 774 82).",
+      "hospitalGroupKey": "hg_avesta"
+    },
+    {
+      "key": "ludvika",
+      "country_iso2": "SE",
+      "name": "Ludvika lasarett",
+      "city": "Ludvika",
+      "address": "Biskopsvagen 22",
+      "postcode": "771 51",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 34,
+      "beds_notes": "~34.",
+      "notes": null,
+      "hospitalGroupKey": "hg_ludvika"
+    },
+    {
+      "key": "sater",
+      "country_iso2": "SE",
+      "name": "Saters sjukhus (Skonvik)",
+      "city": "Sater",
+      "address": "Jonshyttevagen 1",
+      "postcode": "783 32",
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Adult psychiatry, psychiatric ED, forensic psychiatry (own notable clinic), youth services, pain referral.",
+      "hospitalGroupKey": "hg_sater"
+    },
+    {
+      "key": "borlange",
+      "country_iso2": "SE",
+      "name": "Borlange sjukhus",
+      "city": "Borlange",
+      "address": "Bergebyvagen 5",
+      "postcode": "784 73",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Hosts Jourmottagning Mellersta Dalarna (central-Dalarna out-of-hours/emergency reception) + palliative team. Exact classification (full lasarett vs. narsjukhus-equivalent) unclear.",
+      "hospitalGroupKey": "hg_borlange"
+    },
+    {
+      "key": "gavle",
+      "country_iso2": "SE",
+      "name": "Gavle sjukhus",
+      "city": "Gavle",
+      "address": "Lasarettsvagen 1",
+      "postcode": "801 88",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_gavle"
+    },
+    {
+      "key": "hudiksvall",
+      "country_iso2": "SE",
+      "name": "Hudiksvalls sjukhus",
+      "city": "Hudiksvall",
+      "address": "Kungsgatan 33",
+      "postcode": "824 81",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_hudiksvall"
+    },
+    {
+      "key": "bollnas",
+      "country_iso2": "SE",
+      "name": "Bollnas sjukhus",
+      "city": "Bollnas",
+      "address": "Sjukhusvagen 81",
+      "postcode": "821 81",
+      "site_type": "other",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_bollnas"
+    },
+    {
+      "key": "ljusdal",
+      "country_iso2": "SE",
+      "name": "Ljusdals narsjukhus",
+      "city": "Ljusdal",
+      "address": "Vardslingan 16",
+      "postcode": "827 35",
+      "site_type": "other",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_ljusdal"
+    },
+    {
+      "key": "sandviken",
+      "country_iso2": "SE",
+      "name": "Sandvikens narsjukhus",
+      "city": "Sandviken",
+      "address": "Lasarettsleden 5",
+      "postcode": "811 60",
+      "site_type": "other",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_sandviken"
+    },
+    {
+      "key": "soderhamn",
+      "country_iso2": "SE",
+      "name": "Soderhamns narsjukhus",
+      "city": "Soderhamn",
+      "address": "Tradgardsgatan",
+      "postcode": "826 81",
+      "site_type": "other",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_soderhamn"
+    },
+    {
+      "key": "sundsvall",
+      "country_iso2": "SE",
+      "name": "Sundsvalls sjukhus",
+      "city": "Sundsvall",
+      "address": "Lasarettsvagen 21",
+      "postcode": "856 43",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_sundsvall"
+    },
+    {
+      "key": "solleftea",
+      "country_iso2": "SE",
+      "name": "Solleftea sjukhus",
+      "city": "Solleftea",
+      "address": "Lasarettsgatan 1",
+      "postcode": "881 60",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 81,
+      "beds_notes": "81 beds (Feb 2020 figure; a proposed ~20% cut to 65 was under debate then — outcome not verified, treat as dated).",
+      "notes": null,
+      "hospitalGroupKey": "hg_solleftea"
+    },
+    {
+      "key": "ornskoldsvik",
+      "country_iso2": "SE",
+      "name": "Ornskoldsviks sjukhus",
+      "city": "Ornskoldsvik",
+      "address": "Nygatan 58",
+      "postcode": "891 34",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_ornskoldsvik"
+    },
+    {
+      "key": "ostersund",
+      "country_iso2": "SE",
+      "name": "Ostersunds sjukhus",
+      "city": "Ostersund",
+      "address": null,
+      "postcode": "831 27",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Street address unconfirmed (postal Box 654).",
+      "hospitalGroupKey": "hg_ostersund"
+    },
+    {
+      "key": "nus",
+      "country_iso2": "SE",
+      "name": "Norrlands universitetssjukhus",
+      "city": "Umea",
+      "address": null,
+      "postcode": "907 19",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": "Only a 1907 historical figure of 134 found — no current total.",
+      "notes": "Address unconfirmed/conflicting across sources (main campus Alidbacken area; patient hotel Lasarettsbacken 10).",
+      "hospitalGroupKey": "hg_nus"
+    },
+    {
+      "key": "skelleftea",
+      "country_iso2": "SE",
+      "name": "Skelleftea lasarett",
+      "city": "Skelleftea",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 200,
+      "beds_notes": "200 (current, confirmed).",
+      "notes": null,
+      "hospitalGroupKey": "hg_skelleftea"
+    },
+    {
+      "key": "lycksele",
+      "country_iso2": "SE",
+      "name": "Lycksele sjukhus",
+      "city": "Lycksele",
+      "address": "Hedlundavagen",
+      "postcode": "921 35",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 80,
+      "beds_notes": "~80 ('ett 80-tal', current).",
+      "notes": "Single-source directory listing, not cross-verified.",
+      "hospitalGroupKey": "hg_lycksele"
+    },
+    {
+      "key": "sunderby",
+      "country_iso2": "SE",
+      "name": "Sunderby sjukhus",
+      "city": "Lulea",
+      "address": "Sjukhusvagen 10",
+      "postcode": "971 80",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 380,
+      "beds_notes": "380 established (reduced from 432, Mar 2018 — likely stale).",
+      "notes": null,
+      "hospitalGroupKey": "hg_sunderby"
+    },
+    {
+      "key": "gallivare",
+      "country_iso2": "SE",
+      "name": "Gallivare sjukhus",
+      "city": "Gallivare",
+      "address": "Kallgatan 14",
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 91,
+      "beds_notes": "91 established (from 103) — 2018 board doc, likely stale.",
+      "notes": null,
+      "hospitalGroupKey": "hg_gallivare"
+    },
+    {
+      "key": "kalix",
+      "country_iso2": "SE",
+      "name": "Kalix sjukhus",
+      "city": "Kalix",
+      "address": "Skolgatan 1",
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 54,
+      "beds_notes": "54 established (from 59) — 2018 board doc, likely stale.",
+      "notes": null,
+      "hospitalGroupKey": "hg_kalix"
+    },
+    {
+      "key": "kiruna",
+      "country_iso2": "SE",
+      "name": "Kiruna sjukhus",
+      "city": "Kiruna",
+      "address": "Thulegatan 29",
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 29,
+      "beds_notes": "29 established (from 33) — 2018 board doc, likely stale; no new figure for the planned replacement hospital yet.",
+      "notes": null,
+      "hospitalGroupKey": "hg_kiruna"
+    },
+    {
+      "key": "pitea",
+      "country_iso2": "SE",
+      "name": "Pitea sjukhus",
+      "city": "Pitea",
+      "address": "Lasarettsvagen 14",
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 167,
+      "beds_notes": "167 established (from 172) — 2018 board doc, likely stale.",
+      "notes": null,
+      "hospitalGroupKey": "hg_pitea"
+    },
+    {
+      "key": "malarsjukhuset",
+      "country_iso2": "SE",
+      "name": "Malarsjukhuset",
+      "city": "Eskilstuna",
+      "address": "Kungsvagen 38",
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Address conflicting across sources (Kungsvagen 38 vs Kungsgatan 42; additional buildings at Kungsvagen 36/69, Sveavagen 42) — needs reconciliation. Overall beds unconfirmed.",
+      "hospitalGroupKey": "hg_malarsjukhuset"
+    },
+    {
+      "key": "nykoping",
+      "country_iso2": "SE",
+      "name": "Nykopings lasarett",
+      "city": "Nykoping",
+      "address": null,
+      "postcode": "611 85",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": "Street address not found.",
+      "hospitalGroupKey": "hg_nykoping"
+    },
+    {
+      "key": "kullbergska",
+      "country_iso2": "SE",
+      "name": "Kullbergska sjukhuset",
+      "city": "Katrineholm",
+      "address": "Djulogatan 75",
+      "postcode": "641 22",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_kullbergska"
+    },
+    {
+      "key": "karsudden",
+      "country_iso2": "SE",
+      "name": "Regionsjukhuset Karsudden (Karsuddens sjukhus)",
+      "city": "Katrineholm",
+      "address": null,
+      "postcode": null,
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "beds": 155,
+      "beds_notes": "155 beds across 14 wards/7 units (2025 figure; was 235 at 1964 opening, 245 in 1967).",
+      "notes": "Sweden's largest forensic psychiatric hospital. Precise street address unconfirmed.",
+      "hospitalGroupKey": "hg_karsudden"
+    },
+    {
+      "key": "csk_karlstad",
+      "country_iso2": "SE",
+      "name": "Centralsjukhuset i Karlstad",
+      "city": "Karlstad",
+      "address": "Rosenborgsgatan 9",
+      "postcode": "652 30",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_csk_karlstad"
+    },
+    {
+      "key": "arvika",
+      "country_iso2": "SE",
+      "name": "Sjukhuset Arvika",
+      "city": "Arvika",
+      "address": "Rackstavagen 2",
+      "postcode": "671 80",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_arvika"
+    },
+    {
+      "key": "torsby",
+      "country_iso2": "SE",
+      "name": "Sjukhuset Torsby",
+      "city": "Torsby",
+      "address": "Lasarettsvagen 8",
+      "postcode": "685 34",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "beds_notes": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_torsby"
+    }
+  ],
+  "deployments": [
+    {
+      "key": "dep_kar_solna",
+      "hospitalSiteKey": "kar_solna",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kar_huddinge",
+      "hospitalSiteKey": "kar_huddinge",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_danderyd",
+      "hospitalSiteKey": "danderyd",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sodersjukhuset",
+      "hospitalSiteKey": "sodersjukhuset",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sodertalje",
+      "hospitalSiteKey": "sodertalje",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029. EPR not independently verified for this site — presumed region-standard TakeCare.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_capio_stgoran",
+      "hospitalSiteKey": "capio_stgoran",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sole private-hospital KGC member; runs Cambio COSMIC, not Region Stockholm's TakeCare.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_norrtalje",
+      "hospitalSiteKey": "norrtalje",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029. EPR unconfirmed independently given JV structure — presumed region-standard TakeCare.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_st_eriks",
+      "hospitalSiteKey": "st_eriks",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029. EPR unconfirmed independently.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_norra_stockholm_psyk",
+      "hospitalSiteKey": "norra_stockholm_psyk",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029. Presumed TakeCare, not independently confirmed given co-location with COSMIC site.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_lowen_rattspsyk",
+      "hospitalSiteKey": "lowen_rattspsyk",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029. EPR unconfirmed per tenant — presumed TakeCare.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_lowen_capio_geriatrik",
+      "hospitalSiteKey": "lowen_capio_geriatrik",
+      "supplier": "Unknown / unconfirmed",
+      "product": "Unconfirmed",
+      "status": "unconfirmed",
+      "notes": "Private-operator carve-out within a public-region building; EPR system not independently confirmed per tenant.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    },
+    {
+      "key": "dep_lowen_capio_ortho",
+      "hospitalSiteKey": "lowen_capio_ortho",
+      "supplier": "Unknown / unconfirmed",
+      "product": "Unconfirmed",
+      "status": "unconfirmed",
+      "notes": "Private-operator carve-out within a public-region building; EPR system not independently confirmed per tenant.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    },
+    {
+      "key": "dep_lowen_capio_spine",
+      "hospitalSiteKey": "lowen_capio_spine",
+      "supplier": "Unknown / unconfirmed",
+      "product": "Unconfirmed",
+      "status": "unconfirmed",
+      "notes": "Private-operator carve-out within a public-region building; EPR system not independently confirmed per tenant.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    },
+    {
+      "key": "dep_sahlgrenska_sjukhuset",
+      "hospitalSiteKey": "sahlgrenska_sjukhuset",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ostra_sjukhuset",
+      "hospitalSiteKey": "ostra_sjukhuset",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_molndal",
+      "hospitalSiteKey": "molndal",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sahlgrenska_hogsbo",
+      "hospitalSiteKey": "sahlgrenska_hogsbo",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ragarden",
+      "hospitalSiteKey": "ragarden",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Presumed Melior, not separately confirmed.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_nal",
+      "hospitalSiteKey": "nal",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_uddevalla",
+      "hospitalSiteKey": "uddevalla",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_brinkasen",
+      "hospitalSiteKey": "brinkasen",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Presumed Melior/psychiatric module, not separately confirmed.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sas_boras",
+      "hospitalSiteKey": "sas_boras",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Current EPR since reversion (20 Nov 2024) and following contract termination 27 Aug 2026.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sas_boras_millennium",
+      "hospitalSiteKey": "sas_boras",
+      "supplier": "Oracle",
+      "product": "Millennium (Oracle Health)",
+      "status": "unconfirmed",
+      "notes": "Cerner/Oracle Health Millennium went live 12 Nov 2024 05:30; suspended after 3 days (15 Nov 2024) — 21 clicks to book an appointment, 45-min tasks that should take 5 min, medication-list/prescription failures, 10 Lex Maria reports. KPMG audit (~18 Mar 2025) recommended scrapping. VGR regional board voted to abandon 2 Dec 2025; termination settlement SEK 657m signed 27 Aug 2026 on top of ~SEK 3.8bn already invested regionwide. One of the most significant EPR failures in recent European hospital IT.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sas_skene",
+      "hospitalSiteKey": "sas_skene",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_skas_skovde",
+      "hospitalSiteKey": "skas_skovde",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_skas_lidkoping",
+      "hospitalSiteKey": "skas_lidkoping",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_skas_falkoping",
+      "hospitalSiteKey": "skas_falkoping",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_skas_mariestad",
+      "hospitalSiteKey": "skas_mariestad",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Never live on Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_alingsas",
+      "hospitalSiteKey": "alingsas",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Presumed Melior, never Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kungalv",
+      "hospitalSiteKey": "kungalv",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Presumed Melior, never Millennium.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_angered_narsjukhus",
+      "hospitalSiteKey": "angered_narsjukhus",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Presumed Melior/Asynja Visph blend, not separately confirmed.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_hogsbo_narsjukhus",
+      "hospitalSiteKey": "hogsbo_narsjukhus",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Presumed Melior for outpatient records, not separately confirmed.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sus_lund",
+      "hospitalSiteKey": "sus_lund",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sus_malmo",
+      "hospitalSiteKey": "sus_malmo",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_helsingborg",
+      "hospitalSiteKey": "helsingborg",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_angelholm",
+      "hospitalSiteKey": "angelholm",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'. Core public facility.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_angelholm_aleris",
+      "hospitalSiteKey": "angelholm",
+      "supplier": "Unknown / unconfirmed",
+      "product": "Unconfirmed",
+      "status": "unconfirmed",
+      "notes": "Aleris Specialistvard-operated ortho/eye clinic on-site under contract; clinical system unconfirmed (may run own system, or interface with regional Melior) — private-operator carve-out.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    },
+    {
+      "key": "dep_kristianstad",
+      "hospitalSiteKey": "kristianstad",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_hassleholm",
+      "hospitalSiteKey": "hassleholm",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ystad",
+      "hospitalSiteKey": "ystad",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ystad_millennium",
+      "hospitalSiteKey": "ystad",
+      "supplier": "Oracle",
+      "product": "Millennium (Oracle Health)",
+      "status": "unconfirmed",
+      "notes": "Designated pilot site for Region Skane's Cerner/Oracle Health Millennium programme (procured 2016-17, branded internally SDV). Go-live never occurred — repeatedly postponed, then the entire programme was discontinued by the Regional Board 29 Apr 2026 after an internal usability review found the system not fit for purpose and lacking EU MDR CE certification. Total programme sunk cost ~SEK 3.5bn (2.3bn investment, 1.14bn consultants, 620.1m Cerner/Oracle fees, 838.8m internal staff). No hospital in Region Skane, including Ystad, ever reached a confirmed production or pilot go-live.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_trelleborg",
+      "hospitalSiteKey": "trelleborg",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_landskrona",
+      "hospitalSiteKey": "landskrona",
+      "supplier": "Cerner",
+      "product": "Melior",
+      "status": "confirmed",
+      "notes": "Oracle Health/Cerner-family EPR (Melior originally developed by Siemens Health Services, acquired by Cerner 2015; Cerner acquired by Oracle 2022, now marketed as Oracle Health). Distinct product line from Oracle Health 'Millennium'.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_capio_simrishamn",
+      "hospitalSiteKey": "capio_simrishamn",
+      "supplier": "Unknown / unconfirmed",
+      "product": "Unconfirmed",
+      "status": "unconfirmed",
+      "notes": "No source states whether this site runs Melior (integrated into the regional record) or a separate Capio-group system — material gap given interest in private-site interoperability.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    },
+    {
+      "key": "dep_akademiska",
+      "hospitalSiteKey": "akademiska",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_enkoping",
+      "hospitalSiteKey": "enkoping",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_us_linkoping",
+      "hospitalSiteKey": "us_linkoping",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_vrinnevi",
+      "hospitalSiteKey": "vrinnevi",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_motala",
+      "hospitalSiteKey": "motala",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_motala_capio",
+      "hospitalSiteKey": "motala",
+      "supplier": "Unknown / unconfirmed",
+      "product": "Unconfirmed",
+      "status": "unconfirmed",
+      "notes": "Capio specialistvard operates orthopaedics, surgery, dermatology and anaesthesia departments on-site under contract; whether these carve-outs use the region's Cambio COSMIC or a separate Capio-group system is unconfirmed.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    },
+    {
+      "key": "dep_ryhov",
+      "hospitalSiteKey": "ryhov",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_hoglandssjukhuset",
+      "hospitalSiteKey": "hoglandssjukhuset",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_varnamo",
+      "hospitalSiteKey": "varnamo",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_vaxjo",
+      "hospitalSiteKey": "vaxjo",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ljungby",
+      "hospitalSiteKey": "ljungby",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kalmar_lasarett",
+      "hospitalSiteKey": "kalmar_lasarett",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_vastervik",
+      "hospitalSiteKey": "vastervik",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_oskarshamn",
+      "hospitalSiteKey": "oskarshamn",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_uso",
+      "hospitalSiteKey": "uso",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). First mover in Sussa Samverkan; go-live 19 Sept 2024.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_lindesberg",
+      "hospitalSiteKey": "lindesberg",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_karlskoga",
+      "hospitalSiteKey": "karlskoga",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_visby",
+      "hospitalSiteKey": "visby",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "TakeCare",
+      "status": "confirmed",
+      "notes": "Legacy Cambio TakeCare. Region Stockholm + Gotland contracted Cambio COSMIC Nov 2025 (value ~SEK 2.3bn/12yr), phased rollout, target ~2029. Bundled into Stockholm's Nov 2025 Cambio COSMIC contract.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_blekinge_karlskrona",
+      "hospitalSiteKey": "blekinge_karlskrona",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live 18 Nov 2025 (delayed ~1 quarter, overrun ~SEK 37m). Part of a 3-region joint external patient-safety review (with Dalarna, Gavleborg; auditor Azets, started Aug 2026, due year-end 2026).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_blekinge_karlshamn",
+      "hospitalSiteKey": "blekinge_karlshamn",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live 18 Nov 2025. Part of the joint 3-region Azets review.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_halland_halmstad",
+      "hospitalSiteKey": "halland_halmstad",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live ~Mar 2025, on schedule.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_halland_varberg",
+      "hospitalSiteKey": "halland_varberg",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live ~Mar 2025.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_halland_kungsbacka",
+      "hospitalSiteKey": "halland_kungsbacka",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live ~Mar 2025.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_vastmanland_vasteras",
+      "hospitalSiteKey": "vastmanland_vasteras",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_vastmanland_koping",
+      "hospitalSiteKey": "vastmanland_koping",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_falun",
+      "hospitalSiteKey": "falun",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live postponed from wk5/2025 (data-quality issues found pre-launch) to wk42/2025 (mid-Oct 2025); post-launch controversy, physicians demanded external inquiry. Part of the joint 3-region Azets review.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_mora",
+      "hospitalSiteKey": "mora",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_avesta",
+      "hospitalSiteKey": "avesta",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ludvika",
+      "hospitalSiteKey": "ludvika",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sater",
+      "hospitalSiteKey": "sater",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_borlange",
+      "hospitalSiteKey": "borlange",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_gavle",
+      "hospitalSiteKey": "gavle",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live ~mid-Jan 2025; ongoing performance complaints/outages through 2026. Part of the joint 3-region Azets review.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_hudiksvall",
+      "hospitalSiteKey": "hudiksvall",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_bollnas",
+      "hospitalSiteKey": "bollnas",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ljusdal",
+      "hospitalSiteKey": "ljusdal",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sandviken",
+      "hospitalSiteKey": "sandviken",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_soderhamn",
+      "hospitalSiteKey": "soderhamn",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sundsvall",
+      "hospitalSiteKey": "sundsvall",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live ~Feb 2025, 'gone to plan' per the region, but ~600 deviation reports + extra SEK 12m remediation.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_solleftea",
+      "hospitalSiteKey": "solleftea",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ornskoldsvik",
+      "hospitalSiteKey": "ornskoldsvik",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ostersund",
+      "hospitalSiteKey": "ostersund",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_nus",
+      "hospitalSiteKey": "nus",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live ~Apr 2025; positive initially, by Aug 2025 'tungrott' (heavy-going), growing care backlog.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_skelleftea",
+      "hospitalSiteKey": "skelleftea",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_lycksele",
+      "hospitalSiteKey": "lycksele",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sunderby",
+      "hospitalSiteKey": "sunderby",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live 23 Nov 2024, replaced VAS after 30 years, technically smooth; year-later review found clinician dissatisfaction.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_gallivare",
+      "hospitalSiteKey": "gallivare",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kalix",
+      "hospitalSiteKey": "kalix",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kiruna",
+      "hospitalSiteKey": "kiruna",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_pitea",
+      "hospitalSiteKey": "pitea",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_malarsjukhuset",
+      "hospitalSiteKey": "malarsjukhuset",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr). Go-live Sept 2025 (~SEK 500m), some patient-safety incident reports (mixed-up patients/doses).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_nykoping",
+      "hospitalSiteKey": "nykoping",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kullbergska",
+      "hospitalSiteKey": "kullbergska",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_karsudden",
+      "hospitalSiteKey": "karsudden",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Sussa Samverkan consortium; migrated from legacy EPR 2024-2025 under joint procurement (contract >SEK 4.3bn/10yr).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_csk_karlstad",
+      "hospitalSiteKey": "csk_karlstad",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_arvika",
+      "hospitalSiteKey": "arvika",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_torsby",
+      "hospitalSiteKey": "torsby",
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "KGC (Kundgrupp Cosmic) consortium member; contract renewed 1 Jan 2024 (5yr + 3yr option).",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    }
+  ],
+  "procurementNotices": [
+    {
+      "key": "proc_vgr_millennium",
+      "country_iso2": "SE",
+      "title": "VGR Cerner/Oracle Health Millennium EPR contract and termination",
+      "estimated_value": 657000000,
+      "currency": "SEK",
+      "publication_date": "2017-06-01",
+      "award_date": "2026-08-27",
+      "awarded_supplier": "Oracle Health (Cerner)",
+      "status": "expired",
+      "notes": "Originally procured 2017-18 (>SEK 5bn). Live 12 Nov 2024 at Sodra Alvsborgs Sjukhus (Boras) + Narhalsan clinics; suspended after 3 days (15 Nov 2024); regional board voted to abandon 2 Dec 2025; termination settlement SEK 657m signed 27 Aug 2026 on top of ~SEK 3.8bn already invested. VGR continues on legacy Melior under a new modular EPR strategy (no fixed timeline).",
+      "sourceKey": "se_vgr_termination",
+      "hospitalGroupKey": null
+    },
+    {
+      "key": "proc_skane_millennium",
+      "country_iso2": "SE",
+      "title": "Region Skane Cerner/Oracle Health Millennium EPR contract (SDV) and discontinuation",
+      "estimated_value": 3500000000,
+      "currency": "SEK",
+      "publication_date": "2016-09-01",
+      "award_date": null,
+      "awarded_supplier": "Oracle Health (Cerner)",
+      "status": "expired",
+      "notes": "Procured 2016-17, branded internally SDV (Skanes Digitala Vardsystem). Never reached a confirmed production or pilot go-live anywhere in the region (planned Ystad pilot repeatedly postponed). Regional board voted to discontinue 29 Apr 2026 after an internal usability review found the system not fit for purpose and lacking EU MDR CE certification. Total sunk cost ~SEK 3.5bn (2.3bn investment, 1.14bn consultants, 620.1m Cerner/Oracle fees, 838.8m internal staff). Inquiry opened into the original 2017 procurement decision after media reports of possible irregularities. Replacement decision expected ~Oct 2026.",
+      "sourceKey": "se_skane_millennium_scrap",
+      "hospitalGroupKey": null
+    },
+    {
+      "key": "proc_kgc_renewal",
+      "country_iso2": "SE",
+      "title": "KGC (Kundgrupp Cosmic) Cambio COSMIC contract renewal",
+      "estimated_value": null,
+      "currency": "SEK",
+      "publication_date": "2023-11-30",
+      "award_date": "2023-11-30",
+      "awarded_supplier": "Cambio Healthcare Systems",
+      "status": "awarded",
+      "notes": "8-region consortium (Uppsala, Ostergotland, Jonkoping, Kronoberg, Kalmar, Jamtland Harjedalen, Varmland, Vastmanland) + private Capio S:t Gorans Sjukhus. Renewed 30 Nov 2023, effective 1 Jan 2024, 5yr + 3yr option.",
+      "sourceKey": "se_kgc_renewal",
+      "hospitalGroupKey": null
+    },
+    {
+      "key": "proc_sussa_2018",
+      "country_iso2": "SE",
+      "title": "Sussa Samverkan Cambio COSMIC joint procurement",
+      "estimated_value": 4300000000,
+      "currency": "SEK",
+      "publication_date": "2018-01-01",
+      "award_date": "2018-01-01",
+      "awarded_supplier": "Cambio Healthcare Systems",
+      "status": "awarded",
+      "notes": "9-region collaboration (Orebro, Norrbotten, Vasternorrland, Halland, Vasterbotten, Dalarna, Sormland, Gavleborg, Blekinge) procured Cambio COSMIC to replace NCS Cross/VAS/TakeCare; contract >SEK 4.3bn/10yr + extensions. Rollout completed Nov 2025 (Blekinge last). CONTESTED: SVT Uppdrag Granskning (29-30 Apr 2026) reported that Cambio's technical evaluation scores were reportedly raised at 11 points without documented justification, turning a losing evaluation into a 2-point win; a procurement law expert called it potentially unlawful. No reversal reported as of Sept 2026.",
+      "sourceKey": "se_sussa_cambio",
+      "hospitalGroupKey": null
+    },
+    {
+      "key": "proc_stockholm_gotland_2025",
+      "country_iso2": "SE",
+      "title": "Region Stockholm + Gotland Cambio COSMIC contract",
+      "estimated_value": 2300000000,
+      "currency": "SEK",
+      "publication_date": "2025-11-01",
+      "award_date": "2025-11-01",
+      "awarded_supplier": "Cambio Healthcare Systems",
+      "status": "awarded",
+      "notes": "Signed Nov 2025; replaces legacy TakeCare across Region Stockholm + Region Gotland. Value SEK 2.3bn/12yr (total cost to taxpayer estimated SEK 10-14bn per press reporting). Contested by losing bidders (Systematic A/S, CGM), resolved Oct 2025. Phased 5-yr rollout, target completion ~2029.",
+      "sourceKey": "se_stockholm_contract",
+      "hospitalGroupKey": null
+    }
+  ]
+}
