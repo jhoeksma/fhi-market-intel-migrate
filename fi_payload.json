@@ -1,0 +1,2732 @@
+{
+  "sources": [
+    {
+      "key": "fi_stm_wellbeing",
+      "title": "Wellbeing services counties",
+      "publisher": "Ministry of Social Affairs and Health (STM)",
+      "url": "https://stm.fi/en/wellbeing-services-counties",
+      "tier": 1,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_wiki_wellbeing",
+      "title": "Wellbeing services counties of Finland",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wellbeing_services_counties_of_Finland",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_apotti_numbers",
+      "title": "Apotti in numbers (ownership shares)",
+      "publisher": "Apotti",
+      "url": "https://www.apotti.fi/en/apotti/oy-apotti-ab/apotti-in-numbers/",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_apotti_phases",
+      "title": "Apotti hankkeen vaiheet (project phases/go-live dates)",
+      "publisher": "Apotti",
+      "url": "https://www.apotti.fi/apotti/apotti-yrityksena/apotti-hankkeen-vaiheet/",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_apotti_exit_2024",
+      "title": "Muutoksia Oy Apotti Ab:n omistuspohjaan",
+      "publisher": "Apotti",
+      "url": "https://www.apotti.fi/muutoksia-apotin-omistuspohjaan/",
+      "tier": 6,
+      "date_accessed": "2024-05-02"
+    },
+    {
+      "key": "fi_laakarilehti_apotti_exit",
+      "title": "Kolme hyvinvointialuetta aikoo irtautua Apotista",
+      "publisher": "Lääkärilehti",
+      "url": "https://www.laakarilehti.fi/terveydenhuolto/kolme-hyvinvointialuetta-aikoo-irtautua-apotista/",
+      "tier": 4,
+      "date_accessed": "2024-05-02"
+    },
+    {
+      "key": "fi_yle_apotti_replace_study",
+      "title": "HS: Helsinki ja HUS selvittävät Apotista luopumista",
+      "publisher": "Yle",
+      "url": "https://yle.fi/a/74-20217356",
+      "tier": 4,
+      "date_accessed": "2026-03-25"
+    },
+    {
+      "key": "fi_hus_ceo",
+      "title": "Matti Bergendahl, HUS CEO profile",
+      "publisher": "HUS",
+      "url": "https://www.hus.fi/en/person/matti-bergendahl",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_hus_about",
+      "title": "HUS about us",
+      "publisher": "HUS",
+      "url": "https://www.hus.fi/en/about-us",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_helsinki_stp_mgmt",
+      "title": "Social Services, Health Care and Rescue Services Division management",
+      "publisher": "City of Helsinki",
+      "url": "https://www.hel.fi/en/decision-making/city-organisation/divisions/social-services-health-care-and-rescue-services-division/management",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_vakehyva_director",
+      "title": "Timo Aronkytö Vantaan ja Keravan hyvinvointialuejohtajaksi",
+      "publisher": "Vantaa.fi",
+      "url": "https://www.vantaa.fi/fi/ajankohtaista/tiedote/timo-aronkyto-vantaan-ja-keravan-hyvinvointialuejohtajaksi",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_keusote_omni360",
+      "title": "Keski-Uudenmaan sote-kuntayhtymä valitsi CGI:n OMNI360:n",
+      "publisher": "CGI",
+      "url": "https://www.cgi.com/fi/fi/uutinen/keusote-valitsi-cgi-omni360-asiakas-ja-potilastietojarjestelmakseen",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_keusote_org",
+      "title": "Keusote organisaatio ja johtaminen",
+      "publisher": "Keusote",
+      "url": "https://www.keusote.fi/keusote/tietoa-meista/organisaatio-ja-johtaminen/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_luvn_lifecare",
+      "title": "Länsi-Uudenmaan hyvinvointialue valitsi Lifecare-kokonaisuuden",
+      "publisher": "STT Info / Länsi-Uusimaa",
+      "url": "https://www.sttinfo.fi/tiedote/70771534/lansi-uudenmaan-hyvinvointialue-valitsi-lifecare-kokonaisuuden-asiakas-ja-potilastietojarjestelmakseen",
+      "tier": 4,
+      "date_accessed": "2024-12-18"
+    },
+    {
+      "key": "fi_luvn_director",
+      "title": "Sanna Svahn on Länsi-Uudenmaan hyvinvointialuejohtaja",
+      "publisher": "Länsi-Uusimaa",
+      "url": "https://www.lansi-uusimaa.fi/paikalliset/4611878",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_itauusimaa_lifecare",
+      "title": "Itä-Uudenmaan hyvinvointialue valitsi Tietoevryn",
+      "publisher": "Itä-Uusimaa",
+      "url": "https://itauusimaa.fi/2024/12/18/ita-uudenmaan-hyvinvointialue-valitsi-tietoevryn-asiakas-ja-potilastietojarjestelman-toimittajakseen/",
+      "tier": 5,
+      "date_accessed": "2024-12-18"
+    },
+    {
+      "key": "fi_itauusimaa_rollout",
+      "title": "Itä-Uudenmaan hyvinvointialueella otetaan käyttöön yhtenäinen järjestelmä 2026",
+      "publisher": "Itä-Uusimaa",
+      "url": "https://itauusimaa.fi/2026/01/27/ita-uudenmaan-hyvinvointialueella-otetaan-kayttoon-yhtenainen-asiakas-ja-potilastietojarjestelma-vuoden-2026-aikana/",
+      "tier": 5,
+      "date_accessed": "2026-01-27"
+    },
+    {
+      "key": "fi_itauusimaa_no_apotti",
+      "title": "Apotti-potilastietojärjestelmä ei tule käyttöön Itä-Uudellamaalla",
+      "publisher": "Uusimaa.fi",
+      "url": "https://www.uusimaa.fi/paikalliset/6808073",
+      "tier": 4,
+      "date_accessed": "2024-12-18"
+    },
+    {
+      "key": "fi_itauusimaa_director",
+      "title": "Itä-Uusimaa leadership / johtoryhmät",
+      "publisher": "Itä-Uusimaa",
+      "url": "https://itauusimaa.fi/etusivu/tietoa-meista/paatoksenteko-2/johtoryhmat/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_hus_perussopimus",
+      "title": "Aluevaltuusto hyväksyi uuden Hus-yhtymän perussopimuksen",
+      "publisher": "Länsiväylä",
+      "url": "https://www.lansivayla.fi/paikalliset/4557968",
+      "tier": 4,
+      "date_accessed": "2022-11-01"
+    },
+    {
+      "key": "fi_varha_omni360",
+      "title": "CGI:n Suomessa kehittämä OMNI360 valittiin Varsinais-Suomen hyvinvointialueen",
+      "publisher": "CGI",
+      "url": "https://www.cgi.com/fi/fi/uutinen/cgin-suomessa-kehittama-omni360-valittiin-varsinais-suomen-hyvinvointialueen",
+      "tier": 6,
+      "date_accessed": "2024-03-22"
+    },
+    {
+      "key": "fi_varha_tyks_2026",
+      "title": "Tyks siirtyy käyttämään uutta potilastietojärjestelmää joulukuussa 2026",
+      "publisher": "Varha / STT Info",
+      "url": "https://www.varha.fi/fi/ajankohtaista/tyks-siirtyy-kayttamaan-uutta-potilastietojarjestelmaa-joulukuussa-2026",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_varha_about",
+      "title": "Varsinais-Suomen hyvinvointialue - tietoa meistä",
+      "publisher": "Varha",
+      "url": "https://www.varha.fi/fi/tietoa-meista/varsinais-suomen-hyvinvointialue",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_satakunta_lifecare",
+      "title": "Sata-alueella käyttöönotetaan yhtenäinen potilastietojärjestelmä toukokuusta alkaen",
+      "publisher": "Satakunnan hyvinvointialue",
+      "url": "https://satakunnanhyvinvointialue.fi/2025/04/29/sata-alueella-kayttoonotetaan-yhtenainen-potilastietojarjestelma-toukokuusta-alkaen/",
+      "tier": 5,
+      "date_accessed": "2025-04-29"
+    },
+    {
+      "key": "fi_satakunta_director",
+      "title": "Satakunnan hyvinvointialue johdon yhteystiedot",
+      "publisher": "Satakunnan hyvinvointialue",
+      "url": "https://satakunnanhyvinvointialue.fi/tietoa-meista/yhteystiedot/johdon-yhteystiedot/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_kantahame_unify",
+      "title": "Oma Hämeen potilastietojärjestelmät yhdistyvät 1.1.2025",
+      "publisher": "Oma Häme",
+      "url": "https://omahame.fi/fi/w/oma-h%C3%A4meen-potilastietoj%C3%A4rjestelm%C3%A4t-yhdistyv%C3%A4t-1.1.2025",
+      "tier": 5,
+      "date_accessed": "2024-12-01"
+    },
+    {
+      "key": "fi_kantahame_address",
+      "title": "Kanta-Hämeen keskussairaalan osoite muuttuu 1.10.2023 lähtien Parantolankatu 6:ksi",
+      "publisher": "Oma Häme",
+      "url": "https://omahame.fi/fi/w/kanta-h%C3%A4meen-keskussairaalan-osoite-muuttuu-1.10.2023-l%C3%A4htien-parantolankatu-6-ksi",
+      "tier": 5,
+      "date_accessed": "2023-10-01"
+    },
+    {
+      "key": "fi_kantahame_director",
+      "title": "Olli Naukkarinen Kanta-Hämeen hyvinvointialueen johtaja",
+      "publisher": "Yle",
+      "url": "https://yle.fi/a/3-12459779",
+      "tier": 4,
+      "date_accessed": "2023-01-01"
+    },
+    {
+      "key": "fi_pirha_omni360",
+      "title": "OMNI360 on valittu Pirkanmaan ja Pohjois-Savon potilastietojärjestelmäksi",
+      "publisher": "CGI",
+      "url": "https://www.cgi.com/fi/fi/uutinen/OMNI360-on-valittu-Pirkanmaan-ja-Pohjois-Savon-potilastietojarjestelmaksi",
+      "tier": 6,
+      "date_accessed": "2024-04-04"
+    },
+    {
+      "key": "fi_pirha_specialist_delay",
+      "title": "Pirkanmaan hyvinvointialue ottanut yhteisen potilastietojärjestelmän käyttöön perusterveydenhuollossa - käyttöönotto erikoissairaanhoidossa siirtyy",
+      "publisher": "Pirha / STT Info",
+      "url": "https://www.sttinfo.fi/tiedote/71620731/pirkanmaan-hyvinvointialue-ottanut-yhteisen-potilastietojarjestelman-kayttoon-perusterveydenhuollossa-kayttoonotto-erikoissairaanhoidossa-siirtyy",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_tays_wiki",
+      "title": "Tampere University Hospital",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tampere_University_Hospital",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_pirha_ceo_acting",
+      "title": "Pirkanmaan hyvinvointialueen johtaja Mika Kontio (acting, 1 Jan 2026)",
+      "publisher": "Yle",
+      "url": "https://yle.fi/a/74-20193069",
+      "tier": 4,
+      "date_accessed": "2026-01-01"
+    },
+    {
+      "key": "fi_paijatha_lifecare_maint",
+      "title": "Päijät-Hämeen hyvinvointialue: laaja päivitys potilastietojärjestelmässä",
+      "publisher": "STT Info",
+      "url": "https://www.sttinfo.fi/tiedote/70993197/paijat-hameen-hyvinvointialue-laaja-paivitys-potilastietojarjestelmassa-saattaa-hidastaa-toimintoja?lang=fi",
+      "tier": 5,
+      "date_accessed": "2025-03-18"
+    },
+    {
+      "key": "fi_kymenhva_asiakirjajulkisuus",
+      "title": "Asiakirjajulkisuuskuvaus (confirms terveysLifecare / sosiaaliLifecare)",
+      "publisher": "Kymenlaakson hyvinvointialue",
+      "url": "https://kymenhva.fi/ajanvaraus-ja-asiointi/henkilotietojen-kasittely/asiakirjajulkisuuskuvaus",
+      "tier": 1,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_kymenhva_lifecare_first",
+      "title": "Asiakas- ja potilastietojärjestelmän päivitys toteutui odotusten mukaisesti (first Finnish county on newest Lifecare version)",
+      "publisher": "Kymenlaakson hyvinvointialue",
+      "url": "https://kymenhva.fi/uutiset/asiakas-ja-potilastietojarjestelman-paivitys-toteutui-odotusten-mukaisesti/",
+      "tier": 5,
+      "date_accessed": "2023-09-28"
+    },
+    {
+      "key": "fi_kymenhva_sites",
+      "title": "Toimipisteet ja yhteystiedot - Sairaalat",
+      "publisher": "Kymenlaakson hyvinvointialue",
+      "url": "https://kymenhva.fi/toimipisteet-ja-yhteystiedot/sairaalat/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_kymenhva_leadership",
+      "title": "Hyvinvointialueen johto",
+      "publisher": "Kymenlaakson hyvinvointialue",
+      "url": "https://kymenhva.fi/toimipisteet-ja-yhteystiedot/yhteystiedot/hyvinvointialueen-johto/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_ekhva_about",
+      "title": "Tietoa meistä (confirms terveysLifecare stack)",
+      "publisher": "Etelä-Karjalan hyvinvointialue (Eksote)",
+      "url": "https://www.ekhva.fi/hyvinvointialue/hallinto/tietoa-meista/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_ekhva_hospital",
+      "title": "Etelä-Karjalan keskussairaala",
+      "publisher": "Eksote",
+      "url": "https://www.ekhva.fi/toimipisteet/etela-karjalan-keskussairaala/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_ekhva_ceo",
+      "title": "Hyvinvointialueen hallinto (Sally Leskinen)",
+      "publisher": "Eksote",
+      "url": "https://www.ekhva.fi/hyvinvointialue/hallinto/hyvinvointialueen-hallinto/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_ekhva_arviointimenettely",
+      "title": "Etelä-Karjalan hyvinvointialue arviointimenettelyyn",
+      "publisher": "Eksote",
+      "url": "https://www.ekhva.fi/2026/06/etela-karjalan-hyvinvointialue-arviointimenettelyyn/",
+      "tier": 5,
+      "date_accessed": "2026-06-01"
+    },
+    {
+      "key": "fi_eloisa_about",
+      "title": "About us - Eloisa (English)",
+      "publisher": "Etelä-Savon hyvinvointialue (Eloisa)",
+      "url": "https://etelasavonha.fi/en/about-us/eloisa-english/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_eloisa_mikkeli",
+      "title": "Mikkelin keskussairaala",
+      "publisher": "Eloisa",
+      "url": "https://etelasavonha.fi/eloisa/toimipisteet/mikkelin-keskussairaala/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_eloisa_ceo",
+      "title": "Organisaatio ja toimielimet - johtoryhmä",
+      "publisher": "Eloisa",
+      "url": "https://etelasavonha.fi/eloisa/organisaatio-ja-toimielimet/johtoryhma/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_eloisa_tieto_case",
+      "title": "Avoin vuorovaikutus ja digitaalinen kehittäminen (Lifecare case study)",
+      "publisher": "Tieto",
+      "url": "https://www.tieto.com/fi/asiakkaitamme/health/avoin-vuorovaikutus-ja-digitaalinen-kehittaminen-rakentavat-sujuvampaa-arkea-etela-savon-hyvinvointialueella/",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_ncka_lifecare_joint",
+      "title": "North Karelia and South Savo selected Lifecare EHR",
+      "publisher": "Tietoevry",
+      "url": "https://www.tietoevry.com/en/newsroom/all-news-and-releases/press-releases/2025/10/the-finnish-wellbeing-services-counties-of-north-karelia-and-south-savo-selected-lifecare-ehr-to-advance-social-and-heal/",
+      "tier": 6,
+      "date_accessed": "2025-10-01"
+    },
+    {
+      "key": "fi_pshva_kys",
+      "title": "Kuopio University Hospital",
+      "publisher": "Pohjois-Savon hyvinvointialue",
+      "url": "https://pshyvinvointialue.fi/en/web/en/kuopio-university-hospital",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_pshva_delay",
+      "title": "Yhteisen potilastietojärjestelmän erikoissairaanhoidon käyttöönotto siirtyy Pohjois-Savon hyvinvointialueella syksyyn 2026",
+      "publisher": "ePressi",
+      "url": "https://www.epressi.com/tiedotteet/talous/yhteisen-potilastietojarjestelman-erikoissairaanhoidon-kayttoonotto-siirtyy-pohjois-savon-hyvinvointialueella-syksyyn-2026.html",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_pshva_director",
+      "title": "Hyvinvointialuejohtaja Marko Korhonen",
+      "publisher": "Itä-Suomen yliopisto / Pohjois-Savon hyvinvointialue",
+      "url": "https://www.uef.fi/fi/artikkeli/pohjois-savon-hyvinvointialuejohtaja-marko-korhosesta-ita-suomen-yliopiston-vuoden-alumni",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_siunsote_hospital",
+      "title": "North Karelia Central Hospital",
+      "publisher": "Siun sote",
+      "url": "https://www.siunsote.fi/en/servicechannel/north-karelia-central-hospital/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_siunsote_rollout",
+      "title": "Uuden asiakas- ja potilastietojärjestelmän käyttöönoton valmistelu etenee",
+      "publisher": "Siun sote",
+      "url": "https://www.siunsote.fi/2026/09/uuden-asiakas-ja-potilastietojarjestelman-kayttoonoton-valmistelu-etenee/",
+      "tier": 5,
+      "date_accessed": "2026-09-01"
+    },
+    {
+      "key": "fi_siunsote_director",
+      "title": "Organisaatio - johtoryhmä (Kirsi Leivonen)",
+      "publisher": "Siun sote",
+      "url": "https://www.siunsote.fi/tietoa-meista/organisaatio/johtoryhma/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_hyvaks_nova",
+      "title": "Sairaala Nova",
+      "publisher": "Keski-Suomen hyvinvointialue (Hyvaks)",
+      "url": "https://www.hyvaks.fi/sairaala-nova",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_hyvaks_nova_kuntarahoitus",
+      "title": "Sairaala Nova (368 beds, investment detail)",
+      "publisher": "Kuntarahoitus",
+      "url": "https://www.kuntarahoitus.fi/ratkaisupankki/sairaala-nova-keski-suomen-sairaanhoitopiiri",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_hyvaks_lifecare_rollout",
+      "title": "Keski-Suomen hyvinvointialueelle tulossa yksi yhteinen potilastietojärjestelmä",
+      "publisher": "Hyvaks",
+      "url": "https://www.hyvaks.fi/uutiset/keski-suomen-hyvinvointialueelle-tulossa-yksi-yhteinen-potilastietojarjestelma",
+      "tier": 5,
+      "date_accessed": "2024-01-17"
+    },
+    {
+      "key": "fi_hyvaks_director",
+      "title": "Keski-Suomen hyvinvointialuejohtajaksi Piia Vuorela",
+      "publisher": "Hyvaks",
+      "url": "https://www.hyvaks.fi/uutiset/keski-suomen-hyvinvointialuejohtajaksi-piia-vuorela",
+      "tier": 5,
+      "date_accessed": "2026-04-01"
+    },
+    {
+      "key": "fi_laakarilehti_lifecare_national",
+      "title": "Valtaosa alueista valitsi Lifecaren (national CPIS vendor landscape roundup)",
+      "publisher": "Lääkärilehti",
+      "url": "https://www.laakarilehti.fi/terveydenhuolto/valtaosa-alueista-valitsi-lifecaren/",
+      "tier": 4,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_hyvaep_director",
+      "title": "Hyvinvointialue/hallinto (Tero Järvinen)",
+      "publisher": "Etelä-Pohjanmaan hyvinvointialue",
+      "url": "https://www.hyvaep.fi/hyvinvointialue/hallinto/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_seinajoki_hospital",
+      "title": "Seinäjoen keskussairaala (service point)",
+      "publisher": "Suomi.fi",
+      "url": "https://www.suomi.fi/palvelut/palvelupiste/seinajoen-keskussairaala-etela-pohjanmaan-hyvinvointialue/c5e113cd-b229-4991-afc3-dce2f8c15639",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_pohjanmaa_lifecare",
+      "title": "TietoEvry toimittaa uuden asiakas- ja potilastietojärjestelmän",
+      "publisher": "Pohjanmaan hyvinvointialue",
+      "url": "https://pohjanmaanhyvinvointi.fi/tietoevry-toimittaa-uuden-asiakas-ja-potilastietojarjestelman/",
+      "tier": 5,
+      "date_accessed": "2023-09-04"
+    },
+    {
+      "key": "fi_pohjanmaa_golive_spring2025",
+      "title": "Uusi asiakas- ja potilastietojärjestelmä otettiin käyttöön suunnitellussa laajuudessa",
+      "publisher": "Pohjanmaan hyvinvointialue",
+      "url": "https://pohjanmaanhyvinvointi.fi/uusi-asiakas-ja-potilastietojarjestelma-otettiin-kayttoon-suunnitellussa-laajuudessa/",
+      "tier": 5,
+      "date_accessed": "2025-05-01"
+    },
+    {
+      "key": "fi_pohjanmaa_director",
+      "title": "Yhteystiedot - hyvinvointialueen johto (Marina Kinnunen)",
+      "publisher": "Pohjanmaan hyvinvointialue",
+      "url": "https://pohjanmaanhyvinvointi.fi/tietoa-meista/yhteystiedot/hyvinvointialueenjohto/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_vaasa_wiki",
+      "title": "Vaasa Central Hospital",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vaasa_Central_Hospital",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_soite_en",
+      "title": "Soite (Central Ostrobothnia) - about",
+      "publisher": "Soite",
+      "url": "https://soite.fi/en/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_soite_director",
+      "title": "Soite hallinto (Mikko Komulainen)",
+      "publisher": "Soite",
+      "url": "https://soite.fi/soite/hallinto/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_pohde_oys",
+      "title": "Oulun yliopistollinen sairaala (OYS)",
+      "publisher": "Pohde",
+      "url": "https://pohde.fi/sairaala/oulun-yliopistollinen-sairaala-oys/",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_pohde_esko_rollout",
+      "title": "Pohde ottaa Esko-potilastietojärjestelmän käyttöön koko alueen perusterveydenhuollossa",
+      "publisher": "Yle",
+      "url": "https://yle.fi/a/74-20213471",
+      "tier": 4,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_eskosystems_about",
+      "title": "Eskosta Pohjois-Pohjanmaan alueellinen potilastietojärjestelmä",
+      "publisher": "Esko Systems Oy",
+      "url": "https://eskosystems.fi/eskosta-pohjois-pohjanmaan-alueellinen-potilastietojarjestelma/",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_pohde_ceo",
+      "title": "Pohde painii taloutensa plussan puolelle (confirms Ilkka Luoma still CEO)",
+      "publisher": "Kaleva",
+      "url": "https://www.kaleva.fi/pohde-painii-taloutensa-plussan-puolelle-hyvinvoin/11438831",
+      "tier": 4,
+      "date_accessed": "2026-01-01"
+    },
+    {
+      "key": "fi_kainuu_hospital",
+      "title": "Kainuun keskussairaala",
+      "publisher": "Kainuun hyvinvointialue",
+      "url": "https://hyvinvointialue.kainuu.fi/toimipaikat/kainuun-keskussairaala",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_kainuu_director",
+      "title": "Hyvinvointialueen hallinto ja johto (Sami Mäenpää)",
+      "publisher": "Kainuun hyvinvointialue",
+      "url": "https://hyvinvointialue.kainuu.fi/palvelut/hyvinvointialueen-hallinto-ja-johto",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_lapha_esko_gap",
+      "title": "Lapland's ~300 inherited patient-record systems / Esko as intended platform",
+      "publisher": "Yle",
+      "url": "https://yle.fi/a/74-20005953",
+      "tier": 4,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_lapha_director",
+      "title": "Yhteystiedot - johto (Jari Jokela)",
+      "publisher": "Lapin hyvinvointialue",
+      "url": "https://lapha.fi/yhteystiedot/johto",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_lapha_hospital",
+      "title": "Lapin keskussairaala (service point)",
+      "publisher": "Suomi.fi",
+      "url": "https://www.suomi.fi/palvelut/palvelupiste/lapin-keskussairaala-lapin-hyvinvointialue/e6fe45b2-c2c1-441b-b12e-7d707ec5384d",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_ahs_hospital",
+      "title": "Alla mottagningar och avdelningar (Åland Central Hospital)",
+      "publisher": "Ålands hälso- och sjukvård (ÅHS)",
+      "url": "https://www.ahs.ax/patienter/alla-mottagningar-och-avdelningar",
+      "tier": 5,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_ahs_wiki",
+      "title": "Åland Central Hospital (121 beds)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/%C3%85land_Central_Hospital",
+      "tier": 6,
+      "date_accessed": "2026-09-02"
+    },
+    {
+      "key": "fi_cambio_aland",
+      "title": "Cambio får förtroendet att leverera huvudjournalsystemet Cosmic till Åland",
+      "publisher": "Cambio",
+      "url": "https://www.cambio.se/cambio-far-fortroendet-att-leverera-huvudjournalsystemet-cosmic-till-aland/",
+      "tier": 6,
+      "date_accessed": "2024-05-21"
+    },
+    {
+      "key": "fi_ahs_una",
+      "title": "Åland har genomfört en historisk lansering (UNA modules)",
+      "publisher": "UNA Oy / ÅHS",
+      "url": "https://unaoy.fi/ajankohtaista/uutiset/aland-har-genomfort-en-historisk-lansering-ingar-aven-una-losningar/",
+      "tier": 6,
+      "date_accessed": "2025-09-28"
+    },
+    {
+      "key": "fi_ahs_director",
+      "title": "Hon blir ÅHS nya sjukvårdsdirektör (Erica Bonns)",
+      "publisher": "Nya Åland",
+      "url": "https://www.nyan.ax/nyheter/hon-blir-ahs-nya-sjukvardsdirektor/",
+      "tier": 4,
+      "date_accessed": "2026-09-02"
+    }
+  ],
+  "healthAuthorities": [
+    {
+      "key": "fi_stm",
+      "country_iso2": "FI",
+      "name": "Ministry of Social Affairs and Health (Sosiaali- ja terveysministeriö, STM)",
+      "level": "national",
+      "description": "Steers the 2023 wellbeing services county reform jointly with the Ministry of Finance and Ministry of the Interior. Counties are centrally funded and cannot (yet) levy taxes.",
+      "sourceKey": "fi_stm_wellbeing"
+    },
+    {
+      "key": "fi_thl",
+      "country_iso2": "FI",
+      "name": "Finnish Institute for Health and Welfare (THL)",
+      "level": "national",
+      "description": "National statistics and research institute for health and welfare; publishes hospital activity/productivity statistics.",
+      "sourceKey": null
+    },
+    {
+      "key": "fi_kanta",
+      "country_iso2": "FI",
+      "name": "Kanta Services (Kela)",
+      "level": "national",
+      "description": "National digital-health data-exchange infrastructure operated by Kela: e-prescription, OmaKanta patient portal, national e-archive that every regional CPIS/EHR integrates into.",
+      "sourceKey": null
+    },
+    {
+      "key": "fi_helsinki",
+      "country_iso2": "FI",
+      "name": "City of Helsinki - Social Services, Health Care and Rescue Services Division",
+      "level": "regional",
+      "description": "Organizes its own primary/social care and rescue services outside the wellbeing-county structure (constitutional exception for the capital); specialised hospital care via HUS Group. Executive Director Juha Jolkkonen.",
+      "sourceKey": "fi_helsinki_stp_mgmt"
+    },
+    {
+      "key": "fi_vantaa_kerava",
+      "country_iso2": "FI",
+      "name": "Vantaa and Kerava Wellbeing Services County",
+      "level": "regional",
+      "description": "Regional Director Timo Aronkytö. Organizes primary/social care for Vantaa and Kerava; specialised hospital care via HUS Group (Peijas Hospital). Apotti (Epic) owner, 15.32% share.",
+      "sourceKey": "fi_vakehyva_director"
+    },
+    {
+      "key": "fi_central_uusimaa",
+      "country_iso2": "FI",
+      "name": "Central Uusimaa Wellbeing Services County (Keusote)",
+      "level": "regional",
+      "description": "Regional Director Raija Kontio. Six municipalities (Hyvinkää, Järvenpää, Mäntsälä, Nurmijärvi, Pornainen, Tuusula), ~200,000 residents. Formally exited Apotti 2 May 2024 (~EUR 11m exit cost); selected CGI OMNI360 (~EUR 10m).",
+      "sourceKey": "fi_keusote_org"
+    },
+    {
+      "key": "fi_western_uusimaa",
+      "country_iso2": "FI",
+      "name": "Western Uusimaa Wellbeing Services County",
+      "level": "regional",
+      "description": "Regional Director Sanna Svahn. 10 municipalities incl. Espoo, Lohja, Kirkkonummi, Kauniainen. Formally exited Apotti 2 May 2024 (~EUR 17m exit cost); selected Tietoevry Lifecare jointly with Eastern Uusimaa (~EUR 11.3m ex-VAT).",
+      "sourceKey": "fi_luvn_director"
+    },
+    {
+      "key": "fi_eastern_uusimaa",
+      "country_iso2": "FI",
+      "name": "Eastern Uusimaa Wellbeing Services County",
+      "level": "regional",
+      "description": "Regional Director Max Lönnqvist. 7 municipalities (Askola, Lapinjärvi, Loviisa, Myrskylä, Porvoo, Pukkila, Sipoo), HQ Porvoo. Formally exited Apotti 2 May 2024 (~EUR 5m exit cost); selected Tietoevry Lifecare jointly with Western Uusimaa (~EUR 4.3m ex-VAT), phased go-live Mar/May/Aug 2026.",
+      "sourceKey": "fi_itauusimaa_director"
+    },
+    {
+      "key": "fi_hus",
+      "country_iso2": "FI",
+      "name": "HUS Group (Hospital District of Helsinki and Uusimaa)",
+      "level": "regional",
+      "description": "CEO Matti Bergendahl. Specialised-care joint authority owned by Helsinki + the four other Uusimaa wellbeing counties. 2.2m population served, 21 hospitals, 26,500 staff. Largest Apotti (Epic) owner, 46.33% share; runs Apotti at Meilahti, Toolo, New Children's, Women's, Jorvi, Peijas, Hyvinkaa, Lohja, Porvoo and Raasepori even where the host county has exited Apotti for its own primary/social care. Helsinki/HUS/Vantaa-Kerava commissioned a BearingPoint study (reported Mar 2026) on whether to replace Apotti; exploratory only, no decision.",
+      "sourceKey": "fi_hus_ceo"
+    },
+    {
+      "key": "fi_southwest_finland",
+      "country_iso2": "FI",
+      "name": "Southwest Finland Wellbeing Services County (Varha)",
+      "level": "regional",
+      "description": "Director Tarmo Martikainen. ~498,000 residents, 27 municipalities. CGI OMNI360, replacing legacy Uranus; primary care live, Tyks (specialist care) targeted Dec 2026.",
+      "sourceKey": "fi_varha_about"
+    },
+    {
+      "key": "fi_satakunta",
+      "country_iso2": "FI",
+      "name": "Satakunta Wellbeing Services County (Satasote)",
+      "level": "regional",
+      "description": "Director Tero Mäkiranta. Tietoevry Lifecare, full region-wide unification completed 10 May 2025 (previously fragmented: Lifecare + 3x Pegasos + 2 dental systems).",
+      "sourceKey": "fi_satakunta_director"
+    },
+    {
+      "key": "fi_kanta_hame",
+      "country_iso2": "FI",
+      "name": "Kanta-Häme Wellbeing Services County (Oma Häme)",
+      "level": "regional",
+      "description": "Director Olli Naukkarinen. Tietoevry Lifecare, primary and specialised care systems unified 1 Jan 2025.",
+      "sourceKey": "fi_kantahame_director"
+    },
+    {
+      "key": "fi_pirkanmaa",
+      "country_iso2": "FI",
+      "name": "Pirkanmaa Wellbeing Services County",
+      "level": "regional",
+      "description": "Acting CEO Mika Kontio (from 1 Jan 2026; prior directors Marina Erhola, then Juhani Sand). CGI OMNI360, selected jointly with North Savo (4 Apr 2024), retiring legacy Lifecare + Mediatri. Primary care live; Tays (specialised care) go-live delayed.",
+      "sourceKey": "fi_pirha_ceo_acting"
+    },
+    {
+      "key": "fi_paijat_hame",
+      "country_iso2": "FI",
+      "name": "Päijät-Häme Wellbeing Services County",
+      "level": "regional",
+      "description": "CEO unconfirmed at primary-source level (paijatha.fi blocked repeated fetches). EHR vendor not independently confirmed at primary-source level; recurring 'asiakas- ja potilastietojärjestelmä' maintenance-window notices are consistent with Lifecare (per secondary-source roundup, live since Jan 2023) but this needs a direct primary-source check before being treated as fully confirmed.",
+      "sourceKey": "fi_paijatha_lifecare_maint"
+    },
+    {
+      "key": "fi_kymenlaakso",
+      "country_iso2": "FI",
+      "name": "Kymenlaakso Wellbeing Services County",
+      "level": "regional",
+      "description": "CEO Kari Hakari (transition from Harri Hagman, election 16 Jun 2026 — likely but not conclusively confirmed post-vote). TerveysLifecare + SosiaaliLifecare confirmed via official document-publicity description; first Finnish county on the newest Lifecare version (24 Sep 2023).",
+      "sourceKey": "fi_kymenhva_asiakirjajulkisuus"
+    },
+    {
+      "key": "fi_south_karelia",
+      "country_iso2": "FI",
+      "name": "South Karelia Wellbeing Services County (Eksote)",
+      "level": "regional",
+      "description": "CEO Sally Leskinen. ~125,000 residents, 9 municipalities. terveysLifecare confirmed via official source; social services mixed Effica/Lifecare. Entered formal state financial-oversight 'arviointimenettely' in 2026 — relevant to IT-investment capacity/timing.",
+      "sourceKey": "fi_ekhva_about"
+    },
+    {
+      "key": "fi_south_savo",
+      "country_iso2": "FI",
+      "name": "South Savo Wellbeing Services County (Eloisa)",
+      "level": "regional",
+      "description": "CEO Santeri Seppälä. ~130,000 residents, 11 municipalities. Tietoevry Lifecare patient system already live; Oct 2025 decision (joint with North Karelia) added Lifecare client/social system, migration through 2026.",
+      "sourceKey": "fi_eloisa_about"
+    },
+    {
+      "key": "fi_north_savo",
+      "country_iso2": "FI",
+      "name": "North Savo Wellbeing Services County",
+      "level": "regional",
+      "description": "CEO Marko Korhonen. CGI OMNI360, selected jointly with Pirkanmaa (4 Apr 2024) via Istekki. Primary care live; KYS (specialised care) go-live delayed to autumn 2026, whole-county target Oct 2026.",
+      "sourceKey": "fi_pshva_director"
+    },
+    {
+      "key": "fi_north_karelia",
+      "country_iso2": "FI",
+      "name": "North Karelia Wellbeing Services County (Siun sote)",
+      "level": "regional",
+      "description": "CEO Kirsi Leivonen. ~166,400 inhabitants, 13 municipalities. Tietoevry Lifecare selected Oct 2025 jointly with South Savo. NOT YET LIVE: phased rollout social services Nov 2026, dental spring 2027, primary/home-care/specialised-care (hospital) autumn 2027, full completion end 2027.",
+      "sourceKey": "fi_siunsote_director"
+    },
+    {
+      "key": "fi_central_finland",
+      "country_iso2": "FI",
+      "name": "Central Finland Wellbeing Services County (Hyvaks)",
+      "level": "regional",
+      "description": "CEO Piia Vuorela (from 22 Apr 2026). Tietoevry Lifecare, live since spring 2024 (primary, specialist, dental), extended to a 9-municipality northern sub-region autumn 2024, replacing Pegasos/Mediatri/WinHit.",
+      "sourceKey": "fi_hyvaks_director"
+    },
+    {
+      "key": "fi_south_ostrobothnia",
+      "country_iso2": "FI",
+      "name": "South Ostrobothnia Wellbeing Services County",
+      "level": "regional",
+      "description": "Director Tero Järvinen. Tietoevry Lifecare, region-wide since ~2014 per trade-press roundup (exact date needs primary-source confirmation) — one of the earliest Finnish Lifecare deployments.",
+      "sourceKey": "fi_hyvaep_director"
+    },
+    {
+      "key": "fi_ostrobothnia",
+      "country_iso2": "FI",
+      "name": "Ostrobothnia Wellbeing Services County (Pohjanmaa)",
+      "level": "regional",
+      "description": "CEO Marina Kinnunen. Tietoevry Lifecare selected via competitive dialogue 2023 (vs CGI, Mediconsult); go-live began 6 Oct 2024, region-wide by spring 2025, replacing 6 legacy systems. Fire/rescue explicitly excluded. Finland's only fully bilingual (FI/SV) hospital region.",
+      "sourceKey": "fi_pohjanmaa_director"
+    },
+    {
+      "key": "fi_central_ostrobothnia",
+      "country_iso2": "FI",
+      "name": "Central Ostrobothnia Wellbeing Services County (Soite)",
+      "level": "regional",
+      "description": "CEO Mikko Komulainen. 8 municipalities incl. Kokkola. Tietoevry Lifecare, region-wide since ~2017 per trade-press roundup (exact date needs primary-source confirmation).",
+      "sourceKey": "fi_soite_director"
+    },
+    {
+      "key": "fi_north_ostrobothnia",
+      "country_iso2": "FI",
+      "name": "North Ostrobothnia Wellbeing Services County (Pohde)",
+      "level": "regional",
+      "description": "CEO Ilkka Luoma. Esko (public/non-commercial, Esko Systems Oy) at OYS specialised care for decades; primary care migrating region-wide from fragmented legacy systems, full-coverage target during 2026.",
+      "sourceKey": "fi_pohde_ceo"
+    },
+    {
+      "key": "fi_kainuu",
+      "country_iso2": "FI",
+      "name": "Kainuu Wellbeing Services County",
+      "level": "regional",
+      "description": "Leader Sami Mäenpää. Tietoevry Lifecare, region-wide since 2011.",
+      "sourceKey": "fi_kainuu_director"
+    },
+    {
+      "key": "fi_lapland",
+      "country_iso2": "FI",
+      "name": "Lapland Wellbeing Services County",
+      "level": "regional",
+      "description": "Leader Jari Jokela. Runs TWO acute hospitals (Rovaniemi + Kemi, the latter the former separate Länsi-Pohja hospital district, merged in at the 2023 reform). Esko is the intended unification platform via the 'Tokka' project, but the region inherited roughly 300 separate legacy patient-record systems at the 2023 reform and full unification is projected to take ~10 years — NOT a single system today.",
+      "sourceKey": "fi_lapha_esko_gap"
+    },
+    {
+      "key": "fi_aland",
+      "country_iso2": "FI",
+      "name": "Åland (Ålands hälso- och sjukvård, ÅHS)",
+      "level": "regional",
+      "description": "Director Erica Bonns (from 25 May 2026). Autonomous, self-governing region entirely outside the mainland wellbeing-county reform. Cambio COSMIC (awarded 21 May 2024) as the single clinical-journal system across all public healthcare on Åland, plus UNA Oy 'Blankett'/'Samtycke' Swedish-language modules (launched 28 Sep 2025) on top.",
+      "sourceKey": "fi_ahs_director"
+    }
+  ],
+  "hospitalGroups": [
+    {
+      "key": "hg_helsinki",
+      "country_iso2": "FI",
+      "name": "City of Helsinki - Social Services, Health Care and Rescue Services Division",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_vantaa_kerava",
+      "country_iso2": "FI",
+      "name": "Vantaa and Kerava Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_central_uusimaa",
+      "country_iso2": "FI",
+      "name": "Central Uusimaa Wellbeing Services County (Keusote)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_western_uusimaa",
+      "country_iso2": "FI",
+      "name": "Western Uusimaa Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_eastern_uusimaa",
+      "country_iso2": "FI",
+      "name": "Eastern Uusimaa Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_hus",
+      "country_iso2": "FI",
+      "name": "HUS Group",
+      "ownership_type": "public",
+      "notes": "Specialised-care joint authority; operates most acute hospitals across the Uusimaa region regardless of which wellbeing county hosts them geographically."
+    },
+    {
+      "key": "hg_southwest_finland",
+      "country_iso2": "FI",
+      "name": "Southwest Finland Wellbeing Services County (Varha)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_satakunta",
+      "country_iso2": "FI",
+      "name": "Satakunta Wellbeing Services County (Satasote)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_kanta_hame",
+      "country_iso2": "FI",
+      "name": "Kanta-Häme Wellbeing Services County (Oma Häme)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_pirkanmaa",
+      "country_iso2": "FI",
+      "name": "Pirkanmaa Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_paijat_hame",
+      "country_iso2": "FI",
+      "name": "Päijät-Häme Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_kymenlaakso",
+      "country_iso2": "FI",
+      "name": "Kymenlaakso Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_south_karelia",
+      "country_iso2": "FI",
+      "name": "South Karelia Wellbeing Services County (Eksote)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_south_savo",
+      "country_iso2": "FI",
+      "name": "South Savo Wellbeing Services County (Eloisa)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_north_savo",
+      "country_iso2": "FI",
+      "name": "North Savo Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_north_karelia",
+      "country_iso2": "FI",
+      "name": "North Karelia Wellbeing Services County (Siun sote)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_central_finland",
+      "country_iso2": "FI",
+      "name": "Central Finland Wellbeing Services County (Hyvaks)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_south_ostrobothnia",
+      "country_iso2": "FI",
+      "name": "South Ostrobothnia Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_ostrobothnia",
+      "country_iso2": "FI",
+      "name": "Ostrobothnia Wellbeing Services County (Pohjanmaa)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_central_ostrobothnia",
+      "country_iso2": "FI",
+      "name": "Central Ostrobothnia Wellbeing Services County (Soite)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_north_ostrobothnia",
+      "country_iso2": "FI",
+      "name": "North Ostrobothnia Wellbeing Services County (Pohde)",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_kainuu",
+      "country_iso2": "FI",
+      "name": "Kainuu Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_lapland",
+      "country_iso2": "FI",
+      "name": "Lapland Wellbeing Services County",
+      "ownership_type": "public",
+      "notes": ""
+    },
+    {
+      "key": "hg_aland",
+      "country_iso2": "FI",
+      "name": "Åland (ÅHS)",
+      "ownership_type": "public",
+      "notes": ""
+    }
+  ],
+  "hospitalSites": [
+    {
+      "key": "malmi",
+      "country_iso2": "FI",
+      "name": "Malmi Hospital",
+      "city": "Helsinki",
+      "address": "Talvelantie 6",
+      "postcode": "00700",
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "City of Helsinki own facility (not HUS). Rehab/step-down.",
+      "hospitalGroupKey": "hg_helsinki",
+      "healthAuthorityKey": "fi_helsinki"
+    },
+    {
+      "key": "laakso",
+      "country_iso2": "FI",
+      "name": "Laakso Hospital",
+      "city": "Helsinki",
+      "address": "Lääkärinkatu 8",
+      "postcode": "00250",
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "City of Helsinki own facility (not HUS). Rehab/step-down.",
+      "hospitalGroupKey": "hg_helsinki",
+      "healthAuthorityKey": "fi_helsinki"
+    },
+    {
+      "key": "meilahti",
+      "country_iso2": "FI",
+      "name": "Meilahti Hospital (Bridge/Tower/Triangle Hospital campus)",
+      "city": "Helsinki",
+      "address": "Haartmaninkatu 4",
+      "postcode": "00290",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group flagship university-hospital campus.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_helsinki"
+    },
+    {
+      "key": "toolo",
+      "country_iso2": "FI",
+      "name": "Töölö Hospital",
+      "city": "Helsinki",
+      "address": "Topeliuksenkatu 5",
+      "postcode": "00260",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group trauma/neuro/orthopaedic hospital.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_helsinki"
+    },
+    {
+      "key": "new_childrens",
+      "country_iso2": "FI",
+      "name": "New Children's Hospital",
+      "city": "Helsinki",
+      "address": "Stenbäckinkatu 9",
+      "postcode": "00290",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group paediatric specialist hospital.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_helsinki"
+    },
+    {
+      "key": "womens_hospital",
+      "country_iso2": "FI",
+      "name": "Women's Hospital (Naistenklinikka)",
+      "city": "Helsinki",
+      "address": "Haartmaninkatu 2",
+      "postcode": "00290",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group maternity/gynaecology specialist hospital.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_helsinki"
+    },
+    {
+      "key": "jorvi",
+      "country_iso2": "FI",
+      "name": "Jorvi Hospital",
+      "city": "Espoo",
+      "address": "Karvasmäentie 8",
+      "postcode": "02740",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group asset; geographically hosted within Western Uusimaa, which itself has exited Apotti for its own primary/social care systems.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_western_uusimaa"
+    },
+    {
+      "key": "peijas",
+      "country_iso2": "FI",
+      "name": "Peijas Hospital",
+      "city": "Vantaa",
+      "address": "Sairaalakatu 1",
+      "postcode": "01400",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group asset; first Apotti go-live site (10 Nov 2018).",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_vantaa_kerava"
+    },
+    {
+      "key": "hyvinkaa",
+      "country_iso2": "FI",
+      "name": "Hyvinkää Hospital",
+      "city": "Hyvinkää",
+      "address": "Sairaalankatu 1",
+      "postcode": "05850",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group asset; geographically hosted within Central Uusimaa (Keusote), which has exited Apotti and runs CGI OMNI360 for its own systems.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_central_uusimaa"
+    },
+    {
+      "key": "lohja",
+      "country_iso2": "FI",
+      "name": "Lohja Hospital",
+      "city": "Lohja",
+      "address": "Sairaalatie 8",
+      "postcode": "08200",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group asset; geographically hosted within Western Uusimaa.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_western_uusimaa"
+    },
+    {
+      "key": "porvoo_hus",
+      "country_iso2": "FI",
+      "name": "Porvoo Hospital",
+      "city": "Porvoo",
+      "address": "Sairaalatie 1",
+      "postcode": "06151",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group asset; geographically hosted within Eastern Uusimaa, which has exited Apotti and is rolling out Tietoevry Lifecare for its own systems.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_eastern_uusimaa"
+    },
+    {
+      "key": "raasepori_wards",
+      "country_iso2": "FI",
+      "name": "Raasepori continuing-care wards",
+      "city": "Tammisaari (Ekenäs)",
+      "address": "Itäinen Rantakatu 9 / Sairaalakuja 1",
+      "postcode": "10600",
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "HUS Group step-down/continuing-care wards.",
+      "hospitalGroupKey": "hg_hus",
+      "healthAuthorityKey": "fi_western_uusimaa"
+    },
+    {
+      "key": "tyks_t",
+      "country_iso2": "FI",
+      "name": "Tyks T-sairaala (Turku University Hospital)",
+      "city": "Turku",
+      "address": "Hämeentie 11",
+      "postcode": "20520",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Main Varha university hospital.",
+      "hospitalGroupKey": "hg_southwest_finland",
+      "healthAuthorityKey": "fi_southwest_finland"
+    },
+    {
+      "key": "tyks_salo",
+      "country_iso2": "FI",
+      "name": "Tyks Salon sairaala",
+      "city": "Salo",
+      "address": "Sairaalantie 9",
+      "postcode": "24130",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_southwest_finland",
+      "healthAuthorityKey": "fi_southwest_finland"
+    },
+    {
+      "key": "tyks_loimaa",
+      "country_iso2": "FI",
+      "name": "Tyks Loimaan sairaala",
+      "city": "Loimaa",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_southwest_finland",
+      "healthAuthorityKey": "fi_southwest_finland"
+    },
+    {
+      "key": "tyks_vakkasuomi",
+      "country_iso2": "FI",
+      "name": "Tyks Vakka-Suomen sairaala",
+      "city": "Uusikaupunki",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_southwest_finland",
+      "healthAuthorityKey": "fi_southwest_finland"
+    },
+    {
+      "key": "satasairaala",
+      "country_iso2": "FI",
+      "name": "Satasairaala",
+      "city": "Pori",
+      "address": "Sairaantie 3",
+      "postcode": "28500",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Formerly fragmented (Lifecare + 3x Pegasos + 2 dental systems); fully unified onto Lifecare 10 May 2025.",
+      "hospitalGroupKey": "hg_satakunta",
+      "healthAuthorityKey": "fi_satakunta"
+    },
+    {
+      "key": "kantahame_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Kanta-Hämeen keskussairaala",
+      "city": "Hämeenlinna",
+      "address": "Parantolankatu 6",
+      "postcode": "13530",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Address changed to Parantolankatu 6 effective 1 Oct 2023.",
+      "hospitalGroupKey": "hg_kanta_hame",
+      "healthAuthorityKey": "fi_kanta_hame"
+    },
+    {
+      "key": "tays_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Tays Keskussairaala (Tampere University Hospital)",
+      "city": "Tampere",
+      "address": "Teiskontie 35",
+      "postcode": "33520",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "~1,000+ beds (approximate, Wikipedia); >1m catchment; 34 medical specialties.",
+      "hospitalGroupKey": "hg_pirkanmaa",
+      "healthAuthorityKey": "fi_pirkanmaa"
+    },
+    {
+      "key": "hatanpaa",
+      "country_iso2": "FI",
+      "name": "Hatanpään sairaala",
+      "city": "Tampere",
+      "address": "Gauffininkatu 3",
+      "postcode": "33900",
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Address via aggregator listing, not independently cross-verified against pirha.fi.",
+      "hospitalGroupKey": "hg_pirkanmaa",
+      "healthAuthorityKey": "fi_pirkanmaa"
+    },
+    {
+      "key": "valkeakoski",
+      "country_iso2": "FI",
+      "name": "Valkeakosken sairaala",
+      "city": "Valkeakoski",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_pirkanmaa",
+      "healthAuthorityKey": "fi_pirkanmaa"
+    },
+    {
+      "key": "sastamala",
+      "country_iso2": "FI",
+      "name": "Sastamalan sairaala (Tays Sastamala)",
+      "city": "Sastamala",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Renamed from Vammalan aluesairaala in 2017. Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_pirkanmaa",
+      "healthAuthorityKey": "fi_pirkanmaa"
+    },
+    {
+      "key": "pitkaniemi",
+      "country_iso2": "FI",
+      "name": "Pitkäniemi Hospital",
+      "city": "Nokia",
+      "address": null,
+      "postcode": null,
+      "site_type": "psychiatric",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Psychiatric hospital. Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_pirkanmaa",
+      "healthAuthorityKey": "fi_pirkanmaa"
+    },
+    {
+      "key": "paijathame_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Päijät-Häme Central Hospital",
+      "city": "Lahti",
+      "address": "Keskussairaalankatu 7",
+      "postcode": "15850",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 330,
+      "notes": "~330 beds (approximate, secondary source).",
+      "hospitalGroupKey": "hg_paijat_hame",
+      "healthAuthorityKey": "fi_paijat_hame"
+    },
+    {
+      "key": "koks",
+      "country_iso2": "FI",
+      "name": "Kymenlaakson keskussairaala (KOKS)",
+      "city": "Kotka",
+      "address": "Kotkantie 41",
+      "postcode": "48210",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "24/7 emergency care.",
+      "hospitalGroupKey": "hg_kymenlaakso",
+      "healthAuthorityKey": "fi_kymenlaakso"
+    },
+    {
+      "key": "ratamokeskus",
+      "country_iso2": "FI",
+      "name": "Ratamokeskus",
+      "city": "Kouvola",
+      "address": "Ruskeasuonkatu 3",
+      "postcode": "45100",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "24/7 emergency care. Likely successor to the older 'Pohjois-Kymen sairaala' name/site, not fully confirmed.",
+      "hospitalGroupKey": "hg_kymenlaakso",
+      "healthAuthorityKey": "fi_kymenlaakso"
+    },
+    {
+      "key": "hamina_sairaala",
+      "country_iso2": "FI",
+      "name": "Haminan sairaala",
+      "city": "Hamina",
+      "address": null,
+      "postcode": null,
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Rehabilitative inpatient care. Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_kymenlaakso",
+      "healthAuthorityKey": "fi_kymenlaakso"
+    },
+    {
+      "key": "karhula_sairaala",
+      "country_iso2": "FI",
+      "name": "Karhulan sairaala",
+      "city": "Kotka (Karhula)",
+      "address": null,
+      "postcode": null,
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Inpatient/palliative/geriatric care. Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_kymenlaakso",
+      "healthAuthorityKey": "fi_kymenlaakso"
+    },
+    {
+      "key": "ekks",
+      "country_iso2": "FI",
+      "name": "Etelä-Karjalan keskussairaala (South Karelia Central Hospital)",
+      "city": "Lappeenranta",
+      "address": "Valto Käkelän katu 1",
+      "postcode": "53130",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_south_karelia",
+      "healthAuthorityKey": "fi_south_karelia"
+    },
+    {
+      "key": "mikkeli_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Mikkeli Central Hospital",
+      "city": "Mikkeli",
+      "address": "Porrassalmenkatu 35-37",
+      "postcode": "50100",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_south_savo",
+      "healthAuthorityKey": "fi_south_savo"
+    },
+    {
+      "key": "savonlinna_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Savonlinna Central Hospital (presumed name)",
+      "city": "Savonlinna",
+      "address": "Keskussairaalantie 6",
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Formerly under the separate Itä-Savo hospital district (Sosteri), consolidated into South Savo/Eloisa 2023. Full postcode and formal hospital name not independently confirmed this pass.",
+      "hospitalGroupKey": "hg_south_savo",
+      "healthAuthorityKey": "fi_south_savo"
+    },
+    {
+      "key": "pieksamaki_site",
+      "country_iso2": "FI",
+      "name": "Pieksämäki administrative care centre",
+      "city": "Pieksämäki",
+      "address": "Tapparakatu 1-3",
+      "postcode": null,
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_south_savo",
+      "healthAuthorityKey": "fi_south_savo"
+    },
+    {
+      "key": "vaalijala",
+      "country_iso2": "FI",
+      "name": "Vaalijala",
+      "city": "Pieksämäki area",
+      "address": "Nenonpellontie 40",
+      "postcode": null,
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Disability/specialist care centre.",
+      "hospitalGroupKey": "hg_south_savo",
+      "healthAuthorityKey": "fi_south_savo"
+    },
+    {
+      "key": "kys_main",
+      "country_iso2": "FI",
+      "name": "Kuopio University Hospital (KYS) Main + Kaari Hospital",
+      "city": "Kuopio",
+      "address": "Puijonlaaksontie 2",
+      "postcode": "70210",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "University hospital, Eastern Finland special-responsibility area.",
+      "hospitalGroupKey": "hg_north_savo",
+      "healthAuthorityKey": "fi_north_savo"
+    },
+    {
+      "key": "sade_hospital",
+      "country_iso2": "FI",
+      "name": "Säde Hospital (oncology/radiotherapy)",
+      "city": "Kuopio",
+      "address": "Kelkkailijantie 7",
+      "postcode": "70210",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_north_savo",
+      "healthAuthorityKey": "fi_north_savo"
+    },
+    {
+      "key": "kuh_alava",
+      "country_iso2": "FI",
+      "name": "KUH Alava Hospital (children's)",
+      "city": "Kuopio",
+      "address": "Kaartokatu 9",
+      "postcode": "70620",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_north_savo",
+      "healthAuthorityKey": "fi_north_savo"
+    },
+    {
+      "key": "iisalmi_hospital",
+      "country_iso2": "FI",
+      "name": "Iisalmi Hospital",
+      "city": "Iisalmi",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_north_savo",
+      "healthAuthorityKey": "fi_north_savo"
+    },
+    {
+      "key": "varkaus_hospital",
+      "country_iso2": "FI",
+      "name": "Varkaus Hospital",
+      "city": "Varkaus",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Exact street address unconfirmed this pass.",
+      "hospitalGroupKey": "hg_north_savo",
+      "healthAuthorityKey": "fi_north_savo"
+    },
+    {
+      "key": "pohjois_karjala_keskussairaala",
+      "country_iso2": "FI",
+      "name": "North Karelia Central Hospital",
+      "city": "Joensuu",
+      "address": "Tikkamäentie 16",
+      "postcode": "80210",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "All major specialities except open-heart surgery and neurosurgery. Built 1953.",
+      "hospitalGroupKey": "hg_north_karelia",
+      "healthAuthorityKey": "fi_north_karelia"
+    },
+    {
+      "key": "sairaala_nova",
+      "country_iso2": "FI",
+      "name": "Sairaala Nova (Central Finland Central Hospital)",
+      "city": "Jyväskylä",
+      "address": "Hoitajantie 3",
+      "postcode": "40620",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 368,
+      "notes": "Opened Jan 2021. EUR 498.0m investment; 119,147 sqm gross floor area; ~3,500 healthcare staff.",
+      "hospitalGroupKey": "hg_central_finland",
+      "healthAuthorityKey": "fi_central_finland"
+    },
+    {
+      "key": "seinajoki_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Seinäjoki Central Hospital",
+      "city": "Seinäjoki",
+      "address": "Hanneksenrinne 7",
+      "postcode": "60220",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_south_ostrobothnia",
+      "healthAuthorityKey": "fi_south_ostrobothnia"
+    },
+    {
+      "key": "vaasa_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Vaasa Central Hospital",
+      "city": "Vaasa",
+      "address": "Hietalahdenkatu 2-4",
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 348,
+      "notes": "Finland's only fully bilingual (FI/SV) hospital; comprehensive 24h emergency hospital since 1 Jan 2020.",
+      "hospitalGroupKey": "hg_ostrobothnia",
+      "healthAuthorityKey": "fi_ostrobothnia"
+    },
+    {
+      "key": "malmska_pietarsaari",
+      "country_iso2": "FI",
+      "name": "Malmska (Pietarsaari)",
+      "city": "Pietarsaari",
+      "address": "Kolpintie 7",
+      "postcode": "68601",
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_ostrobothnia",
+      "healthAuthorityKey": "fi_ostrobothnia"
+    },
+    {
+      "key": "keskipohjanmaa_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Central Ostrobothnia Central Hospital",
+      "city": "Kokkola",
+      "address": "Mariankatu 16-20",
+      "postcode": "67200",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Region's designated nearest on-call acute hospital.",
+      "hospitalGroupKey": "hg_central_ostrobothnia",
+      "healthAuthorityKey": "fi_central_ostrobothnia"
+    },
+    {
+      "key": "oys",
+      "country_iso2": "FI",
+      "name": "Oulu University Hospital (OYS)",
+      "city": "Oulu",
+      "address": "Kajaanintie 50",
+      "postcode": "90220",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "~6,700 staff; ~197,000 patients and ~46,000 surgical procedures in 2024. Undergoing 'OYS 2030' rebuild programme.",
+      "hospitalGroupKey": "hg_north_ostrobothnia",
+      "healthAuthorityKey": "fi_north_ostrobothnia"
+    },
+    {
+      "key": "oulaskangas",
+      "country_iso2": "FI",
+      "name": "Oulaskangas Hospital (OAS)",
+      "city": "Oulainen",
+      "address": "Oulaistenkatu 5",
+      "postcode": "86300",
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_north_ostrobothnia",
+      "healthAuthorityKey": "fi_north_ostrobothnia"
+    },
+    {
+      "key": "raahe_hospital",
+      "country_iso2": "FI",
+      "name": "Raahe Hospital (RAS)",
+      "city": "Raahe",
+      "address": "Rantakatu 4",
+      "postcode": "92100",
+      "site_type": "community",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": null,
+      "hospitalGroupKey": "hg_north_ostrobothnia",
+      "healthAuthorityKey": "fi_north_ostrobothnia"
+    },
+    {
+      "key": "kainuun_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Kainuu Central Hospital",
+      "city": "Kajaani",
+      "address": "Sotkamontie 13",
+      "postcode": "87300",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 240,
+      "notes": "240 hospital beds including emergency services.",
+      "hospitalGroupKey": "hg_kainuu",
+      "healthAuthorityKey": "fi_kainuu"
+    },
+    {
+      "key": "lapin_keskussairaala",
+      "country_iso2": "FI",
+      "name": "Lapland Central Hospital",
+      "city": "Rovaniemi",
+      "address": "Ounasrinteentie 22",
+      "postcode": "96400",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Esko intended as the unifying platform ('Tokka' project) but not yet the sole system in use.",
+      "hospitalGroupKey": "hg_lapland",
+      "healthAuthorityKey": "fi_lapland"
+    },
+    {
+      "key": "lansi_pohjan_sairaala",
+      "country_iso2": "FI",
+      "name": "Länsi-Pohjan sairaala",
+      "city": "Kemi",
+      "address": "Kauppakatu 25",
+      "postcode": "94100",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Formerly the separate Länsi-Pohja hospital district, merged into Lapland Wellbeing Services County at the 2023 reform.",
+      "hospitalGroupKey": "hg_lapland",
+      "healthAuthorityKey": "fi_lapland"
+    },
+    {
+      "key": "aland_central_hospital",
+      "country_iso2": "FI",
+      "name": "Åland Central Hospital",
+      "city": "Mariehamn",
+      "address": "Doktorsvägen 1",
+      "postcode": "22111",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 121,
+      "notes": "~121 beds (secondary source, provisionally confirmed pending a primary ÅHS annual-report figure).",
+      "hospitalGroupKey": "hg_aland",
+      "healthAuthorityKey": "fi_aland"
+    }
+  ],
+  "deployments": [
+    {
+      "key": "dep_malmi",
+      "hospitalSiteKey": "malmi",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "Apotti go-live spring 2021. City of Helsinki holds 38.35% of Oy Apotti Ab.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_laakso",
+      "hospitalSiteKey": "laakso",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "Apotti go-live spring 2021. City of Helsinki holds 38.35% of Oy Apotti Ab.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_vantaa_kerava",
+      "hospitalSiteKey": null,
+      "hospitalGroupKey": "hg_vantaa_kerava",
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "No own acute hospital (HUS Peijas Hospital serves Vantaa, see HUS Group). Vantaa & Kerava organizes primary/social care on Apotti; go-live 2020 (Vantaa) / spring 2021 (Kerava). Holds 15.32% of Oy Apotti Ab.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_meilahti",
+      "hospitalSiteKey": "meilahti",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "HUS Group is the largest Apotti owner (46.33% of Oy Apotti Ab). Imaging (PACS/RIS) rollout completed within Apotti by autumn 2022 per Apotti FAQ; no confirmed separate PACS carve-out found.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_toolo",
+      "hospitalSiteKey": "toolo",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "See Meilahti note; HUS-wide Apotti rollout.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_new_childrens",
+      "hospitalSiteKey": "new_childrens",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "See Meilahti note.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_womens",
+      "hospitalSiteKey": "womens_hospital",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "See Meilahti note.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_jorvi",
+      "hospitalSiteKey": "jorvi",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "Hospital-level split: Jorvi (a HUS asset) remains on Apotti even though host county Western Uusimaa moved to Tietoevry Lifecare for its own primary/social care.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_peijas",
+      "hospitalSiteKey": "peijas",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "First Apotti go-live, 10 Nov 2018.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_hyvinkaa",
+      "hospitalSiteKey": "hyvinkaa",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "Hospital-level split: Hyvinkää (a HUS asset) remains on Apotti even though host county Keusote moved to CGI OMNI360 for its own primary/social care.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_lohja",
+      "hospitalSiteKey": "lohja",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "See Jorvi note (Western Uusimaa host-county split).",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_porvoo_hus",
+      "hospitalSiteKey": "porvoo_hus",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "Hospital-level split: Porvoo (a HUS asset) remains on Apotti even though host county Eastern Uusimaa is rolling out Tietoevry Lifecare for its own primary/social care.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_raasepori",
+      "hospitalSiteKey": "raasepori_wards",
+      "hospitalGroupKey": null,
+      "supplier": "Apotti Oy",
+      "product": "Apotti (Epic)",
+      "status": "confirmed",
+      "notes": "See Jorvi note.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_tyks_t",
+      "hospitalSiteKey": "tyks_t",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "CGI OMNI360 selected 22 Mar 2024, replacing legacy Uranus. Primary care live; Tyks specialised care go-live targeted Dec 2026 (not yet live at this site as of Sep 2026).",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_tyks_salo",
+      "hospitalSiteKey": "tyks_salo",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See Tyks T-sairaala note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_tyks_loimaa",
+      "hospitalSiteKey": "tyks_loimaa",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See Tyks T-sairaala note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_tyks_vakkasuomi",
+      "hospitalSiteKey": "tyks_vakkasuomi",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See Tyks T-sairaala note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_satasairaala",
+      "hospitalSiteKey": "satasairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Region-wide unification completed 10 May 2025.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kantahame",
+      "hospitalSiteKey": "kantahame_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Primary and specialised-care patient records unified onto one Lifecare instance 1 Jan 2025.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_tays",
+      "hospitalSiteKey": "tays_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "CGI OMNI360 selected jointly with North Savo, 4 Apr 2024, retiring legacy Lifecare + Mediatri. Primary care live; specialised-care (Tays) go-live delayed beyond the original schedule (not yet live at this site as of Sep 2026).",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_hatanpaa",
+      "hospitalSiteKey": "hatanpaa",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See Tays Keskussairaala note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_valkeakoski",
+      "hospitalSiteKey": "valkeakoski",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See Tays Keskussairaala note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sastamala",
+      "hospitalSiteKey": "sastamala",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See Tays Keskussairaala note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_pitkaniemi",
+      "hospitalSiteKey": "pitkaniemi",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See Tays Keskussairaala note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_paijathame",
+      "hospitalSiteKey": "paijathame_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "unconfirmed",
+      "notes": "EHR vendor not confirmed at primary-source level this research pass (paijatha.fi blocked fetches). Recurring maintenance-window notices for the county's 'asiakas- ja potilastietojärjestelmä' are consistent with Lifecare (secondary source states live since Jan 2023) but need direct primary-source confirmation.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_koks",
+      "hospitalSiteKey": "koks",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "TerveysLifecare (healthcare) + SosiaaliLifecare (social services), confirmed via official document-publicity description. First Finnish wellbeing county on the newest Lifecare version (24 Sep 2023).",
+      "evidence_tier": 1,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ratamokeskus",
+      "hospitalSiteKey": "ratamokeskus",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "See KOKS note.",
+      "evidence_tier": 1,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_hamina",
+      "hospitalSiteKey": "hamina_sairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "See KOKS note.",
+      "evidence_tier": 1,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_karhula",
+      "hospitalSiteKey": "karhula_sairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "See KOKS note.",
+      "evidence_tier": 1,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_ekks",
+      "hospitalSiteKey": "ekks",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "terveysLifecare confirmed via official source (ekhva.fi). Social services on a mixed Effica/Lifecare landscape, not fully consolidated.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_mikkeli",
+      "hospitalSiteKey": "mikkeli_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Lifecare Patient Information System already live; Oct 2025 decision (joint with North Karelia) added the Lifecare client/social-care system, migration through 2026.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_savonlinna",
+      "hospitalSiteKey": "savonlinna_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "See Mikkeli note.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_pieksamaki",
+      "hospitalSiteKey": "pieksamaki_site",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "See Mikkeli note.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_vaalijala",
+      "hospitalSiteKey": "vaalijala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "See Mikkeli note.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kys_main",
+      "hospitalSiteKey": "kys_main",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "CGI OMNI360 selected jointly with Pirkanmaa, 4 Apr 2024, via Istekki. Primary care live; specialised care (KYS) go-live delayed to autumn 2026, whole-county target Oct 2026 (not yet live at this site as of Sep 2026).",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_sade",
+      "hospitalSiteKey": "sade_hospital",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See KYS Main note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kuh_alava",
+      "hospitalSiteKey": "kuh_alava",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See KYS Main note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_iisalmi",
+      "hospitalSiteKey": "iisalmi_hospital",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See KYS Main note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_varkaus",
+      "hospitalSiteKey": "varkaus_hospital",
+      "hospitalGroupKey": null,
+      "supplier": "CGI",
+      "product": "OMNI360",
+      "status": "confirmed",
+      "notes": "See KYS Main note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_pkks",
+      "hospitalSiteKey": "pohjois_karjala_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Selected Oct 2025 jointly with South Savo. NOT YET LIVE at this hospital: phased rollout — social services Nov 2026, dental spring 2027, primary/home-care/specialised-care (hospital) autumn 2027, full completion end 2027.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_nova",
+      "hospitalSiteKey": "sairaala_nova",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Live since spring 2024 (primary, specialist, dental); extended to a 9-municipality northern sub-region autumn 2024, replacing Pegasos/Mediatri/WinHit (selected 17 Jan 2024 over CGI and Mediconsult).",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_seinajoki",
+      "hospitalSiteKey": "seinajoki_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Region-wide since ~2014 per trade-press roundup (one of the earliest Finnish Lifecare deployments); exact date needs primary-source confirmation.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_vaasa",
+      "hospitalSiteKey": "vaasa_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Selected via competitive dialogue 2023 (vs CGI, Mediconsult; Lifecare ranked first in 6 of 7 evaluation categories). Go-live began 6 Oct 2024 (Kristiinankaupunki, Kaskinen), region-wide by spring 2025, replacing 6 legacy systems. Fire/rescue explicitly excluded.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_malmska",
+      "hospitalSiteKey": "malmska_pietarsaari",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "See Vaasa Central Hospital note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_soite",
+      "hospitalSiteKey": "keskipohjanmaa_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Region-wide since ~2017 per trade-press roundup; exact date needs primary-source confirmation.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_oys",
+      "hospitalSiteKey": "oys",
+      "hospitalGroupKey": null,
+      "supplier": "Esko Systems Oy",
+      "product": "Esko",
+      "status": "confirmed",
+      "notes": "Esko used in specialised care at OYS for decades. Original regional selection 5 Feb 2021 (POPsote steering group, Deloitte-informed).",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_oulaskangas",
+      "hospitalSiteKey": "oulaskangas",
+      "hospitalGroupKey": null,
+      "supplier": "Esko Systems Oy",
+      "product": "Esko",
+      "status": "confirmed",
+      "notes": "Primary care migrating region-wide onto Esko in phases, target full coverage during 2026; this site's exact current status not independently confirmed.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_raahe",
+      "hospitalSiteKey": "raahe_hospital",
+      "hospitalGroupKey": null,
+      "supplier": "Esko Systems Oy",
+      "product": "Esko",
+      "status": "confirmed",
+      "notes": "See Oulaskangas note.",
+      "evidence_tier": 5,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "assumed"
+        }
+      ]
+    },
+    {
+      "key": "dep_kainuu",
+      "hospitalSiteKey": "kainuun_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Tietoevry Care",
+      "product": "Lifecare",
+      "status": "confirmed",
+      "notes": "Region-wide since 2011.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_lapland_rovaniemi",
+      "hospitalSiteKey": "lapin_keskussairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Esko Systems Oy",
+      "product": "Esko",
+      "status": "unconfirmed",
+      "notes": "Lapland inherited ~300 separate legacy patient-record systems from constituent municipalities/former hospital districts at the 2023 reform; full unification onto Esko (the intended platform, via the 'Tokka' project) is projected to take ~10 years. NOT a single system today — heavily fragmented.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    },
+    {
+      "key": "dep_lapland_kemi",
+      "hospitalSiteKey": "lansi_pohjan_sairaala",
+      "hospitalGroupKey": null,
+      "supplier": "Esko Systems Oy",
+      "product": "Esko",
+      "status": "unconfirmed",
+      "notes": "See Lapland Central Hospital note.",
+      "evidence_tier": 4,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    },
+    {
+      "key": "dep_aland_cosmic",
+      "hospitalSiteKey": "aland_central_hospital",
+      "hospitalGroupKey": null,
+      "supplier": "Cambio Healthcare Systems",
+      "product": "COSMIC",
+      "status": "confirmed",
+      "notes": "Single clinical-journal system across all public healthcare on Åland, from maternal/child health through specialist and end-of-life care. Contract awarded 21 May 2024.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "dep_aland_una",
+      "hospitalSiteKey": "aland_central_hospital",
+      "hospitalGroupKey": null,
+      "supplier": "UNA Oy",
+      "product": "UNA Blankett / UNA Samtycke",
+      "status": "confirmed",
+      "notes": "Swedish-language forms (Blankett) and consent-management (Samtycke) modules layered on top of Cambio COSMIC, launched 28 Sep 2025 — modular/best-of-breed approach; ÅHS reported as the first region to run UNA modules fully in Swedish. States the modules 'replace the previous patient data systems'; predecessor system name unconfirmed.",
+      "evidence_tier": 6,
+      "categories": [
+        {
+          "name": "EPR",
+          "coverage_status": "carve_out"
+        }
+      ]
+    }
+  ],
+  "procurementNotices": [
+    {
+      "key": "proc_varha_omni360",
+      "country_iso2": "FI",
+      "title": "Southwest Finland (Varha) CGI OMNI360 patient information system award",
+      "estimated_value": null,
+      "currency": "EUR",
+      "publication_date": "2024-03-22",
+      "award_date": "2024-03-22",
+      "awarded_supplier": "CGI",
+      "status": "awarded",
+      "notes": "Replaces legacy Uranus. Full go-live for Tyks (specialised care) targeted December 2026; primary/dental care already live. Run jointly/in parallel with Pirkanmaa and North Savo, who separately procured OMNI360 from CGI around the same time.",
+      "sourceKey": "fi_varha_omni360",
+      "healthAuthorityKey": "fi_southwest_finland"
+    },
+    {
+      "key": "proc_pirkanmaa_north_savo_omni360",
+      "country_iso2": "FI",
+      "title": "Pirkanmaa and North Savo joint CGI OMNI360 patient information system award",
+      "estimated_value": null,
+      "currency": "EUR",
+      "publication_date": "2024-04-04",
+      "award_date": "2024-04-04",
+      "awarded_supplier": "CGI",
+      "status": "awarded",
+      "notes": "Joint tender run via shared ICT company Istekki. Each region gets its own separate OMNI360 instance. Pirkanmaa: ~19,000 employees, 500,000+ residents; North Savo: ~12,500 employees, ~250,000 residents. Retires legacy Lifecare + Mediatri (Pirkanmaa). Primary care live in both regions; specialised-care (Tays, KYS) go-live delayed.",
+      "sourceKey": "fi_pirha_omni360",
+      "healthAuthorityKey": "fi_pirkanmaa"
+    },
+    {
+      "key": "proc_keusote_omni360",
+      "country_iso2": "FI",
+      "title": "Central Uusimaa (Keusote) CGI OMNI360 client and patient information system award",
+      "estimated_value": 10000000,
+      "currency": "EUR",
+      "publication_date": "2021-06-01",
+      "award_date": "2021-06-01",
+      "awarded_supplier": "CGI",
+      "status": "awarded",
+      "notes": "~EUR 10m. Consolidates separate municipal systems across Hyvinkää, Järvenpää, Mäntsälä, Nurmijärvi, Pornainen, Tuusula; includes WinHIT module for dental care. Selected instead of an originally planned Apotti go-live in Tuusula ('Tuusulan Apotti-käyttöönotosta luovutaan').",
+      "sourceKey": "fi_keusote_omni360",
+      "healthAuthorityKey": "fi_central_uusimaa"
+    },
+    {
+      "key": "proc_luvn_itauusimaa_lifecare",
+      "country_iso2": "FI",
+      "title": "Western Uusimaa and Eastern Uusimaa joint Tietoevry Lifecare award",
+      "estimated_value": 15600000,
+      "currency": "EUR",
+      "publication_date": "2024-12-18",
+      "award_date": "2024-12-18",
+      "awarded_supplier": "Tietoevry Care",
+      "status": "awarded",
+      "notes": "Joint procurement: Tietoevry Finland Oy primary bidder (100/100 evaluation score), CGI Suomi Oy backup (86.71). Western Uusimaa contract ~EUR 11.3m ex-VAT; Eastern Uusimaa ~EUR 4.3m ex-VAT (implementation + 4 years operations); combined estimate shown here. Both counties formally exited Apotti 2 May 2024 (Western ~EUR 17m exit cost, Eastern ~EUR 5m).",
+      "sourceKey": "fi_luvn_lifecare",
+      "healthAuthorityKey": "fi_western_uusimaa"
+    },
+    {
+      "key": "proc_pohjanmaa_lifecare",
+      "country_iso2": "FI",
+      "title": "Ostrobothnia (Pohjanmaa) Tietoevry Lifecare award",
+      "estimated_value": null,
+      "currency": "EUR",
+      "publication_date": "2023-09-04",
+      "award_date": "2023-09-04",
+      "awarded_supplier": "Tietoevry Care",
+      "status": "awarded",
+      "notes": "Selected via competitive dialogue against CGI and Mediconsult; 140 clinical staff took part in product evaluation, Lifecare ranked first in 6 of 7 categories. Governance approvals 19 Jun and 4 Sep 2023. Consolidates 6 legacy patient/client information systems. Go-live began 6 Oct 2024 (Kristiinankaupunki, Kaskinen), region-wide by spring 2025.",
+      "sourceKey": "fi_pohjanmaa_lifecare",
+      "healthAuthorityKey": "fi_ostrobothnia"
+    },
+    {
+      "key": "proc_ncka_lifecare_joint",
+      "country_iso2": "FI",
+      "title": "North Karelia and South Savo joint Tietoevry Lifecare client/patient information system award",
+      "estimated_value": null,
+      "currency": "EUR",
+      "publication_date": "2025-10-01",
+      "award_date": "2025-10-01",
+      "awarded_supplier": "Tietoevry Care",
+      "status": "awarded",
+      "notes": "South Savo already ran the Lifecare patient system; this decision added the Lifecare client/social-care system for both counties. North Karelia's implementation is NOT YET LIVE: phased rollout social services Nov 2026, dental spring 2027, primary/home-care/specialised-care autumn 2027, full completion end 2027.",
+      "sourceKey": "fi_ncka_lifecare_joint",
+      "healthAuthorityKey": "fi_north_karelia"
+    },
+    {
+      "key": "proc_central_finland_lifecare_north",
+      "country_iso2": "FI",
+      "title": "Central Finland northern sub-region Tietoevry Lifecare extension award",
+      "estimated_value": null,
+      "currency": "EUR",
+      "publication_date": "2024-01-17",
+      "award_date": "2024-02-01",
+      "awarded_supplier": "Tietoevry Care",
+      "status": "awarded",
+      "notes": "Selected over CGI and Mediconsult; decision binding from 1 Feb 2024 after the appeal period. Extends the already-live Lifecare platform to a 9-municipality northern sub-region (Karstula, Kannonkoski, Kinnula, Kivijärvi, Kyyjärvi, Pihtipudas, Saarijärvi, Viitasaari, Äänekoski), replacing Pegasos, Mediatri and WinHit. Planned go-live autumn 2024.",
+      "sourceKey": "fi_hyvaks_lifecare_rollout",
+      "healthAuthorityKey": "fi_central_finland"
+    },
+    {
+      "key": "proc_kymenlaakso_lifecare_upgrade",
+      "country_iso2": "FI",
+      "title": "Kymenlaakso first-in-Finland Lifecare version upgrade",
+      "estimated_value": null,
+      "currency": "EUR",
+      "publication_date": "2023-09-24",
+      "award_date": "2023-09-24",
+      "awarded_supplier": "Tietoevry Care",
+      "status": "awarded",
+      "notes": "Kymenlaakso became the first Finnish wellbeing county to roll out the newest Lifecare version, 24 Sep 2023, supporting a productivity programme from summer 2023 (IT Director Matti Ahola).",
+      "sourceKey": "fi_kymenhva_lifecare_first",
+      "healthAuthorityKey": "fi_kymenlaakso"
+    },
+    {
+      "key": "proc_aland_cosmic",
+      "country_iso2": "FI",
+      "title": "Åland (ÅHS) Cambio COSMIC main clinical-journal system award",
+      "estimated_value": null,
+      "currency": "EUR",
+      "publication_date": "2024-05-21",
+      "award_date": "2024-05-21",
+      "awarded_supplier": "Cambio Healthcare Systems",
+      "status": "awarded",
+      "notes": "Single clinical-journal system ('huvudjournalsystemet') for all public healthcare on Åland. Implementation and staff training began immediately after award.",
+      "sourceKey": "fi_cambio_aland",
+      "healthAuthorityKey": "fi_aland"
+    },
+    {
+      "key": "proc_apotti_exits_2024",
+      "country_iso2": "FI",
+      "title": "Central Uusimaa, Western Uusimaa and Eastern Uusimaa formal exit from Oy Apotti Ab ownership",
+      "estimated_value": 33000000,
+      "currency": "EUR",
+      "publication_date": "2024-05-02",
+      "award_date": "2024-05-02",
+      "awarded_supplier": "Apotti Oy",
+      "status": "expired",
+      "notes": "Three of the original Uusimaa wellbeing counties formally exited Apotti ownership, announced 2 May 2024. Exit costs: Central Uusimaa (Keusote) ~EUR 11m, Western Uusimaa ~EUR 17m, Eastern Uusimaa ~EUR 5m (combined ~EUR 33m shown here). HUS Group, Helsinki and Vantaa & Kerava remain the three owners of Oy Apotti Ab (46.33% / 38.35% / 15.32%).",
+      "sourceKey": "fi_apotti_exit_2024",
+      "healthAuthorityKey": "fi_hus"
+    }
+  ]
+}
