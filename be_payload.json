@@ -1,0 +1,3445 @@
+{
+  "sources": [
+    {
+      "key": "s_health_be_digital",
+      "title": "Digitale diensten en projecten",
+      "publisher": "FOD Volksgezondheid",
+      "url": "https://www.health.belgium.be/nl/professionals/gezondheidsprofessionals/menselijke-gezondheid/digitale-diensten-projecten",
+      "tier": 1,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_ehealth_action_plan",
+      "title": "Plan d'action e-Santé 2026-2029",
+      "publisher": "FOD Volksgezondheid / SPF Santé publique",
+      "url": "https://www.health.belgium.be/fr/professionnels/professionnels-sante/sante-humaine/gestion-donnees/plan-daction-e-sante-2026-2029",
+      "tier": 1,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_ehealth_qui",
+      "title": "Qui sommes-nous ?",
+      "publisher": "eHealth-platform",
+      "url": "https://www.ehealth.fgov.be/ehealthplatform/fr/qui-sommes-nous-",
+      "tier": 1,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_ehealth_comite",
+      "title": "Comité de gestion",
+      "publisher": "eHealth-platform",
+      "url": "https://www.ehealth.fgov.be/ehealthplatform/fr/comite-de-gestion",
+      "tier": 1,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_frankrobben",
+      "title": "Current professional activities",
+      "publisher": "frankrobben.be",
+      "url": "https://www.frankrobben.be/about-me/current-professional-activities/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_inami_facon",
+      "title": "Pedro Facon nommé administrateur général de l'INAMI à partir de 2026",
+      "publisher": "Pharma-Sphere",
+      "url": "https://www.pharma-sphere.be/fr/actualites/pedro-facon-nomme-administrateur-general-de-l-rsquo-inami-a-partir-de-2026.html",
+      "tier": 4,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_zorgnet_departementzorg",
+      "title": "Departement WVG en Agentschap Zorg en Gezondheid fuseren tot Departement Zorg",
+      "publisher": "Zorgnet-Icuro",
+      "url": "https://www.zorgneticuro.be/nieuws/departement-wvg-en-agentschap-zorg-en-gezondheid-fuseren-tot-departement-zorg",
+      "tier": 4,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_aviq_hopitaux",
+      "title": "Hôpitaux généraux",
+      "publisher": "AVIQ",
+      "url": "https://www.aviq.be/fr/soins-de-sante/soins-hospitaliers/hopitaux-generaux",
+      "tier": 3,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_vivalis",
+      "title": "Vivalis (formerly Iriscare)",
+      "publisher": "Vivalis / COCOM",
+      "url": "https://vivalis.brussels/fr",
+      "tier": 3,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_vivalis_ministres",
+      "title": "Nos ministres",
+      "publisher": "Vivalis / COCOM",
+      "url": "https://www.vivalis.brussels/fr/a-propos/qui-sommes-nous/nos-ministres",
+      "tier": 3,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_be_brussels_agrement",
+      "title": "L'agrément des structures de coordination hospitalière",
+      "publisher": "be.brussels",
+      "url": "https://be.brussels/fr/entreprendre-innover/entreprendre-bruxelles/licences-autorisations-et-acces-la-profession/lagrement-des-structures-de-coordination-hospitaliere",
+      "tier": 3,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_vgc_wiki",
+      "title": "Vlaamse Gemeenschapscommissie",
+      "publisher": "Wikipedia (NL)",
+      "url": "https://nl.wikipedia.org/wiki/Vlaamse_Gemeenschapscommissie",
+      "tier": 6,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_ostbelgien_regierung",
+      "title": "Regierung",
+      "publisher": "ostbelgienlive.be",
+      "url": "https://ostbelgienlive.be/desktopdefault.aspx/tabid-218/",
+      "tier": 3,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_lexgo_networks_law",
+      "title": "The Belgian Competition Authority confirms merger-control rules apply to loco-regional hospital networks (Act of 28 Feb 2019)",
+      "publisher": "Lexgo",
+      "url": "https://www.lexgo.be/en/news-and-articles/7148-the-belgian-competition-authority-confirms-that-belgian-merger-control-rules-apply-to-the-creation-of-loco-regional-hospital-networks-pursuant-to-the-act-of-28-february-2019",
+      "tier": 4,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_lespecialiste_25reseaux",
+      "title": "25 réseaux hospitaliers confirmés",
+      "publisher": "Le Spécialiste",
+      "url": "https://www.lespecialiste.be/fr/actualites/25-reseaux-hospitaliers-confirmes.html",
+      "tier": 4,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_belgiqueenbonnesante_reseaux",
+      "title": "Réseaux hospitaliers",
+      "publisher": "belgiqueenbonnesante.be (FOD/SPF)",
+      "url": "https://www.belgiqueenbonnesante.be/fr/donnees-phares-dans-les-soins-de-sante/hopitaux-generaux/organisation/reseaux-hospitaliers",
+      "tier": 1,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_antares_networks",
+      "title": "Ziekenhuisnetwerken: hoe krijgen we shared services van de grond?",
+      "publisher": "Antares HealthProspecting",
+      "url": "https://gcm.rmnet.be/clients/rmnet/content/medias/pdf/antares_healthprospecting_antares_2021_nl__1_.pdf",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_vlaamsartsensyndicaat",
+      "title": "Verdeling van locoregionale netwerken in België",
+      "publisher": "Vlaams Artsensyndicaat",
+      "url": "https://www.vlaamsartsensyndicaat.be/verdeling-van-locoregionale-netwerken-belgie",
+      "tier": 4,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_vlaamsparlement_annex",
+      "title": "Bijlage: Aanvragen erkenning ziekenhuisnetwerken",
+      "publisher": "Vlaams Parlement",
+      "url": "https://docs.vlaamsparlement.be/files/pfile?id=1512056",
+      "tier": 1,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_nexuz_about",
+      "title": "About us",
+      "publisher": "Nexuzhealth",
+      "url": "https://www.nexuzhealth.com/en/about-us",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_uzleuven_pers_cegeka",
+      "title": "UZ Leuven en Cegeka bundelen krachten voor elektronisch patiëntendossier van de toekomst",
+      "publisher": "UZ Leuven",
+      "url": "https://pers.uzleuven.be/uz-leuven-en-cegeka-bundelen-krachten-voor-elektronisch-patientendossier-van-de-toekomst",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_nexuz_partners",
+      "title": "Partners",
+      "publisher": "Nexuzhealth",
+      "url": "https://www.nexuzhealth.com/en/about-us/partners",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_nexuz_hospitals",
+      "title": "Hospitals",
+      "publisher": "Nexuzhealth",
+      "url": "https://www.nexuzhealth.com/en/professionals/segments/healthcare-institutions/hospitals",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_nexuz_portal_milestone",
+      "title": "Mynexuzhealth hits milestone: 1.5 million Belgians now connected",
+      "publisher": "Nexuzhealth",
+      "url": "https://www.nexuzhealth.com/en/press/biggest-patient-portal-belgium",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_engineeringnet_nexuz2018",
+      "title": "5 nieuwe ziekenhuizen kiezen voor EPD van Nexuzhealth",
+      "publisher": "Engineeringnet",
+      "url": "https://engineeringnet.be/nl/nieuws/item/14154/5-nieuwe-ziekenhuizen-kiezen-voor-epd-van-nexuzhealth",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_despecialist_asz",
+      "title": "ASZ kiest voor Nexuzhealth",
+      "publisher": "De Specialist",
+      "url": "https://www.despecialist.eu/nl/nieuws/beroepsnieuws/asz-kiest-voor-nexuzhealth.html",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_azgroeninge_dossier",
+      "title": "Je online dossier",
+      "publisher": "AZ Groeninge",
+      "url": "https://www.azgroeninge.be/nl/patient/je-online-dossier",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_nexuz_azwest",
+      "title": "AZ West Veurne EPR success story",
+      "publisher": "Nexuzhealth",
+      "url": "https://www.nexuzhealth.com/en/succes-stories/az-west-veurne-epr",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_nexuz_azoudenaarde",
+      "title": "AZ Oudenaarde chooses one digital health record with Nexuzhealth",
+      "publisher": "Nexuzhealth press listing",
+      "url": "https://www.nexuzhealth.com/en/press",
+      "tier": 5,
+      "date_accessed": "2025-11-06"
+    },
+    {
+      "key": "s_nexuz_azzeno",
+      "title": "AZ Zeno EHR success story",
+      "publisher": "Nexuzhealth",
+      "url": "https://www.nexuzhealth.com/en/succes-stories/az-zeno-ehr",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_nexuz_molsuccess",
+      "title": "H. Hartziekenhuis Mol gaat volledig voor operational excellence met het KWS",
+      "publisher": "Nexuzhealth",
+      "url": "https://www.nexuzhealth.com/nl/succesverhalen/kws-heilig-hart-mol",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_procurement_sintmaria",
+      "title": "Bulletin der Aanbestedingen N. 389884 (2020-536526) — AZ Sint-Maria Halle EPR award",
+      "publisher": "online.govex.be",
+      "url": "https://online.govex.be/govex/control/view_bda?language=nl&bda.id=560572",
+      "tier": 2,
+      "date_accessed": "2020-10-18"
+    },
+    {
+      "key": "s_ted_azwest",
+      "title": "TED notice 558421-2020 — AZ West EPD call for participation",
+      "publisher": "TED",
+      "url": "https://ted.europa.eu/en/notice/558421-2020/pdf",
+      "tier": 2,
+      "date_accessed": "2020-11-20"
+    },
+    {
+      "key": "s_ted_azzeno",
+      "title": "TED notice 202912-2023 — AZ Zeno EPD call for participation",
+      "publisher": "TED",
+      "url": "https://ted.europa.eu/en/notice/202912-2023/pdf",
+      "tier": 2,
+      "date_accessed": "2023-04-05"
+    },
+    {
+      "key": "s_uzbrussel_primuz",
+      "title": "Primuz",
+      "publisher": "UZ Brussel",
+      "url": "https://www.uzbrussel.be/en/web/primuz",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_despecialist_jpg",
+      "title": "AZ Jan Palfijn Gent start met Primuz als EPD",
+      "publisher": "De Specialist",
+      "url": "https://www.despecialist.eu/nl/nieuws/beroepsnieuws/az-jan-palfijn-gent-start-met-primuz-als-epd.html",
+      "tier": 5,
+      "date_accessed": "2020-02-20"
+    },
+    {
+      "key": "s_radioreflex_rivierenland",
+      "title": "Succesvolle start van het elektronisch patiëntendossier PRIMUZ in AZ Rivierenland",
+      "publisher": "Radio Reflex",
+      "url": "https://www.radioreflex.be/2021/06/29/succesvolle-start-van-het-elektronisch-patientendossier-primuz-in-az-rivierenland/",
+      "tier": 5,
+      "date_accessed": "2021-06-29"
+    },
+    {
+      "key": "s_heilighartlier",
+      "title": "Succesvolle start van het elektronisch patiëntendossier",
+      "publisher": "Heilig Hartziekenhuis Lier",
+      "url": "https://www.heilighartlier.be/nieuws/succesvolle-start-van-het-elektronisch-patientendossier/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_numerikare_janportaels",
+      "title": "AZ Jan Portaels gebruikt EPD UZ Brussel",
+      "publisher": "Numerikare",
+      "url": "https://www.numerikare.be/nl/nieuws/beroepsnieuws/az-jan-portaels-gebruikt-epd-uz-brussel.html",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_uzbrussel_curoz",
+      "title": "Locoregionaal klinisch netwerk Curoz",
+      "publisher": "UZ Brussel",
+      "url": "https://www.uzbrussel.be/locoregionaal-klinisch-netwerk-curoz",
+      "tier": 5,
+      "date_accessed": "2021-01-01"
+    },
+    {
+      "key": "s_chipsoft_zol",
+      "title": "Ziekenhuis Oost-Limburg stapt over op HiX",
+      "publisher": "ChipSoft",
+      "url": "https://www.chipsoft.com/nl-be/nieuws-blogs/ziekenhuis-oost-limburg-stapt-over-op-hix/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_chipsoft_znagza",
+      "title": "ChipSoft to automate Belgium's largest healthcare provider",
+      "publisher": "ChipSoft",
+      "url": "https://www.chipsoft.com/en/news/chipsoft-to-automate-belgium-s-largest-healthcare-provider/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_zna_news_epd2020",
+      "title": "ZNA en GZA Ziekenhuizen introduceren samen nieuw elektronisch patiëntendossier voor patiënten",
+      "publisher": "ZNA",
+      "url": "https://nieuws.zna.be/zna-en-gza-ziekenhuizen-introduceren-samen-nieuw-elektronisch-patientendossier-voor-patienten",
+      "tier": 5,
+      "date_accessed": "2020-01-14"
+    },
+    {
+      "key": "s_icthealth_znagza",
+      "title": "Grootste EPD-implementatie in België ooit",
+      "publisher": "ICT&health",
+      "url": "https://www.icthealth.nl/nieuws/grootste-epd-implementatie-in-belgie-ooit",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_chipsoft_azdelta",
+      "title": "AZ Delta kiest voor volledig geïntegreerd EPD van ChipSoft",
+      "publisher": "ChipSoft",
+      "url": "https://www.chipsoft.com/nl-BE/nieuws/239",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_zas_organisatie",
+      "title": "Over ZAS: Organisatie (CEO Willeke Dijkhoffz)",
+      "publisher": "ZAS",
+      "url": "https://www.zas.be/over-zas/organisatie",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_zorgkwaliteit_zas",
+      "title": "Ziekenhuis Aan De Stroom Middelheim, Cadix, Palfijn, Hoge Beuken, Joostens",
+      "publisher": "Zorgkwaliteit.be",
+      "url": "https://www.zorgkwaliteit.be/zorgvoorzieningen/ziekenhuis-aan-de-stroom-middelheim-cadix-palfijn-hoge-beuken-joostens-antwerpen",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_beckers_cerner2017",
+      "title": "3 Belgium-based hospitals to deploy Cerner EHR",
+      "publisher": "Becker's Hospital Review",
+      "url": "https://beckershospitalreview.com/ehrs/3-belgium-based-hospitals-to-deploy-cerner-ehr.html",
+      "tier": 4,
+      "date_accessed": "2017-10-16"
+    },
+    {
+      "key": "s_globenewswire_cerner2017",
+      "title": "UZA, UZ Gent and AZ Sint-Lucas Gent select Cerner for their new EHR projects",
+      "publisher": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2017/10/16/1147900/0/en/UZA-UZ-Gent-and-AZ-Sint-Lucas-Gent-select-Cerner-for-their-new-EHR-projects.html",
+      "tier": 4,
+      "date_accessed": "2017-10-16"
+    },
+    {
+      "key": "s_engineeringnet_uzgent",
+      "title": "UZ Gent implementeert nieuw elektronisch patiëntendossier",
+      "publisher": "Engineeringnet",
+      "url": "https://engineeringnet.be/nl/nieuws/item/12733/uz-gent-implementeert-nieuw-elektronisch-patientendossier",
+      "tier": 5,
+      "date_accessed": "2017-04-20"
+    },
+    {
+      "key": "s_despecialist_azsintlucas",
+      "title": "Ook Gents AZ Sint-Lucas kiest EPD",
+      "publisher": "De Specialist",
+      "url": "https://www.despecialist.eu/nl/nieuws/beroepsnieuws/ook-gents-az-sint-lucas-kiest-epd.html",
+      "tier": 5,
+      "date_accessed": "2017-07-17"
+    },
+    {
+      "key": "s_icthealth_uza",
+      "title": "Alle medische gegevens beschikbaar voor patiënt en zorgverlener",
+      "publisher": "ICT&health",
+      "url": "https://www.icthealth.nl/nieuws/alle-medische-gegevens-beschikbaar-voor-patient-en-zorgverlener/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_regionalit_xperthis1",
+      "title": "Xperthis: d'éditeur à 'consolidateur' de solutions e-santé",
+      "publisher": "Regional-IT",
+      "url": "https://www.regional-it.be/portrait/xperthis-editeur-a-consolidateur-de-solutions-sante/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_regionalit_xperthis2",
+      "title": "Xperthis: la choc des générations sur fond de refonte du paysage hospitalier",
+      "publisher": "Regional-IT",
+      "url": "https://www.regional-it.be/portrait/xperthis-la-choc-des-generations-sur-fond-de-refonte-du-paysage-hospitalier/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_zorgi_home",
+      "title": "ZORGI homepage",
+      "publisher": "ZORGI (a KEYES Company)",
+      "url": "https://www.zorgi.be/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_computable_nrbkeyes",
+      "title": "NRB wordt Keyes en gaat voor 900 miljoen euro",
+      "publisher": "Computable.be",
+      "url": "https://www.computable.be/2026/04/25/nrb-wordt-keyes-en-gaat-voor-900-miljoen/",
+      "tier": 5,
+      "date_accessed": "2026-04-25"
+    },
+    {
+      "key": "s_intersystems_ghdc",
+      "title": "Grand Hôpital de Charleroi: achter de schermen van een uniek EPD",
+      "publisher": "InterSystems",
+      "url": "https://www.intersystems.com/bnl-nl/success-stories/grand-hopital-de-charleroi-achter-de-schermen-van-een-uniek-epd/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_regionalit_ghdc",
+      "title": "Grand Hôpital de Charleroi: les coulisses du DPI unique",
+      "publisher": "Regional-IT",
+      "url": "https://www.regional-it.be/practice/grand-hopital-de-charleroi-les-coulisses-du-dpi-unique/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_cndg_xperthis",
+      "title": "Mode d'emploi dossier infirmier informatisé Xperthis EPR, H+Nurse",
+      "publisher": "CNDG",
+      "url": "https://www.cndg.be/wp-content/uploads/2017/02/Mode-demploi-DII-Etudiants-26-01-2017.pdf",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_csf_xperthis",
+      "title": "Malgré le COVID-19, Xperthis CARE, le nouveau dossier patient informatisé",
+      "publisher": "Centre de Santé des Fagnes",
+      "url": "https://csf.be/wp-content/uploads/2021/08/CP_DPI_web.pdf",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_chrsm_xperthis",
+      "title": "Le CHRSM se dote d'un nouveau logiciel pour gérer le Dossier Patient Informatisé (DPI)",
+      "publisher": "CHR Sambre et Meuse",
+      "url": "https://www.chrsm.be/a-la-une/le-chrsm-se-dote-d%E2%80%99un-nouveau-logiciel-pour-g%C3%A9rer-le-dossier-patient-informatis%C3%A9-dpi",
+      "tier": 5,
+      "date_accessed": "2024-07-05"
+    },
+    {
+      "key": "s_zorgi_irissud",
+      "title": "Iris Ziekenhuizen Zuid kiest Xperthis Care van ZORGI als nieuwe EPD",
+      "publisher": "ZORGI",
+      "url": "https://www.zorgi.be/nl/iris-ziekenhuizen-zuid-kiest-xperthis-care-van-zorgi-als-nieuwe-epd/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_zorgi_saintlucbouge",
+      "title": "Clinique Saint-Luc Bouge kiest Xperthis Care als nieuwe EPD",
+      "publisher": "ZORGI",
+      "url": "https://www.zorgi.be/nl/clinique-saint-luc-bouge-kiest-xperthis-care-als-nieuwe-epd/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_itn_agfamonica",
+      "title": "Agfa Supplies ORBIS IT Systems to Belgian Hospital (AZ Monica)",
+      "publisher": "ITN",
+      "url": "https://www.itnonline.com/content/agfa-supplies-orbis-it-systems-belgian-hospital",
+      "tier": 5,
+      "date_accessed": "2006-09-18"
+    },
+    {
+      "key": "s_dhne_agfamol",
+      "title": "Heilig Hartziekenhuis Mol in Belgium selects Agfa HealthCare's hospital-wide workflow solution",
+      "publisher": "Digital Health News Europe",
+      "url": "https://www.digitalhealthnews.eu/agfa/523-heilig-hartziekenhuis-mol-in-belgium-selects-agfa-healthcares-hospital-wide-workflow-solution",
+      "tier": 5,
+      "date_accessed": "2007-04-20"
+    },
+    {
+      "key": "s_bx1_saintluc",
+      "title": "Les Cliniques universitaires Saint-Luc lancent leur 'trajet patient intégré et informatisé'",
+      "publisher": "BX1",
+      "url": "https://bx1.be/categories/news/les-cliniques-universitaires-saint-luc-lancent-leur-trajet-patient-integre-et-informatise/",
+      "tier": 4,
+      "date_accessed": "2020-11-28"
+    },
+    {
+      "key": "s_lespecialiste_saintluc",
+      "title": "Cliniques universitaires Saint-Luc: le choix du DPI retardé en raison d'un recours",
+      "publisher": "Le Spécialiste",
+      "url": "https://www.lespecialiste.be/fr/actualites/e-health/cliniques-universitaires-saint-luc-le-choix-du-dpi-retarde-en-raison-d-rsquo-un-recours.html",
+      "tier": 4,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_chirecpro_chorus",
+      "title": "Le groupe hospitalier CHIREC rejoint le réseau CHORUS",
+      "publisher": "CHIREC Pro",
+      "url": "https://www.chirecpro.be/fr/news/le-groupe-hospitalier-chirec-rejoint-le-reseau-chorus",
+      "tier": 5,
+      "date_accessed": "2021-12-01"
+    },
+    {
+      "key": "s_bx1_chorus",
+      "title": "CHORUS: un nouveau réseau hospitalier à Bruxelles, le plus grand du pays",
+      "publisher": "BX1",
+      "url": "https://bx1.be/categories/news/chorus-un-nouveau-reseau-hospitalier-a-bruxelles-le-plus-grand-du-pays/",
+      "tier": 4,
+      "date_accessed": "2021-11-19"
+    },
+    {
+      "key": "s_uclouvain_huni",
+      "title": "H.uni: le réseau des Cliniques Saint-Luc",
+      "publisher": "UCLouvain",
+      "url": "https://uclouvain.be/fr/news/h-uni-le-reseau-des-cliniques-saint-luc",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_health_be_d1brussel",
+      "title": "d1-brussel_fr.pdf — Brussels hospital-services planning dataset",
+      "publisher": "FPS Public Health / health.belgium.be",
+      "url": "https://www.health.belgium.be/sites/default/files/media/files/2026-03/d1-brussel_fr.pdf",
+      "tier": 1,
+      "date_accessed": "2026-03-01"
+    },
+    {
+      "key": "s_health_be_d1wallonie",
+      "title": "d1-wallonie.pdf — Wallonia hospital-services planning dataset",
+      "publisher": "FPS Public Health / health.belgium.be",
+      "url": "https://www.health.belgium.be/sites/default/files/media/files/2026-03/d1-wallonie.pdf",
+      "tier": 1,
+      "date_accessed": "2026-03-01"
+    },
+    {
+      "key": "s_reseau_elipse",
+      "title": "Réseau Elipse — Le réseau",
+      "publisher": "Réseau Elipse",
+      "url": "https://www.reseau-elipse.be/le-reseau/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_move_eu",
+      "title": "move.eu",
+      "publisher": "Réseau Move",
+      "url": "https://www.move.eu/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_ted_move",
+      "title": "TED notice 405372-2023 — Réseau Move joint DPI call for participation",
+      "publisher": "TED",
+      "url": "https://ted.europa.eu/en/notice/405372-2023/pdf",
+      "tier": 2,
+      "date_accessed": "2023-08-22"
+    },
+    {
+      "key": "s_move_dpi2028",
+      "title": "Vers un nouveau dossier patient informatisé: le réseau Move se prépare à l'horizon 2028",
+      "publisher": "move.eu",
+      "url": "https://www.move.eu/actualites/40018/",
+      "tier": 5,
+      "date_accessed": "2025-03-20"
+    },
+    {
+      "key": "s_humani_be",
+      "title": "HUmani",
+      "publisher": "HUmani Santé Charleroi Chimay",
+      "url": "https://www.humani.be/humani/",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_csf_humani",
+      "title": "HUmani Santé Charleroi Chimay",
+      "publisher": "Centre de Santé des Fagnes",
+      "url": "https://csf.be/divers/reseau-hospitalier/",
+      "tier": 5,
+      "date_accessed": "2021-01-21"
+    },
+    {
+      "key": "s_wiki_reseaucharleroimetropole",
+      "title": "Réseau Hospitalier Charleroi Métropole",
+      "publisher": "Wikipedia (FR)",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9seau_Hospitalier_Charleroi_M%C3%A9tropole",
+      "tier": 6,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_rhn_reseau",
+      "title": "Le réseau",
+      "publisher": "Réseau Hospitalier Namurois",
+      "url": "https://www.rhn.be/le-reseau",
+      "tier": 5,
+      "date_accessed": "2020-01-01"
+    },
+    {
+      "key": "s_vivalia_comex",
+      "title": "Comité Exécutif (COMEX)",
+      "publisher": "Vivalia",
+      "url": "https://www.vivalia.be/comite-executif-comex",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_uliege_horus",
+      "title": "Demande d'accès au DPI (HORUS)",
+      "publisher": "ULiège Faculté de Médecine",
+      "url": "https://www.facmed.uliege.be/cms/c_11394448/fr/demande-acces-non-chu-horus-vf-2023-06-2023-07-06-16-41-24-346",
+      "tier": 5,
+      "date_accessed": "2026-09-08"
+    },
+    {
+      "key": "s_chuliege_depaoli",
+      "title": "Marc De Paoli reconduit pour cinq ans à la tête du CHU de Liège",
+      "publisher": "Le Spécialiste",
+      "url": "https://www.lespecialiste.be/fr/actualites/marc-de-paoli-reconduit-pour-cinq-ans-a-la-tete-du-chu-de-liege.html",
+      "tier": 4,
+      "date_accessed": "2026-06-24"
+    }
+  ],
+  "healthAuthorities": [
+    {
+      "key": "ha_fod",
+      "name": "FOD Volksgezondheid / SPF Santé publique",
+      "level": "national",
+      "description": "Federal Public Service Health, Food Chain Safety and Environment -- national digital-health strategy (e-Health Action Plan 2026-2029, Belgian Integrated Health Record).",
+      "sourceKey": "s_health_be_digital"
+    },
+    {
+      "key": "ha_ehealth",
+      "name": "eHealth-platform (Plateforme eHealth)",
+      "level": "national",
+      "description": "Federal public institution: Belgium's national health-data-exchange body, analogous to Finland's Kanta or Denmark's MedCom. Led by Frank Robben (general manager since 2008).",
+      "sourceKey": "s_ehealth_qui"
+    },
+    {
+      "key": "ha_inami",
+      "name": "INAMI / RIZIV",
+      "level": "national",
+      "description": "National health-insurance institute; central to hospitals' federal operational financing (BMF/BFM). Led by Pedro Facon (administrateur général from 1 Jan 2026).",
+      "sourceKey": "s_inami_facon"
+    },
+    {
+      "key": "ha_flanders",
+      "name": "Departement Zorg (Flanders)",
+      "level": "regional",
+      "description": "Merger (1 Jun 2023) of the former Vlaams Agentschap Zorg en Gezondheid and the WVG department; regional infrastructure-financing/recognition authority for Flemish hospitals. Led by Secretary-General Karine Moykens.",
+      "sourceKey": "s_zorgnet_departementzorg"
+    },
+    {
+      "key": "ha_aviq",
+      "name": "AVIQ (Agence pour une Vie de Qualité)",
+      "level": "regional",
+      "description": "Walloon regional agency; infrastructure-financing/recognition authority for Walloon general hospitals.",
+      "sourceKey": "s_aviq_hopitaux"
+    },
+    {
+      "key": "ha_vivalis",
+      "name": "Vivalis (COCOM/GGC, formerly Iriscare)",
+      "level": "regional",
+      "description": "Bicommunal Brussels health/social-affairs administration. Hospital-network accreditation legally sits with COCOM's Collège réuni (Vivalis is the administrative contact point).",
+      "sourceKey": "s_vivalis"
+    },
+    {
+      "key": "ha_ostbelgien",
+      "name": "Ministry of the German-speaking Community (Health portfolio)",
+      "level": "regional",
+      "description": "German-speaking Community government; Minister Lydia Klinkenberg holds the Family/Social Affairs/Housing/Health portfolio. Only confirmed formal hospital-governance role is as joint accreditor (with the Walloon Region) of Réseau Move.",
+      "sourceKey": "s_ostbelgien_regierung"
+    }
+  ],
+  "hospitalGroups": [
+    {
+      "key": "hg_gent",
+      "name": "Ziekenhuisnetwerk Gent",
+      "ownership_type": "mixed",
+      "notes": "Recognised loco-regional network; joined the voluntary Vlaams Ziekenhuisnetwerk (VZN) knowledge network as a group on 6 Jun 2025."
+    },
+    {
+      "key": "hg_denderdurmewaas",
+      "name": "Ziekenhuisnetwerk Dender-Durme-Waas",
+      "ownership_type": "mixed",
+      "notes": "Base members AZ Nikolaas/AZ Lokeren (merged into Vitaz) and AZ Sint-Blasius Dendermonde."
+    },
+    {
+      "key": "hg_aalst",
+      "name": "Aalst hospital network (ASZ / OLV Aalst)",
+      "ownership_type": "mixed",
+      "notes": "Aalst-cluster portion of the original 2020-2022 recognition-annex grouping historically referred to as 'Ziekenhuisnetwerk Aalst-Brussel-Halle'; the Brussels-facing portion of that same annex grouping (UZ Brussel + AZ Sint-Maria Halle + AZorg) is treated here as the separately, more currently, sourced CUROZ network (see hg_curoz) -- the precise current relationship between the original annex grouping and these two operating clusters was not fully reconciled in research and is flagged as an open item."
+    },
+    {
+      "key": "hg_e17",
+      "name": "E17-ziekenhuisnetwerk",
+      "ownership_type": "mixed",
+      "notes": "Jan Yperman Ziekenhuis (Ieper) joined as a full member 19 Jun 2025 (retroactive to 1 May 2025), after a separate proposed 'Westhoek' network with AZ West did not proceed."
+    },
+    {
+      "key": "hg_triaz",
+      "name": "Ziekenhuisnetwerk Midden-West-Vlaanderen (TRIaz)",
+      "ownership_type": "mixed",
+      "notes": "Base members AZ Delta, Jan Yperman, Sint-Andriesziekenhuis Tielt; current composition since Jan Yperman's 2025 move to E17 is unconfirmed."
+    },
+    {
+      "key": "hg_komkust",
+      "name": "Ziekenhuisnetwerk Kust-Ommeland-Meetjesland (KOM Kust)",
+      "ownership_type": "mixed",
+      "notes": ""
+    },
+    {
+      "key": "hg_zas",
+      "name": "ZAS (Ziekenhuis aan de Stroom) -- ZNA + GZA Ziekenhuizen",
+      "ownership_type": "mixed",
+      "notes": "Combined Antwerp hospital group formed from the public ZNA (Ziekenhuis Netwerk Antwerpen) and private non-profit GZA Ziekenhuizen, collaborating on a shared EPD since 2016 with a planned full merger around 2024. 13 campuses per Zorgkwaliteit.be: 6 general hospitals, 6 specialised hospitals, 6 day centres, 2 polyclinics, 1 medical centre, 1 psychiatric facility, 1 dementia centre."
+    },
+    {
+      "key": "hg_helix",
+      "name": "Helix network (Antwerp/Rupel area)",
+      "ownership_type": "mixed",
+      "notes": "Recognition status listed as 'uncertain' in the source material used to build the base membership list; not independently re-verified."
+    },
+    {
+      "key": "hg_kempen",
+      "name": "Ziekenhuisnetwerk Kempen",
+      "ownership_type": "mixed",
+      "notes": ""
+    },
+    {
+      "key": "hg_briant",
+      "name": "BRIANT network",
+      "ownership_type": "mixed",
+      "notes": ""
+    },
+    {
+      "key": "hg_plexus",
+      "name": "Plexus -- Zorgnetwerk Oost-Vlaams-Brabant",
+      "ownership_type": "mixed",
+      "notes": "Includes UZ Leuven, the originating institution of the Nexuzhealth platform."
+    },
+    {
+      "key": "hg_zuidwestlimburg",
+      "name": "Zuidwest-Limburg network",
+      "ownership_type": "mixed",
+      "notes": ""
+    },
+    {
+      "key": "hg_noordoostlimburg",
+      "name": "Noordoost-Limburg network",
+      "ownership_type": "mixed",
+      "notes": "Recognition status listed as 'uncertain' in the source material used. Ziekenhuis Maas en Kempen (Maaseik) appears, per ZOL's current site, to have become an integrated ZOL campus -- not independently confirmed against an official merger announcement."
+    },
+    {
+      "key": "hg_chorus",
+      "name": "CHORUS",
+      "ownership_type": "mixed",
+      "notes": "Largest hospital network in Belgium: the public IRIS hospitals, the ULB university-hospital grouping (H.U.B.), and the private CHIREC group. Constituted 19 Nov 2021; CHIREC formally joined Dec 2021. A legal appeal for annulment against the network's constitution was reported in trade press; outcome unconfirmed."
+    },
+    {
+      "key": "hg_huni",
+      "name": "H.uni",
+      "ownership_type": "private",
+      "notes": "Christian/Catholic-affiliated, UCLouvain-linked network: Cliniques universitaires Saint-Luc, Cliniques de l'Europe, Clinique Saint-Jean, plus Clinique Saint-Pierre Ottignies (Walloon Brabant, out of scope for this Brussels-focused build). H.uni brand adopted 2021; four co-directors named ~2021, current (2026) status unconfirmed."
+    },
+    {
+      "key": "hg_curoz",
+      "name": "CUROZ",
+      "ownership_type": "mixed",
+      "notes": "Flemish/VUB-affiliated network established Jan 2021: UZ Brussel, AZorg (East Flanders/Flemish Brabant, outside Brussels-Capital Region), AZ Sint-Maria Halle (Flemish Brabant). Each member hospital retains its own legal identity."
+    },
+    {
+      "key": "hg_phare",
+      "name": "Réseau Phare",
+      "ownership_type": "mixed",
+      "notes": "Hainaut occidental / Wallonie picarde: CHWAPI, CHR Haute Senne, Centre Hospitalier de Mouscron, EpiCURA."
+    },
+    {
+      "key": "hg_helora",
+      "name": "Réseau Helora",
+      "ownership_type": "public",
+      "notes": "Mons-Borinage / Centre du Hainaut: CHU Tivoli, Centres Hospitaliers Jolimont, CHU Ambroise Paré, CHR Mons-Hainaut. Trade press reported a 2022 'pause' (not divorce) in Tivoli's full merger into the group structure; current status unconfirmed."
+    },
+    {
+      "key": "hg_elipse",
+      "name": "Réseau Elipse",
+      "ownership_type": "public",
+      "notes": "Province of Liège, 8 institutions: CHU de Liège, CHR de la Citadelle, CHBA, CHR de Huy, Clinique André Renard, CHR de Verviers, Centre Hospitalier Reine Astrid Malmedy, ISoSL."
+    },
+    {
+      "key": "hg_move",
+      "name": "Réseau Move",
+      "ownership_type": "private",
+      "notes": "Joint Walloon Region / German-speaking Community network: CHC Groupe Santé (Liège) + St. Nikolaus-Hospital Eupen + Klinik St. Josef Sankt-Vith. A live joint EU procurement (TED 405372-2023) for a shared DPI was still unresolved as of the deadline; a 2025 network update confirms a supplier has since been selected internally (unnamed publicly), go-live targeted ~2028."
+    },
+    {
+      "key": "hg_humani",
+      "name": "HUmani Santé Charleroi Chimay",
+      "ownership_type": "public",
+      "notes": "Public intercommunale created 21 Sep 2023 (merger of ISPPC/CHU de Charleroi and Centre de Santé des Fagnes); reported in Nov 2024 as facing insolvency risk in 2025, with a new president appointed 11 Mar 2025 under special oversight."
+    },
+    {
+      "key": "hg_charleroimetropole",
+      "name": "Réseau Hospitalier Charleroi Métropole",
+      "ownership_type": "private",
+      "notes": "Grand Hôpital de Charleroi (GHdC) and Clinique Notre-Dame de Grâce (CNDG), Gosselies. Approved by the Walloon Region Nov 2021."
+    },
+    {
+      "key": "hg_rhn",
+      "name": "Réseau Hospitalier Namurois (RHN)",
+      "ownership_type": "mixed",
+      "notes": "6 institutions: CHR Sambre et Meuse (public intercommunale), CHU UCL Namur (private, UCLouvain-affiliated), Clinique Saint-Luc Bouge. Established 2020."
+    },
+    {
+      "key": "hg_vivalia",
+      "name": "Vivalia",
+      "ownership_type": "public",
+      "notes": "Public intercommunale, sole general-hospital provider for the rural province of Luxembourg; pursuing a major site-consolidation programme ('Vivalia 2030')."
+    }
+  ],
+  "hospitalSites": [
+    {
+      "key": "s_uzgent",
+      "name": "UZ Gent",
+      "hospitalGroupKey": "hg_gent",
+      "city": "Gent",
+      "address": null,
+      "postcode": "9000",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "EPR branded 'Geniuz' -- Cerner/Oracle Health, replacing a 1997-era system, go-live targeted 2019.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azsintlucasgent",
+      "name": "AZ Sint-Lucas Gent",
+      "hospitalGroupKey": "hg_gent",
+      "city": "Gent",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "Chosen Jul 2017 -- third Belgian hospital on Cerner.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azjanpalfijngent",
+      "name": "AZ Jan Palfijn Gent",
+      "hospitalGroupKey": "hg_gent",
+      "city": "Gent",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Primuz go-live Feb 2020, implementation partner CTG Health Solutions.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azoudenaarde",
+      "name": "AZ Oudenaarde",
+      "hospitalGroupKey": "hg_gent",
+      "city": "Oudenaarde",
+      "address": null,
+      "postcode": "9700",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_vitaz",
+      "name": "Vitaz",
+      "hospitalGroupKey": "hg_denderdurmewaas",
+      "city": "Sint-Niklaas",
+      "address": null,
+      "postcode": "9100",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Merger of AZ Nikolaas + AZ Lokeren.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azsintblasius",
+      "name": "AZ Sint-Blasius Dendermonde",
+      "hospitalGroupKey": "hg_denderdurmewaas",
+      "city": "Dendermonde",
+      "address": null,
+      "postcode": "9200",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_asz_aalst",
+      "name": "ASZ (Algemeen Stedelijk Ziekenhuis) Aalst-Geraardsbergen-Wetteren",
+      "hospitalGroupKey": "hg_aalst",
+      "city": "Aalst",
+      "address": null,
+      "postcode": "9300",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Multi-site (Aalst, Geraardsbergen, Wetteren). Municipal/city-linked.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_olv_aalst",
+      "name": "OLV Ziekenhuis Aalst",
+      "hospitalGroupKey": "hg_aalst",
+      "city": "Aalst",
+      "address": null,
+      "postcode": "9300",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "Multi-site (Aalst-Asse-Ninove).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azgroeninge",
+      "name": "AZ Groeninge",
+      "hospitalGroupKey": "hg_e17",
+      "city": "Kortrijk",
+      "address": null,
+      "postcode": "8500",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azglorieux",
+      "name": "AZ Glorieux",
+      "hospitalGroupKey": "hg_e17",
+      "city": "Ronse",
+      "address": null,
+      "postcode": "9600",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azsintelisabethzottegem",
+      "name": "AZ Sint-Elisabeth Zottegem",
+      "hospitalGroupKey": "hg_e17",
+      "city": "Zottegem",
+      "address": null,
+      "postcode": "9620",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azmariamiddelares",
+      "name": "AZ Maria Middelares Gent",
+      "hospitalGroupKey": "hg_e17",
+      "city": "Gent",
+      "address": null,
+      "postcode": "9000",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_sintvincentiusdeinze",
+      "name": "Sint-Vincentiusziekenhuis Deinze",
+      "hospitalGroupKey": "hg_e17",
+      "city": "Deinze",
+      "address": null,
+      "postcode": "9800",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_olvvanlourdes",
+      "name": "OLV van Lourdes Ziekenhuis Waregem",
+      "hospitalGroupKey": "hg_e17",
+      "city": "Waregem",
+      "address": null,
+      "postcode": "8790",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_sintjozefizegem",
+      "name": "Sint-Jozefskliniek Izegem",
+      "hospitalGroupKey": "hg_e17",
+      "city": "Izegem",
+      "address": null,
+      "postcode": "8870",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_janyperman",
+      "name": "Jan Yperman Ziekenhuis",
+      "hospitalGroupKey": "hg_e17",
+      "city": "Ieper",
+      "address": null,
+      "postcode": "8900",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Joined E17 May/June 2025, after a proposed separate 'Westhoek' network with AZ West did not proceed.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azdelta",
+      "name": "AZ Delta",
+      "hospitalGroupKey": "hg_triaz",
+      "city": "Roeselare",
+      "address": null,
+      "postcode": "8800",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Multi-site.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_sintandries",
+      "name": "Sint-Andriesziekenhuis Tielt",
+      "hospitalGroupKey": "hg_triaz",
+      "city": "Tielt",
+      "address": null,
+      "postcode": "8700",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "EPD replacement project confirmed; vendor not named in the material found -- possible alignment with AZ Delta's ChipSoft HiX via the TRIaz collaboration is plausible but unconfirmed, not recorded as a deployment.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azwest",
+      "name": "AZ West",
+      "hospitalGroupKey": "hg_komkust",
+      "city": "Veurne",
+      "address": null,
+      "postcode": "8630",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azdamiaan",
+      "name": "AZ Damiaan Oostende",
+      "hospitalGroupKey": "hg_komkust",
+      "city": "Oostende",
+      "address": null,
+      "postcode": "8400",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azsintlucasbrugge",
+      "name": "AZ Sint-Lucas Brugge",
+      "hospitalGroupKey": "hg_komkust",
+      "city": "Brugge (Assebroek)",
+      "address": null,
+      "postcode": "8310",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azsintjanbrugge",
+      "name": "AZ Sint-Jan Brugge-Oostende AV",
+      "hospitalGroupKey": "hg_komkust",
+      "city": "Brugge",
+      "address": null,
+      "postcode": "8000",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Multi-site (Brugge + Oostende/Serruys). Core EPD vendor unconfirmed; a separate ICU point solution (MetaVision) reported at the Oostende/Serruys campus.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_kei",
+      "name": "KEI (Oostduinkerke)",
+      "hospitalGroupKey": "hg_komkust",
+      "city": "Koksijde",
+      "address": null,
+      "postcode": null,
+      "site_type": "specialist",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_imbo",
+      "name": "IMBO",
+      "hospitalGroupKey": "hg_komkust",
+      "city": "Oostende",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azzeno",
+      "name": "AZ Zeno",
+      "hospitalGroupKey": "hg_komkust",
+      "city": "Knokke-Heist",
+      "address": null,
+      "postcode": "8300",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Multi-campus (3 campuses per TED notice 202912-2023).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zas_cadix",
+      "name": "ZAS/ZNA Cadix",
+      "hospitalGroupKey": "hg_zas",
+      "city": "Antwerpen",
+      "address": "Kempenstraat 100",
+      "postcode": "2030",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "ZNA/GZA combined campus (note: distinct from AZ Jan Palfijn Gent, an unrelated hospital).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zas_middelheim",
+      "name": "ZAS/ZNA Middelheim (incl. Koningin Paola Kinderziekenhuis)",
+      "hospitalGroupKey": "hg_zas",
+      "city": "Antwerpen",
+      "address": "Lindendreef 1",
+      "postcode": "2020",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "ZNA/GZA combined campus (note: distinct from AZ Jan Palfijn Gent, an unrelated hospital).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zas_palfijn",
+      "name": "ZAS/ZNA Palfijn (Antwerp)",
+      "hospitalGroupKey": "hg_zas",
+      "city": "Antwerpen (Merksem)",
+      "address": "Lange Bremstraat 70",
+      "postcode": "2170",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "ZNA/GZA combined campus (note: distinct from AZ Jan Palfijn Gent, an unrelated hospital).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zas_hogebeuken",
+      "name": "ZAS/ZNA Hoge Beuken",
+      "hospitalGroupKey": "hg_zas",
+      "city": "Antwerpen (Hoboken)",
+      "address": "Commandant Weynsstraat 165",
+      "postcode": "2660",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "ZNA/GZA combined campus (note: distinct from AZ Jan Palfijn Gent, an unrelated hospital).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zas_joostens",
+      "name": "ZAS/ZNA Joostens",
+      "hospitalGroupKey": "hg_zas",
+      "city": "Zoersel",
+      "address": "Kapellei 133",
+      "postcode": "2980",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "ZNA/GZA combined campus (note: distinct from AZ Jan Palfijn Gent, an unrelated hospital).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zas_elisabeth",
+      "name": "ZAS Elisabeth",
+      "hospitalGroupKey": "hg_zas",
+      "city": "Antwerpen",
+      "address": "Leopoldstraat 26",
+      "postcode": "2000",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "ZNA/GZA combined campus (note: distinct from AZ Jan Palfijn Gent, an unrelated hospital).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zas_erasmus",
+      "name": "ZAS Erasmus",
+      "hospitalGroupKey": "hg_zas",
+      "city": "Antwerpen (Borgerhout)",
+      "address": "Luitenant Lippenslaan 55",
+      "postcode": "2140",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "ZNA/GZA combined campus (note: distinct from AZ Jan Palfijn Gent, an unrelated hospital).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zas_psychiatrie",
+      "name": "ZAS Psychiatrie",
+      "hospitalGroupKey": "hg_zas",
+      "city": "Antwerpen",
+      "address": "Napelsstraat 98",
+      "postcode": "2000",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "ZNA/GZA combined campus (note: distinct from AZ Jan Palfijn Gent, an unrelated hospital).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_uza",
+      "name": "UZA (Universitair Ziekenhuis Antwerpen)",
+      "hospitalGroupKey": "hg_helix",
+      "city": "Edegem",
+      "address": null,
+      "postcode": "2650",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_rivierenland_rumst",
+      "name": "AZ Rivierenland -- Campus Rumst",
+      "hospitalGroupKey": "hg_helix",
+      "city": "Rumst",
+      "address": "'s Herenbaan 172",
+      "postcode": "2840",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": 239,
+      "notes": "Beds figure is the 2006 combined-group figure at Willebroek integration; may be higher today, not re-confirmed.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_rivierenland_bornem",
+      "name": "AZ Rivierenland -- Campus Bornem",
+      "hospitalGroupKey": "hg_helix",
+      "city": "Bornem",
+      "address": "Kasteelstraat 23",
+      "postcode": "2880",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_rivierenland_willebroek",
+      "name": "AZ Rivierenland -- Campus Willebroek",
+      "hospitalGroupKey": "hg_helix",
+      "city": "Willebroek",
+      "address": "Tisseltsesteenweg 27",
+      "postcode": "2830",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azmonica",
+      "name": "AZ Monica",
+      "hospitalGroupKey": "hg_helix",
+      "city": "Deurne/Antwerpen",
+      "address": null,
+      "postcode": "2100",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azsintjozefmalle",
+      "name": "AZ Sint-Jozef Malle",
+      "hospitalGroupKey": "hg_helix",
+      "city": "Malle",
+      "address": null,
+      "postcode": "2390",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_dedennen",
+      "name": "Revalidatiecentrum De Dennen",
+      "hospitalGroupKey": "hg_helix",
+      "city": "Malle",
+      "address": null,
+      "postcode": "2390",
+      "site_type": "specialist",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_klina",
+      "name": "KLINA",
+      "hospitalGroupKey": "hg_helix",
+      "city": "Brasschaat",
+      "address": null,
+      "postcode": "2930",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azherentals",
+      "name": "AZ Herentals",
+      "hospitalGroupKey": "hg_kempen",
+      "city": "Herentals",
+      "address": "Nederrij 133",
+      "postcode": "2200",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 243,
+      "notes": "Legal name 'AZ St.-Elisabeth Herentals vzw'.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azturnhout",
+      "name": "AZ Turnhout",
+      "hospitalGroupKey": "hg_kempen",
+      "city": "Turnhout",
+      "address": null,
+      "postcode": "2300",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_hhmol",
+      "name": "Heilig Hartziekenhuis Mol",
+      "hospitalGroupKey": "hg_kempen",
+      "city": "Mol",
+      "address": null,
+      "postcode": "2400",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_sintdimpna",
+      "name": "Sint-Dimpna Ziekenhuis Geel",
+      "hospitalGroupKey": "hg_kempen",
+      "city": "Geel",
+      "address": null,
+      "postcode": "2440",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_imeldabonheiden",
+      "name": "Imeldaziekenhuis Bonheiden",
+      "hospitalGroupKey": "hg_briant",
+      "city": "Bonheiden",
+      "address": null,
+      "postcode": "2820",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_hhlier",
+      "name": "Heilig Hartziekenhuis Lier",
+      "hospitalGroupKey": "hg_briant",
+      "city": "Lier",
+      "address": null,
+      "postcode": "2500",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azsintmaartenmechelen",
+      "name": "AZ Sint-Maarten Mechelen",
+      "hospitalGroupKey": "hg_briant",
+      "city": "Mechelen",
+      "address": null,
+      "postcode": "2800",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Multi-site (Duffel + Mechelen campuses per general knowledge, not independently verified).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azjanportaels",
+      "name": "AZ Jan Portaels Vilvoorde",
+      "hospitalGroupKey": "hg_briant",
+      "city": "Vilvoorde",
+      "address": null,
+      "postcode": "1800",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_uzleuven",
+      "name": "UZ Leuven",
+      "hospitalGroupKey": "hg_plexus",
+      "city": "Leuven",
+      "address": null,
+      "postcode": "3000",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Multi-campus (Gasthuisberg + others). Originating institution of the Nexuzhealth platform (KWS).",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azdiest",
+      "name": "AZ Diest",
+      "hospitalGroupKey": "hg_plexus",
+      "city": "Diest",
+      "address": "Statiestraat 65",
+      "postcode": "3290",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_hhleuven",
+      "name": "Regionaal Ziekenhuis Heilig Hart Leuven",
+      "hospitalGroupKey": "hg_plexus",
+      "city": "Leuven",
+      "address": null,
+      "postcode": "3000",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_rztienen",
+      "name": "RZ Tienen (Regionaal Ziekenhuis Heilig Hart Tienen)",
+      "hospitalGroupKey": "hg_plexus",
+      "city": "Tienen",
+      "address": null,
+      "postcode": "3300",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_jessa",
+      "name": "Jessa Ziekenhuis Hasselt",
+      "hospitalGroupKey": "hg_zuidwestlimburg",
+      "city": "Hasselt",
+      "address": null,
+      "postcode": "3500",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Multi-campus: Virga Jesse, Salvator, St.-Ursula (Herk-de-Stad), Ekkelgaarden.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azvesalius",
+      "name": "AZ Vesalius Tongeren",
+      "hospitalGroupKey": "hg_zuidwestlimburg",
+      "city": "Tongeren-Borgloon",
+      "address": "Hazelereik 51",
+      "postcode": "3700",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_sinttrudo",
+      "name": "Sint-Trudo Ziekenhuis Sint-Truiden",
+      "hospitalGroupKey": "hg_zuidwestlimburg",
+      "city": "Sint-Truiden",
+      "address": "Diestersteenweg 100",
+      "postcode": "3800",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_sintfranciscus",
+      "name": "Sint-Franciscusziekenhuis Heusden-Zolder",
+      "hospitalGroupKey": "hg_zuidwestlimburg",
+      "city": "Heusden-Zolder",
+      "address": null,
+      "postcode": "3550",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zol_sintjan",
+      "name": "ZOL -- Campus Sint-Jan",
+      "hospitalGroupKey": "hg_noordoostlimburg",
+      "city": "Genk",
+      "address": "Synaps Park 1",
+      "postcode": "3600",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zol_sintbarbara",
+      "name": "ZOL -- Campus Sint-Barbara",
+      "hospitalGroupKey": "hg_noordoostlimburg",
+      "city": "Lanaken",
+      "address": "Bessemerstraat 478",
+      "postcode": "3620",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zol_dumont",
+      "name": "ZOL -- Medisch Centrum André Dumont",
+      "hospitalGroupKey": "hg_noordoostlimburg",
+      "city": "Genk",
+      "address": "Stalenstraat 2a",
+      "postcode": "3600",
+      "site_type": "specialist",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_zol_maaskempen",
+      "name": "ZOL -- Maas en Kempen (formerly Ziekenhuis Maas en Kempen)",
+      "hospitalGroupKey": "hg_noordoostlimburg",
+      "city": "Maaseik",
+      "address": "Diestersteenweg 425",
+      "postcode": "3680",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_mariaziekenhuis",
+      "name": "Mariaziekenhuis Overpelt (Noorderhart)",
+      "hospitalGroupKey": "hg_noordoostlimburg",
+      "city": "Pelt",
+      "address": "Maesensveld 1",
+      "postcode": "3900",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_stpierre_hal",
+      "name": "CHU Saint-Pierre -- site Porte de Hal",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Bruxelles-ville",
+      "address": "Rue aux Laines 105",
+      "postcode": "1000",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": 468,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_stpierre_depaepe",
+      "name": "CHU Saint-Pierre -- site César De Paepe",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Bruxelles-ville",
+      "address": "Rue des Alexiens 13",
+      "postcode": "1000",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 124,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_brugmann_horta",
+      "name": "CHU Brugmann -- site Victor Horta",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Laeken",
+      "address": "Place Arthur van Gehuchten 4",
+      "postcode": "1020",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": 603,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_brugmann_brien",
+      "name": "CHU Brugmann -- site Paul Brien",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Schaerbeek",
+      "address": "Rue du Foyer Schaerbeekois 36",
+      "postcode": "1030",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 150,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_brugmann_astrid",
+      "name": "CHU Brugmann -- site Reine Astrid",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Neder-over-Heembeek",
+      "address": "Rue Bruyn 1",
+      "postcode": "1120",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 96,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_huderf",
+      "name": "HUDERF (Hôpital Universitaire des Enfants Reine Fabiola)",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Laeken",
+      "address": "Avenue Jean Joseph Crocq 15",
+      "postcode": "1020",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": 183,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_irissud_etterbeek",
+      "name": "Hôpitaux Iris Sud -- site Etterbeek-Ixelles",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Ixelles",
+      "address": "Rue Jean Paquot 63",
+      "postcode": "1050",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 185,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_irissud_bracops",
+      "name": "Hôpitaux Iris Sud -- site Joseph Bracops",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Anderlecht",
+      "address": "Rue Docteur Huet 79",
+      "postcode": "1070",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 170,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_irissud_moliere",
+      "name": "Hôpitaux Iris Sud -- site Molière Longchamp",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Forest",
+      "address": "Rue Marconi 142",
+      "postcode": "1190",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 195,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_irissud_baronlambert",
+      "name": "Hôpitaux Iris Sud -- site Baron Lambert (Polyclinique)",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Etterbeek",
+      "address": "Rue Baron Lambert 38",
+      "postcode": "1040",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_bordet",
+      "name": "Institut Jules Bordet",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Anderlecht",
+      "address": "Rue Meylemeersch 90",
+      "postcode": "1070",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": 250,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_erasme",
+      "name": "HUB -- Hôpital Erasme (main site)",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Anderlecht",
+      "address": "Route de Lennik 808",
+      "postcode": "1070",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": 794,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_erasme_ctr",
+      "name": "HUB -- Erasme, Centre de Traumatologie et de Réadaptation",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Laeken",
+      "address": "Place A. van Gehuchten 4",
+      "postcode": "1020",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 117,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_erasme_geriatric",
+      "name": "HUB -- Erasme, Hôpital de Réadaptation Gériatrique",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Woluwe-Saint-Lambert",
+      "address": "Rue de la Charrette 27",
+      "postcode": "1200",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 75,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_chirec_sareanne",
+      "name": "CHIREC-SARE -- Clinique Ste-Anne-St-Remi",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Anderlecht",
+      "address": "Boulevard Jules Graindor 66",
+      "postcode": "1070",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 327,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_chirec_basilique",
+      "name": "CHIREC-SARE -- Clinique de la Basilique",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Ganshoren",
+      "address": "Rue Pangaert 37",
+      "postcode": "1083",
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_chirec_delta",
+      "name": "CHIREC-Delta -- Hôpital Delta",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Auderghem",
+      "address": "Boulevard du Triomphe 201",
+      "postcode": "1160",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 438,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_chirec_cavell",
+      "name": "CHIREC-Delta -- Centre Médical Edith Cavell",
+      "hospitalGroupKey": "hg_chorus",
+      "city": "Uccle",
+      "address": "Rue Général Lotz 37",
+      "postcode": "1180",
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_saintluc",
+      "name": "Cliniques universitaires Saint-Luc",
+      "hospitalGroupKey": "hg_huni",
+      "city": "Woluwe-Saint-Lambert",
+      "address": "Avenue Hippocrate 10",
+      "postcode": "1200",
+      "site_type": "university",
+      "ownership_type": "private",
+      "beds": 973,
+      "notes": "UCLouvain-affiliated, Catholic-affiliated asbl.",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_stjean_botanique",
+      "name": "Clinique Saint-Jean -- site Botanique",
+      "hospitalGroupKey": "hg_huni",
+      "city": "Bruxelles-ville",
+      "address": "Boulevard du Jardin Botanique 32",
+      "postcode": "1000",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 414,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_stjean_leopold",
+      "name": "Clinique Saint-Jean -- site Léopold I",
+      "hospitalGroupKey": "hg_huni",
+      "city": "Jette",
+      "address": "Rue Léopold I 314",
+      "postcode": "1090",
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": 48,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_stjean_meridien",
+      "name": "Clinique Saint-Jean -- site Méridien",
+      "hospitalGroupKey": "hg_huni",
+      "city": "Saint-Josse-ten-Noode",
+      "address": "Rue du Méridien 100",
+      "postcode": "1210",
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": 86,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_europe_steelisabeth",
+      "name": "Cliniques de l'Europe -- site Ste-Elisabeth",
+      "hospitalGroupKey": "hg_huni",
+      "city": "Uccle",
+      "address": "Avenue de Fré 206",
+      "postcode": "1180",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 418,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_europe_stmichel",
+      "name": "Cliniques de l'Europe -- site St-Michel",
+      "hospitalGroupKey": "hg_huni",
+      "city": "Etterbeek",
+      "address": "Rue de Linthout 150",
+      "postcode": "1040",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 291,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_uzbrussel",
+      "name": "UZ Brussel",
+      "hospitalGroupKey": "hg_curoz",
+      "city": "Jette",
+      "address": "Laarbeeklaan 101",
+      "postcode": "1090",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": 721,
+      "notes": "",
+      "healthAuthorityKey": "ha_vivalis"
+    },
+    {
+      "key": "s_azsintmariahalle",
+      "name": "AZ Sint-Maria Halle",
+      "hospitalGroupKey": "hg_curoz",
+      "city": "Halle",
+      "address": null,
+      "postcode": "1500",
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_azorg",
+      "name": "AZorg",
+      "hospitalGroupKey": "hg_curoz",
+      "city": "Aalst/Geraardsbergen/Wetteren/Asse/Ninove",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "Multi-site group; geographically outside the Brussels-Capital Region despite CUROZ membership.",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "s_chwapi",
+      "name": "CHWAPI (Centre Hospitalier de Wallonie picarde) -- sites Notre-Dame, Union, IMC",
+      "hospitalGroupKey": "hg_phare",
+      "city": "Tournai",
+      "address": null,
+      "postcode": "7500",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chrhautesenne",
+      "name": "CHR Haute Senne -- sites Le Goéland, Saint-Vincent, Le Tilleriau",
+      "hospitalGroupKey": "hg_phare",
+      "city": "Soignies",
+      "address": null,
+      "postcode": "7060",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chmouscron",
+      "name": "Centre Hospitalier de Mouscron (CHM)",
+      "hospitalGroupKey": "hg_phare",
+      "city": "Mouscron",
+      "address": "Avenue de Fécamp 49",
+      "postcode": "7700",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_epicura_ath",
+      "name": "EpiCURA -- site Ath",
+      "hospitalGroupKey": "hg_phare",
+      "city": "Ath",
+      "address": "Rue Maria Thomée 1",
+      "postcode": "7800",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 237,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_epicura_hornu",
+      "name": "EpiCURA -- site Hornu",
+      "hospitalGroupKey": "hg_phare",
+      "city": "Hornu",
+      "address": "Rue de Mons 63",
+      "postcode": "7301",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 332,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_epicura_frameries",
+      "name": "EpiCURA -- Hôpital de jour Frameries",
+      "hospitalGroupKey": "hg_phare",
+      "city": "Frameries",
+      "address": "Rue de France 2",
+      "postcode": "7080",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_helora_constantinople",
+      "name": "CHU Helora -- site Constantinople",
+      "hospitalGroupKey": "hg_helora",
+      "city": "Mons",
+      "address": "Avenue B. de Constantinople 5",
+      "postcode": "7000",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 202,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_helora_kennedy",
+      "name": "CHU Helora -- site Kennedy (Ambroise Paré)",
+      "hospitalGroupKey": "hg_helora",
+      "city": "Mons",
+      "address": "Boulevard Kennedy 2",
+      "postcode": "7000",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_helora_warquignies",
+      "name": "CHU Helora -- site Warquignies",
+      "hospitalGroupKey": "hg_helora",
+      "city": "Boussu",
+      "address": "Rue des Chaufours 27",
+      "postcode": "7300",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 159,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_helora_jolimont",
+      "name": "CHU Helora -- site Jolimont",
+      "hospitalGroupKey": "hg_helora",
+      "city": "Haine-Saint-Paul",
+      "address": "Rue Ferrer 159",
+      "postcode": "7100",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 506,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_helora_lobbes",
+      "name": "CHU Helora -- site Lobbes",
+      "hospitalGroupKey": "hg_helora",
+      "city": "Lobbes",
+      "address": "Rue de la Station 25",
+      "postcode": "6540",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 158,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chutivoli",
+      "name": "CHU Tivoli",
+      "hospitalGroupKey": "hg_helora",
+      "city": "La Louvière",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Relationship to Helora's group structure described in 2022 trade press as a 'pause, not a divorce'; current status unconfirmed.",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chuliege_sarttilman",
+      "name": "CHU de Liège -- site Sart-Tilman",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Liège",
+      "address": "Avenue de l'Hôpital 1",
+      "postcode": "4000",
+      "site_type": "university",
+      "ownership_type": "public",
+      "beds": 655,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chuliege_bruyeres",
+      "name": "CHU de Liège -- site Notre-Dame des Bruyères",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Grivegnée",
+      "address": "Rue de Gaillarmont 600",
+      "postcode": "4030",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 223,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chuliege_ourthe",
+      "name": "CHU de Liège -- site Ourthe-Amblève",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Esneux",
+      "address": "Rue Grandfosse 31-33",
+      "postcode": "4130",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 40,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chuliege_andrerenard",
+      "name": "CHU de Liège -- site André Renard",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Herstal",
+      "address": "Rue André Renard 1",
+      "postcode": "4040",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 160,
+      "notes": "Distinct from 'Clinique André Renard', Herstal, a separate Elipse member institution -- not to be conflated.",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_citadelle",
+      "name": "Hôpital de la Citadelle -- site Citadelle",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Liège",
+      "address": "Boulevard du 12e de Ligne 1",
+      "postcode": "4000",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 830,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_citadelle_herstal",
+      "name": "Hôpital de la Citadelle -- site Herstal",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Herstal",
+      "address": "Rue du Grand Puits 47",
+      "postcode": "4040",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 40,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chba",
+      "name": "Centre Hospitalier du Bois de l'Abbaye (CHBA) -- sites Seraing, Waremme",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Seraing",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chrhuy",
+      "name": "CHR de Huy",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Huy",
+      "address": "Rue des Trois Ponts 2",
+      "postcode": "4500",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 317,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chrverviers",
+      "name": "CHR de Verviers -- sites La Tourelle, Peltzer",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Verviers",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_reineastrid_malmedy",
+      "name": "Centre Hospitalier Reine Astrid",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Malmedy",
+      "address": "Rue Devant les Religieuses 2",
+      "postcode": "4960",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 151,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_andrerenard_clinique",
+      "name": "Clinique André Renard",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Herstal",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "Distinct from CHU de Liège's own 'site André Renard'.",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_isosl_petitbourgogne",
+      "name": "ISoSL -- Hôpital psychiatrique du Petit Bourgogne",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Liège",
+      "address": "Rue Professeur Mahaim 84",
+      "postcode": "4000",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 254,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_isosl_agora",
+      "name": "ISoSL -- Agora 972",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Liège",
+      "address": "Montagne Ste-Walburge 4A",
+      "postcode": "4000",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 100,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_isosl_louishillier",
+      "name": "ISoSL -- Louis Hillier",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Liège",
+      "address": "Boulevard Louis Hillier 10",
+      "postcode": "4000",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 33,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_isosl_accueil",
+      "name": "ISoSL -- Centre Hospitalier Spécialisé L'Accueil",
+      "hospitalGroupKey": "hg_elipse",
+      "city": "Lierneux",
+      "address": "Rue du Doyard 15",
+      "postcode": "4990",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 313,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chc_montlegia",
+      "name": "CHC MontLégia",
+      "hospitalGroupKey": "hg_move",
+      "city": "Liège",
+      "address": "Boulevard Patience et Beaujonc 2",
+      "postcode": "4000",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 696,
+      "notes": "Flagship acute site of CHC Groupe Santé.",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chc_hermalle",
+      "name": "CHC Hermalle",
+      "hospitalGroupKey": "hg_move",
+      "city": "Oupeye",
+      "address": null,
+      "postcode": "4681",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chc_waremme",
+      "name": "CHC Waremme",
+      "hospitalGroupKey": "hg_move",
+      "city": "Waremme",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chc_heusy",
+      "name": "CHC Heusy",
+      "hospitalGroupKey": "hg_move",
+      "city": "Verviers",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chc_moresnet",
+      "name": "Foyer Horizon CHC Moresnet",
+      "hospitalGroupKey": "hg_move",
+      "city": "Plombières",
+      "address": null,
+      "postcode": null,
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_eupen",
+      "name": "St. Nikolaus-Hospital Eupen",
+      "hospitalGroupKey": "hg_move",
+      "city": "Eupen",
+      "address": "Hufengasse 4-8",
+      "postcode": "4700",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 192,
+      "notes": "",
+      "healthAuthorityKey": "ha_ostbelgien"
+    },
+    {
+      "key": "s_stvith",
+      "name": "Klinik St. Josef Sankt-Vith",
+      "hospitalGroupKey": "hg_move",
+      "city": "Sankt-Vith",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_ostbelgien"
+    },
+    {
+      "key": "s_mariecurie",
+      "name": "Hôpital Civil Marie Curie",
+      "hospitalGroupKey": "hg_humani",
+      "city": "Lodelinsart",
+      "address": "Chaussée de Bruxelles 140",
+      "postcode": "6042",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 572,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_andrevesale",
+      "name": "CHU André Vésale",
+      "hospitalGroupKey": "hg_humani",
+      "city": "Montigny-le-Tilleul",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_vincentvangogh",
+      "name": "Hôpital Vincent Van Gogh",
+      "hospitalGroupKey": "hg_humani",
+      "city": "Marchienne-au-Pont",
+      "address": "Rue de l'Hôpital 55",
+      "postcode": "6030",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 256,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_leonardodevinci",
+      "name": "Hôpital Léonard de Vinci",
+      "hospitalGroupKey": "hg_humani",
+      "city": "Montigny-le-Tilleul",
+      "address": "Rue de Gozée 706",
+      "postcode": "6110",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 173,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_csfchimay",
+      "name": "Centre de Santé des Fagnes",
+      "hospitalGroupKey": "hg_humani",
+      "city": "Chimay",
+      "address": "Boulevard Louise 18",
+      "postcode": "6460",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 149,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_ghdc_viviers",
+      "name": "GHdC -- Les Viviers",
+      "hospitalGroupKey": "hg_charleroimetropole",
+      "city": "Gilly",
+      "address": "Rue du Campus des Viviers 1",
+      "postcode": "6060",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 888,
+      "notes": "New unified main site.",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_ghdc_notredame",
+      "name": "GHdC -- site Notre-Dame",
+      "hospitalGroupKey": "hg_charleroimetropole",
+      "city": "Charleroi",
+      "address": "Grand'Rue 3",
+      "postcode": "6000",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 127,
+      "notes": "Legacy site being consolidated into Les Viviers.",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_cndg",
+      "name": "Clinique Notre-Dame de Grâce (CNDG)",
+      "hospitalGroupKey": "hg_charleroimetropole",
+      "city": "Gosselies",
+      "address": "Chaussée de Nivelles 212",
+      "postcode": "6041",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 218,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chrsm_meuse",
+      "name": "CHR Sambre et Meuse -- site Meuse",
+      "hospitalGroupKey": "hg_rhn",
+      "city": "Namur",
+      "address": "Avenue Albert Ier 185",
+      "postcode": "5000",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_chrsm_sambre",
+      "name": "CHR Sambre et Meuse -- site Sambre (Auvelais)",
+      "hospitalGroupKey": "hg_rhn",
+      "city": "Auvelais",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "Being repositioned as a day-hospital/rehabilitation centre rather than a full acute site.",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_uclnamur_stvincent",
+      "name": "CHU UCL Namur -- Hôpital de Dinant, site Saint-Vincent",
+      "hospitalGroupKey": "hg_rhn",
+      "city": "Dinant",
+      "address": "Rue St-Jacques 501",
+      "postcode": "5500",
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": 211,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_uclnamur_steanne",
+      "name": "CHU UCL Namur -- Hôpital de Dinant, site Sainte-Anne",
+      "hospitalGroupKey": "hg_rhn",
+      "city": "Dinant",
+      "address": "Rue Pont d'Amour 50",
+      "postcode": "5500",
+      "site_type": "specialist",
+      "ownership_type": "private",
+      "beds": 24,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_uclnamur_godinne",
+      "name": "CHU UCL Namur -- site Godinne",
+      "hospitalGroupKey": "hg_rhn",
+      "city": "Yvoir",
+      "address": null,
+      "postcode": null,
+      "site_type": "university",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_uclnamur_steelisabeth",
+      "name": "CHU UCL Namur -- site Sainte-Elisabeth",
+      "hospitalGroupKey": "hg_rhn",
+      "city": "Namur",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "private",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_saintlucbouge",
+      "name": "Clinique Saint-Luc Bouge",
+      "hospitalGroupKey": "hg_rhn",
+      "city": "Namur (Bouge)",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "mixed",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_arlon",
+      "name": "Hôpital d'Arlon",
+      "hospitalGroupKey": "hg_vivalia",
+      "city": "Arlon",
+      "address": "Rue des Déportés 137",
+      "postcode": "6700",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 337,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_bastogne",
+      "name": "Hôpital de Bastogne",
+      "hospitalGroupKey": "hg_vivalia",
+      "city": "Bastogne",
+      "address": "Chaussée de Houffalize 1",
+      "postcode": "6600",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 72,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_libramont",
+      "name": "Hôpital de Libramont",
+      "hospitalGroupKey": "hg_vivalia",
+      "city": "Libramont",
+      "address": "Avenue de Houffalize 35",
+      "postcode": "6800",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 292,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_marche",
+      "name": "Hôpital de Marche",
+      "hospitalGroupKey": "hg_vivalia",
+      "city": "Marche-en-Famenne",
+      "address": "Rue du Vivier 21",
+      "postcode": "6900",
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": 200,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_virton",
+      "name": "Hôpital de Virton",
+      "hospitalGroupKey": "hg_vivalia",
+      "city": "Virton",
+      "address": null,
+      "postcode": null,
+      "site_type": "acute",
+      "ownership_type": "public",
+      "beds": null,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    },
+    {
+      "key": "s_bertrix",
+      "name": "Hôpital psychiatrique de Bertrix",
+      "hospitalGroupKey": "hg_vivalia",
+      "city": "Bertrix",
+      "address": "Rue des Ardoisières 100",
+      "postcode": "6880",
+      "site_type": "specialist",
+      "ownership_type": "public",
+      "beds": 199,
+      "notes": "",
+      "healthAuthorityKey": "ha_aviq"
+    }
+  ],
+  "deployments": [
+    {
+      "key": "d_uzgent",
+      "supplier": "Oracle Health (formerly Cerner)",
+      "product": "Cerner Millennium ('Geniuz')",
+      "status": "confirmed",
+      "notes": "Announced 16 Oct 2017 alongside UZA and AZ Sint-Lucas Gent.",
+      "evidence_tier": 4,
+      "hospitalSiteKey": "s_uzgent",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azsintlucasgent",
+      "supplier": "Oracle Health (formerly Cerner)",
+      "product": "Cerner Millennium",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 4,
+      "hospitalSiteKey": "s_azsintlucasgent",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azjanpalfijngent",
+      "supplier": "UZ Brussel (Primuz)",
+      "product": "Primuz",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azjanpalfijngent",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azoudenaarde",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "Go-live announced 6 Nov 2025.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azoudenaarde",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_vitaz",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_vitaz",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azsintblasius",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "'First wave' hospital, Jan 2018 announcement.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azsintblasius",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_asz_aalst",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "Chosen 11 Jul 2017, live post-summer 2017 -- 20th hospital on the platform, first since Nexuzhealth's Dec 2016 spin-out.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_asz_aalst",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_olv_aalst",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_olv_aalst",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azgroeninge",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "Confirmed via AZ Groeninge's own site (Sept 2026) and a Jan 2018 'first wave' trade-press mention; an earlier Agfa ORBIS attribution for this hospital was investigated and found unsupported by its two cited sources -- struck from the record.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azgroeninge",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azglorieux",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azglorieux",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azsintelisabethzottegem",
+      "supplier": "UZ Brussel (Primuz)",
+      "product": "Primuz",
+      "status": "confirmed",
+      "notes": "Implemented 2019.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azsintelisabethzottegem",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azdelta",
+      "supplier": "ChipSoft",
+      "product": "HiX",
+      "status": "confirmed",
+      "notes": "Described by ChipSoft as a 'primeur' (first-of-its-kind) implementation.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azdelta",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azwest",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "Own Nexuzhealth success-story page; TED call-for-participation notice Nov 2020 (120-month contract).",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azwest",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azdamiaan",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "Listed on Nexuzhealth/VZN's own member directory.",
+      "evidence_tier": 6,
+      "hospitalSiteKey": "s_azdamiaan",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azsintlucasbrugge",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "'First wave' hospital, Jan 2018 announcement.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azsintlucasbrugge",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azzeno",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "Own Nexuzhealth success-story page; TED call-for-participation notice Apr 2023 across three campuses.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azzeno",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_zas",
+      "supplier": "ChipSoft",
+      "product": "HiX",
+      "status": "confirmed",
+      "notes": "Announced 14 Jan 2020 -- described by ChipSoft/Agoria as the largest EPD implementation in Belgium: 12 hospitals, 11 care facilities, 2 medical centres, ~3,000 beds, ~10,000 staff.",
+      "evidence_tier": 4,
+      "hospitalSiteKey": null,
+      "hospitalGroupKey": "hg_zas",
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_uza",
+      "supplier": "Oracle Health (formerly Cerner)",
+      "product": "Cerner Millennium",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 4,
+      "hospitalSiteKey": "s_uza",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_rivierenland",
+      "supplier": "UZ Brussel (Primuz)",
+      "product": "Primuz",
+      "status": "confirmed",
+      "notes": "Live ~June 2021; applies to all three AZ Rivierenland campuses (Rumst, Bornem, Willebroek).",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_rivierenland_rumst",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azmonica",
+      "supplier": "Agfa HealthCare",
+      "product": "ORBIS",
+      "status": "unconfirmed",
+      "notes": "First commercial ORBIS implementation in Belgium, 2006. Current (2026) status not independently reconfirmed -- an unrelated, separate product line from Xperthis/ZORGI.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azmonica",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_hhmol",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "'Second wave' hospital, Jan 2018 announcement.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_hhmol",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_imeldabonheiden",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "'Second wave' hospital, Jan 2018 announcement.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_imeldabonheiden",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_hhlier",
+      "supplier": "UZ Brussel (Primuz)",
+      "product": "Primuz",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_hhlier",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azjanportaels",
+      "supplier": "UZ Brussel (Primuz)",
+      "product": "Primuz",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_azjanportaels",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_uzleuven",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD, in-house branded 'Klinisch Werkstation')",
+      "status": "confirmed",
+      "notes": "Achieved HIMSS EMRAM Level 6, Belgium's highest hospital-digitalisation maturity score (per a 2017 reference).",
+      "evidence_tier": 4,
+      "hospitalSiteKey": "s_uzleuven",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azdiest",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "unconfirmed",
+      "notes": "Inferred only from a 'nexuzhealthpro' professional-login portal reference on the hospital's own site -- not independently confirmed.",
+      "evidence_tier": 6,
+      "hospitalSiteKey": "s_azdiest",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_rztienen",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "'Second wave' hospital, Jan 2018 announcement.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_rztienen",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_jessa",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "'Second wave' hospital, Jan 2018 announcement.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_jessa",
+      "hospitalGroupKey": "hg_zuidwestlimburg",
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_zol",
+      "supplier": "ChipSoft",
+      "product": "HiX",
+      "status": "confirmed",
+      "notes": "First Belgian hospital to implement HiX hospital-wide.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_zol_sintjan",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_irissud",
+      "supplier": "Zorgi (Xperthis CARE)",
+      "product": "Xperthis CARE",
+      "status": "confirmed",
+      "notes": "Hôpitaux Iris Sud selected Xperthis CARE as its new EPD; applies group-wide across the Iris Sud sites.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_irissud_etterbeek",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_saintluc",
+      "supplier": "Epic Systems",
+      "product": "Epic (branded 'TPI2')",
+      "status": "confirmed",
+      "notes": "Competitive dialogue vs Cerner and Medasys; awarded ~2017; go-live weekend of 28 Nov 2020, consolidating ~400 legacy applications; cost ~EUR65m, self-funded.",
+      "evidence_tier": 4,
+      "hospitalSiteKey": "s_saintluc",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_uzbrussel",
+      "supplier": "UZ Brussel (Primuz)",
+      "product": "Primuz",
+      "status": "confirmed",
+      "notes": "UZ Brussel's own, in-house-developed EPD, since extended to multiple Flemish partner hospitals.",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_uzbrussel",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_azsintmariahalle",
+      "supplier": "Nexuzhealth NV",
+      "product": "Nexuzhealth (KWS-based EPD)",
+      "status": "confirmed",
+      "notes": "Confirmed via official Belgian public-procurement award notice: EUR5,494,035.22 excl. VAT, published 18 Oct 2020.",
+      "evidence_tier": 2,
+      "hospitalSiteKey": "s_azsintmariahalle",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_chuliege",
+      "supplier": "Unknown / unconfirmed",
+      "product": "HORUS (in-house-branded DPI)",
+      "status": "unconfirmed",
+      "notes": "CHU de Liège's DPI is internally branded 'HORUS'; the underlying commercial software vendor (or whether it is a legacy in-house build) was not established.",
+      "evidence_tier": 6,
+      "hospitalSiteKey": "s_chuliege_sarttilman",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_csfchimay",
+      "supplier": "Zorgi (Xperthis CARE)",
+      "product": "Xperthis CARE (formerly 'xCare')",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_csfchimay",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_ghdc",
+      "supplier": "Zorgi (Xperthis CARE)",
+      "product": "Xperthis CARE (formerly 'xCare')",
+      "status": "confirmed",
+      "notes": "On InterSystems Caché with HealthShare HealthConnect; migration began 2018, targeted completion ~2024 alongside the move to Les Viviers; replaced legacy OmniPro and H+ systems.",
+      "evidence_tier": 4,
+      "hospitalSiteKey": "s_ghdc_viviers",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_cndg",
+      "supplier": "Zorgi (Xperthis CARE)",
+      "product": "Xperthis EPR / H+Nurse",
+      "status": "confirmed",
+      "notes": "",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_cndg",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_chrsm",
+      "supplier": "Zorgi (Xperthis CARE)",
+      "product": "Xperthis CARE",
+      "status": "confirmed",
+      "notes": "Project foundation launched late 2024, phased deployment, developed in collaboration with CHU UCL Namur; replaces a system in use 22+ years.",
+      "evidence_tier": 4,
+      "hospitalSiteKey": "s_chrsm_meuse",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    },
+    {
+      "key": "d_saintlucbouge",
+      "supplier": "Zorgi (Xperthis CARE)",
+      "product": "Xperthis CARE",
+      "status": "confirmed",
+      "notes": "Selected Xperthis CARE as new EPD (separately piloting a next-generation LIS with Nexuzhealth, June 2026 -- a distinct product, not the core EPR).",
+      "evidence_tier": 5,
+      "hospitalSiteKey": "s_saintlucbouge",
+      "hospitalGroupKey": null,
+      "categories": [
+        {
+          "category": "EPR/EHR",
+          "coverage_status": "confirmed"
+        }
+      ]
+    }
+  ],
+  "procurementNotices": [
+    {
+      "key": "p_sintmariahalle",
+      "title": "Levering en ondersteuning bij implementatie en onderhoud van een ziekenhuisbreed geïntegreerd EPD",
+      "value": 5494035.22,
+      "currency": "EUR",
+      "publication_date": "2020-10-18",
+      "award_date": "2020-10-18",
+      "awarded_supplier": "Nexuzhealth NV",
+      "status": "awarded",
+      "notes": "Algemeen Ziekenhuis Sint-Maria vzw, Halle -- competitive procedure with negotiation, single bid received.",
+      "sourceKey": "s_procurement_sintmaria",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "p_azwest",
+      "title": "Oproep tot aanvraag tot deelneming -- elektronisch patiëntendossier (call for participation)",
+      "value": null,
+      "currency": "EUR",
+      "publication_date": "2020-11-20",
+      "award_date": null,
+      "awarded_supplier": null,
+      "status": "published",
+      "notes": "AZ West, Veurne. 120-month contract duration; result not separately confirmed as an award notice, though the hospital is independently confirmed live on Nexuzhealth.",
+      "sourceKey": "s_ted_azwest",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "p_opzcrekem",
+      "title": "Elektronische patiëntendossier: leveren, implementeren en onderhouden",
+      "value": 500000,
+      "currency": "EUR",
+      "publication_date": "2022-07-22",
+      "award_date": null,
+      "awarded_supplier": null,
+      "status": "published",
+      "notes": "Openbaar Psychiatrisch Zorgcentrum (OPZC) Rekem. Tender deadline 18 Aug 2022; 60-month contract + optional 5-year renewal. Award outcome unconfirmed.",
+      "sourceKey": null,
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "p_itg",
+      "title": "Aanschaf, implementatie en exploitatie van een elektronisch patiëntendossier (EPD)",
+      "value": 408760,
+      "currency": "EUR",
+      "publication_date": "2025-07-04",
+      "award_date": "2025-07-03",
+      "awarded_supplier": "MediPortal",
+      "status": "awarded",
+      "notes": "Instituut voor Tropische Geneeskunde, Antwerpen -- new multidisciplinary EPD for outpatient clinic. 2 bids received (range EUR408,760-716,283.44); 8-year duration.",
+      "sourceKey": null,
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "p_azzeno",
+      "title": "Oproep tot aanvraag tot deelneming -- geïntegreerd patiëntendossier (EPD) across three hospital campuses",
+      "value": null,
+      "currency": "EUR",
+      "publication_date": "2023-04-05",
+      "award_date": null,
+      "awarded_supplier": null,
+      "status": "published",
+      "notes": "AZ Zeno, Knokke-Heist (ref. AZZENO/2023/010). Response deadline 3 May 2023. Independently confirmed elsewhere that AZ Zeno is live on Nexuzhealth, but no formal award/result notice for this specific tender was located.",
+      "sourceKey": "s_ted_azzeno",
+      "healthAuthorityKey": "ha_flanders"
+    },
+    {
+      "key": "p_move",
+      "title": "Appel à demandes de participation -- Fourniture, implémentation et maintenance d'un DPI intégré (incl. nursing information systems)",
+      "value": null,
+      "currency": "EUR",
+      "publication_date": "2023-08-22",
+      "award_date": null,
+      "awarded_supplier": null,
+      "status": "published",
+      "notes": "Joint tender: ASBL Groupe Santé CHC (Liège), Hôpital St. Nicolas (Eupen), Klinik St. Josef VoG (St. Vith). Deadline 22 Aug 2023; no award notice located. A 2025 network update confirms a supplier has since been selected internally, unnamed publicly, go-live targeted ~2028.",
+      "sourceKey": "s_ted_move",
+      "healthAuthorityKey": "ha_aviq"
+    }
+  ]
+}
