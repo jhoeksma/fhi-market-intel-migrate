@@ -668,6 +668,7 @@
   "healthAuthorities": [
     {
       "key": "ha_fod",
+      "country_iso2": "BE",
       "name": "FOD Volksgezondheid / SPF Santé publique",
       "level": "national",
       "description": "Federal Public Service Health, Food Chain Safety and Environment -- national digital-health strategy (e-Health Action Plan 2026-2029, Belgian Integrated Health Record).",
@@ -675,6 +676,7 @@
     },
     {
       "key": "ha_ehealth",
+      "country_iso2": "BE",
       "name": "eHealth-platform (Plateforme eHealth)",
       "level": "national",
       "description": "Federal public institution: Belgium's national health-data-exchange body, analogous to Finland's Kanta or Denmark's MedCom. Led by Frank Robben (general manager since 2008).",
@@ -682,6 +684,7 @@
     },
     {
       "key": "ha_inami",
+      "country_iso2": "BE",
       "name": "INAMI / RIZIV",
       "level": "national",
       "description": "National health-insurance institute; central to hospitals' federal operational financing (BMF/BFM). Led by Pedro Facon (administrateur général from 1 Jan 2026).",
@@ -689,6 +692,7 @@
     },
     {
       "key": "ha_flanders",
+      "country_iso2": "BE",
       "name": "Departement Zorg (Flanders)",
       "level": "regional",
       "description": "Merger (1 Jun 2023) of the former Vlaams Agentschap Zorg en Gezondheid and the WVG department; regional infrastructure-financing/recognition authority for Flemish hospitals. Led by Secretary-General Karine Moykens.",
@@ -696,6 +700,7 @@
     },
     {
       "key": "ha_aviq",
+      "country_iso2": "BE",
       "name": "AVIQ (Agence pour une Vie de Qualité)",
       "level": "regional",
       "description": "Walloon regional agency; infrastructure-financing/recognition authority for Walloon general hospitals.",
@@ -703,6 +708,7 @@
     },
     {
       "key": "ha_vivalis",
+      "country_iso2": "BE",
       "name": "Vivalis (COCOM/GGC, formerly Iriscare)",
       "level": "regional",
       "description": "Bicommunal Brussels health/social-affairs administration. Hospital-network accreditation legally sits with COCOM's Collège réuni (Vivalis is the administrative contact point).",
@@ -710,6 +716,7 @@
     },
     {
       "key": "ha_ostbelgien",
+      "country_iso2": "BE",
       "name": "Ministry of the German-speaking Community (Health portfolio)",
       "level": "regional",
       "description": "German-speaking Community government; Minister Lydia Klinkenberg holds the Family/Social Affairs/Housing/Health portfolio. Only confirmed formal hospital-governance role is as joint accreditor (with the Walloon Region) of Réseau Move.",
@@ -719,144 +726,168 @@
   "hospitalGroups": [
     {
       "key": "hg_gent",
+      "country_iso2": "BE",
       "name": "Ziekenhuisnetwerk Gent",
       "ownership_type": "mixed",
       "notes": "Recognised loco-regional network; joined the voluntary Vlaams Ziekenhuisnetwerk (VZN) knowledge network as a group on 6 Jun 2025."
     },
     {
       "key": "hg_denderdurmewaas",
+      "country_iso2": "BE",
       "name": "Ziekenhuisnetwerk Dender-Durme-Waas",
       "ownership_type": "mixed",
       "notes": "Base members AZ Nikolaas/AZ Lokeren (merged into Vitaz) and AZ Sint-Blasius Dendermonde."
     },
     {
       "key": "hg_aalst",
+      "country_iso2": "BE",
       "name": "Aalst hospital network (ASZ / OLV Aalst)",
       "ownership_type": "mixed",
       "notes": "Aalst-cluster portion of the original 2020-2022 recognition-annex grouping historically referred to as 'Ziekenhuisnetwerk Aalst-Brussel-Halle'; the Brussels-facing portion of that same annex grouping (UZ Brussel + AZ Sint-Maria Halle + AZorg) is treated here as the separately, more currently, sourced CUROZ network (see hg_curoz) -- the precise current relationship between the original annex grouping and these two operating clusters was not fully reconciled in research and is flagged as an open item."
     },
     {
       "key": "hg_e17",
+      "country_iso2": "BE",
       "name": "E17-ziekenhuisnetwerk",
       "ownership_type": "mixed",
       "notes": "Jan Yperman Ziekenhuis (Ieper) joined as a full member 19 Jun 2025 (retroactive to 1 May 2025), after a separate proposed 'Westhoek' network with AZ West did not proceed."
     },
     {
       "key": "hg_triaz",
+      "country_iso2": "BE",
       "name": "Ziekenhuisnetwerk Midden-West-Vlaanderen (TRIaz)",
       "ownership_type": "mixed",
       "notes": "Base members AZ Delta, Jan Yperman, Sint-Andriesziekenhuis Tielt; current composition since Jan Yperman's 2025 move to E17 is unconfirmed."
     },
     {
       "key": "hg_komkust",
+      "country_iso2": "BE",
       "name": "Ziekenhuisnetwerk Kust-Ommeland-Meetjesland (KOM Kust)",
       "ownership_type": "mixed",
       "notes": ""
     },
     {
       "key": "hg_zas",
+      "country_iso2": "BE",
       "name": "ZAS (Ziekenhuis aan de Stroom) -- ZNA + GZA Ziekenhuizen",
       "ownership_type": "mixed",
       "notes": "Combined Antwerp hospital group formed from the public ZNA (Ziekenhuis Netwerk Antwerpen) and private non-profit GZA Ziekenhuizen, collaborating on a shared EPD since 2016 with a planned full merger around 2024. 13 campuses per Zorgkwaliteit.be: 6 general hospitals, 6 specialised hospitals, 6 day centres, 2 polyclinics, 1 medical centre, 1 psychiatric facility, 1 dementia centre."
     },
     {
       "key": "hg_helix",
+      "country_iso2": "BE",
       "name": "Helix network (Antwerp/Rupel area)",
       "ownership_type": "mixed",
       "notes": "Recognition status listed as 'uncertain' in the source material used to build the base membership list; not independently re-verified."
     },
     {
       "key": "hg_kempen",
+      "country_iso2": "BE",
       "name": "Ziekenhuisnetwerk Kempen",
       "ownership_type": "mixed",
       "notes": ""
     },
     {
       "key": "hg_briant",
+      "country_iso2": "BE",
       "name": "BRIANT network",
       "ownership_type": "mixed",
       "notes": ""
     },
     {
       "key": "hg_plexus",
+      "country_iso2": "BE",
       "name": "Plexus -- Zorgnetwerk Oost-Vlaams-Brabant",
       "ownership_type": "mixed",
       "notes": "Includes UZ Leuven, the originating institution of the Nexuzhealth platform."
     },
     {
       "key": "hg_zuidwestlimburg",
+      "country_iso2": "BE",
       "name": "Zuidwest-Limburg network",
       "ownership_type": "mixed",
       "notes": ""
     },
     {
       "key": "hg_noordoostlimburg",
+      "country_iso2": "BE",
       "name": "Noordoost-Limburg network",
       "ownership_type": "mixed",
       "notes": "Recognition status listed as 'uncertain' in the source material used. Ziekenhuis Maas en Kempen (Maaseik) appears, per ZOL's current site, to have become an integrated ZOL campus -- not independently confirmed against an official merger announcement."
     },
     {
       "key": "hg_chorus",
+      "country_iso2": "BE",
       "name": "CHORUS",
       "ownership_type": "mixed",
       "notes": "Largest hospital network in Belgium: the public IRIS hospitals, the ULB university-hospital grouping (H.U.B.), and the private CHIREC group. Constituted 19 Nov 2021; CHIREC formally joined Dec 2021. A legal appeal for annulment against the network's constitution was reported in trade press; outcome unconfirmed."
     },
     {
       "key": "hg_huni",
+      "country_iso2": "BE",
       "name": "H.uni",
       "ownership_type": "private",
       "notes": "Christian/Catholic-affiliated, UCLouvain-linked network: Cliniques universitaires Saint-Luc, Cliniques de l'Europe, Clinique Saint-Jean, plus Clinique Saint-Pierre Ottignies (Walloon Brabant, out of scope for this Brussels-focused build). H.uni brand adopted 2021; four co-directors named ~2021, current (2026) status unconfirmed."
     },
     {
       "key": "hg_curoz",
+      "country_iso2": "BE",
       "name": "CUROZ",
       "ownership_type": "mixed",
       "notes": "Flemish/VUB-affiliated network established Jan 2021: UZ Brussel, AZorg (East Flanders/Flemish Brabant, outside Brussels-Capital Region), AZ Sint-Maria Halle (Flemish Brabant). Each member hospital retains its own legal identity."
     },
     {
       "key": "hg_phare",
+      "country_iso2": "BE",
       "name": "Réseau Phare",
       "ownership_type": "mixed",
       "notes": "Hainaut occidental / Wallonie picarde: CHWAPI, CHR Haute Senne, Centre Hospitalier de Mouscron, EpiCURA."
     },
     {
       "key": "hg_helora",
+      "country_iso2": "BE",
       "name": "Réseau Helora",
       "ownership_type": "public",
       "notes": "Mons-Borinage / Centre du Hainaut: CHU Tivoli, Centres Hospitaliers Jolimont, CHU Ambroise Paré, CHR Mons-Hainaut. Trade press reported a 2022 'pause' (not divorce) in Tivoli's full merger into the group structure; current status unconfirmed."
     },
     {
       "key": "hg_elipse",
+      "country_iso2": "BE",
       "name": "Réseau Elipse",
       "ownership_type": "public",
       "notes": "Province of Liège, 8 institutions: CHU de Liège, CHR de la Citadelle, CHBA, CHR de Huy, Clinique André Renard, CHR de Verviers, Centre Hospitalier Reine Astrid Malmedy, ISoSL."
     },
     {
       "key": "hg_move",
+      "country_iso2": "BE",
       "name": "Réseau Move",
       "ownership_type": "private",
       "notes": "Joint Walloon Region / German-speaking Community network: CHC Groupe Santé (Liège) + St. Nikolaus-Hospital Eupen + Klinik St. Josef Sankt-Vith. A live joint EU procurement (TED 405372-2023) for a shared DPI was still unresolved as of the deadline; a 2025 network update confirms a supplier has since been selected internally (unnamed publicly), go-live targeted ~2028."
     },
     {
       "key": "hg_humani",
+      "country_iso2": "BE",
       "name": "HUmani Santé Charleroi Chimay",
       "ownership_type": "public",
       "notes": "Public intercommunale created 21 Sep 2023 (merger of ISPPC/CHU de Charleroi and Centre de Santé des Fagnes); reported in Nov 2024 as facing insolvency risk in 2025, with a new president appointed 11 Mar 2025 under special oversight."
     },
     {
       "key": "hg_charleroimetropole",
+      "country_iso2": "BE",
       "name": "Réseau Hospitalier Charleroi Métropole",
       "ownership_type": "private",
       "notes": "Grand Hôpital de Charleroi (GHdC) and Clinique Notre-Dame de Grâce (CNDG), Gosselies. Approved by the Walloon Region Nov 2021."
     },
     {
       "key": "hg_rhn",
+      "country_iso2": "BE",
       "name": "Réseau Hospitalier Namurois (RHN)",
       "ownership_type": "mixed",
       "notes": "6 institutions: CHR Sambre et Meuse (public intercommunale), CHU UCL Namur (private, UCLouvain-affiliated), Clinique Saint-Luc Bouge. Established 2020."
     },
     {
       "key": "hg_vivalia",
+      "country_iso2": "BE",
       "name": "Vivalia",
       "ownership_type": "public",
       "notes": "Public intercommunale, sole general-hospital provider for the rural province of Luxembourg; pursuing a major site-consolidation programme ('Vivalia 2030')."
@@ -865,6 +896,7 @@
   "hospitalSites": [
     {
       "key": "s_uzgent",
+      "country_iso2": "BE",
       "name": "UZ Gent",
       "hospitalGroupKey": "hg_gent",
       "city": "Gent",
@@ -878,6 +910,7 @@
     },
     {
       "key": "s_azsintlucasgent",
+      "country_iso2": "BE",
       "name": "AZ Sint-Lucas Gent",
       "hospitalGroupKey": "hg_gent",
       "city": "Gent",
@@ -891,6 +924,7 @@
     },
     {
       "key": "s_azjanpalfijngent",
+      "country_iso2": "BE",
       "name": "AZ Jan Palfijn Gent",
       "hospitalGroupKey": "hg_gent",
       "city": "Gent",
@@ -904,6 +938,7 @@
     },
     {
       "key": "s_azoudenaarde",
+      "country_iso2": "BE",
       "name": "AZ Oudenaarde",
       "hospitalGroupKey": "hg_gent",
       "city": "Oudenaarde",
@@ -917,6 +952,7 @@
     },
     {
       "key": "s_vitaz",
+      "country_iso2": "BE",
       "name": "Vitaz",
       "hospitalGroupKey": "hg_denderdurmewaas",
       "city": "Sint-Niklaas",
@@ -930,6 +966,7 @@
     },
     {
       "key": "s_azsintblasius",
+      "country_iso2": "BE",
       "name": "AZ Sint-Blasius Dendermonde",
       "hospitalGroupKey": "hg_denderdurmewaas",
       "city": "Dendermonde",
@@ -943,6 +980,7 @@
     },
     {
       "key": "s_asz_aalst",
+      "country_iso2": "BE",
       "name": "ASZ (Algemeen Stedelijk Ziekenhuis) Aalst-Geraardsbergen-Wetteren",
       "hospitalGroupKey": "hg_aalst",
       "city": "Aalst",
@@ -956,6 +994,7 @@
     },
     {
       "key": "s_olv_aalst",
+      "country_iso2": "BE",
       "name": "OLV Ziekenhuis Aalst",
       "hospitalGroupKey": "hg_aalst",
       "city": "Aalst",
@@ -969,6 +1008,7 @@
     },
     {
       "key": "s_azgroeninge",
+      "country_iso2": "BE",
       "name": "AZ Groeninge",
       "hospitalGroupKey": "hg_e17",
       "city": "Kortrijk",
@@ -982,6 +1022,7 @@
     },
     {
       "key": "s_azglorieux",
+      "country_iso2": "BE",
       "name": "AZ Glorieux",
       "hospitalGroupKey": "hg_e17",
       "city": "Ronse",
@@ -995,6 +1036,7 @@
     },
     {
       "key": "s_azsintelisabethzottegem",
+      "country_iso2": "BE",
       "name": "AZ Sint-Elisabeth Zottegem",
       "hospitalGroupKey": "hg_e17",
       "city": "Zottegem",
@@ -1008,6 +1050,7 @@
     },
     {
       "key": "s_azmariamiddelares",
+      "country_iso2": "BE",
       "name": "AZ Maria Middelares Gent",
       "hospitalGroupKey": "hg_e17",
       "city": "Gent",
@@ -1021,6 +1064,7 @@
     },
     {
       "key": "s_sintvincentiusdeinze",
+      "country_iso2": "BE",
       "name": "Sint-Vincentiusziekenhuis Deinze",
       "hospitalGroupKey": "hg_e17",
       "city": "Deinze",
@@ -1034,6 +1078,7 @@
     },
     {
       "key": "s_olvvanlourdes",
+      "country_iso2": "BE",
       "name": "OLV van Lourdes Ziekenhuis Waregem",
       "hospitalGroupKey": "hg_e17",
       "city": "Waregem",
@@ -1047,6 +1092,7 @@
     },
     {
       "key": "s_sintjozefizegem",
+      "country_iso2": "BE",
       "name": "Sint-Jozefskliniek Izegem",
       "hospitalGroupKey": "hg_e17",
       "city": "Izegem",
@@ -1060,6 +1106,7 @@
     },
     {
       "key": "s_janyperman",
+      "country_iso2": "BE",
       "name": "Jan Yperman Ziekenhuis",
       "hospitalGroupKey": "hg_e17",
       "city": "Ieper",
@@ -1073,6 +1120,7 @@
     },
     {
       "key": "s_azdelta",
+      "country_iso2": "BE",
       "name": "AZ Delta",
       "hospitalGroupKey": "hg_triaz",
       "city": "Roeselare",
@@ -1086,6 +1134,7 @@
     },
     {
       "key": "s_sintandries",
+      "country_iso2": "BE",
       "name": "Sint-Andriesziekenhuis Tielt",
       "hospitalGroupKey": "hg_triaz",
       "city": "Tielt",
@@ -1099,6 +1148,7 @@
     },
     {
       "key": "s_azwest",
+      "country_iso2": "BE",
       "name": "AZ West",
       "hospitalGroupKey": "hg_komkust",
       "city": "Veurne",
@@ -1112,6 +1162,7 @@
     },
     {
       "key": "s_azdamiaan",
+      "country_iso2": "BE",
       "name": "AZ Damiaan Oostende",
       "hospitalGroupKey": "hg_komkust",
       "city": "Oostende",
@@ -1125,6 +1176,7 @@
     },
     {
       "key": "s_azsintlucasbrugge",
+      "country_iso2": "BE",
       "name": "AZ Sint-Lucas Brugge",
       "hospitalGroupKey": "hg_komkust",
       "city": "Brugge (Assebroek)",
@@ -1138,6 +1190,7 @@
     },
     {
       "key": "s_azsintjanbrugge",
+      "country_iso2": "BE",
       "name": "AZ Sint-Jan Brugge-Oostende AV",
       "hospitalGroupKey": "hg_komkust",
       "city": "Brugge",
@@ -1151,6 +1204,7 @@
     },
     {
       "key": "s_kei",
+      "country_iso2": "BE",
       "name": "KEI (Oostduinkerke)",
       "hospitalGroupKey": "hg_komkust",
       "city": "Koksijde",
@@ -1164,6 +1218,7 @@
     },
     {
       "key": "s_imbo",
+      "country_iso2": "BE",
       "name": "IMBO",
       "hospitalGroupKey": "hg_komkust",
       "city": "Oostende",
@@ -1177,6 +1232,7 @@
     },
     {
       "key": "s_azzeno",
+      "country_iso2": "BE",
       "name": "AZ Zeno",
       "hospitalGroupKey": "hg_komkust",
       "city": "Knokke-Heist",
@@ -1190,6 +1246,7 @@
     },
     {
       "key": "s_zas_cadix",
+      "country_iso2": "BE",
       "name": "ZAS/ZNA Cadix",
       "hospitalGroupKey": "hg_zas",
       "city": "Antwerpen",
@@ -1203,6 +1260,7 @@
     },
     {
       "key": "s_zas_middelheim",
+      "country_iso2": "BE",
       "name": "ZAS/ZNA Middelheim (incl. Koningin Paola Kinderziekenhuis)",
       "hospitalGroupKey": "hg_zas",
       "city": "Antwerpen",
@@ -1216,6 +1274,7 @@
     },
     {
       "key": "s_zas_palfijn",
+      "country_iso2": "BE",
       "name": "ZAS/ZNA Palfijn (Antwerp)",
       "hospitalGroupKey": "hg_zas",
       "city": "Antwerpen (Merksem)",
@@ -1229,6 +1288,7 @@
     },
     {
       "key": "s_zas_hogebeuken",
+      "country_iso2": "BE",
       "name": "ZAS/ZNA Hoge Beuken",
       "hospitalGroupKey": "hg_zas",
       "city": "Antwerpen (Hoboken)",
@@ -1242,6 +1302,7 @@
     },
     {
       "key": "s_zas_joostens",
+      "country_iso2": "BE",
       "name": "ZAS/ZNA Joostens",
       "hospitalGroupKey": "hg_zas",
       "city": "Zoersel",
@@ -1255,6 +1316,7 @@
     },
     {
       "key": "s_zas_elisabeth",
+      "country_iso2": "BE",
       "name": "ZAS Elisabeth",
       "hospitalGroupKey": "hg_zas",
       "city": "Antwerpen",
@@ -1268,6 +1330,7 @@
     },
     {
       "key": "s_zas_erasmus",
+      "country_iso2": "BE",
       "name": "ZAS Erasmus",
       "hospitalGroupKey": "hg_zas",
       "city": "Antwerpen (Borgerhout)",
@@ -1281,6 +1344,7 @@
     },
     {
       "key": "s_zas_psychiatrie",
+      "country_iso2": "BE",
       "name": "ZAS Psychiatrie",
       "hospitalGroupKey": "hg_zas",
       "city": "Antwerpen",
@@ -1294,6 +1358,7 @@
     },
     {
       "key": "s_uza",
+      "country_iso2": "BE",
       "name": "UZA (Universitair Ziekenhuis Antwerpen)",
       "hospitalGroupKey": "hg_helix",
       "city": "Edegem",
@@ -1307,6 +1372,7 @@
     },
     {
       "key": "s_rivierenland_rumst",
+      "country_iso2": "BE",
       "name": "AZ Rivierenland -- Campus Rumst",
       "hospitalGroupKey": "hg_helix",
       "city": "Rumst",
@@ -1320,6 +1386,7 @@
     },
     {
       "key": "s_rivierenland_bornem",
+      "country_iso2": "BE",
       "name": "AZ Rivierenland -- Campus Bornem",
       "hospitalGroupKey": "hg_helix",
       "city": "Bornem",
@@ -1333,6 +1400,7 @@
     },
     {
       "key": "s_rivierenland_willebroek",
+      "country_iso2": "BE",
       "name": "AZ Rivierenland -- Campus Willebroek",
       "hospitalGroupKey": "hg_helix",
       "city": "Willebroek",
@@ -1346,6 +1414,7 @@
     },
     {
       "key": "s_azmonica",
+      "country_iso2": "BE",
       "name": "AZ Monica",
       "hospitalGroupKey": "hg_helix",
       "city": "Deurne/Antwerpen",
@@ -1359,6 +1428,7 @@
     },
     {
       "key": "s_azsintjozefmalle",
+      "country_iso2": "BE",
       "name": "AZ Sint-Jozef Malle",
       "hospitalGroupKey": "hg_helix",
       "city": "Malle",
@@ -1372,6 +1442,7 @@
     },
     {
       "key": "s_dedennen",
+      "country_iso2": "BE",
       "name": "Revalidatiecentrum De Dennen",
       "hospitalGroupKey": "hg_helix",
       "city": "Malle",
@@ -1385,6 +1456,7 @@
     },
     {
       "key": "s_klina",
+      "country_iso2": "BE",
       "name": "KLINA",
       "hospitalGroupKey": "hg_helix",
       "city": "Brasschaat",
@@ -1398,6 +1470,7 @@
     },
     {
       "key": "s_azherentals",
+      "country_iso2": "BE",
       "name": "AZ Herentals",
       "hospitalGroupKey": "hg_kempen",
       "city": "Herentals",
@@ -1411,6 +1484,7 @@
     },
     {
       "key": "s_azturnhout",
+      "country_iso2": "BE",
       "name": "AZ Turnhout",
       "hospitalGroupKey": "hg_kempen",
       "city": "Turnhout",
@@ -1424,6 +1498,7 @@
     },
     {
       "key": "s_hhmol",
+      "country_iso2": "BE",
       "name": "Heilig Hartziekenhuis Mol",
       "hospitalGroupKey": "hg_kempen",
       "city": "Mol",
@@ -1437,6 +1512,7 @@
     },
     {
       "key": "s_sintdimpna",
+      "country_iso2": "BE",
       "name": "Sint-Dimpna Ziekenhuis Geel",
       "hospitalGroupKey": "hg_kempen",
       "city": "Geel",
@@ -1450,6 +1526,7 @@
     },
     {
       "key": "s_imeldabonheiden",
+      "country_iso2": "BE",
       "name": "Imeldaziekenhuis Bonheiden",
       "hospitalGroupKey": "hg_briant",
       "city": "Bonheiden",
@@ -1463,6 +1540,7 @@
     },
     {
       "key": "s_hhlier",
+      "country_iso2": "BE",
       "name": "Heilig Hartziekenhuis Lier",
       "hospitalGroupKey": "hg_briant",
       "city": "Lier",
@@ -1476,6 +1554,7 @@
     },
     {
       "key": "s_azsintmaartenmechelen",
+      "country_iso2": "BE",
       "name": "AZ Sint-Maarten Mechelen",
       "hospitalGroupKey": "hg_briant",
       "city": "Mechelen",
@@ -1489,6 +1568,7 @@
     },
     {
       "key": "s_azjanportaels",
+      "country_iso2": "BE",
       "name": "AZ Jan Portaels Vilvoorde",
       "hospitalGroupKey": "hg_briant",
       "city": "Vilvoorde",
@@ -1502,6 +1582,7 @@
     },
     {
       "key": "s_uzleuven",
+      "country_iso2": "BE",
       "name": "UZ Leuven",
       "hospitalGroupKey": "hg_plexus",
       "city": "Leuven",
@@ -1515,6 +1596,7 @@
     },
     {
       "key": "s_azdiest",
+      "country_iso2": "BE",
       "name": "AZ Diest",
       "hospitalGroupKey": "hg_plexus",
       "city": "Diest",
@@ -1528,6 +1610,7 @@
     },
     {
       "key": "s_hhleuven",
+      "country_iso2": "BE",
       "name": "Regionaal Ziekenhuis Heilig Hart Leuven",
       "hospitalGroupKey": "hg_plexus",
       "city": "Leuven",
@@ -1541,6 +1624,7 @@
     },
     {
       "key": "s_rztienen",
+      "country_iso2": "BE",
       "name": "RZ Tienen (Regionaal Ziekenhuis Heilig Hart Tienen)",
       "hospitalGroupKey": "hg_plexus",
       "city": "Tienen",
@@ -1554,6 +1638,7 @@
     },
     {
       "key": "s_jessa",
+      "country_iso2": "BE",
       "name": "Jessa Ziekenhuis Hasselt",
       "hospitalGroupKey": "hg_zuidwestlimburg",
       "city": "Hasselt",
@@ -1567,6 +1652,7 @@
     },
     {
       "key": "s_azvesalius",
+      "country_iso2": "BE",
       "name": "AZ Vesalius Tongeren",
       "hospitalGroupKey": "hg_zuidwestlimburg",
       "city": "Tongeren-Borgloon",
@@ -1580,6 +1666,7 @@
     },
     {
       "key": "s_sinttrudo",
+      "country_iso2": "BE",
       "name": "Sint-Trudo Ziekenhuis Sint-Truiden",
       "hospitalGroupKey": "hg_zuidwestlimburg",
       "city": "Sint-Truiden",
@@ -1593,6 +1680,7 @@
     },
     {
       "key": "s_sintfranciscus",
+      "country_iso2": "BE",
       "name": "Sint-Franciscusziekenhuis Heusden-Zolder",
       "hospitalGroupKey": "hg_zuidwestlimburg",
       "city": "Heusden-Zolder",
@@ -1606,6 +1694,7 @@
     },
     {
       "key": "s_zol_sintjan",
+      "country_iso2": "BE",
       "name": "ZOL -- Campus Sint-Jan",
       "hospitalGroupKey": "hg_noordoostlimburg",
       "city": "Genk",
@@ -1619,6 +1708,7 @@
     },
     {
       "key": "s_zol_sintbarbara",
+      "country_iso2": "BE",
       "name": "ZOL -- Campus Sint-Barbara",
       "hospitalGroupKey": "hg_noordoostlimburg",
       "city": "Lanaken",
@@ -1632,6 +1722,7 @@
     },
     {
       "key": "s_zol_dumont",
+      "country_iso2": "BE",
       "name": "ZOL -- Medisch Centrum André Dumont",
       "hospitalGroupKey": "hg_noordoostlimburg",
       "city": "Genk",
@@ -1645,6 +1736,7 @@
     },
     {
       "key": "s_zol_maaskempen",
+      "country_iso2": "BE",
       "name": "ZOL -- Maas en Kempen (formerly Ziekenhuis Maas en Kempen)",
       "hospitalGroupKey": "hg_noordoostlimburg",
       "city": "Maaseik",
@@ -1658,6 +1750,7 @@
     },
     {
       "key": "s_mariaziekenhuis",
+      "country_iso2": "BE",
       "name": "Mariaziekenhuis Overpelt (Noorderhart)",
       "hospitalGroupKey": "hg_noordoostlimburg",
       "city": "Pelt",
@@ -1671,6 +1764,7 @@
     },
     {
       "key": "s_stpierre_hal",
+      "country_iso2": "BE",
       "name": "CHU Saint-Pierre -- site Porte de Hal",
       "hospitalGroupKey": "hg_chorus",
       "city": "Bruxelles-ville",
@@ -1684,6 +1778,7 @@
     },
     {
       "key": "s_stpierre_depaepe",
+      "country_iso2": "BE",
       "name": "CHU Saint-Pierre -- site César De Paepe",
       "hospitalGroupKey": "hg_chorus",
       "city": "Bruxelles-ville",
@@ -1697,6 +1792,7 @@
     },
     {
       "key": "s_brugmann_horta",
+      "country_iso2": "BE",
       "name": "CHU Brugmann -- site Victor Horta",
       "hospitalGroupKey": "hg_chorus",
       "city": "Laeken",
@@ -1710,6 +1806,7 @@
     },
     {
       "key": "s_brugmann_brien",
+      "country_iso2": "BE",
       "name": "CHU Brugmann -- site Paul Brien",
       "hospitalGroupKey": "hg_chorus",
       "city": "Schaerbeek",
@@ -1723,6 +1820,7 @@
     },
     {
       "key": "s_brugmann_astrid",
+      "country_iso2": "BE",
       "name": "CHU Brugmann -- site Reine Astrid",
       "hospitalGroupKey": "hg_chorus",
       "city": "Neder-over-Heembeek",
@@ -1736,6 +1834,7 @@
     },
     {
       "key": "s_huderf",
+      "country_iso2": "BE",
       "name": "HUDERF (Hôpital Universitaire des Enfants Reine Fabiola)",
       "hospitalGroupKey": "hg_chorus",
       "city": "Laeken",
@@ -1749,6 +1848,7 @@
     },
     {
       "key": "s_irissud_etterbeek",
+      "country_iso2": "BE",
       "name": "Hôpitaux Iris Sud -- site Etterbeek-Ixelles",
       "hospitalGroupKey": "hg_chorus",
       "city": "Ixelles",
@@ -1762,6 +1862,7 @@
     },
     {
       "key": "s_irissud_bracops",
+      "country_iso2": "BE",
       "name": "Hôpitaux Iris Sud -- site Joseph Bracops",
       "hospitalGroupKey": "hg_chorus",
       "city": "Anderlecht",
@@ -1775,6 +1876,7 @@
     },
     {
       "key": "s_irissud_moliere",
+      "country_iso2": "BE",
       "name": "Hôpitaux Iris Sud -- site Molière Longchamp",
       "hospitalGroupKey": "hg_chorus",
       "city": "Forest",
@@ -1788,6 +1890,7 @@
     },
     {
       "key": "s_irissud_baronlambert",
+      "country_iso2": "BE",
       "name": "Hôpitaux Iris Sud -- site Baron Lambert (Polyclinique)",
       "hospitalGroupKey": "hg_chorus",
       "city": "Etterbeek",
@@ -1801,6 +1904,7 @@
     },
     {
       "key": "s_bordet",
+      "country_iso2": "BE",
       "name": "Institut Jules Bordet",
       "hospitalGroupKey": "hg_chorus",
       "city": "Anderlecht",
@@ -1814,6 +1918,7 @@
     },
     {
       "key": "s_erasme",
+      "country_iso2": "BE",
       "name": "HUB -- Hôpital Erasme (main site)",
       "hospitalGroupKey": "hg_chorus",
       "city": "Anderlecht",
@@ -1827,6 +1932,7 @@
     },
     {
       "key": "s_erasme_ctr",
+      "country_iso2": "BE",
       "name": "HUB -- Erasme, Centre de Traumatologie et de Réadaptation",
       "hospitalGroupKey": "hg_chorus",
       "city": "Laeken",
@@ -1840,6 +1946,7 @@
     },
     {
       "key": "s_erasme_geriatric",
+      "country_iso2": "BE",
       "name": "HUB -- Erasme, Hôpital de Réadaptation Gériatrique",
       "hospitalGroupKey": "hg_chorus",
       "city": "Woluwe-Saint-Lambert",
@@ -1853,6 +1960,7 @@
     },
     {
       "key": "s_chirec_sareanne",
+      "country_iso2": "BE",
       "name": "CHIREC-SARE -- Clinique Ste-Anne-St-Remi",
       "hospitalGroupKey": "hg_chorus",
       "city": "Anderlecht",
@@ -1866,6 +1974,7 @@
     },
     {
       "key": "s_chirec_basilique",
+      "country_iso2": "BE",
       "name": "CHIREC-SARE -- Clinique de la Basilique",
       "hospitalGroupKey": "hg_chorus",
       "city": "Ganshoren",
@@ -1879,6 +1988,7 @@
     },
     {
       "key": "s_chirec_delta",
+      "country_iso2": "BE",
       "name": "CHIREC-Delta -- Hôpital Delta",
       "hospitalGroupKey": "hg_chorus",
       "city": "Auderghem",
@@ -1892,6 +2002,7 @@
     },
     {
       "key": "s_chirec_cavell",
+      "country_iso2": "BE",
       "name": "CHIREC-Delta -- Centre Médical Edith Cavell",
       "hospitalGroupKey": "hg_chorus",
       "city": "Uccle",
@@ -1905,6 +2016,7 @@
     },
     {
       "key": "s_saintluc",
+      "country_iso2": "BE",
       "name": "Cliniques universitaires Saint-Luc",
       "hospitalGroupKey": "hg_huni",
       "city": "Woluwe-Saint-Lambert",
@@ -1918,6 +2030,7 @@
     },
     {
       "key": "s_stjean_botanique",
+      "country_iso2": "BE",
       "name": "Clinique Saint-Jean -- site Botanique",
       "hospitalGroupKey": "hg_huni",
       "city": "Bruxelles-ville",
@@ -1931,6 +2044,7 @@
     },
     {
       "key": "s_stjean_leopold",
+      "country_iso2": "BE",
       "name": "Clinique Saint-Jean -- site Léopold I",
       "hospitalGroupKey": "hg_huni",
       "city": "Jette",
@@ -1944,6 +2058,7 @@
     },
     {
       "key": "s_stjean_meridien",
+      "country_iso2": "BE",
       "name": "Clinique Saint-Jean -- site Méridien",
       "hospitalGroupKey": "hg_huni",
       "city": "Saint-Josse-ten-Noode",
@@ -1957,6 +2072,7 @@
     },
     {
       "key": "s_europe_steelisabeth",
+      "country_iso2": "BE",
       "name": "Cliniques de l'Europe -- site Ste-Elisabeth",
       "hospitalGroupKey": "hg_huni",
       "city": "Uccle",
@@ -1970,6 +2086,7 @@
     },
     {
       "key": "s_europe_stmichel",
+      "country_iso2": "BE",
       "name": "Cliniques de l'Europe -- site St-Michel",
       "hospitalGroupKey": "hg_huni",
       "city": "Etterbeek",
@@ -1983,6 +2100,7 @@
     },
     {
       "key": "s_uzbrussel",
+      "country_iso2": "BE",
       "name": "UZ Brussel",
       "hospitalGroupKey": "hg_curoz",
       "city": "Jette",
@@ -1996,6 +2114,7 @@
     },
     {
       "key": "s_azsintmariahalle",
+      "country_iso2": "BE",
       "name": "AZ Sint-Maria Halle",
       "hospitalGroupKey": "hg_curoz",
       "city": "Halle",
@@ -2009,6 +2128,7 @@
     },
     {
       "key": "s_azorg",
+      "country_iso2": "BE",
       "name": "AZorg",
       "hospitalGroupKey": "hg_curoz",
       "city": "Aalst/Geraardsbergen/Wetteren/Asse/Ninove",
@@ -2022,6 +2142,7 @@
     },
     {
       "key": "s_chwapi",
+      "country_iso2": "BE",
       "name": "CHWAPI (Centre Hospitalier de Wallonie picarde) -- sites Notre-Dame, Union, IMC",
       "hospitalGroupKey": "hg_phare",
       "city": "Tournai",
@@ -2035,6 +2156,7 @@
     },
     {
       "key": "s_chrhautesenne",
+      "country_iso2": "BE",
       "name": "CHR Haute Senne -- sites Le Goéland, Saint-Vincent, Le Tilleriau",
       "hospitalGroupKey": "hg_phare",
       "city": "Soignies",
@@ -2048,6 +2170,7 @@
     },
     {
       "key": "s_chmouscron",
+      "country_iso2": "BE",
       "name": "Centre Hospitalier de Mouscron (CHM)",
       "hospitalGroupKey": "hg_phare",
       "city": "Mouscron",
@@ -2061,6 +2184,7 @@
     },
     {
       "key": "s_epicura_ath",
+      "country_iso2": "BE",
       "name": "EpiCURA -- site Ath",
       "hospitalGroupKey": "hg_phare",
       "city": "Ath",
@@ -2074,6 +2198,7 @@
     },
     {
       "key": "s_epicura_hornu",
+      "country_iso2": "BE",
       "name": "EpiCURA -- site Hornu",
       "hospitalGroupKey": "hg_phare",
       "city": "Hornu",
@@ -2087,6 +2212,7 @@
     },
     {
       "key": "s_epicura_frameries",
+      "country_iso2": "BE",
       "name": "EpiCURA -- Hôpital de jour Frameries",
       "hospitalGroupKey": "hg_phare",
       "city": "Frameries",
@@ -2100,6 +2226,7 @@
     },
     {
       "key": "s_helora_constantinople",
+      "country_iso2": "BE",
       "name": "CHU Helora -- site Constantinople",
       "hospitalGroupKey": "hg_helora",
       "city": "Mons",
@@ -2113,6 +2240,7 @@
     },
     {
       "key": "s_helora_kennedy",
+      "country_iso2": "BE",
       "name": "CHU Helora -- site Kennedy (Ambroise Paré)",
       "hospitalGroupKey": "hg_helora",
       "city": "Mons",
@@ -2126,6 +2254,7 @@
     },
     {
       "key": "s_helora_warquignies",
+      "country_iso2": "BE",
       "name": "CHU Helora -- site Warquignies",
       "hospitalGroupKey": "hg_helora",
       "city": "Boussu",
@@ -2139,6 +2268,7 @@
     },
     {
       "key": "s_helora_jolimont",
+      "country_iso2": "BE",
       "name": "CHU Helora -- site Jolimont",
       "hospitalGroupKey": "hg_helora",
       "city": "Haine-Saint-Paul",
@@ -2152,6 +2282,7 @@
     },
     {
       "key": "s_helora_lobbes",
+      "country_iso2": "BE",
       "name": "CHU Helora -- site Lobbes",
       "hospitalGroupKey": "hg_helora",
       "city": "Lobbes",
@@ -2165,6 +2296,7 @@
     },
     {
       "key": "s_chutivoli",
+      "country_iso2": "BE",
       "name": "CHU Tivoli",
       "hospitalGroupKey": "hg_helora",
       "city": "La Louvière",
@@ -2178,6 +2310,7 @@
     },
     {
       "key": "s_chuliege_sarttilman",
+      "country_iso2": "BE",
       "name": "CHU de Liège -- site Sart-Tilman",
       "hospitalGroupKey": "hg_elipse",
       "city": "Liège",
@@ -2191,6 +2324,7 @@
     },
     {
       "key": "s_chuliege_bruyeres",
+      "country_iso2": "BE",
       "name": "CHU de Liège -- site Notre-Dame des Bruyères",
       "hospitalGroupKey": "hg_elipse",
       "city": "Grivegnée",
@@ -2204,6 +2338,7 @@
     },
     {
       "key": "s_chuliege_ourthe",
+      "country_iso2": "BE",
       "name": "CHU de Liège -- site Ourthe-Amblève",
       "hospitalGroupKey": "hg_elipse",
       "city": "Esneux",
@@ -2217,6 +2352,7 @@
     },
     {
       "key": "s_chuliege_andrerenard",
+      "country_iso2": "BE",
       "name": "CHU de Liège -- site André Renard",
       "hospitalGroupKey": "hg_elipse",
       "city": "Herstal",
@@ -2230,6 +2366,7 @@
     },
     {
       "key": "s_citadelle",
+      "country_iso2": "BE",
       "name": "Hôpital de la Citadelle -- site Citadelle",
       "hospitalGroupKey": "hg_elipse",
       "city": "Liège",
@@ -2243,6 +2380,7 @@
     },
     {
       "key": "s_citadelle_herstal",
+      "country_iso2": "BE",
       "name": "Hôpital de la Citadelle -- site Herstal",
       "hospitalGroupKey": "hg_elipse",
       "city": "Herstal",
@@ -2256,6 +2394,7 @@
     },
     {
       "key": "s_chba",
+      "country_iso2": "BE",
       "name": "Centre Hospitalier du Bois de l'Abbaye (CHBA) -- sites Seraing, Waremme",
       "hospitalGroupKey": "hg_elipse",
       "city": "Seraing",
@@ -2269,6 +2408,7 @@
     },
     {
       "key": "s_chrhuy",
+      "country_iso2": "BE",
       "name": "CHR de Huy",
       "hospitalGroupKey": "hg_elipse",
       "city": "Huy",
@@ -2282,6 +2422,7 @@
     },
     {
       "key": "s_chrverviers",
+      "country_iso2": "BE",
       "name": "CHR de Verviers -- sites La Tourelle, Peltzer",
       "hospitalGroupKey": "hg_elipse",
       "city": "Verviers",
@@ -2295,6 +2436,7 @@
     },
     {
       "key": "s_reineastrid_malmedy",
+      "country_iso2": "BE",
       "name": "Centre Hospitalier Reine Astrid",
       "hospitalGroupKey": "hg_elipse",
       "city": "Malmedy",
@@ -2308,6 +2450,7 @@
     },
     {
       "key": "s_andrerenard_clinique",
+      "country_iso2": "BE",
       "name": "Clinique André Renard",
       "hospitalGroupKey": "hg_elipse",
       "city": "Herstal",
@@ -2321,6 +2464,7 @@
     },
     {
       "key": "s_isosl_petitbourgogne",
+      "country_iso2": "BE",
       "name": "ISoSL -- Hôpital psychiatrique du Petit Bourgogne",
       "hospitalGroupKey": "hg_elipse",
       "city": "Liège",
@@ -2334,6 +2478,7 @@
     },
     {
       "key": "s_isosl_agora",
+      "country_iso2": "BE",
       "name": "ISoSL -- Agora 972",
       "hospitalGroupKey": "hg_elipse",
       "city": "Liège",
@@ -2347,6 +2492,7 @@
     },
     {
       "key": "s_isosl_louishillier",
+      "country_iso2": "BE",
       "name": "ISoSL -- Louis Hillier",
       "hospitalGroupKey": "hg_elipse",
       "city": "Liège",
@@ -2360,6 +2506,7 @@
     },
     {
       "key": "s_isosl_accueil",
+      "country_iso2": "BE",
       "name": "ISoSL -- Centre Hospitalier Spécialisé L'Accueil",
       "hospitalGroupKey": "hg_elipse",
       "city": "Lierneux",
@@ -2373,6 +2520,7 @@
     },
     {
       "key": "s_chc_montlegia",
+      "country_iso2": "BE",
       "name": "CHC MontLégia",
       "hospitalGroupKey": "hg_move",
       "city": "Liège",
@@ -2386,6 +2534,7 @@
     },
     {
       "key": "s_chc_hermalle",
+      "country_iso2": "BE",
       "name": "CHC Hermalle",
       "hospitalGroupKey": "hg_move",
       "city": "Oupeye",
@@ -2399,6 +2548,7 @@
     },
     {
       "key": "s_chc_waremme",
+      "country_iso2": "BE",
       "name": "CHC Waremme",
       "hospitalGroupKey": "hg_move",
       "city": "Waremme",
@@ -2412,6 +2562,7 @@
     },
     {
       "key": "s_chc_heusy",
+      "country_iso2": "BE",
       "name": "CHC Heusy",
       "hospitalGroupKey": "hg_move",
       "city": "Verviers",
@@ -2425,6 +2576,7 @@
     },
     {
       "key": "s_chc_moresnet",
+      "country_iso2": "BE",
       "name": "Foyer Horizon CHC Moresnet",
       "hospitalGroupKey": "hg_move",
       "city": "Plombières",
@@ -2438,6 +2590,7 @@
     },
     {
       "key": "s_eupen",
+      "country_iso2": "BE",
       "name": "St. Nikolaus-Hospital Eupen",
       "hospitalGroupKey": "hg_move",
       "city": "Eupen",
@@ -2451,6 +2604,7 @@
     },
     {
       "key": "s_stvith",
+      "country_iso2": "BE",
       "name": "Klinik St. Josef Sankt-Vith",
       "hospitalGroupKey": "hg_move",
       "city": "Sankt-Vith",
@@ -2464,6 +2618,7 @@
     },
     {
       "key": "s_mariecurie",
+      "country_iso2": "BE",
       "name": "Hôpital Civil Marie Curie",
       "hospitalGroupKey": "hg_humani",
       "city": "Lodelinsart",
@@ -2477,6 +2632,7 @@
     },
     {
       "key": "s_andrevesale",
+      "country_iso2": "BE",
       "name": "CHU André Vésale",
       "hospitalGroupKey": "hg_humani",
       "city": "Montigny-le-Tilleul",
@@ -2490,6 +2646,7 @@
     },
     {
       "key": "s_vincentvangogh",
+      "country_iso2": "BE",
       "name": "Hôpital Vincent Van Gogh",
       "hospitalGroupKey": "hg_humani",
       "city": "Marchienne-au-Pont",
@@ -2503,6 +2660,7 @@
     },
     {
       "key": "s_leonardodevinci",
+      "country_iso2": "BE",
       "name": "Hôpital Léonard de Vinci",
       "hospitalGroupKey": "hg_humani",
       "city": "Montigny-le-Tilleul",
@@ -2516,6 +2674,7 @@
     },
     {
       "key": "s_csfchimay",
+      "country_iso2": "BE",
       "name": "Centre de Santé des Fagnes",
       "hospitalGroupKey": "hg_humani",
       "city": "Chimay",
@@ -2529,6 +2688,7 @@
     },
     {
       "key": "s_ghdc_viviers",
+      "country_iso2": "BE",
       "name": "GHdC -- Les Viviers",
       "hospitalGroupKey": "hg_charleroimetropole",
       "city": "Gilly",
@@ -2542,6 +2702,7 @@
     },
     {
       "key": "s_ghdc_notredame",
+      "country_iso2": "BE",
       "name": "GHdC -- site Notre-Dame",
       "hospitalGroupKey": "hg_charleroimetropole",
       "city": "Charleroi",
@@ -2555,6 +2716,7 @@
     },
     {
       "key": "s_cndg",
+      "country_iso2": "BE",
       "name": "Clinique Notre-Dame de Grâce (CNDG)",
       "hospitalGroupKey": "hg_charleroimetropole",
       "city": "Gosselies",
@@ -2568,6 +2730,7 @@
     },
     {
       "key": "s_chrsm_meuse",
+      "country_iso2": "BE",
       "name": "CHR Sambre et Meuse -- site Meuse",
       "hospitalGroupKey": "hg_rhn",
       "city": "Namur",
@@ -2581,6 +2744,7 @@
     },
     {
       "key": "s_chrsm_sambre",
+      "country_iso2": "BE",
       "name": "CHR Sambre et Meuse -- site Sambre (Auvelais)",
       "hospitalGroupKey": "hg_rhn",
       "city": "Auvelais",
@@ -2594,6 +2758,7 @@
     },
     {
       "key": "s_uclnamur_stvincent",
+      "country_iso2": "BE",
       "name": "CHU UCL Namur -- Hôpital de Dinant, site Saint-Vincent",
       "hospitalGroupKey": "hg_rhn",
       "city": "Dinant",
@@ -2607,6 +2772,7 @@
     },
     {
       "key": "s_uclnamur_steanne",
+      "country_iso2": "BE",
       "name": "CHU UCL Namur -- Hôpital de Dinant, site Sainte-Anne",
       "hospitalGroupKey": "hg_rhn",
       "city": "Dinant",
@@ -2620,6 +2786,7 @@
     },
     {
       "key": "s_uclnamur_godinne",
+      "country_iso2": "BE",
       "name": "CHU UCL Namur -- site Godinne",
       "hospitalGroupKey": "hg_rhn",
       "city": "Yvoir",
@@ -2633,6 +2800,7 @@
     },
     {
       "key": "s_uclnamur_steelisabeth",
+      "country_iso2": "BE",
       "name": "CHU UCL Namur -- site Sainte-Elisabeth",
       "hospitalGroupKey": "hg_rhn",
       "city": "Namur",
@@ -2646,6 +2814,7 @@
     },
     {
       "key": "s_saintlucbouge",
+      "country_iso2": "BE",
       "name": "Clinique Saint-Luc Bouge",
       "hospitalGroupKey": "hg_rhn",
       "city": "Namur (Bouge)",
@@ -2659,6 +2828,7 @@
     },
     {
       "key": "s_arlon",
+      "country_iso2": "BE",
       "name": "Hôpital d'Arlon",
       "hospitalGroupKey": "hg_vivalia",
       "city": "Arlon",
@@ -2672,6 +2842,7 @@
     },
     {
       "key": "s_bastogne",
+      "country_iso2": "BE",
       "name": "Hôpital de Bastogne",
       "hospitalGroupKey": "hg_vivalia",
       "city": "Bastogne",
@@ -2685,6 +2856,7 @@
     },
     {
       "key": "s_libramont",
+      "country_iso2": "BE",
       "name": "Hôpital de Libramont",
       "hospitalGroupKey": "hg_vivalia",
       "city": "Libramont",
@@ -2698,6 +2870,7 @@
     },
     {
       "key": "s_marche",
+      "country_iso2": "BE",
       "name": "Hôpital de Marche",
       "hospitalGroupKey": "hg_vivalia",
       "city": "Marche-en-Famenne",
@@ -2711,6 +2884,7 @@
     },
     {
       "key": "s_virton",
+      "country_iso2": "BE",
       "name": "Hôpital de Virton",
       "hospitalGroupKey": "hg_vivalia",
       "city": "Virton",
@@ -2724,6 +2898,7 @@
     },
     {
       "key": "s_bertrix",
+      "country_iso2": "BE",
       "name": "Hôpital psychiatrique de Bertrix",
       "hospitalGroupKey": "hg_vivalia",
       "city": "Bertrix",
@@ -3365,6 +3540,7 @@
   "procurementNotices": [
     {
       "key": "p_sintmariahalle",
+      "country_iso2": "BE",
       "title": "Levering en ondersteuning bij implementatie en onderhoud van een ziekenhuisbreed geïntegreerd EPD",
       "value": 5494035.22,
       "currency": "EUR",
@@ -3378,6 +3554,7 @@
     },
     {
       "key": "p_azwest",
+      "country_iso2": "BE",
       "title": "Oproep tot aanvraag tot deelneming -- elektronisch patiëntendossier (call for participation)",
       "value": null,
       "currency": "EUR",
@@ -3391,6 +3568,7 @@
     },
     {
       "key": "p_opzcrekem",
+      "country_iso2": "BE",
       "title": "Elektronische patiëntendossier: leveren, implementeren en onderhouden",
       "value": 500000,
       "currency": "EUR",
@@ -3404,6 +3582,7 @@
     },
     {
       "key": "p_itg",
+      "country_iso2": "BE",
       "title": "Aanschaf, implementatie en exploitatie van een elektronisch patiëntendossier (EPD)",
       "value": 408760,
       "currency": "EUR",
@@ -3417,6 +3596,7 @@
     },
     {
       "key": "p_azzeno",
+      "country_iso2": "BE",
       "title": "Oproep tot aanvraag tot deelneming -- geïntegreerd patiëntendossier (EPD) across three hospital campuses",
       "value": null,
       "currency": "EUR",
@@ -3430,6 +3610,7 @@
     },
     {
       "key": "p_move",
+      "country_iso2": "BE",
       "title": "Appel à demandes de participation -- Fourniture, implémentation et maintenance d'un DPI intégré (incl. nursing information systems)",
       "value": null,
       "currency": "EUR",
