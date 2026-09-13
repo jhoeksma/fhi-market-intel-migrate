@@ -1,0 +1,1807 @@
+From 4466fe50f6c72ef383ed88cbac370d5ef7e9f946 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sun, 13 Sep 2026 17:26:58 +0000
+Subject: [PATCH 1/2] Admin console: search/filter, friendlier errors, bulk
+ cleanup
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+The admin list pages only offered an "Add new" form with no way to
+search or filter, and any constraint violation (duplicate name, FK
+still referenced) crashed to Next's generic error page instead of
+saying what went wrong. Both made routine data cleanup painful and
+error-prone.
+
+- AdminTableFilter: client-side search + country filter bar, wired
+  into every admin list page (hospital groups/sites, deployments,
+  procurement notices, health authorities). Deployments also gains a
+  derived Country column and inline delete (previously delete-only-
+  via-detail-page).
+- CollapsibleFormCard: the "Add new" form is now collapsed by default
+  so it doesn't read as the page's main action.
+- lib/dbErrors.ts + ErrorBanner: known Postgres constraint violations
+  (unique, FK) are caught and redirected back as a readable banner
+  instead of an opaque "Application error" / digest page.
+- lib/db.ts: add transaction() — query() opens a fresh pooled
+  connection per call, so a bare BEGIN/COMMIT across separate query()
+  calls was never actually atomic.
+- New bulk cleanup action + page (/admin/hospital-groups/bulk-cleanup):
+  delete a batch of hospital groups by exact name, cascading through
+  their sites and deployments in the correct FK order inside one
+  transaction per group. Refuses to touch (and reports separately)
+  any group/site still linked to a contact or procurement notice, so
+  a name-cleanup pass can't silently destroy unrelated evidence.
+---
+ console/app/admin/deployments/page.tsx        | 101 ++-
+ console/app/admin/health-authorities/page.tsx |  29 +-
+ .../hospital-groups/bulk-cleanup/page.tsx     | 141 ++++
+ console/app/admin/hospital-groups/page.tsx    |  37 +-
+ console/app/admin/hospital-sites/page.tsx     |  31 +-
+ .../app/admin/procurement-notices/page.tsx    |  29 +-
+ console/components/AdminForm.tsx              |  44 +-
+ console/components/AdminTableFilter.tsx       |  90 +++
+ console/lib/actions.ts                        | 643 ++++++++++++------
+ console/lib/db.ts                             |  28 +
+ console/lib/dbErrors.ts                       |  53 ++
+ 11 files changed, 953 insertions(+), 273 deletions(-)
+ create mode 100644 console/app/admin/hospital-groups/bulk-cleanup/page.tsx
+ create mode 100644 console/components/AdminTableFilter.tsx
+ create mode 100644 console/lib/dbErrors.ts
+
+diff --git a/console/app/admin/deployments/page.tsx b/console/app/admin/deployments/page.tsx
+index 69e5b36..e813f00 100644
+--- a/console/app/admin/deployments/page.tsx
++++ b/console/app/admin/deployments/page.tsx
+@@ -1,20 +1,23 @@
+ import Link from "next/link";
+-import { getHospitalGroups, getHospitalSites, getSuppliers } from "@/lib/refdata";
++import { getCountries, getHospitalGroups, getHospitalSites, getSuppliers } from "@/lib/refdata";
+ import { query } from "@/lib/db";
+-import { createDeployment } from "@/lib/actions";
++import { createDeployment, deleteDeployment } from "@/lib/actions";
+ import {
+   Field,
+   TextInput,
+   TextArea,
+   Select,
+   SubmitButton,
+-  FormCard,
++  CollapsibleFormCard,
+   FormGrid,
+   PageHeader,
+   Table,
++  DeleteButton,
++  ErrorBanner,
+   th,
+   td,
+ } from "@/components/AdminForm";
++import { AdminTableFilter } from "@/components/AdminTableFilter";
+ 
+ export const dynamic = "force-dynamic";
+ 
+@@ -65,8 +68,12 @@ function CategoryBadges({ categories }: { categories: DeploymentCategory[] }) {
+   );
+ }
+ 
+-export default async function DeploymentsPage() {
+-  const [deployments, sites, groups, suppliers] = await Promise.all([
++export default async function DeploymentsPage({
++  searchParams,
++}: {
++  searchParams?: { error?: string };
++}) {
++  const [deployments, sites, groups, suppliers, countries] = await Promise.all([
+     query<DeploymentRow>(`
+       SELECT d.id, d.hospital_site_id, d.hospital_group_id, s.name AS supplier_name, p.name AS product_name,
+              d.status,
+@@ -88,9 +95,13 @@ export default async function DeploymentsPage() {
+     getHospitalSites(),
+     getHospitalGroups(),
+     getSuppliers(),
++    getCountries(),
+   ]);
+   const siteName = Object.fromEntries(sites.map((s) => [s.id, s.name]));
+   const groupName = Object.fromEntries(groups.map((g) => [g.id, g.name]));
++  const siteCountry = Object.fromEntries(sites.map((s) => [s.id, s.country_id]));
++  const groupCountry = Object.fromEntries(groups.map((g) => [g.id, g.country_id]));
++  const countryName = Object.fromEntries(countries.map((c) => [c.id, c.name]));
+ 
+   return (
+     <div>
+@@ -98,8 +109,9 @@ export default async function DeploymentsPage() {
+         title="Deployments"
+         subtitle="One row per contract/engagement — never per category. Once a wall-to-wall EHR is confirmed, log it here once, then mark its category coverage on the deployment's own page."
+       />
++      <ErrorBanner message={searchParams?.error} />
+ 
+-      <FormCard>
++      <CollapsibleFormCard title="+ Add a new deployment">
+         <form action={createDeployment} className="space-y-4">
+           <FormGrid>
+             <Field label="Hospital site" hint="A deployment needs a site or a group (at least one)">
+@@ -172,13 +184,19 @@ export default async function DeploymentsPage() {
+           </Field>
+           <SubmitButton>Add deployment</SubmitButton>
+         </form>
+-      </FormCard>
++      </CollapsibleFormCard>
+ 
+       <div className="mt-8">
+-        <Table>
++        <AdminTableFilter
++          tableId="deployments-table"
++          countries={countries}
++          searchPlaceholder="Search by site, group, supplier or product…"
++        />
++        <Table id="deployments-table">
+           <thead>
+             <tr>
+               <th className={th}>Site / group</th>
++              <th className={th}>Country</th>
+               <th className={th}>Supplier</th>
+               <th className={th}>Product</th>
+               <th className={th}>Status</th>
+@@ -187,31 +205,52 @@ export default async function DeploymentsPage() {
+             </tr>
+           </thead>
+           <tbody>
+-            {deployments.map((d) => (
+-              <tr key={d.id} className="hover:bg-slate-50">
+-                <td className={td}>
+-                  {d.hospital_site_id
+-                    ? siteName[d.hospital_site_id] ?? `Site #${d.hospital_site_id}`
+-                    : d.hospital_group_id
+-                    ? groupName[d.hospital_group_id] ?? `Group #${d.hospital_group_id}`
+-                    : "—"}
+-                </td>
+-                <td className={td}>{d.supplier_name ?? <span className="text-slate-300">—</span>}</td>
+-                <td className={td}>{d.product_name ?? <span className="text-slate-300">—</span>}</td>
+-                <td className={td}>{d.status}</td>
+-                <td className={td}>
+-                  <CategoryBadges categories={d.categories} />
+-                </td>
+-                <td className={`${td} text-right`}>
+-                  <Link href={`/admin/deployments/${d.id}`} className="text-xs font-medium text-fhi-blue hover:underline">
+-                    Open
+-                  </Link>
+-                </td>
+-              </tr>
+-            ))}
++            {deployments.map((d) => {
++              const rowCountryId = d.hospital_site_id
++                ? siteCountry[d.hospital_site_id]
++                : d.hospital_group_id
++                ? groupCountry[d.hospital_group_id]
++                : null;
++              const rowName = d.hospital_site_id
++                ? siteName[d.hospital_site_id] ?? `Site #${d.hospital_site_id}`
++                : d.hospital_group_id
++                ? groupName[d.hospital_group_id] ?? `Group #${d.hospital_group_id}`
++                : "—";
++              return (
++                <tr
++                  key={d.id}
++                  className="hover:bg-slate-50"
++                  data-row-search={`${rowName} ${d.supplier_name ?? ""} ${d.product_name ?? ""} ${
++                    rowCountryId ? countryName[rowCountryId] ?? "" : ""
++                  }`.toLowerCase()}
++                  data-row-country={rowCountryId ?? ""}
++                >
++                  <td className={td}>{rowName}</td>
++                  <td className={td}>
++                    {rowCountryId ? countryName[rowCountryId] ?? rowCountryId : (
++                      <span className="text-slate-300">—</span>
++                    )}
++                  </td>
++                  <td className={td}>{d.supplier_name ?? <span className="text-slate-300">—</span>}</td>
++                  <td className={td}>{d.product_name ?? <span className="text-slate-300">—</span>}</td>
++                  <td className={td}>{d.status}</td>
++                  <td className={td}>
++                    <CategoryBadges categories={d.categories} />
++                  </td>
++                  <td className={`${td} text-right`}>
++                    <div className="flex justify-end gap-3">
++                      <Link href={`/admin/deployments/${d.id}`} className="text-xs font-medium text-fhi-blue hover:underline">
++                        Open
++                      </Link>
++                      <DeleteButton action={deleteDeployment.bind(null, d.id)} />
++                    </div>
++                  </td>
++                </tr>
++              );
++            })}
+             {deployments.length === 0 && (
+               <tr>
+-                <td className={td} colSpan={6}>
++                <td className={td} colSpan={7}>
+                   No deployments logged yet.
+                 </td>
+               </tr>
+diff --git a/console/app/admin/health-authorities/page.tsx b/console/app/admin/health-authorities/page.tsx
+index ff3e2cc..bc2b12e 100644
+--- a/console/app/admin/health-authorities/page.tsx
++++ b/console/app/admin/health-authorities/page.tsx
+@@ -7,18 +7,24 @@ import {
+   TextArea,
+   Select,
+   SubmitButton,
+-  FormCard,
++  CollapsibleFormCard,
+   FormGrid,
+   PageHeader,
+   Table,
+   DeleteButton,
++  ErrorBanner,
+   th,
+   td,
+ } from "@/components/AdminForm";
++import { AdminTableFilter } from "@/components/AdminTableFilter";
+ 
+ export const dynamic = "force-dynamic";
+ 
+-export default async function HealthAuthoritiesPage() {
++export default async function HealthAuthoritiesPage({
++  searchParams,
++}: {
++  searchParams?: { error?: string };
++}) {
+   const [authorities, countries, sources] = await Promise.all([
+     getHealthAuthorities(),
+     getCountries(),
+@@ -32,8 +38,9 @@ export default async function HealthAuthoritiesPage() {
+         title="Health authorities"
+         subtitle="National, regional or local bodies (e.g. HSE in Ireland) that hospital sites and contacts can be linked to."
+       />
++      <ErrorBanner message={searchParams?.error} />
+ 
+-      <FormCard>
++      <CollapsibleFormCard title="+ Add a new health authority">
+         <form action={createHealthAuthority} className="space-y-4">
+           <FormGrid>
+             <Field label="Country" required>
+@@ -75,10 +82,15 @@ export default async function HealthAuthoritiesPage() {
+           </Field>
+           <SubmitButton>Add health authority</SubmitButton>
+         </form>
+-      </FormCard>
++      </CollapsibleFormCard>
+ 
+       <div className="mt-8">
+-        <Table>
++        <AdminTableFilter
++          tableId="health-authorities-table"
++          countries={countries}
++          searchPlaceholder="Search by name…"
++        />
++        <Table id="health-authorities-table">
+           <thead>
+             <tr>
+               <th className={th}>Name</th>
+@@ -89,7 +101,12 @@ export default async function HealthAuthoritiesPage() {
+           </thead>
+           <tbody>
+             {authorities.map((a) => (
+-              <tr key={a.id} className="hover:bg-slate-50">
++              <tr
++                key={a.id}
++                className="hover:bg-slate-50"
++                data-row-search={`${a.name} ${countryName[a.country_id] ?? ""} ${a.level ?? ""}`.toLowerCase()}
++                data-row-country={a.country_id}
++              >
+                 <td className={td}>{a.name}</td>
+                 <td className={td}>{countryName[a.country_id] ?? a.country_id}</td>
+                 <td className={td}>{a.level ?? <span className="text-slate-300">—</span>}</td>
+diff --git a/console/app/admin/hospital-groups/bulk-cleanup/page.tsx b/console/app/admin/hospital-groups/bulk-cleanup/page.tsx
+new file mode 100644
+index 0000000..850c208
+--- /dev/null
++++ b/console/app/admin/hospital-groups/bulk-cleanup/page.tsx
+@@ -0,0 +1,141 @@
++import Link from "next/link";
++import { getCountries } from "@/lib/refdata";
++import { bulkCleanupHospitalGroups } from "@/lib/actions";
++import {
++  Field,
++  TextArea,
++  Select,
++  SubmitButton,
++  FormCard,
++  FormGrid,
++  PageHeader,
++  ErrorBanner,
++} from "@/components/AdminForm";
++
++export const dynamic = "force-dynamic";
++
++function ResultSummary({
++  deleted,
++  sites,
++  deployments,
++  notFound,
++  skipped,
++}: {
++  deleted: string;
++  sites: string;
++  deployments: string;
++  notFound?: string;
++  skipped?: string;
++}) {
++  const notFoundNames = notFound ? notFound.split(" | ") : [];
++  const skippedRows = skipped ? skipped.split(" | ") : [];
++  return (
++    <div className="mb-8 space-y-4">
++      <div className="rounded-lg border border-status-confirmed/30 bg-status-confirmed/10 p-4 text-sm text-fhi-ink">
++        <p className="font-medium text-status-confirmed">Done.</p>
++        <p className="mt-1">
++          Deleted <b className="tabular-nums">{deleted}</b> hospital group{deleted === "1" ? "" : "s"}, along with{" "}
++          <b className="tabular-nums">{sites}</b> hospital site{sites === "1" ? "" : "s"} and{" "}
++          <b className="tabular-nums">{deployments}</b> deployment{deployments === "1" ? "" : "s"} under them.
++        </p>
++      </div>
++      {notFoundNames.length > 0 && (
++        <div className="rounded-lg border border-slate-200 bg-white p-4 text-sm">
++          <p className="font-medium text-fhi-ink">
++            Not found ({notFoundNames.length}) — already gone, or the name didn&apos;t match exactly:
++          </p>
++          <ul className="mt-2 list-disc space-y-0.5 pl-5 text-fhi-slate">
++            {notFoundNames.map((n) => (
++              <li key={n}>{n}</li>
++            ))}
++          </ul>
++        </div>
++      )}
++      {skippedRows.length > 0 && (
++        <div className="rounded-lg border border-status-carveout/30 bg-status-carveout/10 p-4 text-sm">
++          <p className="font-medium text-status-carveout">
++            Skipped ({skippedRows.length}) — left untouched, needs a look:
++          </p>
++          <ul className="mt-2 list-disc space-y-0.5 pl-5 text-fhi-ink">
++            {skippedRows.map((row) => (
++              <li key={row}>{row}</li>
++            ))}
++          </ul>
++        </div>
++      )}
++    </div>
++  );
++}
++
++export default async function BulkCleanupPage({
++  searchParams,
++}: {
++  searchParams?: {
++    error?: string;
++    deleted?: string;
++    sites?: string;
++    deployments?: string;
++    notFound?: string;
++    skipped?: string;
++  };
++}) {
++  const countries = await getCountries();
++  const hasResult = searchParams?.deleted !== undefined;
++
++  return (
++    <div>
++      <PageHeader
++        title="Bulk cleanup"
++        subtitle="Delete a batch of hospital groups by exact name — along with their hospital sites and deployments — in the right order, in one go."
++        action={
++          <Link href="/admin/hospital-groups" className="text-xs font-medium text-fhi-blue hover:underline">
++            ← Back to hospital groups
++          </Link>
++        }
++      />
++      <ErrorBanner message={searchParams?.error} />
++
++      {hasResult && (
++        <ResultSummary
++          deleted={searchParams!.deleted!}
++          sites={searchParams?.sites ?? "0"}
++          deployments={searchParams?.deployments ?? "0"}
++          notFound={searchParams?.notFound}
++          skipped={searchParams?.skipped}
++        />
++      )}
++
++      <FormCard>
++        <form action={bulkCleanupHospitalGroups} className="space-y-4">
++          <FormGrid>
++            <Field label="Country" required>
++              <Select name="country_id" required defaultValue="">
++                <option value="" disabled>
++                  Select a country
++                </option>
++                {countries.map((c) => (
++                  <option key={c.id} value={c.id}>
++                    {c.name}
++                  </option>
++                ))}
++              </Select>
++            </Field>
++          </FormGrid>
++          <Field
++            label="Hospital group names"
++            required
++            hint="One exact name per line — must match the existing record's name exactly (case-insensitive). Copy them straight from wherever you have the list."
++          >
++            <TextArea name="names" rows={14} placeholder={"Centrum Onkologii -- Instytut im. Marii Sklodowskiej-Curie, Oddzial w Gliwicach\nEMC Instytut Medyczny\nGrupa LUX MED\n…"} required />
++          </Field>
++          <div className="rounded-md border border-status-unconfirmed/30 bg-status-unconfirmed/10 px-4 py-3 text-sm text-fhi-ink">
++            For each name: deletes the group, every hospital site under it, and every deployment on that group or
++            those sites. Skips (doesn&apos;t touch) any group or site that still has a contact or procurement notice
++            attached, and reports those separately. This can&apos;t be undone.
++          </div>
++          <SubmitButton>Delete these groups</SubmitButton>
++        </form>
++      </FormCard>
++    </div>
++  );
++}
+diff --git a/console/app/admin/hospital-groups/page.tsx b/console/app/admin/hospital-groups/page.tsx
+index 641633a..d250b16 100644
+--- a/console/app/admin/hospital-groups/page.tsx
++++ b/console/app/admin/hospital-groups/page.tsx
+@@ -7,18 +7,24 @@ import {
+   TextArea,
+   Select,
+   SubmitButton,
+-  FormCard,
++  CollapsibleFormCard,
+   FormGrid,
+   PageHeader,
+   Table,
+   DeleteButton,
++  ErrorBanner,
+   th,
+   td,
+ } from "@/components/AdminForm";
++import { AdminTableFilter } from "@/components/AdminTableFilter";
+ 
+ export const dynamic = "force-dynamic";
+ 
+-export default async function HospitalGroupsPage() {
++export default async function HospitalGroupsPage({
++  searchParams,
++}: {
++  searchParams?: { error?: string };
++}) {
+   const [groups, countries] = await Promise.all([getHospitalGroups(), getCountries()]);
+   const countryName = Object.fromEntries(countries.map((c) => [c.id, c.name]));
+ 
+@@ -27,9 +33,18 @@ export default async function HospitalGroupsPage() {
+       <PageHeader
+         title="Hospital groups"
+         subtitle="Multi-site operators (e.g. an HSE hospital group, a private chain). A group can host deployments, procurement notices and contacts directly, even before its individual sites are entered."
++        action={
++          <Link
++            href="/admin/hospital-groups/bulk-cleanup"
++            className="whitespace-nowrap text-xs font-medium text-fhi-blue hover:underline"
++          >
++            Bulk cleanup →
++          </Link>
++        }
+       />
++      <ErrorBanner message={searchParams?.error} />
+ 
+-      <FormCard>
++      <CollapsibleFormCard title="+ Add a new hospital group">
+         <form action={createHospitalGroup} className="space-y-4">
+           <FormGrid>
+             <Field label="Country" required>
+@@ -61,10 +76,15 @@ export default async function HospitalGroupsPage() {
+           </Field>
+           <SubmitButton>Add hospital group</SubmitButton>
+         </form>
+-      </FormCard>
++      </CollapsibleFormCard>
+ 
+       <div className="mt-8">
+-        <Table>
++        <AdminTableFilter
++          tableId="hospital-groups-table"
++          countries={countries}
++          searchPlaceholder="Search by name…"
++        />
++        <Table id="hospital-groups-table">
+           <thead>
+             <tr>
+               <th className={th}>Name</th>
+@@ -75,7 +95,12 @@ export default async function HospitalGroupsPage() {
+           </thead>
+           <tbody>
+             {groups.map((g) => (
+-              <tr key={g.id} className="hover:bg-slate-50">
++              <tr
++                key={g.id}
++                className="hover:bg-slate-50"
++                data-row-search={`${g.name} ${countryName[g.country_id] ?? ""} ${g.ownership_type ?? ""}`.toLowerCase()}
++                data-row-country={g.country_id}
++              >
+                 <td className={td}>{g.name}</td>
+                 <td className={td}>{countryName[g.country_id] ?? g.country_id}</td>
+                 <td className={td}>{g.ownership_type ?? <span className="text-slate-300">—</span>}</td>
+diff --git a/console/app/admin/hospital-sites/page.tsx b/console/app/admin/hospital-sites/page.tsx
+index 7f34951..d07de27 100644
+--- a/console/app/admin/hospital-sites/page.tsx
++++ b/console/app/admin/hospital-sites/page.tsx
+@@ -7,18 +7,24 @@ import {
+   TextArea,
+   Select,
+   SubmitButton,
+-  FormCard,
++  CollapsibleFormCard,
+   FormGrid,
+   PageHeader,
+   Table,
+   DeleteButton,
++  ErrorBanner,
+   th,
+   td,
+ } from "@/components/AdminForm";
++import { AdminTableFilter } from "@/components/AdminTableFilter";
+ 
+ export const dynamic = "force-dynamic";
+ 
+-export default async function HospitalSitesPage() {
++export default async function HospitalSitesPage({
++  searchParams,
++}: {
++  searchParams?: { error?: string };
++}) {
+   const [sites, countries, groups, authorities] = await Promise.all([
+     getHospitalSites(),
+     getCountries(),
+@@ -34,8 +40,9 @@ export default async function HospitalSitesPage() {
+         title="Hospital sites"
+         subtitle="Individual hospital sites. Link to a hospital group and/or health authority where known."
+       />
++      <ErrorBanner message={searchParams?.error} />
+ 
+-      <FormCard>
++      <CollapsibleFormCard title="+ Add a new hospital site">
+         <form action={createHospitalSite} className="space-y-4">
+           <FormGrid>
+             <Field label="Country" required>
+@@ -102,10 +109,15 @@ export default async function HospitalSitesPage() {
+           </Field>
+           <SubmitButton>Add hospital site</SubmitButton>
+         </form>
+-      </FormCard>
++      </CollapsibleFormCard>
+ 
+       <div className="mt-8">
+-        <Table>
++        <AdminTableFilter
++          tableId="hospital-sites-table"
++          countries={countries}
++          searchPlaceholder="Search by name, city or postcode…"
++        />
++        <Table id="hospital-sites-table">
+           <thead>
+             <tr>
+               <th className={th}>Name</th>
+@@ -119,7 +131,14 @@ export default async function HospitalSitesPage() {
+           </thead>
+           <tbody>
+             {sites.map((s) => (
+-              <tr key={s.id} className="hover:bg-slate-50">
++              <tr
++                key={s.id}
++                className="hover:bg-slate-50"
++                data-row-search={`${s.name} ${countryName[s.country_id] ?? ""} ${
++                  s.hospital_group_id ? groupName[s.hospital_group_id] ?? "" : ""
++                } ${s.city ?? ""} ${s.postcode ?? ""}`.toLowerCase()}
++                data-row-country={s.country_id}
++              >
+                 <td className={td}>{s.name}</td>
+                 <td className={td}>{countryName[s.country_id] ?? s.country_id}</td>
+                 <td className={td}>
+diff --git a/console/app/admin/procurement-notices/page.tsx b/console/app/admin/procurement-notices/page.tsx
+index e5b3760..37cd80e 100644
+--- a/console/app/admin/procurement-notices/page.tsx
++++ b/console/app/admin/procurement-notices/page.tsx
+@@ -17,14 +17,16 @@ import {
+   Select,
+   Checkbox,
+   SubmitButton,
+-  FormCard,
++  CollapsibleFormCard,
+   FormGrid,
+   PageHeader,
+   Table,
+   DeleteButton,
++  ErrorBanner,
+   th,
+   td,
+ } from "@/components/AdminForm";
++import { AdminTableFilter } from "@/components/AdminTableFilter";
+ 
+ export const dynamic = "force-dynamic";
+ 
+@@ -40,7 +42,11 @@ interface NoticeRow {
+   award_date: string | null;
+ }
+ 
+-export default async function ProcurementNoticesPage() {
++export default async function ProcurementNoticesPage({
++  searchParams,
++}: {
++  searchParams?: { error?: string };
++}) {
+   const [notices, countries, groups, sites, authorities, suppliers, sources] = await Promise.all([
+     query<NoticeRow>(
+       `SELECT id, country_id, title, portal, status, awarded_value, estimated_value, currency,
+@@ -73,8 +79,9 @@ export default async function ProcurementNoticesPage() {
+         title="Procurement notices"
+         subtitle="TED / national portal awards — evidence tier 2, the richest and most reliable spend/date source. Run the procurement sweep before the deployment pass."
+       />
++      <ErrorBanner message={searchParams?.error} />
+ 
+-      <FormCard>
++      <CollapsibleFormCard title="+ Add a new procurement notice">
+         <form action={createProcurementNotice} className="space-y-4">
+           <FormGrid>
+             <Field label="Country" required>
+@@ -186,10 +193,15 @@ export default async function ProcurementNoticesPage() {
+           <Checkbox name="is_framework" label="Framework agreement" />
+           <SubmitButton>Add procurement notice</SubmitButton>
+         </form>
+-      </FormCard>
++      </CollapsibleFormCard>
+ 
+       <div className="mt-8">
+-        <Table>
++        <AdminTableFilter
++          tableId="procurement-notices-table"
++          countries={countries}
++          searchPlaceholder="Search by title or portal…"
++        />
++        <Table id="procurement-notices-table">
+           <thead>
+             <tr>
+               <th className={th}>Title</th>
+@@ -203,7 +215,12 @@ export default async function ProcurementNoticesPage() {
+           </thead>
+           <tbody>
+             {notices.map((n) => (
+-              <tr key={n.id} className="hover:bg-slate-50">
++              <tr
++                key={n.id}
++                className="hover:bg-slate-50"
++                data-row-search={`${n.title ?? ""} ${n.portal ?? ""} ${countryName[n.country_id] ?? ""} ${n.status}`.toLowerCase()}
++                data-row-country={n.country_id}
++              >
+                 <td className={td}>{n.title ?? <span className="text-slate-300">—</span>}</td>
+                 <td className={td}>{countryName[n.country_id] ?? n.country_id}</td>
+                 <td className={td}>{n.portal ?? <span className="text-slate-300">—</span>}</td>
+diff --git a/console/components/AdminForm.tsx b/console/components/AdminForm.tsx
+index 6acdf82..14256b2 100644
+--- a/console/components/AdminForm.tsx
++++ b/console/components/AdminForm.tsx
+@@ -104,6 +104,46 @@ export function FormCard({ children }: { children: ReactNode }) {
+   );
+ }
+ 
++// Collapsed by default so the "add new" form doesn't read as the page's
++// main action — the table below (with search) is what most visits are for.
++// <details>/<summary> needs no client JS for the open/close behaviour.
++export function CollapsibleFormCard({
++  title,
++  children,
++}: {
++  title: string;
++  children: ReactNode;
++}) {
++  return (
++    <details className="group rounded-lg border border-slate-200 bg-white shadow-sm">
++      <summary className="flex list-none items-center gap-2 px-6 py-4 text-sm font-medium text-fhi-blue [&::-webkit-details-marker]:hidden cursor-pointer select-none">
++        <svg
++          viewBox="0 0 8 8"
++          className="h-2.5 w-2.5 shrink-0 fill-current transition-transform group-open:rotate-90"
++          aria-hidden="true"
++        >
++          <path d="M1 0l6 4-6 4V0z" />
++        </svg>
++        {title}
++      </summary>
++      <div className="border-t border-slate-100 p-6">{children}</div>
++    </details>
++  );
++}
++
++// Shown when a create/update/delete redirected back here with ?error=...
++// (see lib/dbErrors.ts) instead of crashing to Next's generic error page.
++export function ErrorBanner({ message }: { message?: string | string[] }) {
++  const text = Array.isArray(message) ? message[0] : message;
++  if (!text) return null;
++  return (
++    <div className="mb-6 flex items-start gap-2 rounded-md border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
++      <span aria-hidden="true">⚠</span>
++      <span>{text}</span>
++    </div>
++  );
++}
++
+ export function PageHeader({ title, subtitle, action }: { title: string; subtitle?: string; action?: ReactNode }) {
+   return (
+     <div className="mb-6 flex items-start justify-between gap-4">
+@@ -116,9 +156,9 @@ export function PageHeader({ title, subtitle, action }: { title: string; subtitl
+   );
+ }
+ 
+-export function Table({ children }: { children: ReactNode }) {
++export function Table({ children, id }: { children: ReactNode; id?: string }) {
+   return (
+-    <div className="overflow-x-auto rounded-lg border border-slate-200 bg-white">
++    <div id={id} className="overflow-x-auto rounded-lg border border-slate-200 bg-white">
+       <table className="w-full text-sm">{children}</table>
+     </div>
+   );
+diff --git a/console/components/AdminTableFilter.tsx b/console/components/AdminTableFilter.tsx
+new file mode 100644
+index 0000000..dfddb39
+--- /dev/null
++++ b/console/components/AdminTableFilter.tsx
+@@ -0,0 +1,90 @@
++"use client";
++
++import { useEffect, useState } from "react";
++
++// Client-side search + country filter bar for an admin list table.
++//
++// Deliberately DOM-based rather than array-based: it never receives the
++// row data itself (which would mean passing render functions across the
++// server/client boundary — not serializable, and every list page has its
++// own row shape anyway). Instead each <tr> in the table below carries
++// data-row-search / data-row-country attributes, and this component just
++// toggles `hidden` on rows that don't match. That keeps every list page's
++// existing server-rendered table (with its bound server actions) exactly
++// as it was — this only adds a bit of markup and one small client island.
++export function AdminTableFilter({
++  tableId,
++  countries,
++  searchPlaceholder = "Search by name…",
++}: {
++  tableId: string;
++  countries?: { id: number; name: string }[];
++  searchPlaceholder?: string;
++}) {
++  const [q, setQ] = useState("");
++  const [countryId, setCountryId] = useState("");
++  const [counts, setCounts] = useState<{ shown: number; total: number } | null>(null);
++
++  useEffect(() => {
++    const table = document.getElementById(tableId);
++    if (!table) return;
++    const rows = table.querySelectorAll<HTMLElement>("[data-row-search]");
++    const needle = q.trim().toLowerCase();
++    let shown = 0;
++    rows.forEach((row) => {
++      const text = row.dataset.rowSearch ?? "";
++      const country = row.dataset.rowCountry ?? "";
++      const match = (!needle || text.includes(needle)) && (!countryId || country === countryId);
++      row.hidden = !match;
++      if (match) shown++;
++    });
++    setCounts({ shown, total: rows.length });
++  }, [q, countryId, tableId]);
++
++  const hasFilter = q.length > 0 || countryId.length > 0;
++
++  return (
++    <div className="mb-3 flex flex-wrap items-center gap-3">
++      <input
++        type="search"
++        value={q}
++        onChange={(e) => setQ(e.target.value)}
++        placeholder={searchPlaceholder}
++        aria-label="Search this table"
++        className="w-full max-w-xs rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-fhi-ink placeholder:text-slate-400 focus:border-fhi-blue focus:outline-none focus:ring-1 focus:ring-fhi-blue"
++      />
++      {countries && countries.length > 0 && (
++        <select
++          value={countryId}
++          onChange={(e) => setCountryId(e.target.value)}
++          aria-label="Filter by country"
++          className="rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-fhi-ink focus:border-fhi-blue focus:outline-none focus:ring-1 focus:ring-fhi-blue"
++        >
++          <option value="">All countries</option>
++          {countries.map((c) => (
++            <option key={c.id} value={c.id}>
++              {c.name}
++            </option>
++          ))}
++        </select>
++      )}
++      {hasFilter && (
++        <button
++          type="button"
++          onClick={() => {
++            setQ("");
++            setCountryId("");
++          }}
++          className="text-xs font-medium text-fhi-slate hover:text-fhi-ink hover:underline"
++        >
++          Clear
++        </button>
++      )}
++      {counts && (
++        <span className="text-xs text-fhi-slate tabular-nums">
++          {hasFilter ? `${counts.shown} of ${counts.total} shown` : `${counts.total} total`}
++        </span>
++      )}
++    </div>
++  );
++}
+diff --git a/console/lib/actions.ts b/console/lib/actions.ts
+index c5b7f6d..03c585b 100644
+--- a/console/lib/actions.ts
++++ b/console/lib/actions.ts
+@@ -1,9 +1,26 @@
+ "use server";
+ 
+-import { query } from "./db";
++import { query, transaction } from "./db";
+ import { revalidatePath } from "next/cache";
+ import { redirect } from "next/navigation";
+ import { str, num, int, bool, csvArray } from "./formutil";
++import { friendlyDbError } from "./dbErrors";
++
++// Runs a mutation and, if Postgres rejects it with a constraint violation
++// we know how to explain (see lib/dbErrors.ts), redirects back to
++// `errorRedirectPath` with `?error=<message>` instead of letting the raw
++// error bubble up to Next's generic "Application error" page. Any other
++// kind of failure still throws normally — we only intercept the cases we
++// can turn into something actionable.
++async function runOrRedirectOnError(fn: () => Promise<unknown>, errorRedirectPath: string): Promise<void> {
++  try {
++    await fn();
++  } catch (err) {
++    const message = friendlyDbError(err);
++    if (!message) throw err;
++    redirect(`${errorRedirectPath}?error=${encodeURIComponent(message)}`);
++  }
++}
+ 
+ // ---------------------------------------------------------------------
+ // source
+@@ -12,17 +29,21 @@ import { str, num, int, bool, csvArray } from "./formutil";
+ export async function createSource(formData: FormData) {
+   const tier = int(formData, "tier");
+   if (tier === null) throw new Error("Evidence tier is required");
+-  await query(
+-    `INSERT INTO source (url, tier, publisher, title, date_accessed, notes)
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `INSERT INTO source (url, tier, publisher, title, date_accessed, notes)
+      VALUES ($1,$2,$3,$4,$5,$6)`,
+-    [
+-      str(formData, "url"),
+-      tier,
+-      str(formData, "publisher"),
+-      str(formData, "title"),
+-      str(formData, "date_accessed"),
+-      str(formData, "notes"),
+-    ]
++        [
++          str(formData, "url"),
++          tier,
++          str(formData, "publisher"),
++          str(formData, "title"),
++          str(formData, "date_accessed"),
++          str(formData, "notes"),
++        ]
++      ),
++    "/admin/sources"
+   );
+   revalidatePath("/admin/sources");
+   redirect("/admin/sources");
+@@ -31,24 +52,28 @@ export async function createSource(formData: FormData) {
+ export async function updateSource(id: number, formData: FormData) {
+   const tier = int(formData, "tier");
+   if (tier === null) throw new Error("Evidence tier is required");
+-  await query(
+-    `UPDATE source SET url=$1, tier=$2, publisher=$3, title=$4, date_accessed=$5, notes=$6 WHERE id=$7`,
+-    [
+-      str(formData, "url"),
+-      tier,
+-      str(formData, "publisher"),
+-      str(formData, "title"),
+-      str(formData, "date_accessed"),
+-      str(formData, "notes"),
+-      id,
+-    ]
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `UPDATE source SET url=$1, tier=$2, publisher=$3, title=$4, date_accessed=$5, notes=$6 WHERE id=$7`,
++        [
++          str(formData, "url"),
++          tier,
++          str(formData, "publisher"),
++          str(formData, "title"),
++          str(formData, "date_accessed"),
++          str(formData, "notes"),
++          id,
++        ]
++      ),
++    "/admin/sources"
+   );
+   revalidatePath("/admin/sources");
+   redirect("/admin/sources");
+ }
+ 
+ export async function deleteSource(id: number) {
+-  await query(`DELETE FROM source WHERE id=$1`, [id]);
++  await runOrRedirectOnError(() => query(`DELETE FROM source WHERE id=$1`, [id]), "/admin/sources");
+   revalidatePath("/admin/sources");
+   redirect("/admin/sources");
+ }
+@@ -61,10 +86,14 @@ export async function createHealthAuthority(formData: FormData) {
+   const country_id = int(formData, "country_id");
+   const name = str(formData, "name");
+   if (country_id === null || !name) throw new Error("Country and name are required");
+-  await query(
+-    `INSERT INTO health_authority (country_id, name, level, description, source_id)
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `INSERT INTO health_authority (country_id, name, level, description, source_id)
+      VALUES ($1,$2,$3,$4,$5)`,
+-    [country_id, name, str(formData, "level"), str(formData, "description"), int(formData, "source_id")]
++        [country_id, name, str(formData, "level"), str(formData, "description"), int(formData, "source_id")]
++      ),
++    "/admin/health-authorities"
+   );
+   revalidatePath("/admin/health-authorities");
+   redirect("/admin/health-authorities");
+@@ -74,16 +103,23 @@ export async function updateHealthAuthority(id: number, formData: FormData) {
+   const country_id = int(formData, "country_id");
+   const name = str(formData, "name");
+   if (country_id === null || !name) throw new Error("Country and name are required");
+-  await query(
+-    `UPDATE health_authority SET country_id=$1, name=$2, level=$3, description=$4, source_id=$5 WHERE id=$6`,
+-    [country_id, name, str(formData, "level"), str(formData, "description"), int(formData, "source_id"), id]
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `UPDATE health_authority SET country_id=$1, name=$2, level=$3, description=$4, source_id=$5 WHERE id=$6`,
++        [country_id, name, str(formData, "level"), str(formData, "description"), int(formData, "source_id"), id]
++      ),
++    "/admin/health-authorities"
+   );
+   revalidatePath("/admin/health-authorities");
+   redirect("/admin/health-authorities");
+ }
+ 
+ export async function deleteHealthAuthority(id: number) {
+-  await query(`DELETE FROM health_authority WHERE id=$1`, [id]);
++  await runOrRedirectOnError(
++    () => query(`DELETE FROM health_authority WHERE id=$1`, [id]),
++    "/admin/health-authorities"
++  );
+   revalidatePath("/admin/health-authorities");
+   redirect("/admin/health-authorities");
+ }
+@@ -96,9 +132,13 @@ export async function createHospitalGroup(formData: FormData) {
+   const country_id = int(formData, "country_id");
+   const name = str(formData, "name");
+   if (country_id === null || !name) throw new Error("Country and name are required");
+-  await query(
+-    `INSERT INTO hospital_group (country_id, name, ownership_type, notes) VALUES ($1,$2,$3,$4)`,
+-    [country_id, name, str(formData, "ownership_type"), str(formData, "notes")]
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `INSERT INTO hospital_group (country_id, name, ownership_type, notes) VALUES ($1,$2,$3,$4)`,
++        [country_id, name, str(formData, "ownership_type"), str(formData, "notes")]
++      ),
++    "/admin/hospital-groups"
+   );
+   revalidatePath("/admin/hospital-groups");
+   redirect("/admin/hospital-groups");
+@@ -108,16 +148,23 @@ export async function updateHospitalGroup(id: number, formData: FormData) {
+   const country_id = int(formData, "country_id");
+   const name = str(formData, "name");
+   if (country_id === null || !name) throw new Error("Country and name are required");
+-  await query(
+-    `UPDATE hospital_group SET country_id=$1, name=$2, ownership_type=$3, notes=$4 WHERE id=$5`,
+-    [country_id, name, str(formData, "ownership_type"), str(formData, "notes"), id]
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `UPDATE hospital_group SET country_id=$1, name=$2, ownership_type=$3, notes=$4 WHERE id=$5`,
++        [country_id, name, str(formData, "ownership_type"), str(formData, "notes"), id]
++      ),
++    "/admin/hospital-groups"
+   );
+   revalidatePath("/admin/hospital-groups");
+   redirect("/admin/hospital-groups");
+ }
+ 
+ export async function deleteHospitalGroup(id: number) {
+-  await query(`DELETE FROM hospital_group WHERE id=$1`, [id]);
++  await runOrRedirectOnError(
++    () => query(`DELETE FROM hospital_group WHERE id=$1`, [id]),
++    "/admin/hospital-groups"
++  );
+   revalidatePath("/admin/hospital-groups");
+   redirect("/admin/hospital-groups");
+ }
+@@ -130,23 +177,27 @@ export async function createHospitalSite(formData: FormData) {
+   const country_id = int(formData, "country_id");
+   const name = str(formData, "name");
+   if (country_id === null || !name) throw new Error("Country and name are required");
+-  await query(
+-    `INSERT INTO hospital_site
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `INSERT INTO hospital_site
+        (country_id, hospital_group_id, health_authority_id, name, address, city, postcode, beds, site_type, ownership_type, notes)
+      VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)`,
+-    [
+-      country_id,
+-      int(formData, "hospital_group_id"),
+-      int(formData, "health_authority_id"),
+-      name,
+-      str(formData, "address"),
+-      str(formData, "city"),
+-      str(formData, "postcode"),
+-      int(formData, "beds"),
+-      str(formData, "site_type"),
+-      str(formData, "ownership_type"),
+-      str(formData, "notes"),
+-    ]
++        [
++          country_id,
++          int(formData, "hospital_group_id"),
++          int(formData, "health_authority_id"),
++          name,
++          str(formData, "address"),
++          str(formData, "city"),
++          str(formData, "postcode"),
++          int(formData, "beds"),
++          str(formData, "site_type"),
++          str(formData, "ownership_type"),
++          str(formData, "notes"),
++        ]
++      ),
++    "/admin/hospital-sites"
+   );
+   revalidatePath("/admin/hospital-sites");
+   redirect("/admin/hospital-sites");
+@@ -156,32 +207,39 @@ export async function updateHospitalSite(id: number, formData: FormData) {
+   const country_id = int(formData, "country_id");
+   const name = str(formData, "name");
+   if (country_id === null || !name) throw new Error("Country and name are required");
+-  await query(
+-    `UPDATE hospital_site SET
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `UPDATE hospital_site SET
+        country_id=$1, hospital_group_id=$2, health_authority_id=$3, name=$4,
+        address=$5, city=$6, postcode=$7, beds=$8, site_type=$9, ownership_type=$10, notes=$11
+      WHERE id=$12`,
+-    [
+-      country_id,
+-      int(formData, "hospital_group_id"),
+-      int(formData, "health_authority_id"),
+-      name,
+-      str(formData, "address"),
+-      str(formData, "city"),
+-      str(formData, "postcode"),
+-      int(formData, "beds"),
+-      str(formData, "site_type"),
+-      str(formData, "ownership_type"),
+-      str(formData, "notes"),
+-      id,
+-    ]
++        [
++          country_id,
++          int(formData, "hospital_group_id"),
++          int(formData, "health_authority_id"),
++          name,
++          str(formData, "address"),
++          str(formData, "city"),
++          str(formData, "postcode"),
++          int(formData, "beds"),
++          str(formData, "site_type"),
++          str(formData, "ownership_type"),
++          str(formData, "notes"),
++          id,
++        ]
++      ),
++    "/admin/hospital-sites"
+   );
+   revalidatePath("/admin/hospital-sites");
+   redirect("/admin/hospital-sites");
+ }
+ 
+ export async function deleteHospitalSite(id: number) {
+-  await query(`DELETE FROM hospital_site WHERE id=$1`, [id]);
++  await runOrRedirectOnError(
++    () => query(`DELETE FROM hospital_site WHERE id=$1`, [id]),
++    "/admin/hospital-sites"
++  );
+   revalidatePath("/admin/hospital-sites");
+   redirect("/admin/hospital-sites");
+ }
+@@ -201,24 +259,28 @@ export async function createContact(formData: FormData) {
+     throw new Error("Name, role title and date last verified are required");
+   if (!hospital_site_id && !hospital_group_id && !health_authority_id)
+     throw new Error("A contact needs a site, group, or health authority");
+-  await query(
+-    `INSERT INTO contact
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `INSERT INTO contact
+        (hospital_site_id, hospital_group_id, health_authority_id, full_name, role_title,
+         role_type, start_date, end_date, date_last_verified, source_id, notes)
+      VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)`,
+-    [
+-      hospital_site_id,
+-      hospital_group_id,
+-      health_authority_id,
+-      full_name,
+-      role_title,
+-      str(formData, "role_type"),
+-      str(formData, "start_date"),
+-      str(formData, "end_date"),
+-      date_last_verified,
+-      int(formData, "source_id"),
+-      str(formData, "notes"),
+-    ]
++        [
++          hospital_site_id,
++          hospital_group_id,
++          health_authority_id,
++          full_name,
++          role_title,
++          str(formData, "role_type"),
++          str(formData, "start_date"),
++          str(formData, "end_date"),
++          date_last_verified,
++          int(formData, "source_id"),
++          str(formData, "notes"),
++        ]
++      ),
++    "/admin/contacts"
+   );
+   revalidatePath("/admin/contacts");
+   redirect("/admin/contacts");
+@@ -235,33 +297,37 @@ export async function updateContact(id: number, formData: FormData) {
+     throw new Error("Name, role title and date last verified are required");
+   if (!hospital_site_id && !hospital_group_id && !health_authority_id)
+     throw new Error("A contact needs a site, group, or health authority");
+-  await query(
+-    `UPDATE contact SET
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `UPDATE contact SET
+        hospital_site_id=$1, hospital_group_id=$2, health_authority_id=$3, full_name=$4,
+        role_title=$5, role_type=$6, start_date=$7, end_date=$8, date_last_verified=$9,
+        source_id=$10, notes=$11
+      WHERE id=$12`,
+-    [
+-      hospital_site_id,
+-      hospital_group_id,
+-      health_authority_id,
+-      full_name,
+-      role_title,
+-      str(formData, "role_type"),
+-      str(formData, "start_date"),
+-      str(formData, "end_date"),
+-      date_last_verified,
+-      int(formData, "source_id"),
+-      str(formData, "notes"),
+-      id,
+-    ]
++        [
++          hospital_site_id,
++          hospital_group_id,
++          health_authority_id,
++          full_name,
++          role_title,
++          str(formData, "role_type"),
++          str(formData, "start_date"),
++          str(formData, "end_date"),
++          date_last_verified,
++          int(formData, "source_id"),
++          str(formData, "notes"),
++          id,
++        ]
++      ),
++    "/admin/contacts"
+   );
+   revalidatePath("/admin/contacts");
+   redirect("/admin/contacts");
+ }
+ 
+ export async function deleteContact(id: number) {
+-  await query(`DELETE FROM contact WHERE id=$1`, [id]);
++  await runOrRedirectOnError(() => query(`DELETE FROM contact WHERE id=$1`, [id]), "/admin/contacts");
+   revalidatePath("/admin/contacts");
+   redirect("/admin/contacts");
+ }
+@@ -274,35 +340,39 @@ export async function createProcurementNotice(formData: FormData) {
+   const country_id = int(formData, "country_id");
+   const status = str(formData, "status");
+   if (country_id === null || !status) throw new Error("Country and status are required");
+-  await query(
+-    `INSERT INTO procurement_notice
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `INSERT INTO procurement_notice
+        (country_id, hospital_group_id, hospital_site_id, health_authority_id, notice_id, portal,
+         cpv_codes, title, publication_date, award_date, contract_start_date, contract_expiry_date,
+         estimated_value, awarded_value, currency, awarded_supplier_id, is_framework, lot_description,
+         status, source_id)
+      VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20)`,
+-    [
+-      country_id,
+-      int(formData, "hospital_group_id"),
+-      int(formData, "hospital_site_id"),
+-      int(formData, "health_authority_id"),
+-      str(formData, "notice_id"),
+-      str(formData, "portal"),
+-      csvArray(formData, "cpv_codes"),
+-      str(formData, "title"),
+-      str(formData, "publication_date"),
+-      str(formData, "award_date"),
+-      str(formData, "contract_start_date"),
+-      str(formData, "contract_expiry_date"),
+-      num(formData, "estimated_value"),
+-      num(formData, "awarded_value"),
+-      str(formData, "currency"),
+-      int(formData, "awarded_supplier_id"),
+-      bool(formData, "is_framework"),
+-      str(formData, "lot_description"),
+-      status,
+-      int(formData, "source_id"),
+-    ]
++        [
++          country_id,
++          int(formData, "hospital_group_id"),
++          int(formData, "hospital_site_id"),
++          int(formData, "health_authority_id"),
++          str(formData, "notice_id"),
++          str(formData, "portal"),
++          csvArray(formData, "cpv_codes"),
++          str(formData, "title"),
++          str(formData, "publication_date"),
++          str(formData, "award_date"),
++          str(formData, "contract_start_date"),
++          str(formData, "contract_expiry_date"),
++          num(formData, "estimated_value"),
++          num(formData, "awarded_value"),
++          str(formData, "currency"),
++          int(formData, "awarded_supplier_id"),
++          bool(formData, "is_framework"),
++          str(formData, "lot_description"),
++          status,
++          int(formData, "source_id"),
++        ]
++      ),
++    "/admin/procurement-notices"
+   );
+   revalidatePath("/admin/procurement-notices");
+   redirect("/admin/procurement-notices");
+@@ -312,44 +382,51 @@ export async function updateProcurementNotice(id: number, formData: FormData) {
+   const country_id = int(formData, "country_id");
+   const status = str(formData, "status");
+   if (country_id === null || !status) throw new Error("Country and status are required");
+-  await query(
+-    `UPDATE procurement_notice SET
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `UPDATE procurement_notice SET
+        country_id=$1, hospital_group_id=$2, hospital_site_id=$3, health_authority_id=$4,
+        notice_id=$5, portal=$6, cpv_codes=$7, title=$8, publication_date=$9, award_date=$10,
+        contract_start_date=$11, contract_expiry_date=$12, estimated_value=$13, awarded_value=$14,
+        currency=$15, awarded_supplier_id=$16, is_framework=$17, lot_description=$18, status=$19,
+        source_id=$20
+      WHERE id=$21`,
+-    [
+-      country_id,
+-      int(formData, "hospital_group_id"),
+-      int(formData, "hospital_site_id"),
+-      int(formData, "health_authority_id"),
+-      str(formData, "notice_id"),
+-      str(formData, "portal"),
+-      csvArray(formData, "cpv_codes"),
+-      str(formData, "title"),
+-      str(formData, "publication_date"),
+-      str(formData, "award_date"),
+-      str(formData, "contract_start_date"),
+-      str(formData, "contract_expiry_date"),
+-      num(formData, "estimated_value"),
+-      num(formData, "awarded_value"),
+-      str(formData, "currency"),
+-      int(formData, "awarded_supplier_id"),
+-      bool(formData, "is_framework"),
+-      str(formData, "lot_description"),
+-      status,
+-      int(formData, "source_id"),
+-      id,
+-    ]
++        [
++          country_id,
++          int(formData, "hospital_group_id"),
++          int(formData, "hospital_site_id"),
++          int(formData, "health_authority_id"),
++          str(formData, "notice_id"),
++          str(formData, "portal"),
++          csvArray(formData, "cpv_codes"),
++          str(formData, "title"),
++          str(formData, "publication_date"),
++          str(formData, "award_date"),
++          str(formData, "contract_start_date"),
++          str(formData, "contract_expiry_date"),
++          num(formData, "estimated_value"),
++          num(formData, "awarded_value"),
++          str(formData, "currency"),
++          int(formData, "awarded_supplier_id"),
++          bool(formData, "is_framework"),
++          str(formData, "lot_description"),
++          status,
++          int(formData, "source_id"),
++          id,
++        ]
++      ),
++    "/admin/procurement-notices"
+   );
+   revalidatePath("/admin/procurement-notices");
+   redirect("/admin/procurement-notices");
+ }
+ 
+ export async function deleteProcurementNotice(id: number) {
+-  await query(`DELETE FROM procurement_notice WHERE id=$1`, [id]);
++  await runOrRedirectOnError(
++    () => query(`DELETE FROM procurement_notice WHERE id=$1`, [id]),
++    "/admin/procurement-notices"
++  );
+   revalidatePath("/admin/procurement-notices");
+   redirect("/admin/procurement-notices");
+ }
+@@ -385,30 +462,32 @@ export async function createDeployment(formData: FormData) {
+   if (!hospital_site_id && !hospital_group_id)
+     throw new Error("A deployment needs a hospital site or a hospital group");
+   const supplier_id = int(formData, "supplier_id");
+-  const product_id = await findOrCreateProduct(supplier_id, str(formData, "product_name"));
+-  const rows = await query<{ id: number }>(
+-    `INSERT INTO deployment
++  await runOrRedirectOnError(async () => {
++    const product_id = await findOrCreateProduct(supplier_id, str(formData, "product_name"));
++    const rows = await query<{ id: number }>(
++      `INSERT INTO deployment
+        (hospital_site_id, hospital_group_id, supplier_id, product_id, contract_value, currency,
+         install_date, expiry_date, procurement_framework, status, evidence_tier, notes)
+      VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)
+      RETURNING id`,
+-    [
+-      hospital_site_id,
+-      hospital_group_id,
+-      supplier_id,
+-      product_id,
+-      num(formData, "contract_value"),
+-      str(formData, "currency"),
+-      str(formData, "install_date"),
+-      str(formData, "expiry_date"),
+-      str(formData, "procurement_framework"),
+-      str(formData, "status") ?? "unconfirmed",
+-      int(formData, "evidence_tier"),
+-      str(formData, "notes"),
+-    ]
+-  );
+-  revalidatePath("/admin/deployments");
+-  redirect(`/admin/deployments/${rows[0].id}`);
++      [
++        hospital_site_id,
++        hospital_group_id,
++        supplier_id,
++        product_id,
++        num(formData, "contract_value"),
++        str(formData, "currency"),
++        str(formData, "install_date"),
++        str(formData, "expiry_date"),
++        str(formData, "procurement_framework"),
++        str(formData, "status") ?? "unconfirmed",
++        int(formData, "evidence_tier"),
++        str(formData, "notes"),
++      ]
++    );
++    revalidatePath("/admin/deployments");
++    redirect(`/admin/deployments/${rows[0].id}`);
++  }, "/admin/deployments");
+ }
+ 
+ export async function updateDeployment(id: number, formData: FormData) {
+@@ -417,35 +496,37 @@ export async function updateDeployment(id: number, formData: FormData) {
+   if (!hospital_site_id && !hospital_group_id)
+     throw new Error("A deployment needs a hospital site or a hospital group");
+   const supplier_id = int(formData, "supplier_id");
+-  const product_id = await findOrCreateProduct(supplier_id, str(formData, "product_name"));
+-  await query(
+-    `UPDATE deployment SET
++  await runOrRedirectOnError(async () => {
++    const product_id = await findOrCreateProduct(supplier_id, str(formData, "product_name"));
++    await query(
++      `UPDATE deployment SET
+        hospital_site_id=$1, hospital_group_id=$2, supplier_id=$3, product_id=$4,
+        contract_value=$5, currency=$6, install_date=$7, expiry_date=$8,
+        procurement_framework=$9, status=$10, evidence_tier=$11, notes=$12
+      WHERE id=$13`,
+-    [
+-      hospital_site_id,
+-      hospital_group_id,
+-      supplier_id,
+-      product_id,
+-      num(formData, "contract_value"),
+-      str(formData, "currency"),
+-      str(formData, "install_date"),
+-      str(formData, "expiry_date"),
+-      str(formData, "procurement_framework"),
+-      str(formData, "status") ?? "unconfirmed",
+-      int(formData, "evidence_tier"),
+-      str(formData, "notes"),
+-      id,
+-    ]
+-  );
+-  revalidatePath(`/admin/deployments/${id}`);
+-  redirect(`/admin/deployments/${id}`);
++      [
++        hospital_site_id,
++        hospital_group_id,
++        supplier_id,
++        product_id,
++        num(formData, "contract_value"),
++        str(formData, "currency"),
++        str(formData, "install_date"),
++        str(formData, "expiry_date"),
++        str(formData, "procurement_framework"),
++        str(formData, "status") ?? "unconfirmed",
++        int(formData, "evidence_tier"),
++        str(formData, "notes"),
++        id,
++      ]
++    );
++    revalidatePath(`/admin/deployments/${id}`);
++    redirect(`/admin/deployments/${id}`);
++  }, `/admin/deployments/${id}`);
+ }
+ 
+ export async function deleteDeployment(id: number) {
+-  await query(`DELETE FROM deployment WHERE id=$1`, [id]);
++  await runOrRedirectOnError(() => query(`DELETE FROM deployment WHERE id=$1`, [id]), "/admin/deployments");
+   revalidatePath("/admin/deployments");
+   redirect("/admin/deployments");
+ }
+@@ -459,16 +540,20 @@ export async function createDeploymentCategory(deploymentId: number, formData: F
+   const coverage_status = str(formData, "coverage_status");
+   if (system_category_id === null || !coverage_status)
+     throw new Error("System category and coverage status are required");
+-  await query(
+-    `INSERT INTO deployment_category (deployment_id, system_category_id, coverage_status, evidence_tier, notes)
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `INSERT INTO deployment_category (deployment_id, system_category_id, coverage_status, evidence_tier, notes)
+      VALUES ($1,$2,$3,$4,$5)`,
+-    [
+-      deploymentId,
+-      system_category_id,
+-      coverage_status,
+-      int(formData, "evidence_tier"),
+-      str(formData, "notes"),
+-    ]
++        [
++          deploymentId,
++          system_category_id,
++          coverage_status,
++          int(formData, "evidence_tier"),
++          str(formData, "notes"),
++        ]
++      ),
++    `/admin/deployments/${deploymentId}`
+   );
+   revalidatePath(`/admin/deployments/${deploymentId}`);
+   redirect(`/admin/deployments/${deploymentId}`);
+@@ -483,27 +568,153 @@ export async function updateDeploymentCategory(
+   const coverage_status = str(formData, "coverage_status");
+   if (system_category_id === null || !coverage_status)
+     throw new Error("System category and coverage status are required");
+-  await query(
+-    `UPDATE deployment_category SET system_category_id=$1, coverage_status=$2, evidence_tier=$3, notes=$4
++  await runOrRedirectOnError(
++    () =>
++      query(
++        `UPDATE deployment_category SET system_category_id=$1, coverage_status=$2, evidence_tier=$3, notes=$4
+      WHERE id=$5 AND deployment_id=$6`,
+-    [
+-      system_category_id,
+-      coverage_status,
+-      int(formData, "evidence_tier"),
+-      str(formData, "notes"),
+-      rowId,
+-      deploymentId,
+-    ]
++        [
++          system_category_id,
++          coverage_status,
++          int(formData, "evidence_tier"),
++          str(formData, "notes"),
++          rowId,
++          deploymentId,
++        ]
++      ),
++    `/admin/deployments/${deploymentId}`
+   );
+   revalidatePath(`/admin/deployments/${deploymentId}`);
+   redirect(`/admin/deployments/${deploymentId}`);
+ }
+ 
+ export async function deleteDeploymentCategory(deploymentId: number, rowId: number) {
+-  await query(`DELETE FROM deployment_category WHERE id=$1 AND deployment_id=$2`, [
+-    rowId,
+-    deploymentId,
+-  ]);
++  await runOrRedirectOnError(
++    () =>
++      query(`DELETE FROM deployment_category WHERE id=$1 AND deployment_id=$2`, [rowId, deploymentId]),
++    `/admin/deployments/${deploymentId}`
++  );
+   revalidatePath(`/admin/deployments/${deploymentId}`);
+   redirect(`/admin/deployments/${deploymentId}`);
+ }
++
++// ---------------------------------------------------------------------
++// bulk cleanup — supersede a batch of hospital groups (and their sites +
++// deployments) by exact name, in one pass, instead of deleting each one
++// by hand across three separate admin pages in FK order.
++//
++// Deliberately narrow: this only auto-deletes what we know is safe to
++// cascade (deployment_category -> deployment -> hospital_site ->
++// hospital_group). If a group or any of its sites still has a contact or
++// procurement_notice attached — data this bulk action was never told
++// about — it stops and reports that record instead of deleting through
++// it, so a stale-name cleanup can't silently destroy real evidence.
++// ---------------------------------------------------------------------
++
++export interface BulkCleanupOutcome {
++  deletedGroups: string[];
++  sitesDeleted: number;
++  deploymentsDeleted: number;
++  notFound: string[];
++  skipped: { name: string; reason: string }[];
++}
++
++export async function bulkCleanupHospitalGroups(formData: FormData) {
++  const country_id = int(formData, "country_id");
++  const namesRaw = str(formData, "names") ?? "";
++  const names = Array.from(
++    new Set(
++      namesRaw
++        .split("\n")
++        .map((s) => s.trim())
++        .filter(Boolean)
++    )
++  );
++
++  if (country_id === null || names.length === 0) {
++    redirect(
++      `/admin/hospital-groups/bulk-cleanup?error=${encodeURIComponent(
++        "Pick a country and paste at least one hospital group name."
++      )}`
++    );
++  }
++
++  const deletedGroups: string[] = [];
++  const notFound: string[] = [];
++  const skipped: { name: string; reason: string }[] = [];
++  let sitesDeleted = 0;
++  let deploymentsDeleted = 0;
++
++  for (const name of names) {
++    const groupRows = await query<{ id: number }>(
++      `SELECT id FROM hospital_group WHERE country_id=$1 AND lower(name)=lower($2)`,
++      [country_id, name]
++    );
++    if (groupRows.length === 0) {
++      notFound.push(name);
++      continue;
++    }
++    const groupId = groupRows[0].id;
++    const siteRows = await query<{ id: number }>(`SELECT id FROM hospital_site WHERE hospital_group_id=$1`, [
++      groupId,
++    ]);
++    const siteIds = siteRows.map((r) => r.id);
++
++    const [contactRefs, noticeRefs] = await Promise.all([
++      query<{ n: string }>(
++        `SELECT count(*)::text AS n FROM contact WHERE hospital_group_id=$1 OR hospital_site_id = ANY($2::int[])`,
++        [groupId, siteIds]
++      ),
++      query<{ n: string }>(
++        `SELECT count(*)::text AS n FROM procurement_notice WHERE hospital_group_id=$1 OR hospital_site_id = ANY($2::int[])`,
++        [groupId, siteIds]
++      ),
++    ]);
++    const contactCount = Number(contactRefs[0]?.n ?? 0);
++    const noticeCount = Number(noticeRefs[0]?.n ?? 0);
++    if (contactCount > 0 || noticeCount > 0) {
++      const bits: string[] = [];
++      if (contactCount) bits.push(`${contactCount} contact${contactCount === 1 ? "" : "s"}`);
++      if (noticeCount) bits.push(`${noticeCount} procurement notice${noticeCount === 1 ? "" : "s"}`);
++      skipped.push({ name, reason: `still linked to ${bits.join(" and ")} — resolve manually` });
++      continue;
++    }
++
++    try {
++      const { dep, site } = await transaction(async (tx) => {
++        await tx(
++          `DELETE FROM deployment_category WHERE deployment_id IN (
++             SELECT id FROM deployment WHERE hospital_group_id=$1 OR hospital_site_id = ANY($2::int[])
++           )`,
++          [groupId, siteIds]
++        );
++        const dep = await tx<{ id: number }>(
++          `DELETE FROM deployment WHERE hospital_group_id=$1 OR hospital_site_id = ANY($2::int[]) RETURNING id`,
++          [groupId, siteIds]
++        );
++        const site = await tx<{ id: number }>(`DELETE FROM hospital_site WHERE hospital_group_id=$1 RETURNING id`, [
++          groupId,
++        ]);
++        await tx(`DELETE FROM hospital_group WHERE id=$1`, [groupId]);
++        return { dep, site };
++      });
++      deletedGroups.push(name);
++      sitesDeleted += site.length;
++      deploymentsDeleted += dep.length;
++    } catch (err) {
++      skipped.push({ name, reason: friendlyDbError(err) ?? "unexpected error — see server logs" });
++    }
++  }
++
++  revalidatePath("/admin/hospital-groups");
++  revalidatePath("/admin/hospital-sites");
++  revalidatePath("/admin/deployments");
++
++  const summary = new URLSearchParams();
++  summary.set("deleted", String(deletedGroups.length));
++  summary.set("sites", String(sitesDeleted));
++  summary.set("deployments", String(deploymentsDeleted));
++  if (notFound.length) summary.set("notFound", notFound.join(" | "));
++  if (skipped.length) summary.set("skipped", skipped.map((s) => `${s.name} — ${s.reason}`).join(" | "));
++  redirect(`/admin/hospital-groups/bulk-cleanup?${summary.toString()}`);
++}
+diff --git a/console/lib/db.ts b/console/lib/db.ts
+index 4fe4661..45c7247 100644
+--- a/console/lib/db.ts
++++ b/console/lib/db.ts
+@@ -32,3 +32,31 @@ export async function query<T = Record<string, unknown>>(
+     client.release();
+   }
+ }
++
++// A single client held across multiple statements, wrapped in BEGIN/COMMIT
++// (with ROLLBACK on any error). `query()` above grabs a fresh pooled
++// connection per call, so a bare BEGIN there has no effect on the calls
++// that follow it — this is the one to reach for whenever a multi-step
++// mutation needs to succeed or fail as a unit (e.g. bulk cleanup that
++// deletes across deployment/hospital_site/hospital_group together).
++export async function transaction<T>(
++  fn: (txQuery: <R = Record<string, unknown>>(text: string, params?: unknown[]) => Promise<R[]>) => Promise<T>
++): Promise<T> {
++  const client = await pool.connect();
++  try {
++    await client.query("SET search_path TO market_intel, public");
++    await client.query("BEGIN");
++    const txQuery = async <R = Record<string, unknown>>(text: string, params?: unknown[]): Promise<R[]> => {
++      const result = await client.query(text, params);
++      return result.rows as R[];
++    };
++    const out = await fn(txQuery);
++    await client.query("COMMIT");
++    return out;
++  } catch (err) {
++    await client.query("ROLLBACK").catch(() => {});
++    throw err;
++  } finally {
++    client.release();
++  }
++}
+diff --git a/console/lib/dbErrors.ts b/console/lib/dbErrors.ts
+new file mode 100644
+index 0000000..00f516b
+--- /dev/null
++++ b/console/lib/dbErrors.ts
+@@ -0,0 +1,53 @@
++// Turns raw Postgres errors from `pg` into messages a person can act on,
++// instead of letting them bubble up to Next.js's generic
++// "Application error: a server-side exception has occurred" page (which
++// hides the real cause behind a digest that only server logs can explain).
++//
++// Returns null for anything that isn't a recognized, safe-to-show
++// constraint violation — callers fall back to a generic message rather
++// than risk leaking raw DB internals for an error we don't understand.
++
++interface PgErrorShape {
++  code?: string;
++  detail?: string;
++  constraint?: string;
++  table?: string;
++}
++
++const FRIENDLY_TABLE: Record<string, string> = {
++  hospital_site: "hospital site",
++  hospital_group: "hospital group",
++  deployment: "deployment",
++  deployment_category: "deployment category entry",
++  procurement_notice: "procurement notice",
++  contact: "contact",
++  health_authority: "health authority",
++};
++
++function friendlyTableName(table: string | undefined): string {
++  if (!table) return "another record";
++  return FRIENDLY_TABLE[table] ?? table.replace(/_/g, " ");
++}
++
++export function friendlyDbError(err: unknown): string | null {
++  const e = err as PgErrorShape | null | undefined;
++  if (!e || typeof e !== "object" || !e.code) return null;
++
++  // foreign_key_violation — deleting/updating a row something else still points at
++  if (e.code === "23503") {
++    const m = e.detail?.match(/still referenced from table "(\w+)"/);
++    const label = friendlyTableName(m?.[1]);
++    return `Can't delete — it's still linked to at least one ${label}. Delete that first, then try again.`;
++  }
++
++  // unique_violation — usually the (country, name) natural key on these tables
++  if (e.code === "23505") {
++    const m = e.detail?.match(/^Key \(([^)]+)\)=\(([^)]+)\) already exists\.?$/);
++    if (m) {
++      return `A record already exists with the same ${m[1].replace(/_/g, " ")} (${m[2]}). Edit the existing one instead, or use a different name.`;
++    }
++    return "A record with that same name already exists. Edit the existing one instead, or use a different name.";
++  }
++
++  return null;
++}
+-- 
+2.43.0
+
+
+From 9967702176a319bd86ec23aebc1e44ba396bcc55 Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sun, 13 Sep 2026 17:28:10 +0000
+Subject: [PATCH 2/2] chore: track Next.js generated type declarations file
+
+---
+ console/next-env.d.ts | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 console/next-env.d.ts
+
+diff --git a/console/next-env.d.ts b/console/next-env.d.ts
+new file mode 100644
+index 0000000..40c3d68
+--- /dev/null
++++ b/console/next-env.d.ts
+@@ -0,0 +1,5 @@
++/// <reference types="next" />
++/// <reference types="next/image-types/global" />
++
++// NOTE: This file should not be edited
++// see https://nextjs.org/docs/app/building-your-application/configuring/typescript for more information.
+-- 
+2.43.0
