@@ -104,6 +104,46 @@ export function FormCard({ children }: { children: ReactNode }) {
   );
 }
 
+// Collapsed by default so the "add new" form doesn't read as the page's
+// main action — the table below (with search) is what most visits are for.
+// <details>/<summary> needs no client JS for the open/close behaviour.
+export function CollapsibleFormCard({
+  title,
+  children,
+}: {
+  title: string;
+  children: ReactNode;
+}) {
+  return (
+    <details className="group rounded-lg border border-slate-200 bg-white shadow-sm">
+      <summary className="flex list-none items-center gap-2 px-6 py-4 text-sm font-medium text-fhi-blue [&::-webkit-details-marker]:hidden cursor-pointer select-none">
+        <svg
+          viewBox="0 0 8 8"
+          className="h-2.5 w-2.5 shrink-0 fill-current transition-transform group-open:rotate-90"
+          aria-hidden="true"
+        >
+          <path d="M1 0l6 4-6 4V0z" />
+        </svg>
+        {title}
+      </summary>
+      <div className="border-t border-slate-100 p-6">{children}</div>
+    </details>
+  );
+}
+
+// Shown when a create/update/delete redirected back here with ?error=...
+// (see lib/dbErrors.ts) instead of crashing to Next's generic error page.
+export function ErrorBanner({ message }: { message?: string | string[] }) {
+  const text = Array.isArray(message) ? message[0] : message;
+  if (!text) return null;
+  return (
+    <div className="mb-6 flex items-start gap-2 rounded-md border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
+      <span aria-hidden="true">⚠</span>
+      <span>{text}</span>
+    </div>
+  );
+}
+
 export function PageHeader({ title, subtitle, action }: { title: string; subtitle?: string; action?: ReactNode }) {
   return (
     <div className="mb-6 flex items-start justify-between gap-4">
@@ -116,9 +156,9 @@ export function PageHeader({ title, subtitle, action }: { title: string; subtitl
   );
 }
 
-export function Table({ children }: { children: ReactNode }) {
+export function Table({ children, id }: { children: ReactNode; id?: string }) {
   return (
-    <div className="overflow-x-auto rounded-lg border border-slate-200 bg-white">
+    <div id={id} className="overflow-x-auto rounded-lg border border-slate-200 bg-white">
       <table className="w-full text-sm">{children}</table>
     </div>
   );
