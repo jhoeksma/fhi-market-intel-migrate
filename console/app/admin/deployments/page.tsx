@@ -1,20 +1,23 @@
 import Link from "next/link";
-import { getHospitalGroups, getHospitalSites, getSuppliers } from "@/lib/refdata";
+import { getCountries, getHospitalGroups, getHospitalSites, getSuppliers } from "@/lib/refdata";
 import { query } from "@/lib/db";
-import { createDeployment } from "@/lib/actions";
+import { createDeployment, deleteDeployment } from "@/lib/actions";
 import {
   Field,
   TextInput,
   TextArea,
   Select,
   SubmitButton,
-  FormCard,
+  CollapsibleFormCard,
   FormGrid,
   PageHeader,
   Table,
+  DeleteButton,
+  ErrorBanner,
   th,
   td,
 } from "@/components/AdminForm";
+import { AdminTableFilter } from "@/components/AdminTableFilter";
 
 export const dynamic = "force-dynamic";
 
@@ -65,8 +68,12 @@ function CategoryBadges({ categories }: { categories: DeploymentCategory[] }) {
   );
 }
 
-export default async function DeploymentsPage() {
-  const [deployments, sites, groups, suppliers] = await Promise.all([
+export default async function DeploymentsPage({
+  searchParams,
+}: {
+  searchParams?: { error?: string };
+}) {
+  const [deployments, sites, groups, suppliers, countries] = await Promise.all([
     query<DeploymentRow>(`
       SELECT d.id, d.hospital_site_id, d.hospital_group_id, s.name AS supplier_name, p.name AS product_name,
              d.status,
@@ -88,9 +95,13 @@ export default async function DeploymentsPage() {
     getHospitalSites(),
     getHospitalGroups(),
     getSuppliers(),
+    getCountries(),
   ]);
   const siteName = Object.fromEntries(sites.map((s) => [s.id, s.name]));
   const groupName = Object.fromEntries(groups.map((g) => [g.id, g.name]));
+  const siteCountry = Object.fromEntries(sites.map((s) => [s.id, s.country_id]));
+  const groupCountry = Object.fromEntries(groups.map((g) => [g.id, g.country_id]));
+  const countryName = Object.fromEntries(countries.map((c) => [c.id, c.name]));
 
   return (
     <div>
@@ -98,8 +109,9 @@ export default async function DeploymentsPage() {
         title="Deployments"
         subtitle="One row per contract/engagement — never per category. Once a wall-to-wall EHR is confirmed, log it here once, then mark its category coverage on the deployment's own page."
       />
+      <ErrorBanner message={searchParams?.error} />
 
-      <FormCard>
+      <CollapsibleFormCard title="+ Add a new deployment">
         <form action={createDeployment} className="space-y-4">
           <FormGrid>
             <Field label="Hospital site" hint="A deployment needs a site or a group (at least one)">
@@ -172,13 +184,19 @@ export default async function DeploymentsPage() {
           </Field>
           <SubmitButton>Add deployment</SubmitButton>
         </form>
-      </FormCard>
+      </CollapsibleFormCard>
 
       <div className="mt-8">
-        <Table>
+        <AdminTableFilter
+          tableId="deployments-table"
+          countries={countries}
+          searchPlaceholder="Search by site, group, supplier or product…"
+        />
+        <Table id="deployments-table">
           <thead>
             <tr>
               <th className={th}>Site / group</th>
+              <th className={th}>Country</th>
               <th className={th}>Supplier</th>
               <th className={th}>Product</th>
               <th className={th}>Status</th>
@@ -187,31 +205,52 @@ export default async function DeploymentsPage() {
             </tr>
           </thead>
           <tbody>
-            {deployments.map((d) => (
-              <tr key={d.id} className="hover:bg-slate-50">
-                <td className={td}>
-                  {d.hospital_site_id
-                    ? siteName[d.hospital_site_id] ?? `Site #${d.hospital_site_id}`
-                    : d.hospital_group_id
-                    ? groupName[d.hospital_group_id] ?? `Group #${d.hospital_group_id}`
-                    : "—"}
-                </td>
-                <td className={td}>{d.supplier_name ?? <span className="text-slate-300">—</span>}</td>
-                <td className={td}>{d.product_name ?? <span className="text-slate-300">—</span>}</td>
-                <td className={td}>{d.status}</td>
-                <td className={td}>
-                  <CategoryBadges categories={d.categories} />
-                </td>
-                <td className={`${td} text-right`}>
-                  <Link href={`/admin/deployments/${d.id}`} className="text-xs font-medium text-fhi-blue hover:underline">
-                    Open
-                  </Link>
-                </td>
-              </tr>
-            ))}
+            {deployments.map((d) => {
+              const rowCountryId = d.hospital_site_id
+                ? siteCountry[d.hospital_site_id]
+                : d.hospital_group_id
+                ? groupCountry[d.hospital_group_id]
+                : null;
+              const rowName = d.hospital_site_id
+                ? siteName[d.hospital_site_id] ?? `Site #${d.hospital_site_id}`
+                : d.hospital_group_id
+                ? groupName[d.hospital_group_id] ?? `Group #${d.hospital_group_id}`
+                : "—";
+              return (
+                <tr
+                  key={d.id}
+                  className="hover:bg-slate-50"
+                  data-row-search={`${rowName} ${d.supplier_name ?? ""} ${d.product_name ?? ""} ${
+                    rowCountryId ? countryName[rowCountryId] ?? "" : ""
+                  }`.toLowerCase()}
+                  data-row-country={rowCountryId ?? ""}
+                >
+                  <td className={td}>{rowName}</td>
+                  <td className={td}>
+                    {rowCountryId ? countryName[rowCountryId] ?? rowCountryId : (
+                      <span className="text-slate-300">—</span>
+                    )}
+                  </td>
+                  <td className={td}>{d.supplier_name ?? <span className="text-slate-300">—</span>}</td>
+                  <td className={td}>{d.product_name ?? <span className="text-slate-300">—</span>}</td>
+                  <td className={td}>{d.status}</td>
+                  <td className={td}>
+                    <CategoryBadges categories={d.categories} />
+                  </td>
+                  <td className={`${td} text-right`}>
+                    <div className="flex justify-end gap-3">
+                      <Link href={`/admin/deployments/${d.id}`} className="text-xs font-medium text-fhi-blue hover:underline">
+                        Open
+                      </Link>
+                      <DeleteButton action={deleteDeployment.bind(null, d.id)} />
+                    </div>
+                  </td>
+                </tr>
+              );
+            })}
             {deployments.length === 0 && (
               <tr>
-                <td className={td} colSpan={6}>
+                <td className={td} colSpan={7}>
                   No deployments logged yet.
                 </td>
               </tr>

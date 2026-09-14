@@ -7,18 +7,24 @@ import {
   TextArea,
   Select,
   SubmitButton,
-  FormCard,
+  CollapsibleFormCard,
   FormGrid,
   PageHeader,
   Table,
   DeleteButton,
+  ErrorBanner,
   th,
   td,
 } from "@/components/AdminForm";
+import { AdminTableFilter } from "@/components/AdminTableFilter";
 
 export const dynamic = "force-dynamic";
 
-export default async function HospitalSitesPage() {
+export default async function HospitalSitesPage({
+  searchParams,
+}: {
+  searchParams?: { error?: string };
+}) {
   const [sites, countries, groups, authorities] = await Promise.all([
     getHospitalSites(),
     getCountries(),
@@ -34,8 +40,9 @@ export default async function HospitalSitesPage() {
         title="Hospital sites"
         subtitle="Individual hospital sites. Link to a hospital group and/or health authority where known."
       />
+      <ErrorBanner message={searchParams?.error} />
 
-      <FormCard>
+      <CollapsibleFormCard title="+ Add a new hospital site">
         <form action={createHospitalSite} className="space-y-4">
           <FormGrid>
             <Field label="Country" required>
@@ -102,10 +109,15 @@ export default async function HospitalSitesPage() {
           </Field>
           <SubmitButton>Add hospital site</SubmitButton>
         </form>
-      </FormCard>
+      </CollapsibleFormCard>
 
       <div className="mt-8">
-        <Table>
+        <AdminTableFilter
+          tableId="hospital-sites-table"
+          countries={countries}
+          searchPlaceholder="Search by name, city or postcode…"
+        />
+        <Table id="hospital-sites-table">
           <thead>
             <tr>
               <th className={th}>Name</th>
@@ -119,7 +131,14 @@ export default async function HospitalSitesPage() {
           </thead>
           <tbody>
             {sites.map((s) => (
-              <tr key={s.id} className="hover:bg-slate-50">
+              <tr
+                key={s.id}
+                className="hover:bg-slate-50"
+                data-row-search={`${s.name} ${countryName[s.country_id] ?? ""} ${
+                  s.hospital_group_id ? groupName[s.hospital_group_id] ?? "" : ""
+                } ${s.city ?? ""} ${s.postcode ?? ""}`.toLowerCase()}
+                data-row-country={s.country_id}
+              >
                 <td className={td}>{s.name}</td>
                 <td className={td}>{countryName[s.country_id] ?? s.country_id}</td>
                 <td className={td}>

@@ -7,18 +7,24 @@ import {
   TextArea,
   Select,
   SubmitButton,
-  FormCard,
+  CollapsibleFormCard,
   FormGrid,
   PageHeader,
   Table,
   DeleteButton,
+  ErrorBanner,
   th,
   td,
 } from "@/components/AdminForm";
+import { AdminTableFilter } from "@/components/AdminTableFilter";
 
 export const dynamic = "force-dynamic";
 
-export default async function HealthAuthoritiesPage() {
+export default async function HealthAuthoritiesPage({
+  searchParams,
+}: {
+  searchParams?: { error?: string };
+}) {
   const [authorities, countries, sources] = await Promise.all([
     getHealthAuthorities(),
     getCountries(),
@@ -32,8 +38,9 @@ export default async function HealthAuthoritiesPage() {
         title="Health authorities"
         subtitle="National, regional or local bodies (e.g. HSE in Ireland) that hospital sites and contacts can be linked to."
       />
+      <ErrorBanner message={searchParams?.error} />
 
-      <FormCard>
+      <CollapsibleFormCard title="+ Add a new health authority">
         <form action={createHealthAuthority} className="space-y-4">
           <FormGrid>
             <Field label="Country" required>
@@ -75,10 +82,15 @@ export default async function HealthAuthoritiesPage() {
           </Field>
           <SubmitButton>Add health authority</SubmitButton>
         </form>
-      </FormCard>
+      </CollapsibleFormCard>
 
       <div className="mt-8">
-        <Table>
+        <AdminTableFilter
+          tableId="health-authorities-table"
+          countries={countries}
+          searchPlaceholder="Search by name…"
+        />
+        <Table id="health-authorities-table">
           <thead>
             <tr>
               <th className={th}>Name</th>
@@ -89,7 +101,12 @@ export default async function HealthAuthoritiesPage() {
           </thead>
           <tbody>
             {authorities.map((a) => (
-              <tr key={a.id} className="hover:bg-slate-50">
+              <tr
+                key={a.id}
+                className="hover:bg-slate-50"
+                data-row-search={`${a.name} ${countryName[a.country_id] ?? ""} ${a.level ?? ""}`.toLowerCase()}
+                data-row-country={a.country_id}
+              >
                 <td className={td}>{a.name}</td>
                 <td className={td}>{countryName[a.country_id] ?? a.country_id}</td>
                 <td className={td}>{a.level ?? <span className="text-slate-300">—</span>}</td>

@@ -17,14 +17,16 @@ import {
   Select,
   Checkbox,
   SubmitButton,
-  FormCard,
+  CollapsibleFormCard,
   FormGrid,
   PageHeader,
   Table,
   DeleteButton,
+  ErrorBanner,
   th,
   td,
 } from "@/components/AdminForm";
+import { AdminTableFilter } from "@/components/AdminTableFilter";
 
 export const dynamic = "force-dynamic";
 
@@ -40,7 +42,11 @@ interface NoticeRow {
   award_date: string | null;
 }
 
-export default async function ProcurementNoticesPage() {
+export default async function ProcurementNoticesPage({
+  searchParams,
+}: {
+  searchParams?: { error?: string };
+}) {
   const [notices, countries, groups, sites, authorities, suppliers, sources] = await Promise.all([
     query<NoticeRow>(
       `SELECT id, country_id, title, portal, status, awarded_value, estimated_value, currency,
@@ -73,8 +79,9 @@ export default async function ProcurementNoticesPage() {
         title="Procurement notices"
         subtitle="TED / national portal awards — evidence tier 2, the richest and most reliable spend/date source. Run the procurement sweep before the deployment pass."
       />
+      <ErrorBanner message={searchParams?.error} />
 
-      <FormCard>
+      <CollapsibleFormCard title="+ Add a new procurement notice">
         <form action={createProcurementNotice} className="space-y-4">
           <FormGrid>
             <Field label="Country" required>
@@ -186,10 +193,15 @@ export default async function ProcurementNoticesPage() {
           <Checkbox name="is_framework" label="Framework agreement" />
           <SubmitButton>Add procurement notice</SubmitButton>
         </form>
-      </FormCard>
+      </CollapsibleFormCard>
 
       <div className="mt-8">
-        <Table>
+        <AdminTableFilter
+          tableId="procurement-notices-table"
+          countries={countries}
+          searchPlaceholder="Search by title or portal…"
+        />
+        <Table id="procurement-notices-table">
           <thead>
             <tr>
               <th className={th}>Title</th>
@@ -203,7 +215,12 @@ export default async function ProcurementNoticesPage() {
           </thead>
           <tbody>
             {notices.map((n) => (
-              <tr key={n.id} className="hover:bg-slate-50">
+              <tr
+                key={n.id}
+                className="hover:bg-slate-50"
+                data-row-search={`${n.title ?? ""} ${n.portal ?? ""} ${countryName[n.country_id] ?? ""} ${n.status}`.toLowerCase()}
+                data-row-country={n.country_id}
+              >
                 <td className={td}>{n.title ?? <span className="text-slate-300">—</span>}</td>
                 <td className={td}>{countryName[n.country_id] ?? n.country_id}</td>
                 <td className={td}>{n.portal ?? <span className="text-slate-300">—</span>}</td>

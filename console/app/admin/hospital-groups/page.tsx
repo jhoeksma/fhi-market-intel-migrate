@@ -7,18 +7,24 @@ import {
   TextArea,
   Select,
   SubmitButton,
-  FormCard,
+  CollapsibleFormCard,
   FormGrid,
   PageHeader,
   Table,
   DeleteButton,
+  ErrorBanner,
   th,
   td,
 } from "@/components/AdminForm";
+import { AdminTableFilter } from "@/components/AdminTableFilter";
 
 export const dynamic = "force-dynamic";
 
-export default async function HospitalGroupsPage() {
+export default async function HospitalGroupsPage({
+  searchParams,
+}: {
+  searchParams?: { error?: string };
+}) {
   const [groups, countries] = await Promise.all([getHospitalGroups(), getCountries()]);
   const countryName = Object.fromEntries(countries.map((c) => [c.id, c.name]));
 
@@ -27,9 +33,18 @@ export default async function HospitalGroupsPage() {
       <PageHeader
         title="Hospital groups"
         subtitle="Multi-site operators (e.g. an HSE hospital group, a private chain). A group can host deployments, procurement notices and contacts directly, even before its individual sites are entered."
+        action={
+          <Link
+            href="/admin/hospital-groups/bulk-cleanup"
+            className="whitespace-nowrap text-xs font-medium text-fhi-blue hover:underline"
+          >
+            Bulk cleanup →
+          </Link>
+        }
       />
+      <ErrorBanner message={searchParams?.error} />
 
-      <FormCard>
+      <CollapsibleFormCard title="+ Add a new hospital group">
         <form action={createHospitalGroup} className="space-y-4">
           <FormGrid>
             <Field label="Country" required>
@@ -61,10 +76,15 @@ export default async function HospitalGroupsPage() {
           </Field>
           <SubmitButton>Add hospital group</SubmitButton>
         </form>
-      </FormCard>
+      </CollapsibleFormCard>
 
       <div className="mt-8">
-        <Table>
+        <AdminTableFilter
+          tableId="hospital-groups-table"
+          countries={countries}
+          searchPlaceholder="Search by name…"
+        />
+        <Table id="hospital-groups-table">
           <thead>
             <tr>
               <th className={th}>Name</th>
@@ -75,7 +95,12 @@ export default async function HospitalGroupsPage() {
           </thead>
           <tbody>
             {groups.map((g) => (
-              <tr key={g.id} className="hover:bg-slate-50">
+              <tr
+                key={g.id}
+                className="hover:bg-slate-50"
+                data-row-search={`${g.name} ${countryName[g.country_id] ?? ""} ${g.ownership_type ?? ""}`.toLowerCase()}
+                data-row-country={g.country_id}
+              >
                 <td className={td}>{g.name}</td>
                 <td className={td}>{countryName[g.country_id] ?? g.country_id}</td>
                 <td className={td}>{g.ownership_type ?? <span className="text-slate-300">—</span>}</td>
