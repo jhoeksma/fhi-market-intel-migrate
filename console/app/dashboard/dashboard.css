@@ -181,11 +181,21 @@ table.fhi-data td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .fhi-chk input { accent-color: var(--brand); width: 14px; height: 14px; }
 .fhi-chk.checked { background: var(--brand-soft); border-color: var(--brand); }
 
-.fhi-stack-rows { display: flex; flex-direction: column; gap: 16px; padding: 20px; }
+.fhi-stack-rows { display: flex; flex-direction: column; gap: 10px; padding: 20px; }
+.fhi-stack-row { border-radius: 10px; padding: 6px; margin: -6px; }
 .fhi-stack-row .head { display: flex; justify-content: space-between; font-size: 12.5px; font-weight: 700; margin-bottom: 6px; }
 .fhi-stack-row .head .cnt { color: var(--muted); font-weight: 600; }
-.fhi-stack-bar { display: flex; height: 26px; border-radius: 6px; overflow: hidden; background: var(--bg-3); }
-.fhi-stack-seg { height: 100%; }
+.fhi-stack-row.clickable { cursor: pointer; transition: background .12s; }
+.fhi-stack-row.clickable:hover { background: var(--bg-2); }
+.fhi-stack-row.clickable:hover .head span:first-child { color: var(--brand); }
+.fhi-stack-row.clickable:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.fhi-stack-bar { display: flex; height: 34px; border-radius: 6px; overflow: hidden; background: var(--bg-3); }
+.fhi-stack-seg { height: 100%; display: flex; align-items: center; overflow: hidden; }
+.fhi-stack-seg-label {
+  color: #fff; font-family: var(--font-geist), sans-serif; font-size: 11px; font-weight: 700;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-inline: 8px;
+  text-shadow: 0 1px 2px rgba(0,0,0,.35); pointer-events: none;
+}
 
 .fhi-vendor-legend { display: flex; flex-wrap: wrap; gap: 10px 18px; padding: 16px 20px; border-top: 1px solid var(--line); }
 .fhi-vendor-legend .row { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--ink-2); }

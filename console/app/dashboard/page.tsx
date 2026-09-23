@@ -191,12 +191,19 @@ export default function DashboardPage() {
   // Deep-link support: read the tab from the URL hash on first load (so the
   // nav bar embedded in the static country-report pages can link straight
   // back to e.g. /dashboard#reports), and keep the hash in sync as the user
-  // switches tabs, so the URL stays shareable/bookmarkable.
+  // switches tabs, so the URL stays shareable/bookmarkable. Also listens for
+  // hashchange, so editing the #-part of the address by hand while already
+  // on /dashboard switches tabs too, not just the initial load.
   useEffect(() => {
-    const hash = window.location.hash.replace("#", "");
-    if ((["overview", "country", "compare", "search", "reports"] as string[]).includes(hash)) {
-      setView(hash as ViewId);
+    function applyHash() {
+      const hash = window.location.hash.replace("#", "");
+      if ((["overview", "country", "compare", "search", "reports"] as string[]).includes(hash)) {
+        setView(hash as ViewId);
+      }
     }
+    applyHash();
+    window.addEventListener("hashchange", applyHash);
+    return () => window.removeEventListener("hashchange", applyHash);
   }, []);
   useEffect(() => {
     if (window.location.hash.replace("#", "") !== view) {
@@ -480,14 +487,35 @@ export default function DashboardPage() {
                   {countries!.filter((c) => compareSelected.has(c.iso2)).map((c) => {
                     const { segs, total } = donutSegments(c, basis, colorFor);
                     const headCount = basis === "census" ? `${fmt(c.confirmedTotal)} / ${fmt(c.sites)} sites confirmed` : `${fmt(c.confirmedTotal)} confirmed sites`;
+                    const openCountry = () => { setActiveCountry(c.iso2); setView("country"); };
                     return (
-                      <div className="fhi-stack-row" key={c.iso2}>
+                      <div
+                        className="fhi-stack-row clickable"
+                        key={c.iso2}
+                        role="button"
+                        tabIndex={0}
+                        onClick={openCountry}
+                        onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openCountry(); } }}
+                      >
                         <div className="head"><span>{FLAGS[c.iso2]} {c.name}</span><span className="cnt">{headCount}</span></div>
                         <div className="fhi-stack-bar">
                           {segs.map((seg) => {
                             const frac = total ? seg.count / total : 0;
                             if (frac <= 0) return null;
-                            return <div key={seg.name} className="fhi-stack-seg" style={{ width: `${frac * 100}%`, background: seg.color }} title={`${seg.name}: ${fmt(seg.count)} (${pctStr(seg.count, total, 1)})`} />;
+                            // Below ~8% a segment is too narrow for legible text —
+                            // it still gets its colour, hover tooltip and a place in
+                            // the legend below, just no inline label.
+                            const showLabel = frac >= 0.08;
+                            return (
+                              <div
+                                key={seg.name}
+                                className="fhi-stack-seg"
+                                style={{ width: `${frac * 100}%`, background: seg.color }}
+                                title={`${seg.name}: ${fmt(seg.count)} (${pctStr(seg.count, total, 1)})`}
+                              >
+                                {showLabel && <span className="fhi-stack-seg-label">{seg.name}</span>}
+                              </div>
+                            );
                           })}
                         </div>
                       </div>
