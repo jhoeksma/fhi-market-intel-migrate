@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { query } from "@/lib/db";
-import { canonicalSupplierName } from "@/lib/supplierAliases";
+import { canonicalSupplierName, rawNamesForCanonical } from "@/lib/supplierAliases";
 
 export const dynamic = "force-dynamic";
 
@@ -22,6 +22,11 @@ export async function GET(req: NextRequest) {
   const country = (searchParams.get("country") ?? "").trim().toUpperCase();
   // "yes" -> only sites with a confirmed supplier, "no" -> only sites without one
   const supplierFilter = (searchParams.get("supplier") ?? "").trim().toLowerCase();
+  // Exact canonical supplier match (e.g. "Cerner / Oracle Health") — powers
+  // the dashboard's "click a supplier in the chart to see its sites" links.
+  // Expanded against every raw name that canonicalises to it, since the DB
+  // stores the pre-canonicalisation string.
+  const supplierName = (searchParams.get("supplierName") ?? "").trim();
 
   const conditions: string[] = [];
   const params: unknown[] = [];
@@ -41,6 +46,11 @@ export async function GET(req: NextRequest) {
     conditions.push("s.id IS NOT NULL");
   } else if (supplierFilter === "no") {
     conditions.push("s.id IS NULL");
+  }
+  if (supplierName) {
+    const rawNames = rawNamesForCanonical(supplierName);
+    params.push(rawNames);
+    conditions.push(`LOWER(s.name) = ANY($${params.length}::text[])`);
   }
 
   const where = conditions.length ? `WHERE ${conditions.join(" AND ")}` : "";

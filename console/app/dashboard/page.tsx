@@ -82,7 +82,15 @@ function donutSegments(country: CountryMarketShare, basis: Basis, colorFor: (n: 
   return { segs, total: country.confirmedTotal };
 }
 
-function DonutSvg({ segs, total }: { segs: DonutSeg[]; total: number }) {
+function DonutSvg({
+  segs,
+  total,
+  onSegmentClick,
+}: {
+  segs: DonutSeg[];
+  total: number;
+  onSegmentClick?: (seg: DonutSeg) => void;
+}) {
   const cx = 120, cy = 120, r = 92, rInner = 58;
   let angle = -90;
   const paths = segs.map((seg, i) => {
@@ -100,9 +108,33 @@ function DonutSvg({ segs, total }: { segs: DonutSeg[]; total: number }) {
     const xi1 = cx + rInner * Math.cos(a0), yi1 = cy + rInner * Math.sin(a0);
     const d = `M ${x0} ${y0} A ${r} ${r} 0 ${large} 1 ${x1} ${y1} L ${xi0} ${yi0} A ${rInner} ${rInner} 0 ${large} 0 ${xi1} ${yi1} Z`;
     angle += sweep;
+    const clickable = !!onSegmentClick;
     return (
-      <path key={i} d={d} fill={seg.color} stroke="var(--bg)" strokeWidth={1.5}>
-        <title>{seg.name}: {seg.count}</title>
+      <path
+        key={i}
+        d={d}
+        fill={seg.color}
+        stroke="var(--bg)"
+        strokeWidth={1.5}
+        className={clickable ? "fhi-donut-seg clickable" : "fhi-donut-seg"}
+        onClick={clickable ? () => onSegmentClick!(seg) : undefined}
+        role={clickable ? "button" : undefined}
+        tabIndex={clickable ? 0 : undefined}
+        onKeyDown={
+          clickable
+            ? (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  onSegmentClick!(seg);
+                }
+              }
+            : undefined
+        }
+      >
+        <title>
+          {seg.name}: {seg.count}
+          {clickable ? " — click to view sites" : ""}
+        </title>
       </path>
     );
   });
@@ -131,8 +163,46 @@ export default function DashboardPage() {
   const [searchQ, setSearchQ] = useState("");
   const [searchCountry, setSearchCountry] = useState("");
   const [searchSupplier, setSearchSupplier] = useState("");
+  const [searchSupplierName, setSearchSupplierName] = useState("");
   const [searchResults, setSearchResults] = useState<SearchResult[] | null>(null);
   const [searchLoading, setSearchLoading] = useState(false);
+
+  // Jump to Search & Browse pre-filtered to one supplier's sites in one
+  // country — used by clicks on the Country Market Share donut, legend and
+  // table. Clears the free-text and confirmed/unconfirmed filters so the
+  // supplier-name filter isn't silently narrowed by a leftover value.
+  function goToSupplierListing(iso2: string, supplierName: string) {
+    setSearchQ("");
+    setSearchSupplier("");
+    setSearchSupplierName(supplierName);
+    setSearchCountry(iso2);
+    setView("search");
+  }
+  // Same, for the "not yet vendor-confirmed" slice — reuses the existing
+  // confirmed/unconfirmed filter rather than a supplier name.
+  function goToUnconfirmedListing(iso2: string) {
+    setSearchQ("");
+    setSearchSupplierName("");
+    setSearchSupplier("no");
+    setSearchCountry(iso2);
+    setView("search");
+  }
+
+  // Deep-link support: read the tab from the URL hash on first load (so the
+  // nav bar embedded in the static country-report pages can link straight
+  // back to e.g. /dashboard#reports), and keep the hash in sync as the user
+  // switches tabs, so the URL stays shareable/bookmarkable.
+  useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if ((["overview", "country", "compare", "search", "reports"] as string[]).includes(hash)) {
+      setView(hash as ViewId);
+    }
+  }, []);
+  useEffect(() => {
+    if (window.location.hash.replace("#", "") !== view) {
+      window.history.replaceState(null, "", `#${view}`);
+    }
+  }, [view]);
 
   // Initial load: market share, EU country list, report availability
   useEffect(() => {
@@ -173,6 +243,7 @@ export default function DashboardPage() {
         if (searchQ) params.set("q", searchQ);
         if (searchCountry) params.set("country", searchCountry);
         if (searchSupplier) params.set("supplier", searchSupplier);
+        if (searchSupplierName) params.set("supplierName", searchSupplierName);
         const res = await fetch(`/api/v1/search?${params.toString()}`);
         const data = await res.json();
         if (!cancelled) setSearchResults(data.results ?? []);
@@ -183,7 +254,7 @@ export default function DashboardPage() {
       }
     }, 250);
     return () => { cancelled = true; clearTimeout(handle); };
-  }, [view, searchQ, searchCountry, searchSupplier]);
+  }, [view, searchQ, searchCountry, searchSupplier, searchSupplierName]);
 
   // Canonical vendor -> colour, derived once market-share data is in
   const colorFor = useMemo(() => {
@@ -304,7 +375,15 @@ export default function DashboardPage() {
               <div className="fhi-card">
                 <div className="fhi-donut-wrap">
                   <div className="fhi-donut-fig">
-                    <DonutSvg segs={activeDonut.segs} total={activeDonut.total} />
+                    <DonutSvg
+                      segs={activeDonut.segs}
+                      total={activeDonut.total}
+                      onSegmentClick={(seg) =>
+                        seg.isGray
+                          ? goToUnconfirmedListing(activeCountryData.iso2)
+                          : goToSupplierListing(activeCountryData.iso2, seg.name)
+                      }
+                    />
                     <div className="fhi-center-label">
                       <div className="big">{basis === "census" ? pctStr(activeCountryData.confirmedTotal, activeCountryData.sites, 0) : fmt(activeCountryData.confirmedTotal)}</div>
                       <div className="small">{basis === "census" ? "of census, vendor-confirmed" : "confirmed sites"}</div>
@@ -312,7 +391,25 @@ export default function DashboardPage() {
                   </div>
                   <div className="fhi-legend">
                     {activeDonut.segs.map((seg) => (
-                      <div className="row" key={seg.name}>
+                      <div
+                        className="row clickable"
+                        key={seg.name}
+                        role="button"
+                        tabIndex={0}
+                        onClick={() =>
+                          seg.isGray
+                            ? goToUnconfirmedListing(activeCountryData.iso2)
+                            : goToSupplierListing(activeCountryData.iso2, seg.name)
+                        }
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter" || e.key === " ") {
+                            e.preventDefault();
+                            seg.isGray
+                              ? goToUnconfirmedListing(activeCountryData.iso2)
+                              : goToSupplierListing(activeCountryData.iso2, seg.name);
+                          }
+                        }}
+                      >
                         <span className="sw" style={{ background: seg.color }} />
                         <span className="nm">{seg.name}</span>
                         <span className="ct">{fmt(seg.count)}</span>
@@ -336,7 +433,12 @@ export default function DashboardPage() {
                   <tbody>
                     {[...activeCountryData.suppliers].sort((a, b) => b.count - a.count).map((s) => (
                       <tr key={s.name}>
-                        <td><span className="sw" style={{ display: "inline-block", width: 9, height: 9, borderRadius: 3, background: colorFor(s.name), marginRight: 8 }} />{s.name}</td>
+                        <td>
+                          <button className="fhi-supplier-link" onClick={() => goToSupplierListing(activeCountryData.iso2, s.name)}>
+                            <span className="sw" style={{ display: "inline-block", width: 9, height: 9, borderRadius: 3, background: colorFor(s.name), marginRight: 8 }} />
+                            {s.name}
+                          </button>
+                        </td>
                         <td className="num">{fmt(s.count)}</td>
                         <td className="num">{pctStr(s.count, activeCountryData.confirmedTotal, 1)}</td>
                         <td className="num">{pctStr(s.count, activeCountryData.sites, 1)}</td>
@@ -410,6 +512,15 @@ export default function DashboardPage() {
             <section className="fhi-block">
               <h2>Search hospital groups, sites &amp; suppliers</h2>
               <p className="fhi-desc">Live query against the database — every hospital site currently imported, across all countries.</p>
+              {searchSupplierName && (
+                <div className="fhi-active-filter">
+                  Filtering to <b>{searchSupplierName}</b>
+                  {searchCountry && (countries ?? []).find((c) => c.iso2 === searchCountry)
+                    ? <> in {FLAGS[searchCountry]} {(countries ?? []).find((c) => c.iso2 === searchCountry)!.name}</>
+                    : null}
+                  <button onClick={() => setSearchSupplierName("")}>Clear ×</button>
+                </div>
+              )}
               <div className="fhi-search-controls">
                 <input type="text" placeholder="Search by hospital, group or city…" value={searchQ} onChange={(e) => setSearchQ(e.target.value)} />
                 <select value={searchCountry} onChange={(e) => setSearchCountry(e.target.value)}>

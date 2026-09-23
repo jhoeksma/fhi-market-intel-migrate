@@ -77,3 +77,20 @@ export function canonicalSupplierName(raw: string | null | undefined): string {
   const key = raw.trim().toLowerCase();
   return SUPPLIER_ALIASES[key] ?? raw.trim();
 }
+
+// Reverse lookup: given a canonical display name (as shown in the dashboard
+// donut/legend/table — e.g. "Cerner / Oracle Health"), return every raw,
+// lower-cased supplier.name string in the database that resolves to it.
+// Needed so a click on a canonical name in the dashboard (which only knows
+// the display name) can filter hospital_site/supplier rows by the actual
+// stored names, not just an exact string match against the canonical form.
+// Always includes the canonical name's own lower-cased form, since most
+// suppliers (anything not listed in SUPPLIER_ALIASES) are stored under
+// their canonical name as-is — e.g. "Systematic", "Epic Systems".
+export function rawNamesForCanonical(canonical: string): string[] {
+  const names = new Set<string>([canonical.trim().toLowerCase()]);
+  for (const [raw, canon] of Object.entries(SUPPLIER_ALIASES)) {
+    if (canon === canonical) names.add(raw);
+  }
+  return [...names];
+}

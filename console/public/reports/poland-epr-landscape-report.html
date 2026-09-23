@@ -170,9 +170,34 @@
   h1, h2, h3, h4 { break-after: avoid-page; page-break-after: avoid; }
   .cover-infographic, .article-footer, .fhi-footer-byline { break-before: avoid-page; }
 
+
+.fhi-appnav{position:sticky; top:0; z-index:50; background:var(--bg); border-bottom:1px solid var(--line); box-shadow:0 1px 2px rgba(11,18,32,.06);}
+.fhi-appnav-inner{max-width:1000px; margin:0 auto; padding:10px 24px; display:flex; align-items:center; gap:22px; flex-wrap:wrap;}
+.fhi-appnav-brand{display:flex; align-items:center; gap:8px; font-family:'Geist',sans-serif; font-weight:700; font-size:13.5px; color:var(--ink); text-decoration:none; white-space:nowrap;}
+.fhi-appnav-brand .mark{color:var(--brand); font-weight:800; letter-spacing:.02em;}
+.fhi-appnav-brand:hover{color:var(--brand);}
+.fhi-appnav-tabs{display:flex; gap:18px; flex-wrap:wrap;}
+.fhi-appnav-tabs a{font-family:'Geist',sans-serif; font-size:12.5px; font-weight:600; color:var(--muted); text-decoration:none; padding:4px 2px; border-bottom:2px solid transparent;}
+.fhi-appnav-tabs a:hover{color:var(--ink);}
+.fhi-appnav-tabs a.active{color:var(--brand); border-bottom-color:var(--brand);}
+@media (max-width:600px){.fhi-appnav-inner{padding:8px 16px; gap:14px;} .fhi-appnav-tabs{gap:12px;}}
 </style>
 </head>
 <body>
+<!-- fhi-appnav v1 -->
+<nav class="fhi-appnav" aria-label="Market Intelligence Console navigation">
+  <div class="fhi-appnav-inner">
+    <a class="fhi-appnav-brand" href="/dashboard"><span class="mark">FHI</span> Market Intelligence Console</a>
+    <div class="fhi-appnav-tabs">
+      <a href="/dashboard#overview">Overview</a>
+      <a href="/dashboard#country">Country Market Share</a>
+      <a href="/dashboard#compare">Compare Countries</a>
+      <a href="/dashboard#search">Search &amp; Browse</a>
+      <a href="/dashboard#reports" class="active">Country Reports</a>
+    </div>
+  </div>
+</nav>
+
 
 <header class="fhi-header">
   <div class="container">
