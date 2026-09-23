@@ -1,0 +1,222 @@
+/* Scoped to .fhi-dashboard (the route's root wrapper) rather than :root, so
+   this route can live inside the wider console app without leaking tokens
+   onto / or /admin. Same token system as the round-1 Artifact wireframe and
+   the branded country reports (see fhi-profile-formatting skill's style
+   guide) — FHI blue #3572EF as the primary accent, Geist/Manrope pairing. */
+.fhi-dashboard {
+  --bg: #FFFFFF; --bg-2: #F6F8FB; --bg-3: #EEF2F7;
+  --ink: #0B1220; --ink-2: #1F2937; --muted: #6B7280; --muted-2: #9CA3AF;
+  --line: #E5E9EF; --line-2: #D5DBE3;
+  --brand: #3572EF; --brand-deep: #1F4ABF; --brand-soft: #EBF1FE; --brand-50: #F5F8FF;
+  --emerald: #10B981; --emerald-soft: #D1FAE5; --amber: #F59E0B; --amber-soft: #FEF3C7; --rose: #F43F5E; --rose-soft: #FFE4E8;
+  --gray-slice: #CBD5E1;
+  --card-radius: 16px;
+  --shadow: 0 1px 2px rgba(11,18,32,.04), 0 8px 24px -12px rgba(11,18,32,.08);
+}
+@media (prefers-color-scheme: dark) {
+  .fhi-dashboard:not([data-theme="light"]) {
+    --bg: #0B1220; --bg-2: #111A2E; --bg-3: #182238;
+    --ink: #F1F5F9; --ink-2: #CBD5E1; --muted: #8492A6; --muted-2: #5D6B80;
+    --line: #233047; --line-2: #2E3B54;
+    --brand: #6C97FF; --brand-deep: #3572EF; --brand-soft: #16233F; --brand-50: #101B30;
+    --emerald: #34D399; --emerald-soft: #0F2C22; --amber: #FBBF24; --amber-soft: #3A2C0C; --rose: #FB7185; --rose-soft: #3A1620;
+    --gray-slice: #3B475F;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+  }
+}
+.fhi-dashboard[data-theme="dark"] {
+  --bg: #0B1220; --bg-2: #111A2E; --bg-3: #182238;
+  --ink: #F1F5F9; --ink-2: #CBD5E1; --muted: #8492A6; --muted-2: #5D6B80;
+  --line: #233047; --line-2: #2E3B54;
+  --brand: #6C97FF; --brand-deep: #3572EF; --brand-soft: #16233F; --brand-50: #101B30;
+  --emerald: #34D399; --emerald-soft: #0F2C22; --amber: #FBBF24; --amber-soft: #3A2C0C; --rose: #FB7185; --rose-soft: #3A1620;
+  --gray-slice: #3B475F;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+}
+
+.fhi-dashboard, .fhi-dashboard *{ box-sizing: border-box; }
+.fhi-dashboard {
+  margin: 0; background: var(--bg); color: var(--ink); min-height: 100vh;
+  font-family: var(--font-manrope), system-ui, sans-serif; font-size: 15px; line-height: 1.55;
+  padding-inline: 16px;
+}
+.fhi-dashboard h1, .fhi-dashboard h2, .fhi-dashboard h3, .fhi-dashboard .ui {
+  font-family: var(--font-geist), system-ui, sans-serif; letter-spacing: -0.02em;
+}
+.fhi-dashboard .mono { font-family: ui-monospace, "SF Mono", "Geist Mono", monospace; letter-spacing: .06em; }
+/* No blanket `a { color }` rule here on purpose: every anchor in this page
+   (.fhi-report-tile, .fhi-report-open-btn) sets its own colour, and a
+   blanket rule previously beat them on specificity (.fhi-dashboard a is
+   more specific than a bare .fhi-report-tile), which silently painted
+   every report tile's text brand-blue regardless of its done/pending state. */
+
+.fhi-shell { max-width: 1180px; margin: 0 auto; padding-block: 22px 60px; }
+
+header.fhi-top {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  flex-wrap: wrap; padding-bottom: 18px; border-bottom: 1px solid var(--line); margin-bottom: 22px;
+}
+.fhi-brand-block { display: flex; align-items: center; gap: 14px; }
+.fhi-brand-block img { height: 34px; width: auto; display: block; }
+.fhi-brand-block .fhi-divider { width: 1px; height: 28px; background: var(--line-2); }
+.fhi-brand-block .fhi-ttl { display: flex; flex-direction: column; gap: 2px; }
+.fhi-brand-block .fhi-ttl .fhi-eyebrow { font-size: 10.5px; text-transform: uppercase; color: var(--muted); font-weight: 600; letter-spacing: .1em; }
+.fhi-brand-block .fhi-ttl h1 { font-size: 19px; margin: 0; font-weight: 700; }
+
+.fhi-basis-toggle { display: inline-flex; background: var(--bg-2); border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
+.fhi-basis-toggle button {
+  appearance: none; border: none; background: transparent; color: var(--muted);
+  font-family: var(--font-geist), sans-serif; font-size: 12.5px; font-weight: 600; letter-spacing: .01em;
+  padding: 7px 14px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+}
+.fhi-basis-toggle button.active { background: var(--brand); color: #fff; }
+.fhi-basis-toggle button:not(.active):hover { color: var(--ink); }
+
+nav.fhi-tabs { display: flex; gap: 6px; margin-bottom: 26px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+nav.fhi-tabs button {
+  appearance: none; border: none; background: transparent; cursor: pointer;
+  font-family: var(--font-geist), sans-serif; font-size: 13.5px; font-weight: 600; color: var(--muted);
+  padding: 10px 4px; margin-right: 22px; border-bottom: 2px solid transparent; position: relative; top: 1px;
+}
+nav.fhi-tabs button.active { color: var(--brand); border-bottom-color: var(--brand); }
+nav.fhi-tabs button:hover:not(.active) { color: var(--ink); }
+
+.fhi-view { display: none; }
+.fhi-view.active { display: block; animation: fhi-fade .25s ease; }
+@keyframes fhi-fade { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
+
+.fhi-kpi-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-bottom: 26px; }
+.fhi-kpi { background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--card-radius); padding: 16px 18px; }
+.fhi-kpi .v { font-family: var(--font-geist), sans-serif; font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+.fhi-kpi .l { font-size: 12px; color: var(--muted); margin-top: 4px; font-weight: 600; }
+.fhi-kpi .sub { font-size: 11.5px; color: var(--muted-2); margin-top: 6px; }
+
+.fhi-block { margin-bottom: 30px; }
+.fhi-block h2 { font-size: 15px; font-weight: 700; margin: 0 0 3px; }
+.fhi-block .fhi-desc { font-size: 12.5px; color: var(--muted); margin: 0 0 14px; }
+
+.fhi-card { background: var(--bg); border: 1px solid var(--line); border-radius: var(--card-radius); box-shadow: var(--shadow); }
+
+.fhi-cov-list { display: flex; flex-direction: column; gap: 10px; padding: 18px 20px; }
+.fhi-cov-row { display: grid; grid-template-columns: 130px 1fr 96px; align-items: center; gap: 12px; }
+.fhi-cov-row .name { font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+.fhi-cov-row .flag { font-size: 15px; }
+.fhi-cov-track { height: 10px; border-radius: 6px; background: var(--bg-3); overflow: hidden; }
+.fhi-cov-fill { height: 100%; border-radius: 6px; }
+.fhi-cov-row .pct { font-size: 12.5px; text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 600; }
+
+.fhi-pill-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+.fhi-pill {
+  appearance: none; cursor: pointer; border: 1px solid var(--line-2); background: var(--bg);
+  color: var(--ink-2); font-family: var(--font-geist), sans-serif; font-size: 12.5px; font-weight: 600;
+  padding: 7px 13px; border-radius: 999px; display: flex; align-items: center; gap: 7px;
+}
+.fhi-pill .flag { font-size: 13px; }
+.fhi-pill.active { background: var(--brand); border-color: var(--brand); color: #fff; }
+.fhi-pill:not(.active):hover { background: var(--bg-2); }
+
+.fhi-donut-wrap { display: grid; grid-template-columns: 260px 1fr; gap: 28px; padding: 22px; align-items: center; }
+.fhi-donut-fig { display: flex; flex-direction: column; align-items: center; gap: 10px; position: relative; }
+.fhi-donut-fig .fhi-center-label { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center; pointer-events: none; width: 120px; }
+.fhi-donut-fig .fhi-center-label .big { font-family: var(--font-geist), sans-serif; font-size: 26px; font-weight: 700; }
+.fhi-donut-fig .fhi-center-label .small { font-size: 11px; color: var(--muted); margin: 2px auto 0; }
+.fhi-legend { display: flex; flex-direction: column; gap: 9px; }
+.fhi-legend .row { display: flex; align-items: center; gap: 10px; font-size: 13px; }
+.fhi-legend .sw { width: 11px; height: 11px; border-radius: 3px; flex: none; }
+.fhi-legend .nm { flex: 1; }
+.fhi-legend .ct { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12.5px; }
+.fhi-legend .pc { font-variant-numeric: tabular-nums; font-weight: 700; width: 48px; text-align: right; }
+
+table.fhi-data { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.fhi-data th {
+  text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted);
+  font-weight: 700; padding: 9px 14px; border-bottom: 1px solid var(--brand); background: var(--bg-2);
+}
+table.fhi-data td { padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.fhi-data tbody tr:hover { background: var(--bg-2); }
+table.fhi-data td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.fhi-overflow-x { overflow-x: auto; }
+
+.fhi-caption-note { font-size: 12px; color: var(--muted); padding: 0 20px 18px; }
+.fhi-caption-note b { color: var(--ink-2); }
+
+.fhi-compare-controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+.fhi-chk {
+  display: flex; align-items: center; gap: 7px; border: 1px solid var(--line-2); border-radius: 10px;
+  padding: 7px 12px; font-size: 12.5px; font-weight: 600; cursor: pointer; user-select: none; background: var(--bg);
+}
+.fhi-chk input { accent-color: var(--brand); width: 14px; height: 14px; }
+.fhi-chk.checked { background: var(--brand-soft); border-color: var(--brand); }
+
+.fhi-stack-rows { display: flex; flex-direction: column; gap: 16px; padding: 20px; }
+.fhi-stack-row .head { display: flex; justify-content: space-between; font-size: 12.5px; font-weight: 700; margin-bottom: 6px; }
+.fhi-stack-row .head .cnt { color: var(--muted); font-weight: 600; }
+.fhi-stack-bar { display: flex; height: 26px; border-radius: 6px; overflow: hidden; background: var(--bg-3); }
+.fhi-stack-seg { height: 100%; }
+
+.fhi-vendor-legend { display: flex; flex-wrap: wrap; gap: 10px 18px; padding: 16px 20px; border-top: 1px solid var(--line); }
+.fhi-vendor-legend .row { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--ink-2); }
+.fhi-vendor-legend .sw { width: 10px; height: 10px; border-radius: 3px; }
+
+.fhi-search-controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; align-items: center; }
+.fhi-search-controls input[type="text"] {
+  flex: 1; min-width: 220px; padding: 10px 14px; border: 1px solid var(--line-2); border-radius: 10px;
+  background: var(--bg); color: var(--ink); font-family: var(--font-manrope), sans-serif; font-size: 13.5px;
+}
+.fhi-search-controls input[type="text"]:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
+.fhi-dashboard select {
+  padding: 9px 12px; border: 1px solid var(--line-2); border-radius: 10px; background: var(--bg); color: var(--ink);
+  font-family: var(--font-geist), sans-serif; font-size: 12.5px; font-weight: 600;
+}
+.fhi-chip-known { padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+.fhi-chip-known.no { background: var(--bg-3); color: var(--muted); }
+.fhi-result-count { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+
+.fhi-report-picker { padding: 20px; }
+.fhi-report-picker-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.fhi-report-picker-label { font-size: 12.5px; font-weight: 700; color: var(--ink-2); font-family: var(--font-geist), sans-serif; }
+.fhi-report-select { flex: 1; min-width: 220px; }
+.fhi-report-open-btn {
+  font-family: var(--font-geist), sans-serif; font-size: 12.5px; font-weight: 700; text-decoration: none;
+  background: var(--brand); color: #fff; padding: 10px 16px; border-radius: 10px; white-space: nowrap;
+  pointer-events: none; opacity: .4; transition: opacity .15s; display: inline-block;
+}
+.fhi-report-open-btn.enabled { pointer-events: auto; opacity: 1; }
+.fhi-report-open-btn.enabled:hover { background: var(--brand-deep); }
+.fhi-report-preview { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); min-height: 20px; }
+.fhi-report-preview .rp-name { font-family: var(--font-geist), sans-serif; font-weight: 700; color: var(--ink); font-size: 14.5px; }
+.fhi-report-preview .rp-meta { margin-top: 3px; }
+
+.fhi-legend-dot { display: inline-block; width: 9px; height: 9px; border-radius: 3px; margin-right: 5px; position: relative; top: -1px; }
+.fhi-legend-dot.done { background: var(--brand); }
+.fhi-legend-dot.pending { background: var(--bg-3); border: 1px solid var(--line-2); }
+
+.fhi-report-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px,1fr)); gap: 10px; }
+.fhi-report-tile {
+  display: flex; align-items: center; gap: 9px; padding: 11px 13px; border-radius: 12px;
+  border: 1px solid var(--line-2); background: var(--bg); text-decoration: none; color: var(--ink);
+  font-size: 13px; font-weight: 600;
+}
+.fhi-report-tile .flag { font-size: 16px; }
+.fhi-report-tile .arrow { margin-left: auto; color: var(--brand); font-size: 13px; opacity: 0; transition: opacity .15s; }
+.fhi-report-tile.done:hover { border-color: var(--brand); background: var(--brand-soft); }
+.fhi-report-tile.done:hover .arrow { opacity: 1; }
+.fhi-report-tile.pending { color: var(--muted-2); background: var(--bg-2); border-style: dashed; cursor: default; }
+.fhi-report-tile.pending .flag { filter: grayscale(1); opacity: .5; }
+
+.fhi-loading, .fhi-error { padding: 40px 20px; text-align: center; color: var(--muted); font-size: 13.5px; }
+.fhi-error { color: var(--rose); }
+
+footer.fhi-footer {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--line);
+  font-size: 11px; color: var(--muted-2);
+}
+footer.fhi-footer .byline { display: flex; align-items: center; gap: 8px; }
+footer.fhi-footer img { height: 15px; width: auto; opacity: .55; }
+
+@media (max-width: 760px) {
+  .fhi-kpi-row { grid-template-columns: repeat(2,1fr); }
+  .fhi-donut-wrap { grid-template-columns: 1fr; }
+  .fhi-cov-row { grid-template-columns: 90px 1fr 60px; }
+}

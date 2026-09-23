@@ -105,6 +105,12 @@ export default async function CoveragePage() {
               <p className="mt-1 text-sm text-fhi-slate">
                 European Health IT Market Intelligence Database &mdash; coverage &amp; data quality
               </p>
+              <a
+                href="/dashboard"
+                className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-fhi-blue hover:underline"
+              >
+                Open the analytics dashboard &rarr;
+              </a>
             </div>
             <div className="text-right text-xs text-fhi-slate">
               <div>Data last refreshed</div>
